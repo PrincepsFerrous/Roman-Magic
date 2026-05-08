@@ -29,7 +29,7 @@ const SECTION_LIMITS = {
   npcTypes: 500_000,
   items: 100_000,
   factions: 100_000,
-  regions: 100_000,
+  regions: 500_000,
   traitCategories: 100_000,
   itemSettings: 5_000,
 };

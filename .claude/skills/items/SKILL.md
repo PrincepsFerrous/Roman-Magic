@@ -56,12 +56,15 @@ Array of stat modifications applied when item is equipped.
 
 ```typescript
 { type: "stat", variable: "damage", value: 5 }     // +50% damage
+{ type: "stat", variable: "armor", value: 100 }    // 10% incoming damage reduction
 { type: "attribute", variable: "strength", value: 2 }  // +2 to attribute
 { type: "skill", variable: "stealth", value: 1 }   // +1 to skill
 { type: "resource", variable: "health", value: 10 }  // +10 max health
 ```
 
 Format: `{ type: "stat" | "attribute" | "skill" | "resource", variable: string, value: number }`
+
+For `type: "stat"`, only `damage` and `armor` are valid `variable` values. Armor reduces incoming damage by `value / 1000` (capped at 90%).
 
 ## Schema
 

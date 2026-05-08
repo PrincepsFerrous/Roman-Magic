@@ -33,10 +33,10 @@ Edit `tabs/quests.json`.
 
 Omit these fields (auto-set or runtime-only):
 - `id`, `creationTick`, `status`, `detectionTick`, `acceptedTick`
-- `expiryTick`, `completedTick`, `abandonedTick`
+- `expiryTick`, `completedTick`, `abandonedTick`, `rejectedTick`
 - `startingArea`, `connectingAreaName`, `questAreas`
 - `questStepPhase`, `hasVisitedLocation`, `hasVisitedStartingArea`, `objectiveCompleted`
-- `pendingAcceptance`
+- `offeredAtLocation`, `questGiverNPCKey`, `arcQuestOrdinal`
 - `conclusive`, `arcId`, `arcEscalationAtCreation`
 
 ## detailType Selection
@@ -107,9 +107,14 @@ Note: `firstQuest` is a separate freeform text field for AI quest generation - i
 
 ```
 Definition -> hidden -> available -> accepted -> completed
-                                        |
-                                   abandoned/expired
+                            |  \         |
+                            |   rejected |
+                            |       abandoned
+                            |
+                         expired
 ```
+
+When an `available` quest is offered, the player accepts or rejects it as a single step. An `available` quest expires when its expiry tick is reached (3 ticks after offer), the party leaves the location where the quest was offered, or the quest giver dies/leaves the scene.
 
 Detailed quests auto-generate a completion trigger from `completionCondition`. Basic quests need manual triggers. If `completionCondition` is empty, no auto-trigger is created for either type.
 

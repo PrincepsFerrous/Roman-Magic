@@ -67,9 +67,10 @@ Bonuses are applied when item is **equipped**, removed when unequipped.
 | `attribute` | attribute name | Adds to attribute value |
 | `skill` | skill name | Adds to skill level |
 | `resource` | resource name | Adds to resource max |
-| `stat` | `defense` | Adds to armor/defense |
-| `stat` | `damage` | Adds to damage |
-| `stat` | other | General stat modifier |
+| `stat` | `damage` | Adds to outgoing damage (each point = +10% damage) |
+| `stat` | `armor` | Reduces incoming damage by `armor / 1000` (each point = 0.1% reduction), capped at 90%. 900 armor reaches the cap. |
+
+Only `damage` and `armor` are valid `stat` variables. Resource, attribute, and skill variables must reference names defined in settings.
 
 ## AI-Generated Items
 

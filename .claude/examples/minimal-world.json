@@ -53,7 +53,8 @@
       "storyStart": "",
       "locations": [],
       "locationAreas": [],
-      "isDefault": true
+      "isDefault": true,
+      "questGenerationGuidance": ""
     }
   },
 

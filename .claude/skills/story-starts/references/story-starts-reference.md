@@ -16,6 +16,7 @@ interface StoryStart {
   startingItems?: InventoryDefinition[]  // ✅ Additional starting items
   startingPartyNPCs?: string[]      // ✅ NPC keys that join party at start
   isDefault?: boolean               // ✅ Pre-selected in character creation
+  questGenerationGuidance?: string  // ✅ Per-story-start quest generation guidance
 }
 ```
 
@@ -113,6 +114,16 @@ The `generateInitialStart` AI task uses:
 - Current location and area details
 - Player character backgrounds
 - Narrator style configuration
+
+## questGenerationGuidance
+
+Optional per-story-start guidance for the quest generation AI. Layers on top of the world-level `storySettings.questGenerationGuidance`:
+
+- If both are set, world-level guidance is included as compatible context, and the story-start guidance steers quest and arc generation for this campaign.
+- If only the story-start guidance is set, only that is used.
+- If only world-level guidance is set, only that is used.
+
+Use this when one story-start has a distinctly different tone, scope, or quest cadence from the rest of the world.
 
 ## Cross-References
 

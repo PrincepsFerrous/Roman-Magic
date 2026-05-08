@@ -27,6 +27,7 @@ Edit `tabs/story-starts.json`.
 | `firstQuest` | When you want AI-generated quest details on turn 0 |
 | `startingPartyNPCs` | When the player begins with companions |
 | `isDefault` | Set `true` on exactly one story start to pre-select it |
+| `questGenerationGuidance` | When this story start needs quest tone/scope distinct from the rest of the world |
 
 ## Never Include
 
@@ -81,6 +82,7 @@ interface StoryStart {
   firstQuest?: string
   startingPartyNPCs?: string[]
   isDefault?: boolean
+  questGenerationGuidance?: string
 }
 ```
 

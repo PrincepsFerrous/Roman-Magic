@@ -13,7 +13,7 @@ Complete character and count limits for world configs.
 | npcTypes | 500,000 chars |
 | items | 100,000 chars |
 | factions | 100,000 chars |
-| regions | 100,000 chars |
+| regions | 500,000 chars |
 | traitCategories | 100,000 chars |
 | realms.[id].basicInfo | 100,000 chars |
 | itemSettings | 5,000 chars |

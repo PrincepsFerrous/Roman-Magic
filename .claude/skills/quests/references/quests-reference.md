@@ -69,6 +69,7 @@ interface Quest {
   expiryTick?: number             // Set if quest can expire
   completedTick?: number          // Set when quest completed
   abandonedTick?: number          // Set when quest abandoned
+  rejectedTick?: number           // Set when player rejects
   startingArea?: string           // Generated for basic quests
   connectingAreaName?: string     // Area connecting to quest location
   questAreas?: string[]           // Areas created for the quest
@@ -76,13 +77,12 @@ interface Quest {
   hasVisitedLocation?: boolean    // Tracks if party reached quest location
   hasVisitedStartingArea?: boolean  // Tracks if party reached starting area
   objectiveCompleted?: boolean
-  pendingAcceptance?: {
-    acceptedByPlayer: string
-    acceptedTick: number
-  }
+  offeredAtLocation?: string      // Location where the quest was offered (engine-set)
+  questGiverNPCKey?: string       // Runtime NPC key reference (engine-set)
+  arcQuestOrdinal?: number        // Quest's position within its arc (engine-set)
 }
 
-type QuestStatus = 'hidden' | 'available' | 'expired' | 'accepted' | 'completed' | 'abandoned'
+type QuestStatus = 'hidden' | 'available' | 'expired' | 'accepted' | 'completed' | 'abandoned' | 'rejected'
 
 type SpatialRelationship =
   | 'existingLocalArea'
@@ -96,20 +96,34 @@ type SpatialRelationship =
 
 ```
 Definition -> hidden -> available -> accepted -> completed
-                             |           |
-                             |      abandoned
-                             |
-                          expired
+                            |  \         |
+                            |   rejected |
+                            |       abandoned
+                            |
+                         expired
 ```
 
 | Status | Description | How to Reach |
 |--------|-------------|--------------|
 | `hidden` | Quest exists but invisible to player | Default at creation |
 | `available` | Quest can be discovered/offered | Story start or trigger |
-| `accepted` | Player actively pursuing | Player accepts quest |
+| `accepted` | Player actively pursuing | Player accepts the offer |
+| `rejected` | Player declined the offer | Player rejects the offer |
 | `completed` | Objectives achieved | Completion trigger fires |
 | `abandoned` | Player gave up | Player abandons quest |
-| `expired` | Time limit exceeded | Expiry tick reached |
+| `expired` | Time limit exceeded, party left, or giver gone | See expiry conditions below |
+
+### Quest Acceptance
+
+When an `available` quest is offered, the player either accepts or rejects it as a single step. Acceptance and rejection are immediate (no separate "pending" state).
+
+### Expiry Conditions
+
+An `available` quest expires when any of these become true:
+
+- The expiry tick is reached (3 ticks after the quest was offered)
+- The party leaves the location where the quest was offered
+- The quest giver dies, becomes incapacitated, or is no longer near the party
 
 ## Quest Step Phases
 

@@ -240,7 +240,7 @@ const LIMITS = {
     npcTypes: 500_000,
     items: 100_000,
     factions: 100_000,
-    regions: 100_000,
+    regions: 500_000,
     traitCategories: 100_000,
     itemSettings: 5_000,
   },
@@ -1446,6 +1446,7 @@ function validateUnknownFields(config, errors) {
     storyStarts: new Set([
       'name', 'description', 'storyStart', 'locations', 'locationAreas',
       'startingQuests', 'firstQuest', 'startingItems', 'startingPartyNPCs', 'isDefault',
+      'questGenerationGuidance',
     ]),
     worldLore: new Set([
       'text', 'embeddingId',
