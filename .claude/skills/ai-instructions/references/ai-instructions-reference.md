@@ -8,6 +8,12 @@ Complete documentation for `tabs/ai-instructions.json`.
 interface AIInstructionsTab {
   aiInstructions: Record<string, Record<string, string>>
   narratorStyle: string
+  gameModes: Record<string, GameMode>
+  imagePromptConfiguration?: {
+    npcs?: string
+    locations?: string
+    regions?: string
+  }
   resourceSettings: Record<string, Resource>
   death: {
     permadeath: boolean
@@ -150,6 +156,67 @@ Example:
 - Show story through what characters say and do
 - Keep scenes dialogue-heavy but natural
 - Describe what characters DO, not how well they do it
+```
+
+## gameModes
+
+Player-selectable modes that re-shape how the story is told. The player picks one at character creation, and its `instructions` are injected into the narrator's storytelling for the whole game — layered on top of `narratorStyle`. Use game modes for distinct ways to experience the same world (e.g. "Classic Adventure", "Pure Roleplay", "Hardcore Survival"), where each mode wants a different narrative emphasis or tone.
+
+```typescript
+interface GameMode {
+  name: string                 // ✅ Display name shown in the mode picker
+  description: string          // ✅ One-line summary shown under the name
+  instructions: string         // ✅ Storytelling guidance injected into narration for this mode
+  difficulty?: string          // ✅ Optional. Sets the DEFAULT mechanical difficulty for players who pick this mode. Use one of: "very easy" | "easy" | "medium" | "hard" | "very hard". The player can still override it in Advanced Settings
+  askTheNarratorPrompt?: string // ✅ Optional message shown when the player asks the narrator for help. Falls back to a default help message if omitted
+}
+```
+
+`gameModes` is keyed by an id you choose (e.g. `"classic"`).
+
+**What a game mode does to narration:** when the player has a mode selected and that mode has `instructions`, those instructions are added to the narrator's prompt as an extra guidance block on top of the base narration and `narratorStyle`. Defining and selecting a mode therefore *adds* instructions that wouldn't otherwise be present.
+
+**Default behavior (no game mode):** if a world defines no game modes, or the player has none selected, the narrator runs on its base narration instructions plus `narratorStyle` only — no extra mode block is added. When the player asks the narrator for help and no `askTheNarratorPrompt` is set, a built-in default help message is shown.
+
+**What `difficulty` does:** it presets the game's mechanical difficulty for players who pick the mode. The five valid values are `very easy`, `easy`, `medium`, `hard`, and `very hard`, which scale NPC health and damage (e.g. `very easy` ≈ half NPC HP, `very hard` ≈ 1.5× NPC HP). Selecting the mode fills in this difficulty automatically; the player can still change it in Advanced Settings before starting. Use one of the five values — other strings are passed through but won't map to the difficulty display.
+
+Example:
+```json
+{
+  "classic": {
+    "name": "Classic Adventure",
+    "description": "Balanced storytelling with action, exploration, and dialogue.",
+    "instructions": "Balance combat, exploration, and character moments. Keep momentum toward the player's goals.",
+    "difficulty": "medium"
+  },
+  "roleplay": {
+    "name": "Pure Roleplay",
+    "description": "Slow-burn, character-driven scenes with minimal combat.",
+    "instructions": "Emphasize dialogue, relationships, and introspection. Let scenes breathe. Avoid forcing combat."
+  }
+}
+```
+
+## imagePromptConfiguration
+
+Optional per-entity-type instructions that steer how Voyage generates images for your world. Each entry is a free-text instruction block (like `narratorStyle`, but for images) that is injected into the image-generation task for that entity type:
+
+```typescript
+imagePromptConfiguration?: {
+  npcs?: string        // ✅ Art-direction instructions for NPC portraits
+  locations?: string   // ✅ Art-direction instructions for location images
+  regions?: string     // ✅ Art-direction instructions for region map images
+}
+```
+
+Use it to lock a consistent art style, framing, palette, or rendering technique across all generated images of a given type. Leave a field blank or omit it to fall back to the default image instructions for that type.
+
+Example:
+```json
+{
+  "npcs": "Painterly oil-portrait style, warm candlelit lighting, head-and-shoulders framing, muted earth tones.",
+  "locations": "Wide establishing shots, moody atmospheric fog, cinematic depth of field."
+}
 ```
 
 ## resourceSettings

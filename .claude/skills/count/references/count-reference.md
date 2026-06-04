@@ -37,11 +37,17 @@ Complete character and count limits for world configs.
 | Individual NPC (combined fields) | 8,000 chars |
 | regions.[id].basicInfo | 4,000 chars |
 | regions.[id].hiddenInfo | 4,000 chars |
-| locations.[id].basicInfo | 8,000 chars |
-| locations.[id].hiddenInfo | 8,000 chars |
+| locations.[id].basicInfo | 4,000 chars |
+| locations.[id].hiddenInfo | 4,000 chars |
 | locations.[id].areas.[areaId].description | 4,000 chars |
 | traits.[id].description | 4,000 chars |
 | death.instructions | 4,000 chars |
+| gameModes.[id].name | 120 chars |
+| gameModes.[id].description | 500 chars |
+| gameModes.[id].instructions | 5,000 chars |
+| gameModes.[id].askTheNarratorPrompt | 1,000 chars |
+| imagePromptConfiguration.[npcs/locations/regions] | 5,000 chars each |
+| imagePromptConfiguration (all combined) | 15,000 chars |
 | Trigger condition query | 1,000 chars |
 | Trigger effect instruction | 1,000 chars |
 | Trigger condition value | 100 chars |

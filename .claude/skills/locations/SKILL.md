@@ -31,6 +31,7 @@ Edit `tabs/locations.json`.
 | `known` | Set to `false` to hide from map at game start. Omit or set `true` for visible by default |
 | `areas` | Optional - include when the location has distinct internal spaces |
 | `factions` | Only for major plot-relevant faction presence |
+| `npcLevelRange` | `{ min, max }` band for NPCs generated here whose level you don't set explicitly. Use it to keep a low-level village or a high-level dungeon on-theme regardless of party level |
 
 ## Never Include
 
@@ -88,6 +89,7 @@ interface Location {
   known?: boolean
   areas?: Record<string, Area>
   factions?: string[]
+  npcLevelRange?: { min: number; max: number }
   imageUrl?: string
 }
 

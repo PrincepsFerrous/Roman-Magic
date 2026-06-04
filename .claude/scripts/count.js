@@ -76,6 +76,18 @@ const COUNT_LIMITS = {
 const AI_INSTRUCTION_INDIVIDUAL_LIMIT = 5_000;
 const AI_INSTRUCTION_COMBINED_LIMIT = 20_000;
 
+// Game mode field limits (per mode)
+const GAME_MODE_FIELD_LIMITS = {
+  name: 120,
+  description: 500,
+  instructions: 5_000,
+  askTheNarratorPrompt: 1_000,
+};
+
+// Image prompt configuration limits
+const IMAGE_PROMPT_INSTRUCTION_LIMIT = 5_000; // per entity type
+const IMAGE_PROMPT_TOTAL_LIMIT = 15_000; // all entity types combined
+
 // Trigger field limits
 const TRIGGER_FIELD_LIMITS = {
   conditionQuery: 1_000,
@@ -138,6 +150,13 @@ function analyzeConfig(config) {
     },
     areas: {
       oversized: [],
+    },
+    gameModes: {
+      oversizedFields: [],
+    },
+    imagePrompts: {
+      oversized: [],
+      total: null,
     },
   };
 
@@ -326,6 +345,41 @@ function analyzeConfig(config) {
     }
     result.aiInstructions.combinedTotal = combinedTotal;
     result.aiInstructions.combinedLimit = AI_INSTRUCTION_COMBINED_LIMIT;
+  }
+
+  // Game mode field analysis
+  if (config.gameModes && typeof config.gameModes === 'object') {
+    for (const [modeKey, mode] of Object.entries(config.gameModes)) {
+      if (!mode || typeof mode !== 'object') continue;
+      for (const [field, limit] of Object.entries(GAME_MODE_FIELD_LIMITS)) {
+        const value = mode[field];
+        if (typeof value === 'string' && value.length > limit) {
+          result.gameModes.oversizedFields.push({
+            path: `gameModes.${modeKey}.${field}`,
+            used: value.length,
+            limit,
+          });
+        }
+      }
+    }
+  }
+
+  // Image prompt configuration analysis
+  if (config.imagePromptConfiguration && typeof config.imagePromptConfiguration === 'object') {
+    let imagePromptTotal = 0;
+    for (const entityType of ['npcs', 'locations', 'regions']) {
+      const prompt = config.imagePromptConfiguration[entityType];
+      if (typeof prompt !== 'string') continue;
+      imagePromptTotal += prompt.length;
+      if (prompt.length > IMAGE_PROMPT_INSTRUCTION_LIMIT) {
+        result.imagePrompts.oversized.push({
+          path: `imagePromptConfiguration.${entityType}`,
+          used: prompt.length,
+          limit: IMAGE_PROMPT_INSTRUCTION_LIMIT,
+        });
+      }
+    }
+    result.imagePrompts.total = { used: imagePromptTotal, limit: IMAGE_PROMPT_TOTAL_LIMIT };
   }
 
   // Trigger analysis
@@ -526,7 +580,10 @@ function printReport(result, inputPath) {
     result.triggers.tooManyEffects.length > 0 ||
     result.triggers.oversizedTriggers.length > 0 ||
     result.slides.oversized.length > 0 ||
-    result.areas.oversized.length > 0;
+    result.areas.oversized.length > 0 ||
+    result.gameModes.oversizedFields.length > 0 ||
+    result.imagePrompts.oversized.length > 0 ||
+    (result.imagePrompts.total !== null && result.imagePrompts.total.used > result.imagePrompts.total.limit);
 
   if (hasOversized) {
     console.log('\n⚠️  LIMIT VIOLATIONS');
@@ -571,6 +628,21 @@ function printReport(result, inputPath) {
       console.log(`  🔴 ${item.path}`);
       console.log(`     ${formatNumber(item.used)} / ${formatNumber(item.limit)} chars`);
     }
+
+    for (const item of result.gameModes.oversizedFields) {
+      console.log(`  🔴 ${item.path}`);
+      console.log(`     ${formatNumber(item.used)} / ${formatNumber(item.limit)} chars`);
+    }
+
+    for (const item of result.imagePrompts.oversized) {
+      console.log(`  🔴 ${item.path}`);
+      console.log(`     ${formatNumber(item.used)} / ${formatNumber(item.limit)} chars`);
+    }
+
+    if (result.imagePrompts.total !== null && result.imagePrompts.total.used > result.imagePrompts.total.limit) {
+      console.log(`  🔴 imagePromptConfiguration: total too large`);
+      console.log(`     ${formatNumber(result.imagePrompts.total.used)} / ${formatNumber(result.imagePrompts.total.limit)} chars`);
+    }
   }
 
   // Warnings (90%+ but not over)
@@ -598,6 +670,9 @@ function printReport(result, inputPath) {
     result.triggers.oversizedTriggers.length +
     result.slides.oversized.length +
     result.areas.oversized.length +
+    result.gameModes.oversizedFields.length +
+    result.imagePrompts.oversized.length +
+    (result.imagePrompts.total !== null && result.imagePrompts.total.used > result.imagePrompts.total.limit ? 1 : 0) +
     (result.aiInstructions.combinedTotal > result.aiInstructions.combinedLimit ? 1 : 0) +
     result.aiInstructions.individual.length;
 
@@ -683,6 +758,9 @@ function main() {
     result.triggers.oversizedTriggers.length > 0 ||
     result.slides.oversized.length > 0 ||
     result.areas.oversized.length > 0 ||
+    result.gameModes.oversizedFields.length > 0 ||
+    result.imagePrompts.oversized.length > 0 ||
+    (result.imagePrompts.total !== null && result.imagePrompts.total.used > result.imagePrompts.total.limit) ||
     result.aiInstructions.combinedTotal > result.aiInstructions.combinedLimit ||
     result.aiInstructions.individual.length > 0;
 

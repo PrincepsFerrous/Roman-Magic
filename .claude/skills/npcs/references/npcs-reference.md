@@ -19,9 +19,10 @@ interface NPC {
   personality?: string[]          // ✅ Prose descriptions of personality traits
   abilities?: string[]            // ✅ Prose descriptions of abilities
   aliases?: string[]              // ✅ Alternate names/titles matched during dialogue speaker attribution (e.g. "the captain", "Reed")
-  level?: number                  // ⚠️ For premade NPCs, defaults to a 50/50 roll between 1 and 2 — set explicitly for any NPC that should be stronger. Each level adds +1 base damage
+  level?: number                  // ⚠️ Set explicitly for any NPC that should be stronger; an explicit level is used as-is. If omitted, the engine rolls a level near the party average, then clamps it into the npcLevelRange of the NPC's location (or, if the location has none, its region). Each NPC level adds +2 to base damage
   hpMax?: number                  // ⚠️ Calculated from level + tier if undefined
   hpCurrent?: number              // ⚠️ Defaults to hpMax if undefined
+  healthMultiplier?: number       // ✅ Scales calculated max HP. 1 is normal, 10 is ten times normal, 0.5 is half. Clamped to 0.1–100. Ignored when hpMax is set explicitly
   tier?: 'trivial' | 'weak' | 'average' | 'strong' | 'elite' | 'boss' | 'mythic'                  // ✅ Affects HP calculation AND combat intent complexity.
   vulnerabilities?: string[]      // ✅ 1.5× damage from these types. Unions with npc-type's vulnerabilities
   resistances?: string[]          // ✅ 0.5× damage from these types. Unions with npc-type's resistances
@@ -40,7 +41,7 @@ interface NPC {
   portraitUrl?: string            // ✅ .png portrait image URL
   needsDetailGeneration?: boolean // ✅ Flag to async trigger  generateNPCDetails
   deathXPAwarded?: boolean        // ✅ Whether XP will be given on death
-  properName: string              // ❌ Always set to name
+  properName?: string             // ⚠️ The NPC's true name. Defaults to name if omitted. Set it (different from name) for a hidden-identity NPC: name is the current display name, properName is revealed later. The identity counts as revealed once the two match, and a reveal flips name to properName
   status: '' | 'near death' | 'dying' | 'dead'      // ❌ Always set to ''
   relationship: number            // ❌ Always set to 0
   lastSeenTick: number            // ❌ Always set to -1. Value of -1 means immune to cleanup until first seen

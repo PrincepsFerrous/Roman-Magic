@@ -10,7 +10,7 @@ interface SkillType {
   attribute: string                 // ✅ Key from attributeSettings.attributeNames
   type: string                      // ✅ Key from skillTypeDifficultyBonus in settings
   description: string               // ✅ Explanation of the skill
-  startingItems?: InventoryDefinition[]  // ✅ Items granted when skill is learned
+  startingItems: InventoryDefinition[]   // ✅ Items granted when skill is learned (required; use [] for none)
 }
 
 interface InventoryDefinition {

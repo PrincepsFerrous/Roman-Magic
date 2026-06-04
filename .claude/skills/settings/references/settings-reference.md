@@ -12,8 +12,10 @@ interface AttributeSettings {
   maxStartingAttribute: number                // ✅ Hard cap at creation (balanced: 0)
   attributeBonusModifier: number              // ✅ Multiplier for attribute bonus to checks (balanced: 2.5)
   lowAttributeThreshold: number               // ✅ Below this grants weakness traits (balanced: 8)
-  lowAttributeTraits?: Record<string, string> // ✅ Weakness descriptions per attribute
-  attributeStatModifiers?: Record<string, AttributeStatModifier>  // ✅ Keyed by attribute name
+  lowAttributeTraits: Record<string, string>  // ✅ Weakness descriptions per attribute (required; use {} for none)
+  attributeStatModifiers: Record<string, AttributeStatModifier>  // ✅ Keyed by attribute name (required; use {} for none)
+  attributeDamageModifiers?: Record<string, number>  // ✅ Per-point % bonus to OUTGOING damage, keyed by attribute. e.g. { strength: 1 } = +1% damage per point of strength. Use positive values; negative values are ignored
+  attributeEvasionModifiers?: Record<string, number> // ✅ Per-point % reduction to INCOMING damage, keyed by attribute. e.g. { dexterity: 1 } = -1% damage taken per point of dexterity. Use positive values; negative values are ignored
 }
 
 interface AttributeStatModifier {
@@ -117,6 +119,14 @@ interface OtherSettings {
 ```
 
 Player HP scaling lives on the health resource in `resourceSettings` — `maxValue` is the level-1 maximum and `gainPerLevel` is the per-level growth. See the Resource schema in the ai-instructions reference.
+
+## characterCreationMusic
+
+```typescript
+characterCreationMusic?: 'fantasy' | 'nonfantasy'  // ✅ Background music played during character creation. Defaults to 'fantasy'
+```
+
+Sets which background music plays on the character-creation screen. `'fantasy'` (the default) or `'nonfantasy'`.
 
 ## Skill Check Formula
 

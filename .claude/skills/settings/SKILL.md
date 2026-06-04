@@ -109,11 +109,14 @@ These must be configured per-world:
 | `attributeSettings.attributeNames` | Thematic attribute names for the world |
 | `attributeSettings.lowAttributeTraits` | See lowAttributeTraits format below |
 | `attributeSettings.attributeStatModifiers` | Only where narratively sensible (e.g., Constitution to Health) |
+| `attributeSettings.attributeDamageModifiers` | Optional. Per-point % bonus to outgoing damage, keyed by attribute (e.g. `{ strength: 1 }` = +1% damage per point). Positive values only |
+| `attributeSettings.attributeEvasionModifiers` | Optional. Per-point % reduction to incoming damage, keyed by attribute (e.g. `{ dexterity: 1 }` = -1% damage taken per point). Positive values only |
 | `skillSettings.skillTypeDifficultyBonus` | Always include `"none": 0`, others creative |
 | `itemSettings.currencyName` | Thematic currency name |
 | `itemSettings.itemCategories` | Always include `"Armor"`, `"Consumable"`, plus world-specific |
 | `itemSettings.itemSlots` | Always include 7 armor slots, plus world-specific |
 | `combatSettings.damageTypes` | Types that fit world theme |
+| `characterCreationMusic` | Optional top-level field. `"fantasy"` or `"nonfantasy"` background music for the character-creation screen. Defaults to `"fantasy"` |
 
 ## lowAttributeTraits Format
 
@@ -153,6 +156,7 @@ interface Settings {
   itemSettings: ItemSettings
   combatSettings: CombatSettings
   otherSettings: OtherSettings
+  characterCreationMusic?: 'fantasy' | 'nonfantasy'
 }
 ```
 

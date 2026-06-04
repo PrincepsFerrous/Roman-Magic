@@ -23,7 +23,7 @@ Edit `tabs/npcs.json`.
 | `hiddenInfo` | Full paragraph - mix of narrative secrets and gameplay-useful information |
 | `abilities` | At least five abilities + fighting style summary (see format below) |
 | `tier` | Always set to `mythic` for combat NPCs (determines intent complexity) |
-| `level` | Always set - each level adds +1 to damage output (see guidelines below) |
+| `level` | Always set - each level adds +2 to an NPC's base damage (see guidelines below) |
 | `hpMax` | Always set - see HP guidelines below |
 | `known` | Always set to `true` |
 | `voiceTag` | Voice tag for speech synthesis (see [voice-previews](references/voice-previews/voice-previews.md)) |
@@ -34,6 +34,7 @@ Edit `tabs/npcs.json`.
 |-------|-----------------|
 | `faction` | Only for major plot-relevant faction membership |
 | `aliases` | Include when NPC is commonly referred to by title, epithet, or nickname in the story (e.g. `"the captain"`, `"Reed"`). Only list exact strings the narrator or other NPCs would literally speak — these are matched verbatim during dialogue speaker attribution |
+| `properName` | Set when an NPC starts under a placeholder `name` (e.g. `"Hooded Stranger"`) but has a true identity revealed later. `name` is the current display name; `properName` is the true name. The identity counts as revealed once the two match — a reveal flips `name` to `properName`. Omit when the NPC is known from the start |
 
 ## Never Include
 
@@ -42,9 +43,10 @@ Omit these fields (auto-set or unused):
 - `visualDescription`, `visualTags`
 - `detailType`, `hpCurrent`, `activeBuffs`
 - `currentCoordinates`, `embeddingId`, `embedding`, `portraitUrl`
-- `properName`, `status`, `relationship`, `lastSeenTick`
+- `status`, `relationship`, `lastSeenTick`
 - `lastSeenLocation`, `lastSeenArea`, `playerNotes`
 - `needsDetailGeneration`, `deathXPAwarded`
+- `healthMultiplier`
 
 ## basicInfo Format
 
@@ -94,7 +96,7 @@ Include:
 
 Players start with 100 HP and deal ~16 damage on success.
 
-- **level**: Determines NPC damage. Calculate hits to down player: `100 ÷ (16 + level)`
+- **level**: Determines NPC damage. Each level adds +2 to base damage. Rough hits to down a 100 HP player: `100 ÷ (baseHit + 2 × level)`
 - **hpMax**: Determines NPC survivability. Calculate hits to down NPC: `hpMax ÷ 16`
 
 ## hiddenInfo Guidelines
@@ -116,6 +118,7 @@ Both narrative depth AND gameplay-useful information should be included.
 ```typescript
 interface NPC {
   name: string
+  properName?: string
   type: string
   currentLocation: string
   currentArea: string
@@ -126,8 +129,10 @@ interface NPC {
   hiddenInfo?: string
   personality?: string[]
   abilities?: string[]
+  aliases?: string[]
   level?: number
   hpMax?: number
+  healthMultiplier?: number
   known?: boolean
   voiceTag?: string
   vulnerabilities?: string[]

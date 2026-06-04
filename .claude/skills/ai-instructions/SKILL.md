@@ -102,6 +102,14 @@ World-specific guidance on how items are discovered, generated, obtained, used, 
 
 Single string defining the overall narrator voice. Applies to all narrative output.
 
+## gameModes
+
+Optional player-selectable modes. Each is keyed by an id and has `name`, `description`, and `instructions` (required) plus optional `difficulty` and `askTheNarratorPrompt`. The mode the player picks at character creation layers its `instructions` on top of `narratorStyle` for the whole game. `difficulty` (one of `very easy`/`easy`/`medium`/`hard`/`very hard`) presets the mechanical game difficulty for that mode. Add modes only when a world genuinely wants distinct ways to play (e.g. action-focused vs. pure roleplay vs. hardcore); otherwise omit `gameModes` and the narrator uses default behavior. See the reference for the full schema and an example.
+
+## imagePromptConfiguration
+
+Optional. Per-entity-type art-direction instructions (`npcs`, `locations`, `regions`) injected into Voyage's in-game image generation — the image equivalent of `narratorStyle`. Set a field to lock a consistent art style for that entity type; omit it to use the defaults. See the reference for the schema and an example.
+
 ## Starting Templates
 
 Use these as starting points for new worlds. Customize to fit your world's tone.

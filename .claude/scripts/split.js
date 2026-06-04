@@ -46,6 +46,7 @@ const SECTIONS = {
     'itemSettings',
     'combatSettings',
     'otherSettings',
+    'characterCreationMusic',
   ],
   realms: ['realms'],
   regions: ['regions'],
@@ -62,7 +63,7 @@ const SECTIONS = {
   quests: ['quests'],
   'world-lore': ['worldLore'],
   'world-background': ['worldBackground'],
-  'ai-instructions': ['aiInstructions', 'narratorStyle', 'death', 'resourceSettings', 'storySettings'],
+  'ai-instructions': ['aiInstructions', 'narratorStyle', 'gameModes', 'imagePromptConfiguration', 'death', 'resourceSettings', 'storySettings'],
   'archetypes': [
     'authorSeeds',
     'characterArchetypes',

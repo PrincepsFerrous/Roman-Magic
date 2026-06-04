@@ -26,6 +26,7 @@ Edit `tabs/regions.json`.
 |-------|-----------------|
 | `known` | Set to `false` to hide from map at game start. Omit or set `true` for visible by default |
 | `factions` | Only when region has dominant faction presence affecting the entire area |
+| `npcLevelRange` | `{ min, max }` band for NPCs generated anywhere in this region whose level you don't set explicitly. A location's own band overrides it. Use it to set a baseline difficulty for the whole region |
 
 ## Never Include
 
@@ -86,6 +87,7 @@ interface Region {
   known?: boolean
   hiddenInfo?: string
   factions?: string[]
+  npcLevelRange?: { min: number; max: number }
 }
 ```
 

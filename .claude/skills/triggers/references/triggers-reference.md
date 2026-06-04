@@ -161,7 +161,7 @@ interface TraitEffect {
 }
 ```
 
-When adding/removing traits, the trait's attribute/skill/resource modifiers are automatically applied/removed.
+When adding/removing traits, the trait's attribute/skill/resource modifiers are automatically applied/removed. If a granted trait has skill modifiers for a skill the player doesn't have yet, that skill is created on the player so the bonus always takes effect.
 
 ### Write Effects (to triggerWritable)
 

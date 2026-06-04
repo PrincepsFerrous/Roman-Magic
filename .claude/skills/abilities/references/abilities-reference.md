@@ -24,21 +24,30 @@ Ability names are matched against player input case-insensitively (whitespace is
 
 ## AbilityRequirement Schema
 
+A requirement is one of two shapes. Most types name a target via `variable`; `characterLevel` has no target, so it omits `variable` entirely.
+
 ```typescript
-interface AbilityRequirement {
-  type: 'resource' | 'attribute' | 'skill' | 'characterLevel' | 'trait'  // What to check
+// resource | attribute | skill | trait
+interface ReferencedAbilityRequirement {
+  type: 'resource' | 'attribute' | 'skill' | 'trait'  // What to check
   variable: string                // Name of the requirement target
   amount: number                  // Required value (ignored for trait type)
 }
+
+// characterLevel — no variable
+interface CharacterLevelAbilityRequirement {
+  type: 'characterLevel'
+  amount: number                  // Required character level
+}
 ```
 
-| Type | Checks | Example |
-|------|--------|---------|
-| `resource` | Resource max >= amount | Mana pool of 50+ |
-| `attribute` | Attribute value >= amount | Strength of 14+ |
-| `skill` | Skill level >= amount | Melee weapons at level 3+ |
-| `characterLevel` | Character level >= amount | Level 5+ |
-| `trait` | Has trait with that name | Has "fire affinity" trait |
+| Type | Shape | Checks | Example |
+|------|-------|--------|---------|
+| `resource` | with `variable` | Resource max >= amount | `{ type: "resource", variable: "mana", amount: 50 }` |
+| `attribute` | with `variable` | Attribute value >= amount | `{ type: "attribute", variable: "strength", amount: 14 }` |
+| `skill` | with `variable` | Skill level >= amount | `{ type: "skill", variable: "melee", amount: 3 }` |
+| `trait` | with `variable` | Has trait with that name | `{ type: "trait", variable: "fire affinity", amount: 1 }` |
+| `characterLevel` | no `variable` | Character level >= amount | `{ type: "characterLevel", amount: 5 }` |
 
 ## Runtime State
 

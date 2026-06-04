@@ -54,7 +54,7 @@ character.characterResources[resource].max += modifier
 ```typescript
 interface InventoryDefinition {
   item: string                    // Key from items.json
-  quantity: number                // How many to grant
+  quantity: number                // How many to grant. A negative quantity removes that many of the item from the character instead (useful for traits/backgrounds that take away default gear). 0 is a no-op
 }
 ```
 

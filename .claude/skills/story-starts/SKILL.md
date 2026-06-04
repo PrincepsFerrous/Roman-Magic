@@ -28,11 +28,7 @@ Edit `tabs/story-starts.json`.
 | `startingPartyNPCs` | When the player begins with companions |
 | `isDefault` | Set `true` on exactly one story start to pre-select it |
 | `questGenerationGuidance` | When this story start needs quest tone/scope distinct from the rest of the world |
-
-## Never Include
-
-Omit these fields (auto-managed):
-- `startingItems` (handled by traits and settings - keep story starts narrative-focused)
+| `startingItems` | Optional. Items granted on top of trait- and settings-based starting gear, for items specific to this story start. Usually leave to traits and settings and keep story starts narrative-focused |
 
 ## description Format
 
@@ -81,6 +77,7 @@ interface StoryStart {
   startingQuests?: string[]
   firstQuest?: string
   startingPartyNPCs?: string[]
+  startingItems?: Array<{ item: string; quantity: number }>
   isDefault?: boolean
   questGenerationGuidance?: string
 }

@@ -701,11 +701,10 @@ function validateReferenceIntegrity(config, errors) {
   }
 
   // Ability requirement reference validation and schema validation
-  // Schema (strict format):
-  //   type: 'resource' | 'attribute' | 'skill' | 'characterLevel' | 'trait'
-  //   variable: string (REQUIRED for all types)
-  //   amount: number (REQUIRED for all types)
-  // Note: both variable and amount are required on ALL requirement types
+  // Schema (union of two shapes):
+  //   referenced:     { type: 'resource' | 'attribute' | 'skill' | 'trait', variable: string, amount: number }
+  //   characterLevel: { type: 'characterLevel', amount: number }  // no variable
+  // Note: variable is required for referenced types and must be omitted for characterLevel.
   if (config.abilities) {
     const traitKeys = config.traits ? new Set(Object.keys(config.traits)) : new Set();
     const resourceKeys = buildResourceKeySet(config);
@@ -728,12 +727,17 @@ function validateReferenceIntegrity(config, errors) {
             errors.push(createError(`${reqPath}.type`, `Invalid requirement type: ${req.type}. Valid: ${VALID_REQUIREMENT_TYPES.join(', ')}`));
           }
 
-          // All requirement types require both variable and amount
-          if (req.variable === undefined) {
-            errors.push(createError(`${reqPath}.variable`, 'Missing required field: variable'));
-          }
+          // amount is required on all requirement types
           if (req.amount === undefined) {
             errors.push(createError(`${reqPath}.amount`, 'Missing required field: amount'));
+          }
+          // variable is required for referenced types and must be omitted for characterLevel
+          if (req.type === 'characterLevel') {
+            if (req.variable !== undefined) {
+              errors.push(createError(`${reqPath}.variable`, 'characterLevel requirements must not include a variable'));
+            }
+          } else if (req.variable === undefined) {
+            errors.push(createError(`${reqPath}.variable`, 'Missing required field: variable'));
           }
 
           // Additional validation based on requirement type (reference checks)
@@ -1402,7 +1406,7 @@ function validateUnknownFields(config, errors) {
     npcs: new Set([
       'name', 'properName', 'type', 'currentLocation', 'currentArea', 'gender', 'faction',
       'basicInfo', 'hiddenInfo', 'visualDescription', 'visualTags', 'personality',
-      'abilities', 'aliases', 'level', 'hpMax', 'hpCurrent', 'tier', 'vulnerabilities',
+      'abilities', 'aliases', 'level', 'hpMax', 'hpCurrent', 'healthMultiplier', 'tier', 'vulnerabilities',
       'resistances', 'immunities', 'activeBuffs', 'known', 'lastSeenLocation',
       'lastSeenArea', 'currentCoordinates', 'detailType', 'voiceTag',
       'questOriginArcId', 'questOriginQuestId', 'embedding',
@@ -1411,11 +1415,11 @@ function validateUnknownFields(config, errors) {
     locations: new Set([
       'name', 'basicInfo', 'x', 'y', 'radius', 'region', 'complexityType',
       'detailType', 'areas', 'factions', 'hiddenInfo', 'visualTags', 'imageUrl',
-      'embeddingId', 'known', 'visited', 'lastVisitedTick', 'visitedAreas',
+      'embeddingId', 'known', 'npcLevelRange', 'visited', 'lastVisitedTick', 'visitedAreas',
       'questOriginArcId', 'questOriginQuestId',
     ]),
     regions: new Set([
-      'name', 'basicInfo', 'x', 'y', 'realm', 'factions', 'hiddenInfo', 'known', 'imageUrl',
+      'name', 'basicInfo', 'x', 'y', 'realm', 'factions', 'hiddenInfo', 'known', 'npcLevelRange', 'imageUrl',
     ]),
     realms: new Set([
       'name', 'basicInfo', 'known',
@@ -1462,6 +1466,7 @@ function validateUnknownFields(config, errors) {
       'attributeNames', 'startingAttributeValue', 'startingAttributePoints',
       'maxStartingAttribute', 'attributeBonusModifier', 'lowAttributeThreshold',
       'lowAttributeTraits', 'attributeStatModifiers',
+      'attributeDamageModifiers', 'attributeEvasionModifiers',
     ]),
     skillSettings: new Set([
       'trainingCooldown', 'skillBonusModifier', 'maxSkillLevel', 'maxSkillSuccessLevel',
@@ -1536,6 +1541,10 @@ function validateUnknownFields(config, errors) {
     triggerEffect: new Set(['type', 'operator', 'value', 'instruction', 'questId', 'resource', 'entity', 'key']),
     // Attribute stat modifier entries
     attrStatModifier: new Set(['variable', 'amount']),
+    // Game mode entries
+    gameMode: new Set(['name', 'description', 'instructions', 'difficulty', 'askTheNarratorPrompt']),
+    // Image prompt configuration (per entity type)
+    imagePromptConfiguration: new Set(['npcs', 'locations', 'regions']),
   };
 
   function checkNested(parentPath, obj, knownSet) {
@@ -1679,6 +1688,48 @@ function validateUnknownFields(config, errors) {
   // Skill XP rewards
   if (config.skillSettings?.skillXPRewards && typeof config.skillSettings.skillXPRewards === 'object') {
     checkNested('skillSettings.skillXPRewards', config.skillSettings.skillXPRewards, KNOWN_NESTED.skillXPRewards);
+  }
+
+  // Game modes
+  if (config.gameModes && typeof config.gameModes === 'object') {
+    const VALID_GAME_MODE_DIFFICULTIES = ['very easy', 'easy', 'medium', 'hard', 'very hard'];
+    for (const [modeKey, mode] of Object.entries(config.gameModes)) {
+      if (!mode || typeof mode !== 'object') continue;
+      checkNested(`gameModes.${modeKey}`, mode, KNOWN_NESTED.gameMode);
+      for (const field of ['name', 'description', 'instructions']) {
+        if (typeof mode[field] !== 'string' || mode[field].length === 0) {
+          errors.push(createError(`gameModes.${modeKey}.${field}`, `Missing required field: ${field}`));
+        }
+      }
+      if (mode.difficulty !== undefined && !VALID_GAME_MODE_DIFFICULTIES.includes(mode.difficulty)) {
+        errors.push(createError(`gameModes.${modeKey}.difficulty`, `Invalid difficulty: ${mode.difficulty}. Valid: ${VALID_GAME_MODE_DIFFICULTIES.join(', ')}`, 'warning'));
+      }
+    }
+  }
+
+  // Image prompt configuration
+  if (config.imagePromptConfiguration && typeof config.imagePromptConfiguration === 'object') {
+    checkNested('imagePromptConfiguration', config.imagePromptConfiguration, KNOWN_NESTED.imagePromptConfiguration);
+    const MAX_IMAGE_PROMPT_INSTRUCTION = 5_000;
+    const MAX_IMAGE_PROMPT_TOTAL = 15_000;
+    let imagePromptTotal = 0;
+    for (const entityType of ['npcs', 'locations', 'regions']) {
+      const prompt = config.imagePromptConfiguration[entityType];
+      if (typeof prompt !== 'string') continue;
+      imagePromptTotal += prompt.length;
+      if (prompt.length > MAX_IMAGE_PROMPT_INSTRUCTION) {
+        errors.push(createError(`imagePromptConfiguration.${entityType}`, `Exceeds ${MAX_IMAGE_PROMPT_INSTRUCTION} chars: ${prompt.length}`));
+      }
+    }
+    if (imagePromptTotal > MAX_IMAGE_PROMPT_TOTAL) {
+      errors.push(createError('imagePromptConfiguration', `Total exceeds ${MAX_IMAGE_PROMPT_TOTAL} chars: ${imagePromptTotal}`));
+    }
+  }
+
+  // Character creation music
+  if (config.characterCreationMusic !== undefined &&
+      !['fantasy', 'nonfantasy'].includes(config.characterCreationMusic)) {
+    errors.push(createError('characterCreationMusic', `Invalid characterCreationMusic: ${config.characterCreationMusic}. Valid: fantasy, nonfantasy`));
   }
 
   // Check settings sub-objects

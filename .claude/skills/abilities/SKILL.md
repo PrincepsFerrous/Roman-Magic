@@ -38,7 +38,7 @@ Array of prerequisite checks. All must be met to unlock the ability.
 ```typescript
 { type: 'skill', variable: 'skill name', amount: 3 }      // Skill level >= 3
 { type: 'attribute', variable: 'strength', amount: 14 }   // Attribute value >= 14
-{ type: 'characterLevel', variable: '', amount: 5 }       // Character level >= 5
+{ type: 'characterLevel', amount: 5 }                     // Character level >= 5 (no variable)
 { type: 'resource', variable: 'mana', amount: 50 }        // Resource max >= 50
 { type: 'trait', variable: 'fire affinity', amount: 1 }   // Has trait (amount ignored)
 ```
@@ -78,11 +78,9 @@ interface AbilityDefinition {
   cooldown: number
 }
 
-interface AbilityRequirement {
-  type: 'resource' | 'attribute' | 'skill' | 'characterLevel' | 'trait'
-  variable: string
-  amount: number
-}
+type AbilityRequirement =
+  | { type: 'resource' | 'attribute' | 'skill' | 'trait'; variable: string; amount: number }
+  | { type: 'characterLevel'; amount: number }
 ```
 
 ## Reference

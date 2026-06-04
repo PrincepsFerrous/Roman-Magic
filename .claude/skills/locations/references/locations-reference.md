@@ -21,6 +21,7 @@ interface Location {
   imageUrl?: string                 // ✅ URL for the location's image
   embeddingId?: string              // ✅ Reference to embeddings record
   known?: boolean                   // ✅ Defaults to true; set false to hide at game start
+  npcLevelRange?: { min: number, max: number }  // ✅ Optional level band for NPCs generated here. NPCs with no explicit level are rolled near party level, then clamped into this band. Takes priority over the region's band. NPCs with an explicit level ignore it
   visited?: boolean                 // ❌ Always false at creation
   lastVisitedTick?: number          // ❌ Always 0 at creation
   visitedAreas?: string[]           // ❌ Always [] at creation

@@ -14,6 +14,7 @@ interface Region {
   factions?: string[]       // ✅ Keys from factions.json with regional presence
   hiddenInfo?: string       // ✅ Unused — region secrets belong in location or NPC entries
   known?: boolean           // ✅ Defaults to true; set false to hide at game start
+  npcLevelRange?: { min: number, max: number }  // ✅ Optional level band for NPCs generated in this region, used when the location has no band of its own. NPCs with no explicit level are rolled near party level, then clamped into this band. NPCs with an explicit level ignore it
   imageUrl?: string         // ✅ URL for the region's map image
 }
 ```
