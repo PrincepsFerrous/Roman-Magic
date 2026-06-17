@@ -18,7 +18,7 @@ Complete character and count limits for world configs.
 | traitCategories | 100,000 chars |
 | itemSettings | 5,000 chars |
 | gameModes | 100,000 chars |
-| nameFilterSettings | 50,000 chars |
+| nameFilterSettings | 150,000 chars |
 
 ## Field Limits
 
@@ -31,7 +31,7 @@ Complete character and count limits for world configs.
 | narratorStyle | 2,000 chars |
 | abilities.[id].description | 2,000 chars |
 | Individual worldLore entry text | 4,000 chars |
-| Individual story start | 4,000 chars |
+| Individual story start | 8,000 chars |
 | Individual item description | 4,000 chars |
 | factions.[id].basicInfo | 4,000 chars |
 | factions.[id].hiddenInfo | 4,000 chars |

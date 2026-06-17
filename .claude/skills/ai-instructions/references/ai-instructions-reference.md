@@ -13,6 +13,8 @@ interface AIInstructionsTab {
     npcs?: string
     locations?: string
     regions?: string
+    characterLoraEnabled?: boolean
+    locationLoraEnabled?: boolean
   }
   resourceSettings: Record<string, Resource>
   death: {
@@ -203,19 +205,24 @@ Optional per-entity-type instructions that steer how Voyage generates images for
 
 ```typescript
 imagePromptConfiguration?: {
-  npcs?: string        // ✅ Art-direction instructions for NPC portraits
-  locations?: string   // ✅ Art-direction instructions for location images
-  regions?: string     // ✅ Art-direction instructions for region map images
+  npcs?: string                  // ✅ Art-direction instructions for NPC portraits
+  locations?: string             // ✅ Art-direction instructions for location images
+  regions?: string               // ✅ Art-direction instructions for region map images
+  characterLoraEnabled?: boolean // ✅ Toggle the built-in Voyage art style for character images (default true)
+  locationLoraEnabled?: boolean  // ✅ Toggle the built-in Voyage art style for location images (default true)
 }
 ```
 
 Use it to lock a consistent art style, framing, palette, or rendering technique across all generated images of a given type. Leave a field blank or omit it to fall back to the default image instructions for that type.
 
+`characterLoraEnabled` and `locationLoraEnabled` control whether the built-in Voyage house art style is applied to character and location images. Both default to `true`; set either to `false` if your world supplies its own complete art direction and should opt out of the house style.
+
 Example:
 ```json
 {
   "npcs": "Painterly oil-portrait style, warm candlelit lighting, head-and-shoulders framing, muted earth tones.",
-  "locations": "Wide establishing shots, moody atmospheric fog, cinematic depth of field."
+  "locations": "Wide establishing shots, moody atmospheric fog, cinematic depth of field.",
+  "characterLoraEnabled": false
 }
 ```
 

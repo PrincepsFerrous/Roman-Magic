@@ -34,7 +34,7 @@ const SECTION_LIMITS = {
   traitCategories: 100_000,
   itemSettings: 5_000,
   gameModes: 100_000,
-  nameFilterSettings: 50_000,
+  nameFilterSettings: 150_000,
 };
 
 // Total config limit
@@ -52,7 +52,7 @@ const FIELD_LIMITS = {
 // Individual entry limits
 const ENTRY_LIMITS = {
   worldLore: { text: 4_000 },
-  storyStarts: { combined: 4_000 },
+  storyStarts: { combined: 8_000 },
   items: { description: 4_000 },
   factions: { basicInfo: 4_000, hiddenInfo: 4_000 },
   npcTypes: { description: 8_000 },

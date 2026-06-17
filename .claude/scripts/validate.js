@@ -244,7 +244,7 @@ const LIMITS = {
     realms: 100_000,
     traitCategories: 100_000,
     itemSettings: 5_000,
-    nameFilterSettings: 50_000,
+    nameFilterSettings: 150_000,
   },
   counts: {
     storyStarts: 100,
@@ -269,7 +269,7 @@ const LIMITS = {
     aiInstructionIndividual: 5_000,
     aiInstructionCombined: 20_000,
     worldLoreEntry: 4_000,
-    storyStartEntry: 4_000,
+    storyStartEntry: 8_000,
     itemDescription: 4_000,
     factionBasicInfo: 4_000,
     factionHiddenInfo: 4_000,
@@ -1637,7 +1637,7 @@ function validateUnknownFields(config, errors) {
     // Game mode entries
     gameMode: new Set(['name', 'description', 'instructions', 'difficulty', 'askTheNarratorPrompt']),
     // Image prompt configuration (per entity type)
-    imagePromptConfiguration: new Set(['npcs', 'locations', 'regions']),
+    imagePromptConfiguration: new Set(['npcs', 'locations', 'regions', 'characterLoraEnabled', 'locationLoraEnabled']),
   };
 
   function checkNested(parentPath, obj, knownSet) {
