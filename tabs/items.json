@@ -1,0 +1,8 @@
+{
+  "denarii": {
+    "name": "denarii",
+    "category": "Currency",
+    "description": "The silver coin of the Aquilan Imperium, stamped with the Old Raven's profile. The common currency of trade, bribe, and tribute across the provinces.",
+    "bonuses": []
+  }
+}

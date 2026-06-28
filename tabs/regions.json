@@ -1,27 +1,4 @@
 {
-  "The Aquilan Imperium": {
-    "name": "The Aquilan Imperium",
-    "basicInfo": "The cultivated imperial heartland spreads across rolling provinces, connected by marble roads that carry the lifeblood of empire to and from the grand capital Aquila. The climate is temperate and civilized, marked by the stately rhythm of Roman seasons; the air carries the scent of laurel, marble dust, and incense from innumerable shrines. Here dwells the Emperor Tiberius Corvus and the Twelve Houses in their intricate dance of power, with the Collegium Furiacae at the very heart—the academy where gifted young from noble bloodlines are forged into fierce rivals through trials of furycraft, wit, and ambition.",
-    "x": 1,
-    "y": 1,
-    "realm": "Orbis Terrarum",
-    "known": true,
-    "factions": [
-      "House Corvus",
-      "House Drusus",
-      "House Sabinus",
-      "House Aurelius",
-      "House Crassus",
-      "House Serenus",
-      "House Fabius",
-      "House Pontius",
-      "House Ventidius",
-      "House Murena",
-      "House Varro",
-      "House Tullius"
-    ],
-    "imageUrl": ""
-  },
   "The Northern Frontier": {
     "name": "The Northern Frontier",
     "basicInfo": "Beyond the marble and order of the imperial core lies the bleeding limes—fortified border walls and grim watchtowers scattered across pine-dark wilderness and frozen rivers. The climate turns harsh here: bitter winters, thin summers, and the constant threat of barbarian tribes—the ferocious Vallari and the mysterious Morthane—who wield untamed magics the empire struggles to contain. Here the war-houses stand sentinel, their furycrafters hardened by years of conflict and the wild, desperate magic that seeps in from unconquered lands beyond.",
@@ -204,6 +181,29 @@
     "y": 1,
     "realm": "Orbis Terrarum",
     "known": true,
+    "imageUrl": ""
+  },
+  "Aquila": {
+    "name": "Aquila",
+    "basicInfo": "Aquila, the marble capital of the Imperium, rises upon seven hills above a broad river: a vast city of forums and temples, triumphal arches and teeming insulae, crowned at its heart by the Collegium Furiacae and the black raven-towers of the Corvine Palace. The air carries incense and forge-smoke, the roar of the circus and the murmur of the Senate, and the faint shimmer of spent Vis above the academy grounds; by day the city dazzles, by night its alleys belong to other powers. Here all Twelve Houses keep their townhouses and their schemes, the Old Raven holds his guarded court, and beneath the pageantry runs a ceaseless river of intrigue, debt, and quiet murder.",
+    "x": 1,
+    "y": 1,
+    "realm": "Orbis Terrarum",
+    "known": true,
+    "factions": [
+      "House Corvus",
+      "House Drusus",
+      "House Sabinus",
+      "House Aurelius",
+      "House Crassus",
+      "House Serenus",
+      "House Fabius",
+      "House Pontius",
+      "House Ventidius",
+      "House Murena",
+      "House Varro",
+      "House Tullius"
+    ],
     "imageUrl": ""
   }
 }

@@ -2130,5 +2130,369 @@
     ],
     "bonus": 20,
     "cooldown": 5
+  },
+  "Antiquarian's Insight": {
+    "name": "Antiquarian's Insight",
+    "description": "Slightly increases the effectiveness of your next Lore action. Ancient wisdom stirs within your consciousness.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Lore",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Scholar's Brilliance": {
+    "name": "Scholar's Brilliance",
+    "description": "Moderately increases the effectiveness of your next Lore action. The breadth of your knowledge sharpens perception.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Lore",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Historian's Command": {
+    "name": "Historian's Command",
+    "description": "Significantly increases the effectiveness of your next Lore action. The currents of history flow through your thoughts.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Lore",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Master of Ages": {
+    "name": "Master of Ages",
+    "description": "Greatly increases the effectiveness of your next Lore action. You have become the repository of forgotten truths.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Lore",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Stage Presence": {
+    "name": "Stage Presence",
+    "description": "Slightly increases the effectiveness of your next Performance action. Confidence blooms, breath steadies.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Performance",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Practiced Performer": {
+    "name": "Practiced Performer",
+    "description": "Moderately increases the effectiveness of your next Performance action. Years of craft refine your art.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Performance",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Virtuoso's Edge": {
+    "name": "Virtuoso's Edge",
+    "description": "Significantly increases the effectiveness of your next Performance action. You transcend technique and touch the divine.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Performance",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Star of Stages": {
+    "name": "Star of Stages",
+    "description": "Greatly increases the effectiveness of your next Performance action. The audience hangs on your every gesture.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Performance",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Cavalry Grace": {
+    "name": "Cavalry Grace",
+    "description": "Slightly increases the effectiveness of your next Horsemanship action. Beast and rider breathe as one.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Horsemanship",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Mounted Mastery": {
+    "name": "Mounted Mastery",
+    "description": "Moderately increases the effectiveness of your next Horsemanship action. Your seat is perfect, your commands understood.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Horsemanship",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Equestrian Excellence": {
+    "name": "Equestrian Excellence",
+    "description": "Significantly increases the effectiveness of your next Horsemanship action. You move with the fluidity of the centaurs of old.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Horsemanship",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Knight's Ascendancy": {
+    "name": "Knight's Ascendancy",
+    "description": "Greatly increases the effectiveness of your next Horsemanship action. Horse and rider become something legendary.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Horsemanship",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Sailor's Instinct": {
+    "name": "Sailor's Instinct",
+    "description": "Slightly increases the effectiveness of your next Seamanship action. The sea whispers guidance to your skilled hands.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Seamanship",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Captain's Cunning": {
+    "name": "Captain's Cunning",
+    "description": "Moderately increases the effectiveness of your next Seamanship action. The winds obey your seasoned judgment.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Seamanship",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Nautical Mastery": {
+    "name": "Nautical Mastery",
+    "description": "Significantly increases the effectiveness of your next Seamanship action. You read the ocean as easily as written words.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Seamanship",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Admiral's Command": {
+    "name": "Admiral's Command",
+    "description": "Greatly increases the effectiveness of your next Seamanship action. The very tides bend to your will.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Seamanship",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Keen Observation": {
+    "name": "Keen Observation",
+    "description": "Slightly increases the effectiveness of your next Investigation action. Details sharpen into sudden clarity.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Investigation",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Methodical Scrutiny": {
+    "name": "Methodical Scrutiny",
+    "description": "Moderately increases the effectiveness of your next Investigation action. Every clue aligns with practiced insight.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Investigation",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Piercing Insight": {
+    "name": "Piercing Insight",
+    "description": "Significantly increases the effectiveness of your next Investigation action. Deception withers beneath your gaze.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Investigation",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Truth Uncovered": {
+    "name": "Truth Uncovered",
+    "description": "Greatly increases the effectiveness of your next Investigation action. No secret can hide from your relentless scrutiny.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Investigation",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Iron Resolve": {
+    "name": "Iron Resolve",
+    "description": "Slightly increases the effectiveness of your next Intimidation action. Your will hardens like tempered steel.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Intimidation",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Commanding Presence": {
+    "name": "Commanding Presence",
+    "description": "Moderately increases the effectiveness of your next Intimidation action. Authority radiates from your bearing.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Intimidation",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Overwhelming Aura": {
+    "name": "Overwhelming Aura",
+    "description": "Significantly increases the effectiveness of your next Intimidation action. Fear becomes palpable in the air.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Intimidation",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Terror Incarnate": {
+    "name": "Terror Incarnate",
+    "description": "Greatly increases the effectiveness of your next Intimidation action. Your very presence crushes resistance beneath your shadow.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Intimidation",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Silver Tongue": {
+    "name": "Silver Tongue",
+    "description": "Slightly increases the effectiveness of your next Oratory action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Oratory",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Eloquent Discourse": {
+    "name": "Eloquent Discourse",
+    "description": "Moderately increases the effectiveness of your next Oratory action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Oratory",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Rhetorical Mastery": {
+    "name": "Rhetorical Mastery",
+    "description": "Significantly increases the effectiveness of your next Oratory action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Oratory",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Orator's Apotheosis": {
+    "name": "Orator's Apotheosis",
+    "description": "Greatly increases the effectiveness of your next Oratory action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Oratory",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
   }
 }

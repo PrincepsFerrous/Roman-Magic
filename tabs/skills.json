@@ -83,11 +83,32 @@
     "description": "You have studied the art of war, learning to read enemy formations and predict their movements before they occur. Your mind grasps how terrain, positioning, and morale shape battles, letting you command formations with precision and clarity. You can inspire your allies, identify weak points in enemy lines, and adjust strategy in real time as conditions shift.",
     "startingItems": []
   },
+  "Oratory": {
+    "name": "Oratory",
+    "attribute": "Voluntas",
+    "type": "Intrigue",
+    "description": "You have mastered the art of public speech and formal rhetoric, commanding the attention of crowds, senates, and assemblies through passionate argument and commanding presence. Your words move the masses whether you seek to sway the Senate, calm or command a mob, or plead, prosecute, or defend before the courts. You wield the power to move many at once, binding audiences together through the sheer force of your oratory and the conviction in your voice.",
+    "startingItems": []
+  },
   "Guile": {
     "name": "Guile",
     "attribute": "Voluntas",
     "type": "Intrigue",
-    "description": "You have learned to weave deception and persuasion, reading the tells of liars and crafting false tales that ring with absolute conviction. Your tongue becomes silver, and you know which strings to pull to make others dance to your will, whether through charm, threat, or manipulation. You navigate court intrigue with grace, understanding the undercurrents of power and the unspoken rules of social dominance.",
+    "description": "You have learned to deceive in intimate settings, reading the tells of individual liars and crafting false tales that ring with absolute conviction to a single listener or small group. Your private charm and seduction become tools of manipulation, allowing you to extract secrets through quiet persuasion and forged smiles. You navigate the backrooms of power with grace, understanding how to bend one person's will through deception and reading their unspoken desires.",
+    "startingItems": []
+  },
+  "Intimidation": {
+    "name": "Intimidation",
+    "attribute": "Voluntas",
+    "type": "Intrigue",
+    "description": "You project menace and coercion through threat, commanding presence, and the promise of violence to break an opponent's will. Your words carry weight of consequence, and your bearing alone can cow the fearful or wring truth from the reluctant. You bend the intimidated toward obedience and extract confessions from those who fear the cost of resistance.",
+    "startingItems": []
+  },
+  "Investigation": {
+    "name": "Investigation",
+    "attribute": "Ingenium",
+    "type": "Intrigue",
+    "description": "You follow clues with methodical precision, piecing together hidden truths to unmask conspiracies, identify culprits, and expose secrets. You spot the details that seem out of place and recognize patterns that casual observers miss entirely. You search a scene thoroughly, understand what traces reveal, and connect threads others have failed to see.",
     "startingItems": []
   },
   "Sneaking": {
@@ -207,6 +228,34 @@
     "attribute": "Affinitas",
     "type": "Crafting",
     "description": "You have mastered the art of imbuing objects with Vis, binding furycraft into talismans and crafted gear through ritual and resonance. Your ritual work transforms mundane items into vessels of magical power, each one attuned to a specific fury or effect. Mastery of this skill lets you create enchanted gear that responds to its wearer with enhanced potency and subtle grace.",
+    "startingItems": []
+  },
+  "Lore": {
+    "name": "Lore",
+    "attribute": "Ingenium",
+    "type": "none",
+    "description": "You hold deep knowledge of history, dead languages, heraldry of the Houses, and the nature of the Twelve Thrones carved into cosmic order. Your mind grasps the significance of ancient texts, forgotten threats that stir beneath civilization's veneer, and the intricate laws, statutes, and legal precedents that bind the empire. Mastery of this skill lets you decipher secrets written in stone and tongue, navigate legal frameworks with precision, and recognize patterns others have missed for centuries.",
+    "startingItems": []
+  },
+  "Performance": {
+    "name": "Performance",
+    "attribute": "Voluntas",
+    "type": "none",
+    "description": "You have trained in music, song, theatre, dance, and the courtesan's art of captivation and persuasion. Your presence commands attention, and your voice rings with conviction that moves audiences to tears or fury. Mastery of this skill lets you weave entertainment into deception, using performance to cloak purpose beneath artistry.",
+    "startingItems": []
+  },
+  "Horsemanship": {
+    "name": "Horsemanship",
+    "attribute": "Celeritas",
+    "type": "Acrobatics",
+    "description": "You have trained in the discipline of riding, controlling mounts through stress and battle as the equites cavalry do. Your bond with your horse becomes near-instinctive, allowing swift maneuvers and deadly strikes from the saddle. Mastery of this skill grants swift travel across provinces and the ability to fight effectively while mounted.",
+    "startingItems": []
+  },
+  "Seamanship": {
+    "name": "Seamanship",
+    "attribute": "Celeritas",
+    "type": "Survival",
+    "description": "You have mastered sailing, rigging, and navigation across open water, reading wind and current and the language of stars. Your hands move with practiced precision across ropes and sail, and you know the moods of the Mare Internum as a shepherd knows his flock. Mastery of this skill lets you helm a vessel through storm and naval maneuver with preternatural grace.",
     "startingItems": []
   }
 }

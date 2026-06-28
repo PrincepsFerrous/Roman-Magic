@@ -70,7 +70,14 @@
         "Miner",
         "Mason",
         "Goldsmith",
-        "Enchanter"
+        "Enchanter",
+        "Loremaster",
+        "Performer",
+        "Horseman",
+        "Mariner",
+        "Investigator",
+        "Enforcer",
+        "Orator"
       ]
     }
   ],
@@ -849,6 +856,125 @@
       "skills": [
         {
           "skill": "Enchanting",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Loremaster": {
+      "name": "Loremaster",
+      "description": "You have devoted yourself to the study of history, legend, and ancient wisdom. Through years of scholarship in libraries, temples, and the company of elders, you have amassed a deep knowledge of the empire's past, the tales of heroes long dead, and the secrets written in dust and parchment. Your memory is a living archive; your voice carries the weight of ages.",
+      "quirk": "The past lives in your mind. You know the history of bloodlines, the genealogy of emperors, the forgotten names of ancient spirits. Others listen when you speak—for you carry within you the wisdom of centuries.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Lore",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Performer": {
+      "name": "Performer",
+      "description": "You have mastered the arts of entertainment—music, theater, dance, and the subtle craft of captivating an audience. Whether playing a lyre in a nobleman's hall or telling tales in a tavern, your presence commands attention and your skill stirs hearts. You understand rhythm, emotion, and the precise moment when a crowd holds its breath.",
+      "quirk": "You are the stage, and the stage is you. Your voice carries power; your movements entrance; your art moves people to tears or joy. Through performance, you touch souls in ways mere words cannot reach.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Performance",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Horseman": {
+      "name": "Horseman",
+      "description": "You have spent your life in the saddle, mastering the art of horsemanship—breaking wild mounts, understanding their nature, and becoming one with the beast beneath you. Whether charging into battle or navigating treacherous terrain, your bond with horses is intimate and profound. You move with your mount as if you were a single creature.",
+      "quirk": "Horse and rider are one when you mount. The beasts know your touch and respond to the slightest shift in your weight. You read their moods as easily as your own heartbeat; they would follow you into death.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Horsemanship",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Mariner": {
+      "name": "Mariner",
+      "description": "You have devoted your years to the sea—sailing rivers and seas alike, understanding wind and wave, reading the moods of water and sky. Your hands know rope and sail; your eyes read weather and current; your heart belongs to the restless water. Few lands know your feet; the waves are your true home.",
+      "quirk": "The sea calls to you always. You read the ocean's secrets in the shape of waves; you know which winds will come by the color of the sky. You navigate by stars and instinct alike. The water trusts you; you trust the water.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Seamanship",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Investigator": {
+      "name": "Investigator",
+      "description": "You have honed your mind to pierce deception and unravel secrets. Whether examining a crime scene, questioning suspects, or tracking hidden truths, your keen eye catches details others overlook. You understand the threads of cause and effect, and you follow them relentlessly. In the empire's complex web of power and intrigue, your skill in investigation marks you as dangerous to those with secrets.",
+      "quirk": "You see what others miss. Your mind works backward from evidence to truth; your questions probe the weak points in any story. Nothing escapes your notice—not the tremor in a voice, not the inconsistency in testimony, not the absence of what should be present. You are a hound of truth.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Investigation",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Enforcer": {
+      "name": "Enforcer",
+      "description": "You have learned the trade of dominance through presence and force of will. Whether serving the imperial authorities or private masters, you understand how to bend others to obedience through conviction and controlled intimidation. Your reputation precedes you; your words carry weight; your gaze carries menace. In Rome's hierarchies of power, you are the fist that ensures compliance.",
+      "quirk": "People fear you. Your presence alone can silence a tavern; your words carry the weight of consequence. You move through crowds and they part before you. You understand the delicate art of suggestion and threat—when to whisper, when to raise your voice, when a single glance suffices to remind someone of their place.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Intimidation",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Orator": {
+      "name": "Orator",
+      "description": "You have trained yourself in the sacred art of rhetoric—the craft of moving crowds, commanding the Senate floor, and swaying tribunals with the force of your words alone. From childhood, you studied the great speeches of the past, learned to read the moods of assemblies, and mastered the delicate balance of persuasion and authority. Your voice carries the weight of conviction; your words reshape belief. In Rome's halls of power, you are the living embodiment of oratorical excellence.",
+      "quirk": "Words are your greatest weapon. You have spent years mastering the rhythms of speech, the art of pausing for effect, the precise moment to raise your voice or lower it to a whisper. When you speak in the Senate, senators lean forward to listen. Before the mob, crowds fall silent to hear your words. You command the tribunal not through fear but through the sheer force of your eloquence. Your every phrase has been tested, refined, practiced until it strikes with the precision of a blade.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Oratory",
           "modifier": 0
         }
       ],

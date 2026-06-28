@@ -87,14 +87,11 @@
   },
   "itemSettings": {
     "currencyName": "denarii",
-    "startingItems": [],
-    "itemCategories": [
-      "Armor",
-      "Consumable",
-      "Weapon",
-      "Accessory",
-      "Tome",
-      "Talisman"
+    "startingItems": [
+      {
+        "item": "denarii",
+        "quantity": 100
+      }
     ],
     "itemSlots": [
       {
@@ -103,7 +100,7 @@
         "quantity": 1
       },
       {
-        "slot": "chest",
+        "slot": "body",
         "category": "Armor",
         "quantity": 1
       },
@@ -128,36 +125,81 @@
         "quantity": 1
       },
       {
-        "slot": "ring",
-        "category": "Accessory",
-        "quantity": 2
-      },
-      {
-        "slot": "weapon",
-        "category": "Weapon",
-        "quantity": 2
+        "slot": "cloak",
+        "category": "Armor",
+        "quantity": 1
       },
       {
         "slot": "shield",
         "category": "Armor",
         "quantity": 1
+      },
+      {
+        "slot": "weapon",
+        "category": "Weapon",
+        "quantity": 3
+      },
+      {
+        "slot": "amulet",
+        "category": "Amulet",
+        "quantity": 1
+      },
+      {
+        "slot": "ring",
+        "category": "Ring",
+        "quantity": 2
+      },
+      {
+        "slot": "accessory",
+        "category": "Accessory",
+        "quantity": 2
+      },
+      {
+        "slot": "consumable",
+        "category": "Consumable",
+        "quantity": 3
       }
-    ]
+    ],
+    "itemCategories": [
+      "Currency",
+      "Weapon",
+      "Armor",
+      "Consumable",
+      "Accessory",
+      "Amulet",
+      "Ring",
+      "Readable",
+      "Miscellaneous",
+      "\n\n## ITEM DEFINITION OVERRIDE RULES\nFollow these rules exactly when assigning bonuses.\n\n### STEP 1: DETERMINE ITEM TIER\nIf the item name has a tier prefix (Common/Uncommon/Rare/Epic/Legendary), use it as the baseline. Story context may shift the tier one step: masterwork may raise it, crude work may lower it.\nIf no prefix, determine the tier from the story:\n- Common: shop and market buys, mundane finds, tavern and barracks gear\n- Uncommon: quest rewards, skilled crafts, minor Vis-work, patron gifts\n- Rare: dungeon loot, enchanted gear, items with a clear Vis-aura, major quest rewards\n- Epic: boss drops, sealed vaults, powerful enchantments, items of named history\n- Legendary: Vis-forged relics, artifacts of the Twelve Thrones or the elder age, items of continental significance\nDefault to Common when uncertain.\n\n### STEP 2: BONUSES BY SLOT AND TIER\nAll equippable items MUST have bonuses. Never return bonuses [] for an equippable item.\n\nWEAPONS - MUST include {type:stat, variable:damage} first:\nCommon: damage +1-2. 1 bonus.\nUncommon: damage +2-3, +1 extra. 2 total.\nRare: damage +4-5, +1-2 extra. 2-3 total.\nEpic: damage +6-8, +2-3 extra. 3-4 total.\nLegendary: damage +9-12, +3-4 extra. 4-5 total.\nHeavy/martial weapons add Potentia or health. Finesse/agile weapons add Celeritas or vigor. Bows and slings add Celeritas or Ingenium. Furycraft foci such as staves, rods, and war-talismans add Affinitas or vis.\n\nARMOR - MUST include {type:resource, variable:health} first.\nBody armor health by weight class per tier:\nLight body (cloth, padded, leather): Common +6-8, Uncommon +8-12, Rare +12-16, Epic +16-22, Legendary +22-28.\nMedium body (mail, lorica hamata, scale): Common +14-16, Uncommon +16-20, Rare +20-28, Epic +28-36, Legendary +36-48.\nHeavy body (lorica segmentata, plate): Common +24-28, Uncommon +28-36, Rare +36-44, Epic +44-52, Legendary +52-64.\nOther slots (head/arms/legs/hands/feet/cloak/shield): health +2-8 scaled to tier and weight.\nBonus count: Common 1, Uncommon 2, Rare 2-3, Epic 3-4, Legendary 4-5.\nHeavy/plate: MUST include negative Sneaking (-1 to -4); may include negative Acrobatics or vigor. Negatives do not count toward the bonus total.\nMedium: MAY include Sneaking -1 to -2.\nLight: no penalties; may add Celeritas, Sneaking, or Acrobatics. Fury-robes may add Affinitas or vis.\n\nJEWELRY (amulet/ring):\nCommon: 1. attribute +1 or resource +2-3.\nUncommon: 1-2. attribute +1-2 or resource +3-5.\nRare: 2-3. attribute +2-3 or resource +5-8.\nEpic: 3-4. attribute +3-5 or resource +8-12.\nLegendary: 4-5. attribute +5-8 or resource +12-20.\n(Resources: health, vis, or vigor.)\n\nACCESSORY (charms, talismans, insignia, and Vis-infused trinkets):\nCommon: 1. skill +1-2.\nUncommon: 1-2. skill +2-4 or attribute +1.\nRare: 2-3. skill +4-6 or attribute +2.\nEpic: 3-4. skill +6-10 or attribute +3.\nLegendary: 4-5. skill +10-15 or attribute +4-5.\n\nNON-EQUIPPABLE: ALL Consumable, Miscellaneous, and Currency items = bonuses [] always.\n\n### CRAFTING MATERIALS\nMaterials: category Miscellaneous, slot misc, bonuses []. Put the tier in the name per STEP 1.\n\n### ALCHEMY\nPotions, draughts, poisons, and elixirs: category Consumable, slot consumable, bonuses []. Put the tier in the name per STEP 1. Effects are applied by the narrator.\n\n### EXAMPLES\nCommon Iron Pugio: weapon, [{type:stat,variable:damage,value:1}]\nUncommon Steel Gladius: weapon, [{type:stat,variable:damage,value:3},{type:attribute,variable:Potentia,value:1}]\nRare Lorica Segmentata: heavy body, [{type:resource,variable:health,value:40},{type:attribute,variable:Firmitas,value:2},{type:skill,variable:Sneaking,value:-3}]\nUncommon Leather Cuirass: light body, [{type:resource,variable:health,value:10},{type:attribute,variable:Celeritas,value:1}]\nUncommon Vein of Ferrous Ore: misc, []\nCommon Health Draught: Consumable, []"
+    ],
+    "lootValueMultiplier": 1,
+    "lootValueVariability": 0.2,
+    "itemValueVariation": 0.2
   },
   "combatSettings": {
-    "baseCombatXP": 200,
-    "minCombatXP": 50,
-    "abilityCooldown": 0,
-    "abilityBonus": 10,
+    "baseCombatXP": 100,
+    "minCombatXP": 1,
+    "abilityCooldown": 5,
+    "abilityBonus": 15,
     "npcDailyHealingAmount": 999,
     "damageTypes": [
-      "physical",
+      "piercing",
+      "slashing",
+      "bludgeoning",
       "fire",
       "lightning",
+      "wind",
       "earth",
       "water",
+      "ice",
       "metal",
-      "wood"
+      "wood",
+      "poison",
+      "sanguine",
+      "profane",
+      "divine",
+      "<relevant-skill>\n## RELEVANT SKILL INSTRUCTIONS\n- These instructions govern how to select the correct relevantSkill for any action.\n- Always select exactly one relevantSkill per action.\n\n### DECISION FLOW\n1. Is this a social action? See SOCIAL SKILL SELECTION below.\n2. Is the action purely furycraft with no weapon involved? Use the matching fury skill.\n3. Is a weapon involved? Identify the weapon, then ask: what is the character DOING with it? The action determines the skill, not just the weapon.\n\n### WEAPON SKILL MAPPING\n\nMartial Weapons (Potentia) - Strike, slash, parry, throw, or fight in close or ranged combat with conventional strength-based arms: gladius, spatha, longsword, spear, pilum, javelin, axe, mace, club, trident, war-hammer, quarterstaff, or any unspecified conventional one- or two-handed weapon that rewards strength, whether swung in melee or hurled at range. A spear thrust and the same spear hurled both use Martial Weapons.\n\nAgile Weapons (Celeritas) - Thrust, stab, feint, parry, throw, or fight with precision using light, finesse weapons: dagger, pugio, rapier, short sword, throwing knife, or any unspecified light blade or small thrown projectile that rewards speed and precision, whether wielded in melee or thrown.\n\nArchery (Celeritas) - Shoot or loose a projectile with a bow, sling, or crossbow: longbow, shortbow, hunting bow, sling, crossbow, or any unspecified projectile weapon fired at range.\n\nShield (Firmitas) - Block, deflect, bash, brace, or cover an ally with a scutum, buckler, or any shield. If the character attacks with their main weapon while merely holding a shield, use the weapon's skill; if they use the shield itself (bash, block, brace, cover), use Shield. A character may use both a weapon skill AND Shield across separate actions in one turn.\n\nPugilism (Potentia) - Fight unarmed: fists, headbutts, tackles, grapples, throws, wrestling, and improvised weapons such as stools, amphorae, or debris.\n\n### FURYCRAFT SKILL MAPPING\nA purely magical action with no weapon uses the fury whose element matches the working:\n- Terra - stone, earth, tremor, raw bodily strength, sensing through the ground.\n- Ventus - wind, lightning, flight or great leaps, heightened sight and hearing, swiftness.\n- Ignis - flame and searing heat, and the stoking or projecting of emotion such as terror, fury, or courage.\n- Aqua - water and ice, healing, the reading of emotion, and glamour.\n- Ferrum - the command and shattering of metal, killing battle-prowess, deadened pain, and warding the mind against fear and domination.\n- Silva - guiding arrow and bolt, quickening or withering growth, and stealth in forest-shadow.\nChoose the fury matching the elemental nature of the action. If a fury is channeled THROUGH a weapon strike (a flame-wreathed gladius slash), use the weapon's skill: the fury enhances the blow, but the weapon determines the skill.\n\n### SOCIAL SKILL SELECTION\nGATE: Most dialogue is not a skill check. A social skill applies ONLY when the character actively attempts to change a mind, extract something, or compel behavior against resistance. Normal conversation, asking questions, sharing opinions, and orders to willing allies need no skill and no roll.\n\nWhen a social check IS warranted:\n- The character KNOWS they are lying, hiding the truth, or faking an identity, OR works a private one-on-one charm, seduction, or manipulation = Guile.\n- The character uses fear, threats, menace, or the weight of authority to force compliance = Intimidation.\n- The character sways a crowd, the Senate, or an assembly, or pleads or prosecutes a case before a tribunal = Oratory.\n- A private, sincere attempt to convince that fits none of the above defaults to Guile; if it addresses many at once, use Oratory.\n\nINTENT DETERMINES SKILL, NOT TRUTH: a character sincerely wrong who argues in private uses Guile; a character who knowingly lies uses Guile; the character's own knowledge and the size of the audience are what matter.\n\n### EDGE CASES\n- Improvised objects (furniture, tools, debris) = Pugilism.\n- Kicking or striking unarmed while holding a weapon = Pugilism, not the held weapon.\n- A purely magical action with no weapon = the matching fury skill, never a weapon skill.\n- Using a weapon for a non-combat purpose (prying a door, cutting rope) is not a combat action; use the matching utility skill.\n- Unrecognized weapons: judge the closest match by the weapon's physical nature and how it is used, then apply the best-fit skill above.\n</relevant-skill>",
+      "Impact Ability Override (High Priority):\n\nWhen the character performs an action using one of the abilities listed below, add the corresponding impact value even if it exceeds the normal maximum range.\n\n- Abilities adding +50 impact: Tectonic Overdraw, Ventus Overdraw, Ignis Overdraw, Aqua Overdraw, Ferrum Overdraw, Silva Overdraw, Martial Overdraw, Shield Overdraw, Archery Overdraw, Pugilism Overdraw, Reckless Flurry.\n\n- Abilities adding +100 impact: Titanic Upheaval, Maelstrom Ascension, Cataclysm Burning, Oceanic Cataclysm, Metallurgic Ascension, Primal Upheaval, Gladiatorial Apex, Guardian's Apotheosis, Arrow of Destiny, Titanstrike, Thousand Cuts.\n\nIf multiple bonuses apply, use only the highest single value -- bonuses do not stack.\n\nApply this bonus in addition to impact already calculated from weapon power, action intensity, and any other modifiers.\n\nIgnore any impact ability bonus instructions defined below this override."
     ]
   },
   "otherSettings": {
