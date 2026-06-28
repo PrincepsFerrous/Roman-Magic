@@ -1,0 +1,862 @@
+{
+  "traitCategories": [
+    {
+      "name": "Origins",
+      "maxSelections": 1,
+      "traits": [
+        "Patrician Scion",
+        "Wild-Born",
+        "Legion Veteran",
+        "Collegium Prodigy",
+        "Frontier-Born",
+        "Gutter-Born",
+        "Temple Augur"
+      ]
+    },
+    {
+      "name": "Attribute Gifts",
+      "maxSelections": 2,
+      "traits": [
+        "Born Strong",
+        "Fleet-Footed",
+        "Iron-Bodied",
+        "Keen-Minded",
+        "Indomitable Will",
+        "Numen-Touched"
+      ]
+    },
+    {
+      "name": "Bonded Fury",
+      "maxSelections": 1,
+      "traits": [
+        "Bonded to Terra",
+        "Bonded to Ventus",
+        "Bonded to Ignis",
+        "Bonded to Aqua",
+        "Bonded to Ferrum",
+        "Bonded to Silva"
+      ]
+    },
+    {
+      "name": "Combat Training",
+      "maxSelections": 2,
+      "traits": [
+        "Weapon Drilled",
+        "Shield Trained",
+        "Marksman",
+        "Brawler",
+        "Field Tactician",
+        "Duelist"
+      ]
+    },
+    {
+      "name": "Craft & Cunning",
+      "maxSelections": 3,
+      "traits": [
+        "Battlefield Healer",
+        "Silver Tongue",
+        "Wilderness-Wise",
+        "Lithe and Limber",
+        "Shadowfoot",
+        "Light Fingers",
+        "Tumbler",
+        "Beast-Friend",
+        "Smith",
+        "Alchemist",
+        "Tailor",
+        "Builder",
+        "Woodwright",
+        "Cook",
+        "Miner",
+        "Mason",
+        "Goldsmith",
+        "Enchanter"
+      ]
+    }
+  ],
+  "traits": {
+    "Patrician Scion": {
+      "name": "Patrician Scion",
+      "description": "You were born into one of the Twelve High Houses, your bloodline steeped in the craft of furies for generations. From childhood, you learned the language of numina, trained in the academies of your House, and groomed for power. Privilege flows through your veins—fine tutoring, access to forbidden knowledge, connections that open doors—yet this comfort has left you softer than the frontier-born, your body untested by true hardship.",
+      "quirk": "Born to the House, groomed for greatness. Your education was relentless; your body was coddled. You command respect through breeding alone, but street survival eludes you. The gift runs deep in your blood, and you wield it with practiced grace—yet do you possess the fire to keep it when everything is stripped away?",
+      "attributes": [
+        {
+          "attribute": "Affinitas",
+          "modifier": 2
+        },
+        {
+          "attribute": "Voluntas",
+          "modifier": 1
+        },
+        {
+          "attribute": "Firmitas",
+          "modifier": -1
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Wild-Born": {
+      "name": "Wild-Born",
+      "description": "The gift erupted within you unbidden—a sudden, catastrophic awakening of power that marked you as one of the Touched. Born to common blood, you were never meant to wield the furies. Hunted by the High Houses who see you as either a prize to be claimed or a threat to be eliminated, you learned to hide, to fight, to survive with raw, untrained fury coursing through your veins. Your power is immense and unrefined, burning with the desperation of one the world was never supposed to accept.",
+      "quirk": "Scandal and sword-edge. Your gift is a curse and a treasure; the Houses want to own you or destroy you. Your fury is wild and powerful, but discipline is a stranger to you. Every numen you touch burns with your desperation and hunger. Are you hunted still?",
+      "attributes": [
+        {
+          "attribute": "Affinitas",
+          "modifier": 3
+        },
+        {
+          "attribute": "Voluntas",
+          "modifier": -1
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Legion Veteran": {
+      "name": "Legion Veteran",
+      "description": "Years of bleeding on the eagles' line have forged you into an instrument of war. You have marched with the legions through scorching deserts, frozen mountains, and bloodied plains. Every scar tells of survival; every battlefield memory has been branded into your bones. You know discipline, tactics, and the grim mathematics of combat. Your body is a weapon, your mind a strategist's, yet the endless campaigns have left little room for subtlety or grace.",
+      "quirk": "The Legion made you. You learned strength and endurance through suffering, discipline through repetition, tactical thinking through blood-soaked experience. Your mind has been dulled by the endless drill and march, but your body and will are unbreakable. What brought you to leave the eagles?",
+      "attributes": [
+        {
+          "attribute": "Potentia",
+          "modifier": 2
+        },
+        {
+          "attribute": "Firmitas",
+          "modifier": 1
+        },
+        {
+          "attribute": "Ingenium",
+          "modifier": -1
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Collegium Prodigy": {
+      "name": "Collegium Prodigy",
+      "description": "The Academy at Aquila recognized your gift early and claimed you for the Collegium's halls. There, surrounded by the brightest minds in the realm, you studied the deep lore of the numina, learned the theory of furycraft, and mastered the subtle arts of binding and communion. Your education was rigorous and complete, your mind honed to a knife's edge. Yet all that knowledge came at a cost—the physical vigor of soldiers has passed you by, and the raw, instinctive power of the wild-born remains foreign to you.",
+      "quirk": "Schooled in the Academy's highest chambers. You understand the furies in ways others never will—their nature, their bindings, their secrets. Your mind is a library; your body, a scholar's. You excel in understanding, but raw physical might has never been your province.",
+      "attributes": [
+        {
+          "attribute": "Ingenium",
+          "modifier": 2
+        },
+        {
+          "attribute": "Affinitas",
+          "modifier": 1
+        },
+        {
+          "attribute": "Potentia",
+          "modifier": -1
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Frontier-Born": {
+      "name": "Frontier-Born",
+      "description": "You grew up on the savage northern limes, where the empire's reach grows thin and wild things still roam. In that harsh, unforgiving land, you learned to endure—bitter cold, sparse food, predators both animal and human. Your body is tough as leather, accustomed to hardship; your reflexes are quick from constant danger. The frontier demands speed and resilience, and you have both. But the subtler arts—eloquence, intrigue, refined learning—were luxuries your homeland could never afford.",
+      "quirk": "The limes shaped you. Hard winters, quick threats, scarce resources. Your body is resilient; your senses sharp. You move with the speed of necessity, endure with the stubbornness of stone. The soft lands of the south may feel like another world entirely.",
+      "attributes": [
+        {
+          "attribute": "Firmitas",
+          "modifier": 2
+        },
+        {
+          "attribute": "Celeritas",
+          "modifier": 1
+        },
+        {
+          "attribute": "Voluntas",
+          "modifier": -1
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Gutter-Born": {
+      "name": "Gutter-Born",
+      "description": "You survived the capital's underbelly—the cramped tenements, the crooked alleys, the markets thick with cutpurses and con-artists. Down in the gutters, you learned what matters: speed, deception, and knowing which direction to run. Your mind is sharp with the cunning of the street; your body is quick from years of ducking and weaving. You read people like merchants read ledgers. But years of hunger and scarcity have left you lean, and the formal training of nobles has never touched your hands.",
+      "quirk": "Born in shadow and hunger. You are quick and clever, reading intention before words are spoken. Your mind is a trap of deception; your body, a dancer's. You have lived by your wits and your speed. Can you trust anyone?",
+      "attributes": [
+        {
+          "attribute": "Celeritas",
+          "modifier": 2
+        },
+        {
+          "attribute": "Ingenium",
+          "modifier": 1
+        },
+        {
+          "attribute": "Firmitas",
+          "modifier": -1
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Temple Augur": {
+      "name": "Temple Augur",
+      "description": "You were raised among the priesthoods of the Twelve Thrones, in the incense-thick temples where the divine will is interpreted through omen and ritual. There, you learned to read the signs, to commune with the sacred, and to command respect through spiritual authority. Your will is strong, honed by years of discipline and meditation; your mind is clear, trained in the mysteries and the hidden knowledge of the priesthoods. Yet the temple taught you contemplation over confrontation, prayer over punch.",
+      "quirk": "Raised in the temple's shadow. Your will is iron-strong, your mind clear as spring water, trained in the mysteries of the sacred numina. You know ritual, obligation, and the weight of the divine. But your body has been neglected in favor of spirit.",
+      "attributes": [
+        {
+          "attribute": "Voluntas",
+          "modifier": 2
+        },
+        {
+          "attribute": "Ingenium",
+          "modifier": 1
+        },
+        {
+          "attribute": "Potentia",
+          "modifier": -1
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Born Strong": {
+      "name": "Born Strong",
+      "description": "Raw, primal strength flows through your frame. Your muscles are naturally powerful, your grip formidable, your capacity for physical labor almost inexhaustible. You were simply born with the gift of mighty Potentia—a foundation of strength that sets you apart from your peers.",
+      "quirk": "Strength is your birthright. Carry the heavy loads, move the immovable, endure the grind. Your body answers to will alone.",
+      "attributes": [
+        {
+          "attribute": "Potentia",
+          "modifier": 2
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Fleet-Footed": {
+      "name": "Fleet-Footed",
+      "description": "Your legs carry you with preternatural swiftness. Whether you are sprinting across a battlefield or dodging through crowded streets, your natural speed gives you a decisive advantage. Your body moves with the quickness of a hunting hawk—swift, precise, and almost impossible to catch.",
+      "quirk": "Speed is your second skin. You move faster, react quicker, slip past where others are trapped. The world moves slower for you.",
+      "attributes": [
+        {
+          "attribute": "Celeritas",
+          "modifier": 2
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Iron-Bodied": {
+      "name": "Iron-Bodied",
+      "description": "Your flesh is tough as leather, your bones dense as oak. You were born with an uncommon resilience to pain and hardship. Blows that would fell others merely bruise you; sickness takes a weaker hold; exhaustion comes later. Your body simply endures where others would break.",
+      "quirk": "Your body is iron. It bends rather than breaks, endures rather than falls. Pain is a familiar friend, not a master.",
+      "attributes": [
+        {
+          "attribute": "Firmitas",
+          "modifier": 2
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Keen-Minded": {
+      "name": "Keen-Minded",
+      "description": "Your mind is sharp, quick to perceive, quick to understand. Patterns reveal themselves to you; logic flows naturally; memory is your reliable servant. You were born with an intellect that sets you apart—a natural gift for learning, understanding, and piercing through deception.",
+      "quirk": "Your mind is a blade. Sharp, quick, relentless. You see what others miss; understand what others struggle with. Intelligence is your weapon.",
+      "attributes": [
+        {
+          "attribute": "Ingenium",
+          "modifier": 2
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Indomitable Will": {
+      "name": "Indomitable Will",
+      "description": "Your spirit is unbreakable, your conviction immovable. You were born with the gift of Voluntas—an iron will that resists pressure, charm, and doubt. Others may falter in their resolve; you simply press forward, unyielding as stone.",
+      "quirk": "Your will is law—unto yourself, at least. Others bend; you stand. Persuasion slides off you like rain from armor. You decide, and the world must accommodate.",
+      "attributes": [
+        {
+          "attribute": "Voluntas",
+          "modifier": 2
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Numen-Touched": {
+      "name": "Numen-Touched",
+      "description": "The furies themselves seem to know you. Your connection to the numina runs deeper than most—an innate affinity that makes communion easier, binding more natural, and the language of the ancient spirits almost second nature. You are Numen-Touched, blessed or cursed by an uncommon bond to the furycraft itself.",
+      "quirk": "The furies whisper to you. Your Affinitas is a open channel to the numina, and they answer more readily than they should. Are you their instrument, or are they yours?",
+      "attributes": [
+        {
+          "attribute": "Affinitas",
+          "modifier": 2
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Bonded to Terra": {
+      "name": "Bonded to Terra",
+      "description": "You have formed a covenant with Terra, the primal spirit of earth and stone. Through this bond, you command the deep power of mountains, the strength of bedrock, the unyielding force of the land itself. Terra answers to your will with the weight of ages, granting you communion with the bones of the world.",
+      "quirk": "Terra dwells within you. The earth answers your call. Stone becomes your ally; the ground itself rises to your defense. You are never lost on solid land—the earth itself guides your steps.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Terra",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Bonded to Ventus": {
+      "name": "Bonded to Ventus",
+      "description": "You have formed a covenant with Ventus, the wild spirit of wind and sky. Through this bond, you command the capricious power of the breeze, the swiftness of the gale, the freedom of the air itself. Ventus dances to your call, carrying your will on the wings of the wind.",
+      "quirk": "Ventus sings through you. The air obeys your whisper; the wind carries your voice beyond ordinary distance. You move faster when the breeze is at your back; you read the sky's moods as easily as another reads a face.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Ventus",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Bonded to Ignis": {
+      "name": "Bonded to Ignis",
+      "description": "You have formed a covenant with Ignis, the ferocious spirit of fire and flame. Through this bond, you command the raw, destructive power of inferno, the transformative heat of forge and pyre, the primal hunger of conflagration. Ignis burns within you, demanding satisfaction through heat and destruction.",
+      "quirk": "Ignis roars inside your chest. Fire bows to your will; smoke carries your scent; heat radiates from your very presence. You thirst for battle, for intensity, for the purification of burning. Control the flame, or it will consume everything you love.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Ignis",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Bonded to Aqua": {
+      "name": "Bonded to Aqua",
+      "description": "You have formed a covenant with Aqua, the flowing spirit of water and tides. Through this bond, you command the gentle and relentless power of rivers, the crushing might of floods, the soothing balm of rain. Aqua shapes and flows through your will, adapting to any need.",
+      "quirk": "Aqua flows through your veins. Water answers your command; you move with liquid grace; you sense coming storms as you sense hunger. You are at peace near water; you are danger to those who face you in rain or river.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Aqua",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Bonded to Ferrum": {
+      "name": "Bonded to Ferrum",
+      "description": "You have formed a covenant with Ferrum, the metallic spirit of iron and steel. Through this bond, you command the forged power of weapons, the unbreakable strength of armor, the rigid discipline of metal itself. Ferrum sings in your blood, binding you to discipline and the warrior's path.",
+      "quirk": "Ferrum rings in your bones. Metal answers your summons; weapons grow sharper in your hands; armor strengthens around you. Your will is iron; your resolve, unbreakable steel. You are the weapon; the weapon is you.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Ferrum",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Bonded to Silva": {
+      "name": "Bonded to Silva",
+      "description": "You have formed a covenant with Silva, the verdant spirit of wood and wild growth. Through this bond, you command the patient power of forests, the stubborn life-force of roots and branches, the unseen networks of the wild. Silva speaks to you in rustles and whispers, binding you to the green world.",
+      "quirk": "Silva whispers through every leaf and root. Plants respond to your presence; the forest itself becomes your ally; you read the life of the land as an open book. You are more yourself in wild places; civilization feels like a cage.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Silva",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Weapon Drilled": {
+      "name": "Weapon Drilled",
+      "description": "Years of rigorous training have made you a master of the martial arts. Your hands know the weight of sword and spear; your stance is perfect; your strikes are precise and devastating. You have drilled with blade and hafted weapon until combat flows as naturally as breathing.",
+      "quirk": "The blade is your language. Your muscle remembers every lesson; your reflexes answer before thought. You are a weapon made flesh.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Martial Weapons",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Shield Trained": {
+      "name": "Shield Trained",
+      "description": "You have learned the discipline and art of shield-craft. Your arm knows the shield's weight; your stance is solid; your defense is nearly impenetrable. You protect not just yourself, but those behind you—shield and patience are your greatest strengths.",
+      "quirk": "The shield is your fortress. You shelter others behind your wall; your defense is nearly unbreakable. Where you stand, allies are safe.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Shield",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Marksman": {
+      "name": "Marksman",
+      "description": "Your eye is true, your hands are steady, your aim is deadly. Whether with bow, javelin, or sling, you have mastered the art of striking from a distance with preternatural accuracy. Your precision is legendary; your patience, unshakeable.",
+      "quirk": "Your eye is your weapon. From any distance, with any condition, your aim is true. You see the target before others see the need. Death at a distance is your craft.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Archery",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Brawler": {
+      "name": "Brawler",
+      "description": "You have learned the art of unarmed combat—grappling, striking, the close-quarters dance of fist and foot. Your body is a weapon; your knowledge of pressure points and leverage is encyclopedic. In close combat, you are devastating without ever drawing a blade.",
+      "quirk": "Your fists are your swords. You move with a fighter's grace; your strikes are calculated and brutal. You need no weapon save yourself.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Pugilism",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Field Tactician": {
+      "name": "Field Tactician",
+      "description": "You have studied the art of war—strategy, positioning, the subtle orchestration of forces. Your mind reads battlefields like others read maps. You understand where pressure should apply, where defenses crumble, and how a few can defeat many through superior positioning and timing.",
+      "quirk": "The battlefield is your canvas. You see not just what is, but what could be. Where others see chaos, you see the underlying pattern—and know how to exploit it. You think three moves ahead.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Tactics",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Battlefield Healer": {
+      "name": "Battlefield Healer",
+      "description": "You have learned the craft of tending wounds under fire. Your hands know which herbs mend which injuries; your mind remains calm under pressure. You can draw a soldier back from death's door, stitch wounds with precision, and restore the fallen to fighting strength. Healing is your sacred gift.",
+      "quirk": "Your hands mend what others break. Blood doesn't frighten you; suffering sharpens your focus. You are needed where death circles closest.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Field Medicine",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Silver Tongue": {
+      "name": "Silver Tongue",
+      "description": "Your words are your weapon, and you have mastered the blade. Persuasion, deception, negotiation—you move through social situations with the grace of a dancer. Others believe what you say because you say it so convincingly; doors open; walls crumble under the weight of your words.",
+      "quirk": "Words are your tool. You can charm a throne out of a lord or trick a fool into giving up his purse. You read desire in an opponent's face and exploit it ruthlessly. Trust you at your peril.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Guile",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Wilderness-Wise": {
+      "name": "Wilderness-Wise",
+      "description": "You have learned the secrets of surviving beyond civilization's reach. Tracking, hunting, finding water and shelter, reading weather and terrain—the wild is your home, and its language is your native tongue. Where others are lost, you are merely home.",
+      "quirk": "The wild is written in your bones. You move through forest and mountain as easily as in your childhood home. The land speaks to you; you listen and obey.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Survival",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Lithe and Limber": {
+      "name": "Lithe and Limber",
+      "description": "Your body moves with the grace of a acrobat—flexible, responsive, capable of feats of physical prowess that leave others breathless. Climbing, tumbling, balancing on impossible perches, moving through tight spaces—your body simply does what others think impossible. Athletics is your second nature.",
+      "quirk": "Your body is liquid. You move with impossible grace; you climb what cannot be climbed; you fit through spaces that shouldn't fit bodies. Your flexibility is your freedom.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Athletics",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Duelist": {
+      "name": "Duelist",
+      "description": "You have trained in the refined art of finesse-fighting, where precision and swift steel outmatch brute strength. Your stance is elegant, your movements economical and deadly. You favor weapons that reward grace and timing over raw power—blade-work that dances rather than thunders.",
+      "quirk": "Swift steel and sharper wit. Your blade finds gaps in armor; your footwork keeps you always one step ahead. You dance where others stumble; you strike where others merely swing.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Agile Weapons",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Shadowfoot": {
+      "name": "Shadowfoot",
+      "description": "You have mastered the art of moving unseen. Your steps fall silent; your presence fades into shadow and periphery. Whether slipping past sentries, stalking prey, or vanishing in plain sight, your training in the craft of stealth makes you nearly invisible to those who would mark your passing.",
+      "quirk": "Silence is your ally. You move like smoke, unseen and unheard. The watchers overlook you; the hunters' eyes slide past. You are only noticed when you choose to be.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Sneaking",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Light Fingers": {
+      "name": "Light Fingers",
+      "description": "Your hands are quick, precise, and practiced in the delicate art of separating others from their possessions. Locks yield to your touch; coins vanish from purses; guards lose their keys without noticing. Your dexterity and timing are legendary among those who practice such craft.",
+      "quirk": "What is theirs becomes yours. Your hands are faster than eyes can follow; your touch leaves no trace. A purse, a key, a secret note—whatever your fingers desire, they take.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Larceny",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Tumbler": {
+      "name": "Tumbler",
+      "description": "You have trained your body for acrobatic excellence—flipping, rolling, vaulting, and contorting with practiced precision. Whether escaping danger, traversing difficult terrain, or simply impressing onlookers, your command of your own body is extraordinary. Movement itself is your art.",
+      "quirk": "Your body bends and soars. You tumble from ledges that would break lesser folk; you flip between rooftops; you move in ways that defy prediction. Gravity is merely a suggestion to you.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Acrobatics",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Beast-Friend": {
+      "name": "Beast-Friend",
+      "description": "Animals know you. Whether through patience, understanding, or some deeper communion, beasts respond to your presence with unusual docility. You can calm a frightened horse, read a dog's intention, or predict a wild predator's movement. The language of animals is written in your bones.",
+      "quirk": "The beasts know you. They sense something kindred in you—predator knows predator, prey knows safety. They trust you as they trust few humans. Can you betray that trust?",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Animal Handling",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Smith": {
+      "name": "Smith",
+      "description": "You have learned the Roman craft of the smith—heating iron, shaping steel at the forge, understanding the marriage of hammer and flame. Whether repairing weapons or crafting tools, your hands know the transformation of raw metal into useful form. The smithy is your sanctuary.",
+      "quirk": "Fire and hammer speak your language. You shape metal as a potter shapes clay; you coax iron into strength. The ring of your hammer-blows is your song.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Smithing",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Alchemist": {
+      "name": "Alchemist",
+      "description": "You have studied the mysterious art of alchemical transmutation—brewing potions, extracting essences, combining rare substances to create powerful compounds. Your knowledge of herbs, minerals, and esoteric processes grants you the ability to conjure remarkable effects from mundane materials.",
+      "quirk": "Transformation through understanding. You read the secrets of matter and coax them into new forms. Poison or panacea—the choice is yours. Do you control the alchemy, or does it control you?",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Alchemy",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Tailor": {
+      "name": "Tailor",
+      "description": "You have mastered the craft of cloth and needle. Whether mending armor, crafting fine garments, or creating ceremonial dress, your hands transform raw fabric into pieces of beauty and function. Your work is both practical and artistic—every stitch a testament to your skill.",
+      "quirk": "Thread and needle know your intent. You transform cloth into armor, rags into finery. Your work is both craft and art; necessity and beauty flow from your hands.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Tailoring",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Builder": {
+      "name": "Builder",
+      "description": "You have learned the Roman arts of construction—understanding load and balance, measuring and planning, coordinating labor to create lasting structures. From simple shelters to ambitious buildings, your knowledge of architecture and building craft marks you as invaluable wherever civilization expands.",
+      "quirk": "Structures rise at your command. You see the skeleton within the vision; you know where stone should rest and where it would crumble. Your hands raise monuments to endurance.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Construction",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Woodwright": {
+      "name": "Woodwright",
+      "description": "You are a master craftsman of wood—selecting timber, understanding grain and strength, shaping it into furniture, weapons, structures, or art. Your intimate knowledge of wood's nature allows you to coax it into forms others thought impossible. Forests give their treasure to your hands.",
+      "quirk": "Wood speaks to you. You read its grain as others read faces; you shape it as a sculptor shapes clay. Your work endures; your craft is immortal in oak and ash.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Woodworking",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Cook": {
+      "name": "Cook",
+      "description": "You have mastered the art of preparing food—understanding flavors, methods, and the transformation of raw ingredients into nourishing or delightful dishes. Whether feeding soldiers in the field or preparing feasts for nobles, your skill sustains bodies and delights palates. Hunger yields to your craft.",
+      "quirk": "Your hands transform sustenance into art. You coax flavor from humble ingredients; you know which spice enhances and which kills. A good meal from your hands can change a mood or seal an alliance.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Cooking",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Miner": {
+      "name": "Miner",
+      "description": "You have spent your years in the depths, extracting precious metals and stones from stone's heart. Your knowledge of mining—where to dig, how to read rock, when danger approaches—is hard-won through blood and callus. The earth's treasures yield slowly to those who know how to ask.",
+      "quirk": "The earth's secrets are yours. You know stone's heart; you sense where metal sleeps and where danger lurks. Your hands are sculpted by picks and stone; your back bent by honest labor.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Mining",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Mason": {
+      "name": "Mason",
+      "description": "You have learned the craft of stonework—selecting stone, cutting it true, mortaring it into lasting structures. From aqueducts to temples, from fortifications to fine buildings, your knowledge of stone and its proper working has built the realm. Rome's walls know your hands.",
+      "quirk": "Stone obeys your command. You see the hidden lines within raw rock; you know where it will cleave and where it will hold. Your work stands for centuries—monuments to your craft.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Masonry",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Goldsmith": {
+      "name": "Goldsmith",
+      "description": "You are a master of fine metalworking—shaping precious metals into objects of beauty and value. Your expertise in gold, silver, and other fine materials, combined with your artistic vision, allows you to create jewelry, ornaments, and treasures that command respect and wealth. Your craft is both practical and transcendent.",
+      "quirk": "Precious metals yield to your vision. You see the form within the bullion; you shape beauty from raw wealth. Your creations outlast empires, catching light and turning it into art.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Goldsmithing",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Enchanter": {
+      "name": "Enchanter",
+      "description": "You have learned the delicate art of imbuing objects with numen—binding spirits into items, weaving fury-craft into weapons and armor, awakening the latent power within mundane objects. Your understanding of the marriage between physical and spiritual makes you invaluable to those who wield furycraft.",
+      "quirk": "Objects sing under your touch. You bind fury into steel; you awaken numina in ordinary things; you make the mundane magical. Every piece you craft carries a whisper of the sacred.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Enchanting",
+          "modifier": 0
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    }
+  }
+}

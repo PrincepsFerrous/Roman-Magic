@@ -1,0 +1,212 @@
+{
+  "Terra": {
+    "name": "Terra",
+    "attribute": "Affinitas",
+    "type": "Furycraft",
+    "description": "This fury grants dominion over stone and soil, allowing you to hurl boulders, reshape stone, and trigger tremors that shatter your foes. You may share the strength of bedrock with your body, fortifying yourself against wounds and lending your strikes the weight of mountains. You can sense vibrations and footsteps carried through the earth, divining the movements of those above or below.",
+    "startingItems": []
+  },
+  "Ventus": {
+    "name": "Ventus",
+    "attribute": "Affinitas",
+    "type": "Furycraft",
+    "description": "This fury commands wind and lightning, letting you conjure gales to topple enemies or call down thunderbolts upon your foes. The speed of the wind flows into you, sharpening your sight and hearing to uncanny acuity and granting you the ability to leap great distances or take flight. Your limbs move with the quickness of zephyrs, letting you outpace even the swiftest mortal.",
+    "startingItems": []
+  },
+  "Ignis": {
+    "name": "Ignis",
+    "attribute": "Affinitas",
+    "type": "Furycraft",
+    "description": "This fury commands flame and searing heat, enabling you to conjure infernos that consume your enemies or project roiling fire at a distance. You may kindle raw emotion in others, stoking fear, fury, or courage as the moment demands. The heat steels your resolve and kindles your own inner fire, granting you fierce determination and burning passion that drives away despair.",
+    "startingItems": []
+  },
+  "Aqua": {
+    "name": "Aqua",
+    "attribute": "Affinitas",
+    "type": "Furycraft",
+    "description": "This fury masters water and ice, allowing you to command floods and whip chains of frozen water upon your foes. You may read the true emotions of others by sensing the currents of feeling flowing through them, and your touch can mend wounds with healing tides that knit flesh anew. You weave subtle glamours of mist and shadow, cloaking yourself or beguiling the senses of those who would see you.",
+    "startingItems": []
+  },
+  "Ferrum": {
+    "name": "Ferrum",
+    "attribute": "Affinitas",
+    "type": "Furycraft",
+    "description": "This fury grants mastery of metal and the warrior's art, letting you command blades and shatter steel while honing your body into a lethal instrument of war. You steel yourself against pain and exhaustion, hardening your flesh to tireless endurance and locking wounds shut through sheer will. Your mind becomes a fortress against fear and the subtle magics that would dominate your thoughts, resisting all attempts to bend your will.",
+    "startingItems": []
+  },
+  "Silva": {
+    "name": "Silva",
+    "attribute": "Affinitas",
+    "type": "Furycraft",
+    "description": "This fury commands wood and living growth, guiding arrows and bolts to strike true while quickening the growth of plants or willing them to wither at your touch. You wrap yourself in stillness and forest-shadow, becoming one with the wilderness and passing unseen through even crowded spaces. Your hands gain the patient mastery of woodcraft, granting you skill in carving, bowmaking, and all arts worked in timber.",
+    "startingItems": []
+  },
+  "Martial Weapons": {
+    "name": "Martial Weapons",
+    "attribute": "Potentia",
+    "type": "Combat",
+    "description": "You have trained with heavy blades, gladius, and spear, learning to strike with deadly precision and overwhelming power. Your technique channels brute strength into cutting force, allowing you to press attacks against armored foes. Mastery of this skill rewards you with both offensive potency and the ability to parry and riposte against incoming blows.",
+    "startingItems": []
+  },
+  "Agile Weapons": {
+    "name": "Agile Weapons",
+    "attribute": "Celeritas",
+    "type": "Combat",
+    "description": "You have trained with daggers, rapiers, and parrying blades, learning to strike with finesse and speed rather than force. Your technique emphasizes precision timing and rapid strikes from unexpected angles, letting you slip past an opponent's guard. Mastery of this skill rewards you with both offensive speed and the ability to riposte with lethal accuracy.",
+    "startingItems": []
+  },
+  "Shield": {
+    "name": "Shield",
+    "attribute": "Firmitas",
+    "type": "Combat",
+    "description": "You have mastered the use of the scutum and other shields, learning to position them to protect yourself and allies from harm. Your shield becomes an extension of your body, moving with reflexive speed to intercept blows meant for vital organs. With skill, you can transform incoming strikes into glancing blows or deflect them entirely, turning defense into tactical advantage.",
+    "startingItems": []
+  },
+  "Archery": {
+    "name": "Archery",
+    "attribute": "Celeritas",
+    "type": "Combat",
+    "description": "You have trained with bow, sling, and thrown weapons, developing the speed and timing to loose deadly volleys. Your aim becomes uncanny, letting you thread arrows through gaps in armor or strike distant targets with lethal accuracy. The rhythm of draw and release flows through your body, enabling rapid fire and the ability to track moving targets without hesitation.",
+    "startingItems": []
+  },
+  "Pugilism": {
+    "name": "Pugilism",
+    "attribute": "Potentia",
+    "type": "Combat",
+    "description": "You have studied the arts of brawling and grappling, learning to channel your strength into bone-breaking holds and devastating strikes. Your fists and body become weapons as deadly as any blade, and you know where to strike to maximize suffering or disable a foe. Wrestling techniques let you seize control of an opponent, pinning them or throwing them to the ground with devastating force.",
+    "startingItems": []
+  },
+  "Tactics": {
+    "name": "Tactics",
+    "attribute": "Ingenium",
+    "type": "Combat",
+    "description": "You have studied the art of war, learning to read enemy formations and predict their movements before they occur. Your mind grasps how terrain, positioning, and morale shape battles, letting you command formations with precision and clarity. You can inspire your allies, identify weak points in enemy lines, and adjust strategy in real time as conditions shift.",
+    "startingItems": []
+  },
+  "Guile": {
+    "name": "Guile",
+    "attribute": "Voluntas",
+    "type": "Intrigue",
+    "description": "You have learned to weave deception and persuasion, reading the tells of liars and crafting false tales that ring with absolute conviction. Your tongue becomes silver, and you know which strings to pull to make others dance to your will, whether through charm, threat, or manipulation. You navigate court intrigue with grace, understanding the undercurrents of power and the unspoken rules of social dominance.",
+    "startingItems": []
+  },
+  "Sneaking": {
+    "name": "Sneaking",
+    "attribute": "Celeritas",
+    "type": "Intrigue",
+    "description": "You have trained in the arts of stealth, learning to move unseen and unheard through even well-lit spaces. Your steps are light and deliberate, and you know how to read a room to find the shadows and blind spots. Mastery of this skill lets you slip past guards, spy on conversations from concealment, and strike from darkness.",
+    "startingItems": []
+  },
+  "Larceny": {
+    "name": "Larceny",
+    "attribute": "Ingenium",
+    "type": "Intrigue",
+    "description": "You have trained in lockpicking, trap disarming, pickpocketing, and sleight of hand; your nimble fingers can open locks and filch valuables with practiced ease. Your mind grasps the mechanics of locks and traps, letting you bypass security with precision. Mastery of this skill rewards you with the ability to relieve others of their possessions without their knowledge.",
+    "startingItems": []
+  },
+  "Acrobatics": {
+    "name": "Acrobatics",
+    "attribute": "Celeritas",
+    "type": "Acrobatics",
+    "description": "You have trained in tumbling, balance, and fluid motion, giving your body grace and control in dynamic situations. Your reflexes let you dodge incoming blows, land safely from great heights, and twist through narrow spaces. Mastery of this skill lets you move with preternatural fluidity, turning acrobatic feats into combat advantage.",
+    "startingItems": []
+  },
+  "Athletics": {
+    "name": "Athletics",
+    "attribute": "Firmitas",
+    "type": "Acrobatics",
+    "description": "You have trained in climbing, running, swimming, jumping, and raw physical exertion, giving your body endurance and strength. Your body responds to your will with practiced power, letting you traverse treacherous terrain and perform feats of strength that exhaust lesser folk. Mastery of this skill rewards you with the ability to sustain effort long after others have collapsed.",
+    "startingItems": []
+  },
+  "Survival": {
+    "name": "Survival",
+    "attribute": "Firmitas",
+    "type": "Survival",
+    "description": "You have hardened yourself to the rigors of wilderness life, learning to find food and water where others see only barren rock and tangled forest. Your body endures extremes of heat and cold, hunger and thirst, with patience and grim determination. You can read the land like text, knowing where predators hunt, which plants offer sustenance, and where water hides from the merciless sun.",
+    "startingItems": []
+  },
+  "Field Medicine": {
+    "name": "Field Medicine",
+    "attribute": "Ingenium",
+    "type": "Survival",
+    "description": "You have trained in the mundane healing arts, learning to set broken bones, stanch bleeding wounds, and coax the body toward recovery without magical aid. Your hands move with practiced precision, and you know the anatomy of injury well enough to prevent death even in dire circumstances. A field physician becomes invaluable in the aftermath of battle or accident, where the wounded have no access to furecraft or temple aid.",
+    "startingItems": []
+  },
+  "Animal Handling": {
+    "name": "Animal Handling",
+    "attribute": "Voluntas",
+    "type": "Survival",
+    "description": "You have learned to work with beasts, reading their moods and intentions with uncanny accuracy. Your voice and touch calm frightened animals, and you know how to ride, command, and train creatures great and small. Mastery of this skill lets you bond with animals, making them responsive to your will and protective of your interests.",
+    "startingItems": []
+  },
+  "Smithing": {
+    "name": "Smithing",
+    "attribute": "Potentia",
+    "type": "Crafting",
+    "description": "You have mastered the forge and anvil, learning to shape metal through heat and hammer into weapons and armor of quality. Your technique transforms raw ore into functional steel, and you understand the properties that make one blade superior to another. Mastery of this skill lets you craft weapons of surpassing quality, each one responsive to the hand that wields it.",
+    "startingItems": []
+  },
+  "Alchemy": {
+    "name": "Alchemy",
+    "attribute": "Ingenium",
+    "type": "Crafting",
+    "description": "You have learned the secrets of brewing potions, draughts, and poisons through careful measurement and arcane knowledge. Your alembic and vials hold remedies and toxins that can heal wounds, cloud minds, or bring death to your enemies. Mastery of this skill lets you create concoctions of surprising potency, each one carefully calibrated to its purpose.",
+    "startingItems": []
+  },
+  "Tailoring": {
+    "name": "Tailoring",
+    "attribute": "Ingenium",
+    "type": "Crafting",
+    "description": "You have mastered the needle and thread, learning to cut and stitch cloth and leather into garments and light armor. Your work is both functional and refined, and you understand how to layer materials for maximum protection without sacrificing mobility. Mastery of this skill lets you craft gear that fits perfectly and serves its wearer with grace.",
+    "startingItems": []
+  },
+  "Construction": {
+    "name": "Construction",
+    "attribute": "Potentia",
+    "type": "Crafting",
+    "description": "You have learned to build structures from timber and stone, understanding load and stress and the mathematics of fortification. Your hands can raise walls, erect siege works, and reinforce existing buildings against assault. Mastery of this skill lets you construct defensive positions and strongholds that can withstand both time and siege.",
+    "startingItems": []
+  },
+  "Woodworking": {
+    "name": "Woodworking",
+    "attribute": "Ingenium",
+    "type": "Crafting",
+    "description": "You have mastered carpentry, fletching, and the patient craft of working timber into useful forms. Your tools shape wood into furniture, weapons, and decorative pieces with functional elegance. Mastery of this skill lets you create items of surprising durability and beauty, from sturdy bows to refined furnishings.",
+    "startingItems": []
+  },
+  "Cooking": {
+    "name": "Cooking",
+    "attribute": "Ingenium",
+    "type": "Crafting",
+    "description": "You have learned to prepare meals from raw ingredients, understanding which plants and meats combine to create nourishing and delicious food. Your culinary knowledge lets you preserve provisions for long journeys and stretch meager supplies into satisfying meals. Mastery of this skill lets you create sustenance that restores both body and spirit, turning poor fare into feast.",
+    "startingItems": []
+  },
+  "Mining": {
+    "name": "Mining",
+    "attribute": "Potentia",
+    "type": "Crafting",
+    "description": "You have learned to extract ore, gems, and stone from the earth through careful excavation and knowledge of stone composition. Your pick and shovel work the veins of wealth hidden beneath the surface, and you know where to find them. Mastery of this skill lets you locate and extract valuable materials from difficult terrain.",
+    "startingItems": []
+  },
+  "Masonry": {
+    "name": "Masonry",
+    "attribute": "Potentia",
+    "type": "Crafting",
+    "description": "You have mastered the craft of cutting and laying stone, understanding how to dress blocks and mortise them into lasting structures. Your walls are true and level, built to endure centuries of wind and weather. Mastery of this skill lets you construct roads, walls, and buildings of surpassing durability and precision.",
+    "startingItems": []
+  },
+  "Goldsmithing": {
+    "name": "Goldsmithing",
+    "attribute": "Ingenium",
+    "type": "Crafting",
+    "description": "You have learned the delicate arts of working in precious metals, setting gems and crafting fine jewelry with precision. Your knowledge of metals and alloys lets you create ornaments of surprising beauty and value. Mastery of this skill lets you craft pieces that serve both as adornment and as display of wealth and status.",
+    "startingItems": []
+  },
+  "Enchanting": {
+    "name": "Enchanting",
+    "attribute": "Affinitas",
+    "type": "Crafting",
+    "description": "You have mastered the art of imbuing objects with Vis, binding furycraft into talismans and crafted gear through ritual and resonance. Your ritual work transforms mundane items into vessels of magical power, each one attuned to a specific fury or effect. Mastery of this skill lets you create enchanted gear that responds to its wearer with enhanced potency and subtle grace.",
+    "startingItems": []
+  }
+}

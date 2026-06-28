@@ -24,11 +24,11 @@
     "attributeStatModifiers": {
       "Potentia": {
         "variable": "health",
-        "amount": 5
+        "amount": 8
       },
       "Firmitas": {
-        "variable": "health",
-        "amount": 8
+        "variable": "vigor",
+        "amount": 15
       },
       "Affinitas": {
         "variable": "vis",

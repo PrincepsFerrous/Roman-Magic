@@ -1,0 +1,2134 @@
+{
+  "Vis Focus": {
+    "name": "Vis Focus",
+    "description": "Slightly increases the effectiveness of your next Terra action. The earth responds to disciplined will.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Tectonic Channel": {
+    "name": "Tectonic Channel",
+    "description": "Moderately increases the effectiveness of your next Terra action. Stone flows like water under your command.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Earthblood Restoration": {
+    "name": "Earthblood Restoration",
+    "description": "Restores a moderate amount of Vis. The earth's deep wells replenish your reserves.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 15
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 10
+  },
+  "Crushing Weight": {
+    "name": "Crushing Weight",
+    "description": "Your next Terra action ignores a portion of the target's armor or defenses. The inexorable force of stone knows no true barrier.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Tectonic Overdraw": {
+    "name": "Tectonic Overdraw",
+    "description": "Your next Terra action costs additional Vis but is greatly increased in power. The earth trembles with unleashed rage.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 5
+  },
+  "Bedrock Mastery": {
+    "name": "Bedrock Mastery",
+    "description": "Significantly increases the effectiveness of your next Terra action. You have become one with stone itself.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Tectonic Apotheosis": {
+    "name": "Tectonic Apotheosis",
+    "description": "Greatly increases the effectiveness of your next Terra action. The mountains stir at your command.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Titanic Upheaval": {
+    "name": "Titanic Upheaval",
+    "description": "Your next Terra action costs double Vis but unleashes an effect of extreme power. The very bones of the world obey.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 40
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "Breeze Attunement": {
+    "name": "Breeze Attunement",
+    "description": "Slightly increases the effectiveness of your next Ventus action. The wind stirs in sympathy with your will.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Zephyr Channel": {
+    "name": "Zephyr Channel",
+    "description": "Moderately increases the effectiveness of your next Ventus action. You ride the currents of invisible force.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Windblast Recovery": {
+    "name": "Windblast Recovery",
+    "description": "Restores a moderate amount of Vis. The atmosphere itself sustains your power.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 15
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 10
+  },
+  "Winds' Reach": {
+    "name": "Winds' Reach",
+    "description": "Your next Ventus action gains greatly increased range or area of effect. No distance can contain the wind's grasp.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Ventus Overdraw": {
+    "name": "Ventus Overdraw",
+    "description": "Your next Ventus action costs additional Vis but is greatly increased in power. The gale rises to a tempest.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 5
+  },
+  "Storm Mastery": {
+    "name": "Storm Mastery",
+    "description": "Significantly increases the effectiveness of your next Ventus action. You have mastered the art of the gale.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Ventus Apotheosis": {
+    "name": "Ventus Apotheosis",
+    "description": "Greatly increases the effectiveness of your next Ventus action. The very air bends to your whim.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Maelstrom Ascension": {
+    "name": "Maelstrom Ascension",
+    "description": "Your next Ventus action costs double Vis but unleashes an effect of extreme power. A hurricane tears reality asunder.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 40
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "Ember Kindling": {
+    "name": "Ember Kindling",
+    "description": "Slightly increases the effectiveness of your next Ignis action. A spark of fury ignites in your will.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Inferno Channel": {
+    "name": "Inferno Channel",
+    "description": "Moderately increases the effectiveness of your next Ignis action. The heat of rage courses through you.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Flameheart Restoration": {
+    "name": "Flameheart Restoration",
+    "description": "Restores a moderate amount of Vis. Fire burns within you, renewing your power.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 15
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 10
+  },
+  "Spreading Blaze": {
+    "name": "Spreading Blaze",
+    "description": "Your next Ignis action strikes an additional area or multiple targets. The flames leap from heart to heart.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Ignis Overdraw": {
+    "name": "Ignis Overdraw",
+    "description": "Your next Ignis action costs additional Vis but is greatly increased in power. Inferno consumes all before you.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 5
+  },
+  "Wildfire Mastery": {
+    "name": "Wildfire Mastery",
+    "description": "Significantly increases the effectiveness of your next Ignis action. You have become the very incarnation of flame.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Ignis Apotheosis": {
+    "name": "Ignis Apotheosis",
+    "description": "Greatly increases the effectiveness of your next Ignis action. Fire answers your every command.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Cataclysm Burning": {
+    "name": "Cataclysm Burning",
+    "description": "Your next Ignis action costs double Vis but unleashes an effect of extreme power. The world itself ignites in holy wrath.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 40
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "Tidepool Attunement": {
+    "name": "Tidepool Attunement",
+    "description": "Slightly increases the effectiveness of your next Aqua action. Water responds to the gentlest touch of your will.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Torrent Channel": {
+    "name": "Torrent Channel",
+    "description": "Moderately increases the effectiveness of your next Aqua action. The rapids surge at your command.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Deepwell Recovery": {
+    "name": "Deepwell Recovery",
+    "description": "Restores a moderate amount of Vis. The ocean's infinite bounty replenishes your reserves.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 15
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 10
+  },
+  "Mending Tide": {
+    "name": "Mending Tide",
+    "description": "Your next Aqua action also restores a moderate amount of health to its target. Water heals even as it strikes.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Aqua Overdraw": {
+    "name": "Aqua Overdraw",
+    "description": "Your next Aqua action costs additional Vis but is greatly increased in power. The deluge overwhelms all.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 5
+  },
+  "Tidal Mastery": {
+    "name": "Tidal Mastery",
+    "description": "Significantly increases the effectiveness of your next Aqua action. You command the seas as easily as the rain.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Aqua Apotheosis": {
+    "name": "Aqua Apotheosis",
+    "description": "Greatly increases the effectiveness of your next Aqua action. Water itself becomes your loyal servant.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Oceanic Cataclysm": {
+    "name": "Oceanic Cataclysm",
+    "description": "Your next Aqua action costs double Vis but unleashes an effect of extreme power. The very seas rise in obedience.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 40
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "Metal Attunement": {
+    "name": "Metal Attunement",
+    "description": "Slightly increases the effectiveness of your next Ferrum action. Iron stirs at your command.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Steelshaper Channel": {
+    "name": "Steelshaper Channel",
+    "description": "Moderately increases the effectiveness of your next Ferrum action. Metal flows like liquid beneath your will.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Ironblood Recovery": {
+    "name": "Ironblood Recovery",
+    "description": "Restores a moderate amount of Vis. The strength of steel runs through you.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 15
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 10
+  },
+  "Sundering Metal": {
+    "name": "Sundering Metal",
+    "description": "Your next Ferrum action ignores the target's armor entirely. No forged defense can withstand your assault.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Ferrum Overdraw": {
+    "name": "Ferrum Overdraw",
+    "description": "Your next Ferrum action costs additional Vis but is greatly increased in power. Steel shatters at your command.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 5
+  },
+  "Ironpike Mastery": {
+    "name": "Ironpike Mastery",
+    "description": "Significantly increases the effectiveness of your next Ferrum action. You have mastered the art of the metallic form.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Ferrum Apotheosis": {
+    "name": "Ferrum Apotheosis",
+    "description": "Greatly increases the effectiveness of your next Ferrum action. Metal answers your command with absolute loyalty.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Metallurgic Ascension": {
+    "name": "Metallurgic Ascension",
+    "description": "Your next Ferrum action costs double Vis but unleashes an effect of extreme power. The world itself rusts and crumbles before you.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 40
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "Root Attunement": {
+    "name": "Root Attunement",
+    "description": "Slightly increases the effectiveness of your next Silva action. The forest stirs in recognition of your call.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Verdant Channel": {
+    "name": "Verdant Channel",
+    "description": "Moderately increases the effectiveness of your next Silva action. Life itself flows through you.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Lifespring Recovery": {
+    "name": "Lifespring Recovery",
+    "description": "Restores a moderate amount of Vis. The forest's vitality sustains your power anew.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 15
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 10
+  },
+  "Guided Shot": {
+    "name": "Guided Shot",
+    "description": "Your next Silva action gains greatly increased range and is very difficult to evade. The forest itself guides your strike.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Silva Overdraw": {
+    "name": "Silva Overdraw",
+    "description": "Your next Silva action costs additional Vis but is greatly increased in power. Nature's wrath falls like a judgment.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 5
+  },
+  "Thornwood Mastery": {
+    "name": "Thornwood Mastery",
+    "description": "Significantly increases the effectiveness of your next Silva action. You have become one with the savage green.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Silva Apotheosis": {
+    "name": "Silva Apotheosis",
+    "description": "Greatly increases the effectiveness of your next Silva action. All growing things bend to your will.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Primal Upheaval": {
+    "name": "Primal Upheaval",
+    "description": "Your next Silva action costs double Vis but unleashes an effect of extreme power. The ancient forest itself rises in judgment.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 40
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "Gladius Focus": {
+    "name": "Gladius Focus",
+    "description": "Slightly increases the effectiveness of your next Martial Weapons action. Steel and will become one.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Martial Weapons",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Legionnaire Strike": {
+    "name": "Legionnaire Strike",
+    "description": "Moderately increases the effectiveness of your next Martial Weapons action. The discipline of the legion flows through your strikes.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Martial Weapons",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Warrior's Respite": {
+    "name": "Warrior's Respite",
+    "description": "Restores a moderate amount of Vigor. Steel renewed, spirit restored.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Martial Weapons",
+        "amount": 15
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 10
+  },
+  "Armor Breach": {
+    "name": "Armor Breach",
+    "description": "Your next Martial Weapons action ignores a portion of the target's armor. No defense stands against a well-placed blow.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Martial Weapons",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Martial Overdraw": {
+    "name": "Martial Overdraw",
+    "description": "Your next Martial Weapons action costs additional Vigor but is greatly increased in power. Unrestrained fury unleashed.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Martial Weapons",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 5
+  },
+  "Phalanx Mastery": {
+    "name": "Phalanx Mastery",
+    "description": "Significantly increases the effectiveness of your next Martial Weapons action. Centuries of warfare perfected in your form.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Martial Weapons",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Centurion's Ascension": {
+    "name": "Centurion's Ascension",
+    "description": "Greatly increases the effectiveness of your next Martial Weapons action. You move with the authority of command.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Martial Weapons",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Gladiatorial Apex": {
+    "name": "Gladiatorial Apex",
+    "description": "Your next Martial Weapons action costs double Vigor but unleashes an effect of extreme power. The crowd roars as you transcend mortal limits.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Martial Weapons",
+        "amount": 40
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "Shield Brace": {
+    "name": "Shield Brace",
+    "description": "Slightly increases the effectiveness of your next Shield action. Resolve hardens like iron.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Shield",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Testudo Formation": {
+    "name": "Testudo Formation",
+    "description": "Moderately increases the effectiveness of your next Shield action. Like the tortoise shell, your defense is impenetrable.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Shield",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Bastion Recovery": {
+    "name": "Bastion Recovery",
+    "description": "Restores a moderate amount of Vigor. Defenses refreshed, courage renewed.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Shield",
+        "amount": 15
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 10
+  },
+  "Shield Bash": {
+    "name": "Shield Bash",
+    "description": "Your next Shield action also strikes or staggers a nearby foe. A perfectly timed blow turns defense into offense.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Shield",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Shield Overdraw": {
+    "name": "Shield Overdraw",
+    "description": "Your next Shield action costs additional Vigor but is greatly increased in power. Defensive fury pressed to its limit.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Shield",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 5
+  },
+  "Rampart Mastery": {
+    "name": "Rampart Mastery",
+    "description": "Significantly increases the effectiveness of your next Shield action. You have become a living fortress.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Shield",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Scutum Ascension": {
+    "name": "Scutum Ascension",
+    "description": "Greatly increases the effectiveness of your next Shield action. Your shield is as unyielding as stone itself.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Shield",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Guardian's Apotheosis": {
+    "name": "Guardian's Apotheosis",
+    "description": "Your next Shield action costs double Vigor but unleashes an effect of extreme power. Absolute protection made manifest.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Shield",
+        "amount": 40
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "Arrow Aim": {
+    "name": "Arrow Aim",
+    "description": "Slightly increases the effectiveness of your next Archery action. Breath steadies, focus sharpens.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Archery",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Bowmaster Channel": {
+    "name": "Bowmaster Channel",
+    "description": "Moderately increases the effectiveness of your next Archery action. String and bone speak as one.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Archery",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Archer's Reprieve": {
+    "name": "Archer's Reprieve",
+    "description": "Restores a moderate amount of Vigor. Muscles ease, breath returns.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Archery",
+        "amount": 15
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 10
+  },
+  "Piercing Shot": {
+    "name": "Piercing Shot",
+    "description": "Your next Archery action gains greatly increased range and is very difficult to evade. Distance holds no secrets.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Archery",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Archery Overdraw": {
+    "name": "Archery Overdraw",
+    "description": "Your next Archery action costs additional Vigor but is greatly increased in power. The bow strains to its uttermost.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Archery",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 5
+  },
+  "Toxotes Mastery": {
+    "name": "Toxotes Mastery",
+    "description": "Significantly increases the effectiveness of your next Archery action. You have become the arrow itself.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Archery",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Sagittarius Ascension": {
+    "name": "Sagittarius Ascension",
+    "description": "Greatly increases the effectiveness of your next Archery action. Your aim transcends the mortal realm.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Archery",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Arrow of Destiny": {
+    "name": "Arrow of Destiny",
+    "description": "Your next Archery action costs double Vigor but unleashes an effect of extreme power. One perfect shot that pierces all.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Archery",
+        "amount": 40
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "Pugilism Stance": {
+    "name": "Pugilism Stance",
+    "description": "Slightly increases the effectiveness of your next Pugilism action. Hands steel, eyes focus.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Pugilism",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Boxer's Rhythm": {
+    "name": "Boxer's Rhythm",
+    "description": "Moderately increases the effectiveness of your next Pugilism action. Your fists dance with practiced precision.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Pugilism",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Pugilist's Recovery": {
+    "name": "Pugilist's Recovery",
+    "description": "Restores a moderate amount of Vigor. Blood flows strong, breath comes easy.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Pugilism",
+        "amount": 15
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 10
+  },
+  "Stunning Blow": {
+    "name": "Stunning Blow",
+    "description": "Your next Pugilism action may stun or knock the target off balance. Precision and power converge in a single strike.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Pugilism",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Pugilism Overdraw": {
+    "name": "Pugilism Overdraw",
+    "description": "Your next Pugilism action costs additional Vigor but is greatly increased in power. Unleashed fury on fists alone.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Pugilism",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 5
+  },
+  "Pankration Mastery": {
+    "name": "Pankration Mastery",
+    "description": "Significantly increases the effectiveness of your next Pugilism action. You have perfected the art of the ancient games.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Pugilism",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Champion's Ascension": {
+    "name": "Champion's Ascension",
+    "description": "Greatly increases the effectiveness of your next Pugilism action. Your fists strike with the weight of champions.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Pugilism",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Titanstrike": {
+    "name": "Titanstrike",
+    "description": "Your next Pugilism action costs double Vigor but unleashes an effect of extreme power. A blow that echoes across the world.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Pugilism",
+        "amount": 40
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "Tactical Insight": {
+    "name": "Tactical Insight",
+    "description": "Slightly increases the effectiveness of your next Tactics action. Vision clears, strategy crystallizes.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Tactics",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Commander's Clarity": {
+    "name": "Commander's Clarity",
+    "description": "Moderately increases the effectiveness of your next Tactics action. Your mind moves with military precision.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Tactics",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Legion Mastery": {
+    "name": "Legion Mastery",
+    "description": "Significantly increases the effectiveness of your next Tactics action. You command with the wisdom of generals.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Tactics",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Imperator's Vision": {
+    "name": "Imperator's Vision",
+    "description": "Greatly increases the effectiveness of your next Tactics action. All moves align with your supreme strategy.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Tactics",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Quick Footing": {
+    "name": "Quick Footing",
+    "description": "Slightly increases the effectiveness of your next Agile Weapons action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Agile Weapons",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Fluid Form": {
+    "name": "Fluid Form",
+    "description": "Moderately increases the effectiveness of your next Agile Weapons action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Agile Weapons",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Skirmisher's Breath": {
+    "name": "Skirmisher's Breath",
+    "description": "Restores a moderate amount of Vigor.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Agile Weapons",
+        "amount": 15
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 10
+  },
+  "Riposte": {
+    "name": "Riposte",
+    "description": "Your next Agile Weapons action also counters or strikes a second time.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Agile Weapons",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Reckless Flurry": {
+    "name": "Reckless Flurry",
+    "description": "Your next Agile Weapons action costs additional Vigor but is greatly increased in power.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Agile Weapons",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 5
+  },
+  "Duelist's Edge": {
+    "name": "Duelist's Edge",
+    "description": "Significantly increases the effectiveness of your next Agile Weapons action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Agile Weapons",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Bladedancer": {
+    "name": "Bladedancer",
+    "description": "Greatly increases the effectiveness of your next Agile Weapons action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Agile Weapons",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Thousand Cuts": {
+    "name": "Thousand Cuts",
+    "description": "Your next Agile Weapons action costs double Vigor but unleashes an effect of extreme power.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Agile Weapons",
+        "amount": 40
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "Cunning Stroke": {
+    "name": "Cunning Stroke",
+    "description": "Slightly increases the effectiveness of your next Guile action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guile",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Deceptive Maneuver": {
+    "name": "Deceptive Maneuver",
+    "description": "Moderately increases the effectiveness of your next Guile action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guile",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Calculated Feint": {
+    "name": "Calculated Feint",
+    "description": "Significantly increases the effectiveness of your next Guile action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guile",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Masterful Deception": {
+    "name": "Masterful Deception",
+    "description": "Greatly increases the effectiveness of your next Guile action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Guile",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Shadow Step": {
+    "name": "Shadow Step",
+    "description": "Slightly increases the effectiveness of your next Sneaking action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Sneaking",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Silent Movement": {
+    "name": "Silent Movement",
+    "description": "Moderately increases the effectiveness of your next Sneaking action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Sneaking",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Perfect Concealment": {
+    "name": "Perfect Concealment",
+    "description": "Significantly increases the effectiveness of your next Sneaking action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Sneaking",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Phantom Grace": {
+    "name": "Phantom Grace",
+    "description": "Greatly increases the effectiveness of your next Sneaking action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Sneaking",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Deft Touch": {
+    "name": "Deft Touch",
+    "description": "Slightly increases the effectiveness of your next Larceny action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Larceny",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Practiced Hand": {
+    "name": "Practiced Hand",
+    "description": "Moderately increases the effectiveness of your next Larceny action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Larceny",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Masterful Theft": {
+    "name": "Masterful Theft",
+    "description": "Significantly increases the effectiveness of your next Larceny action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Larceny",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Thief's Apotheosis": {
+    "name": "Thief's Apotheosis",
+    "description": "Greatly increases the effectiveness of your next Larceny action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Larceny",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Nimble Leap": {
+    "name": "Nimble Leap",
+    "description": "Slightly increases the effectiveness of your next Acrobatics action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Acrobatics",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Graceful Tumble": {
+    "name": "Graceful Tumble",
+    "description": "Moderately increases the effectiveness of your next Acrobatics action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Acrobatics",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Acrobatic Mastery": {
+    "name": "Acrobatic Mastery",
+    "description": "Significantly increases the effectiveness of your next Acrobatics action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Acrobatics",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Aerial Perfection": {
+    "name": "Aerial Perfection",
+    "description": "Greatly increases the effectiveness of your next Acrobatics action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Acrobatics",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Swift Stride": {
+    "name": "Swift Stride",
+    "description": "Slightly increases the effectiveness of your next Athletics action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Athletics",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Powerful Exertion": {
+    "name": "Powerful Exertion",
+    "description": "Moderately increases the effectiveness of your next Athletics action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Athletics",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Athletic Excellence": {
+    "name": "Athletic Excellence",
+    "description": "Significantly increases the effectiveness of your next Athletics action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Athletics",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Peak Performance": {
+    "name": "Peak Performance",
+    "description": "Greatly increases the effectiveness of your next Athletics action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Athletics",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Wilderness Sense": {
+    "name": "Wilderness Sense",
+    "description": "Slightly increases the effectiveness of your next Survival action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Survival",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Seasoned Tracker": {
+    "name": "Seasoned Tracker",
+    "description": "Moderately increases the effectiveness of your next Survival action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Survival",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Expert Woodcraft": {
+    "name": "Expert Woodcraft",
+    "description": "Significantly increases the effectiveness of your next Survival action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Survival",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Primal Wisdom": {
+    "name": "Primal Wisdom",
+    "description": "Greatly increases the effectiveness of your next Survival action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Survival",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Steady Hands": {
+    "name": "Steady Hands",
+    "description": "Slightly increases the effectiveness of your next Field Medicine action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Field Medicine",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Practiced Care": {
+    "name": "Practiced Care",
+    "description": "Moderately increases the effectiveness of your next Field Medicine action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Field Medicine",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Surgical Precision": {
+    "name": "Surgical Precision",
+    "description": "Significantly increases the effectiveness of your next Field Medicine action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Field Medicine",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Healer's Mastery": {
+    "name": "Healer's Mastery",
+    "description": "Greatly increases the effectiveness of your next Field Medicine action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Field Medicine",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Patient Touch": {
+    "name": "Patient Touch",
+    "description": "Slightly increases the effectiveness of your next Animal Handling action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Animal Handling",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Calm Confidence": {
+    "name": "Calm Confidence",
+    "description": "Moderately increases the effectiveness of your next Animal Handling action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Animal Handling",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Beast Communion": {
+    "name": "Beast Communion",
+    "description": "Significantly increases the effectiveness of your next Animal Handling action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Animal Handling",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Whisper of Beasts": {
+    "name": "Whisper of Beasts",
+    "description": "Greatly increases the effectiveness of your next Animal Handling action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Animal Handling",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Hammer Strike": {
+    "name": "Hammer Strike",
+    "description": "Slightly increases the effectiveness of your next Smithing action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Smithing",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Mastersmith's Focus": {
+    "name": "Mastersmith's Focus",
+    "description": "Moderately increases the effectiveness of your next Smithing action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Smithing",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Forge Mastery": {
+    "name": "Forge Mastery",
+    "description": "Significantly increases the effectiveness of your next Smithing action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Smithing",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Master of Steel": {
+    "name": "Master of Steel",
+    "description": "Greatly increases the effectiveness of your next Smithing action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Smithing",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Alchemical Theory": {
+    "name": "Alchemical Theory",
+    "description": "Slightly increases the effectiveness of your next Alchemy action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Alchemy",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Practiced Brewer": {
+    "name": "Practiced Brewer",
+    "description": "Moderately increases the effectiveness of your next Alchemy action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Alchemy",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Alchemical Mastery": {
+    "name": "Alchemical Mastery",
+    "description": "Significantly increases the effectiveness of your next Alchemy action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Alchemy",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Transmutation Expert": {
+    "name": "Transmutation Expert",
+    "description": "Greatly increases the effectiveness of your next Alchemy action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Alchemy",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Careful Stitch": {
+    "name": "Careful Stitch",
+    "description": "Slightly increases the effectiveness of your next Tailoring action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Tailoring",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Master Tailor": {
+    "name": "Master Tailor",
+    "description": "Moderately increases the effectiveness of your next Tailoring action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Tailoring",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Seamless Craftsmanship": {
+    "name": "Seamless Craftsmanship",
+    "description": "Significantly increases the effectiveness of your next Tailoring action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Tailoring",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Garment Perfection": {
+    "name": "Garment Perfection",
+    "description": "Greatly increases the effectiveness of your next Tailoring action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Tailoring",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Solid Foundation": {
+    "name": "Solid Foundation",
+    "description": "Slightly increases the effectiveness of your next Construction action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Construction",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Builder's Expertise": {
+    "name": "Builder's Expertise",
+    "description": "Moderately increases the effectiveness of your next Construction action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Construction",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Architectural Vision": {
+    "name": "Architectural Vision",
+    "description": "Significantly increases the effectiveness of your next Construction action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Construction",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Master Builder": {
+    "name": "Master Builder",
+    "description": "Greatly increases the effectiveness of your next Construction action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Construction",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Timber Sense": {
+    "name": "Timber Sense",
+    "description": "Slightly increases the effectiveness of your next Woodworking action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Woodworking",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Carpenter's Skill": {
+    "name": "Carpenter's Skill",
+    "description": "Moderately increases the effectiveness of your next Woodworking action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Woodworking",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Woodcraft Mastery": {
+    "name": "Woodcraft Mastery",
+    "description": "Significantly increases the effectiveness of your next Woodworking action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Woodworking",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Master Woodworker": {
+    "name": "Master Woodworker",
+    "description": "Greatly increases the effectiveness of your next Woodworking action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Woodworking",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Flavor Sense": {
+    "name": "Flavor Sense",
+    "description": "Slightly increases the effectiveness of your next Cooking action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Cooking",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Chef's Technique": {
+    "name": "Chef's Technique",
+    "description": "Moderately increases the effectiveness of your next Cooking action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Cooking",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Culinary Mastery": {
+    "name": "Culinary Mastery",
+    "description": "Significantly increases the effectiveness of your next Cooking action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Cooking",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Master Chef": {
+    "name": "Master Chef",
+    "description": "Greatly increases the effectiveness of your next Cooking action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Cooking",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Ore Instinct": {
+    "name": "Ore Instinct",
+    "description": "Slightly increases the effectiveness of your next Mining action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Mining",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Experienced Miner": {
+    "name": "Experienced Miner",
+    "description": "Moderately increases the effectiveness of your next Mining action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Mining",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Mining Mastery": {
+    "name": "Mining Mastery",
+    "description": "Significantly increases the effectiveness of your next Mining action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Mining",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Deep Knowledge": {
+    "name": "Deep Knowledge",
+    "description": "Greatly increases the effectiveness of your next Mining action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Mining",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Stone Sense": {
+    "name": "Stone Sense",
+    "description": "Slightly increases the effectiveness of your next Masonry action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Masonry",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Mason's Precision": {
+    "name": "Mason's Precision",
+    "description": "Moderately increases the effectiveness of your next Masonry action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Masonry",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Masonry Excellence": {
+    "name": "Masonry Excellence",
+    "description": "Significantly increases the effectiveness of your next Masonry action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Masonry",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Master Mason": {
+    "name": "Master Mason",
+    "description": "Greatly increases the effectiveness of your next Masonry action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Masonry",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Golden Touch": {
+    "name": "Golden Touch",
+    "description": "Slightly increases the effectiveness of your next Goldsmithing action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Goldsmithing",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Jeweler's Skill": {
+    "name": "Jeweler's Skill",
+    "description": "Moderately increases the effectiveness of your next Goldsmithing action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Goldsmithing",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Goldsmithing Mastery": {
+    "name": "Goldsmithing Mastery",
+    "description": "Significantly increases the effectiveness of your next Goldsmithing action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Goldsmithing",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Master Jeweler": {
+    "name": "Master Jeweler",
+    "description": "Greatly increases the effectiveness of your next Goldsmithing action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Goldsmithing",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Arcane Attunement": {
+    "name": "Arcane Attunement",
+    "description": "Slightly increases the effectiveness of your next Enchanting action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Enchanting",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 1
+  },
+  "Enchanter's Focus": {
+    "name": "Enchanter's Focus",
+    "description": "Moderately increases the effectiveness of your next Enchanting action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Enchanting",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 2
+  },
+  "Enchantment Mastery": {
+    "name": "Enchantment Mastery",
+    "description": "Significantly increases the effectiveness of your next Enchanting action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Enchanting",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Arcane Master": {
+    "name": "Arcane Master",
+    "description": "Greatly increases the effectiveness of your next Enchanting action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Enchanting",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  }
+}

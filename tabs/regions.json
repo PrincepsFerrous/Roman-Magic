@@ -1,0 +1,209 @@
+{
+  "The Aquilan Imperium": {
+    "name": "The Aquilan Imperium",
+    "basicInfo": "The cultivated imperial heartland spreads across rolling provinces, connected by marble roads that carry the lifeblood of empire to and from the grand capital Aquila. The climate is temperate and civilized, marked by the stately rhythm of Roman seasons; the air carries the scent of laurel, marble dust, and incense from innumerable shrines. Here dwells the Emperor Tiberius Corvus and the Twelve Houses in their intricate dance of power, with the Collegium Furiacae at the very heart—the academy where gifted young from noble bloodlines are forged into fierce rivals through trials of furycraft, wit, and ambition.",
+    "x": 1,
+    "y": 1,
+    "realm": "Orbis Terrarum",
+    "known": true,
+    "factions": [
+      "House Corvus",
+      "House Drusus",
+      "House Sabinus",
+      "House Aurelius",
+      "House Crassus",
+      "House Serenus",
+      "House Fabius",
+      "House Pontius",
+      "House Ventidius",
+      "House Murena",
+      "House Varro",
+      "House Tullius"
+    ],
+    "imageUrl": ""
+  },
+  "The Northern Frontier": {
+    "name": "The Northern Frontier",
+    "basicInfo": "Beyond the marble and order of the imperial core lies the bleeding limes—fortified border walls and grim watchtowers scattered across pine-dark wilderness and frozen rivers. The climate turns harsh here: bitter winters, thin summers, and the constant threat of barbarian tribes—the ferocious Vallari and the mysterious Morthane—who wield untamed magics the empire struggles to contain. Here the war-houses stand sentinel, their furycrafters hardened by years of conflict and the wild, desperate magic that seeps in from unconquered lands beyond.",
+    "x": 1,
+    "y": 0,
+    "realm": "Orbis Terrarum",
+    "factions": [
+      "House Drusus",
+      "House Sabinus"
+    ],
+    "imageUrl": ""
+  },
+  "The Eastlands": {
+    "name": "The Eastlands",
+    "basicInfo": "The realm of philosophers and scholar-temples spreads eastward from the Imperium, where great cities of learning—Heliasium, Scholion, Mercaton—guard ancient knowledge in pristine libraries and columned halls. The air here carries the dust of ages, and the atmosphere is one of quiet contemplation broken by the echoes of debate and scholarly discourse. The landscape is threaded with old roads and great walls built by House Pontius to ward off intrusion, yet beneath marble floors and ordered streets, fallen places whisper with the stirring of older powers, and the ruins of civilizations long turned to shadow promise both secrets and perils.",
+    "x": 2,
+    "y": 1,
+    "realm": "Orbis Terrarum",
+    "factions": [
+      "House Pontius"
+    ],
+    "imageUrl": ""
+  },
+  "The Contested Coast": {
+    "name": "The Contested Coast",
+    "basicInfo": "Where the Eastlands meet the sea, the war-front burns. The wealthy free port of Portus Aurorae stands besieged, its once-golden docks now shadowed by smoke and blood; drowning streets run with saltwater and carnage as Aquilan furycraft clashes with Tharsi blood-magic in a desperate, grinding struggle for dominion. The air here is thick with salt spray, desperation, and the acrid tang of combat; ruins of siege engines litter crumbling harbor walls. Here dwell those hardened by the endless conflict—soldiers, refugees, profiteers, and those who have learned to survive when empires clash.",
+    "x": 2,
+    "y": 2,
+    "realm": "Orbis Terrarum",
+    "factions": [
+      "House Pontius",
+      "Tharsis"
+    ],
+    "imageUrl": ""
+  },
+  "The Mare Internum": {
+    "name": "The Mare Internum",
+    "basicInfo": "The vast inner sea separates the Imperium's heartland from the southern reaches—a theater of endless naval war where war-galleys slice through blue waters, their prows carved with fury-marks that shimmer with contested power. The climate is temperate to warm, the air salt-sweet, and the horizon ever-present; the sea itself becomes a battlefield, with blockade runners, merchant vessels, and war-ships locked in constant struggle. Scattered islands and minor ports dot these waters, their inhabitants long accustomed to watching the horizon for the next wave of ships and death that naval supremacy brings.",
+    "x": 1,
+    "y": 2,
+    "realm": "Orbis Terrarum",
+    "factions": [
+      "House Ventidius",
+      "House Murena"
+    ],
+    "imageUrl": ""
+  },
+  "Tharsis": {
+    "name": "Tharsis",
+    "basicInfo": "Across the Mare Internum lies the rival sea-empire of Tharsis—a civilization of merchant-princes and blood-priests who feed devouring gods on grim pyres that burn day and night along obsidian shores. The atmosphere here is one of opulent dread: rich silks and jewels contrast sharply with the scent of blood and strange incense, and the sound of chanting echoes perpetually from temple pyramids. Black galleys laden with tribute, slaves, and sacrifices work these waters ceaselessly, and the very magic here feels alien and hungry—a blood-craft that hungers and consumes, unlike the measured fury of the northern empire.",
+    "x": 1,
+    "y": 3,
+    "realm": "Orbis Terrarum",
+    "factions": [
+      "Tharsis"
+    ],
+    "imageUrl": ""
+  },
+  "The Buried Deep": {
+    "name": "The Buried Deep",
+    "basicInfo": "Westward beneath the Imperium's foundations lies a sealed, warded underworld—a realm of forgotten vaults, ancient stonework, and impossible chambers that predate human memory. The air here is cold and still, tainted with whispers in dead tongues and the metallic tang of old magic; tremors shake the earth without warning, as if something vast stirs in the depths. Few have ventured into these sealed depths and returned unchanged, for here sleeps an alien intelligence—a hive-power from ages before the rise of empires—and its dreams seep outward like slow poison, calling to those who listen with creeping, inexorable dread.",
+    "x": 0,
+    "y": 1,
+    "realm": "Orbis Terrarum",
+    "known": false,
+    "factions": [
+      "House Fabius"
+    ],
+    "imageUrl": ""
+  },
+  "The Fabian Wardlands": {
+    "name": "The Fabian Wardlands",
+    "basicInfo": "The northwest stretches in mist and ancient silence, where crumbling estates stand like monuments to a once-mighty House that has faded into guardianship of forgotten duties. Stone wardstones dot the gray landscape, their surfaces worn by centuries of watching over the sealed Deep that lurks beneath; the air is cold and oppressive with the weight of old magic, as if the very ground remembers catastrophes long past. House Fabius dwells here still, their remaining heirs bound by oath to sentinel duties few others comprehend, and their presence—though diminished—carries an air of stern, melancholic dignity.",
+    "x": 0,
+    "y": 0,
+    "realm": "Orbis Terrarum",
+    "known": true,
+    "factions": [
+      "House Fabius"
+    ],
+    "imageUrl": ""
+  },
+  "The Aurelian Heartland": {
+    "name": "The Aurelian Heartland",
+    "basicInfo": "The golden northeast spreads beneath a perpetually warm sky, where vast wheat-plains shimmer with promise and gleaming marble villas dot the landscape like jewels. The air smells of sun-ripened grain, laurel groves, and the sweet perfume of prosperity; the climate is temperate and generous, with abundant harvests and clear skies that seem to bless the land itself. House Aurelius rules this blessed domain as the Emperor's most favored children, their wealth and influence seemingly boundless, though their growing arrogance and the ambitions of their heirs cast long shadows over the golden fields.",
+    "x": 2,
+    "y": 0,
+    "realm": "Orbis Terrarum",
+    "known": true,
+    "factions": [
+      "House Aurelius"
+    ],
+    "imageUrl": ""
+  },
+  "The Serene Lakes": {
+    "name": "The Serene Lakes",
+    "basicInfo": "The southwest cradles a tapestry of tranquil waters and cultured splendor, where marble salons rise from the shores of glassy lakes and gardens of impossible beauty frame the horizons. The climate is mild and temperate, with gentle breezes carrying the scent of rare flowers and distant incense; the waters themselves seem to calm the soul, and the very air encourages contemplation and discourse. House Serenus presides over academies of art, philosophy, and Water-glamour, where the powerful and ambitious come to sharpen both wit and subtlety—for here, soft power and the whispered trade of secrets hold more sway than any loud display of force.",
+    "x": 0,
+    "y": 2,
+    "realm": "Orbis Terrarum",
+    "known": true,
+    "factions": [
+      "House Serenus"
+    ],
+    "imageUrl": ""
+  },
+  "The Western Reaches": {
+    "name": "The Western Reaches",
+    "basicInfo": "The far west beyond the Imperium's safe borders sprawls as a scrappy, raw frontier settlement—a place where novus homo adventurers and the ambitious dispossessed carve out holdings amid rough timber and ambitious earthworks. The landscape is rugged and untamed, with deep forests and hidden valleys; the air is bracing and wild, thick with the scent of pine and turned earth, and the atmosphere crackles with a desperate, hungry energy. House Tullius has sheltered wild-born gift-bearers here in secret and trained them in defiance of imperial law, their ambition mounting year by year—a gamble that, if discovered, would bring ruin, yet each success whispers that the Imperium's grip can be broken.",
+    "x": -1,
+    "y": 1,
+    "realm": "Orbis Terrarum",
+    "known": true,
+    "factions": [
+      "House Tullius"
+    ],
+    "imageUrl": ""
+  },
+  "The Varran Highlands": {
+    "name": "The Varran Highlands",
+    "basicInfo": "The far east rises into wind-scoured peaks and windswept plateaus, where great libraries and observatories stand sentinel against the howling gales. The landscape is harsh and austere, marked by towering stone keeps and archives carved into living rock; the climate is cold and thin, the air sharp and clear, and the atmosphere one of austere scholarly pursuit touched by hints of forbidden knowledge. House Varro has built a reputation for chasing dangerous ancient secrets locked in crumbling texts and celestial patterns, pursuing learning that the Imperium itself has declared forbidden—a pride that may one day bring the house to ruin.",
+    "x": 3,
+    "y": 1,
+    "realm": "Orbis Terrarum",
+    "known": true,
+    "factions": [
+      "House Varro"
+    ],
+    "imageUrl": ""
+  },
+  "The Crassan Holdings": {
+    "name": "The Crassan Holdings",
+    "basicInfo": "The southeast sprawls as a domain of mines, counting-houses, and mercenary camps straddling the great road between the war-coast and Tharsis—a place where wealth flows endlessly and conscience flows not at all. The landscape is scarred by open pits and crossed by merchant caravans, the air thick with coal-smoke and the tang of blood-metal; the atmosphere is one of relentless commerce and shadow dealings, where coin determines loyalty and secrets are the most valuable commodity. House Crassus bargains here in whispers with Tharsi paymasters while maintaining the fiction of imperial loyalty—a dangerous dance between two masters that grows more perilous by the year.",
+    "x": 2,
+    "y": 3,
+    "realm": "Orbis Terrarum",
+    "known": true,
+    "factions": [
+      "House Crassus"
+    ],
+    "imageUrl": ""
+  },
+  "The Blood Coast": {
+    "name": "The Blood Coast",
+    "basicInfo": "South of the Imperium's Mare Internum heartland lies Tharsis's sacred core—a coastland of black temple-cities and obsidian shores, where blood-priests tend endless sacrificial pyres that feed devouring gods day and night. The landscape is draped in shadow despite the bright sun, with pyramidine temples rising like fangs; the air is thick with incense, the scent of blood and charred flesh, and the sound of perpetual chanting echoes from cavernous halls. The gods themselves seem hungrier here, more present, and the very magic feels ancient and alien—a blood-craft that devours and consumes far beyond the measured ritual magic of the Aquilan north.",
+    "x": 1,
+    "y": 4,
+    "realm": "Orbis Terrarum",
+    "known": true,
+    "factions": [
+      "Tharsis"
+    ],
+    "imageUrl": ""
+  },
+  "The Merchant Reach": {
+    "name": "The Merchant Reach",
+    "basicInfo": "Tharsis's western flank gleams with opulence as the domain of merchant-princes and their gilded harbors—vast marketplaces where the wealth of distant lands flows like water and slave-auctions echo daily. The landscape is dominated by grand counting-houses, elaborate warehouses, and sprawling merchant villas; the air is heavy with exotic spices, salty harbor winds, and the sound of haggling in a dozen tongues. Here the merchant-princes feud openly with the blood-priests for control of Tharsis's destiny, their ambitions and decadence creating an atmosphere of corrupt luxury and cutthroat intrigue where a dagger in the dark is often the final argument in a dispute.",
+    "x": 0,
+    "y": 4,
+    "realm": "Orbis Terrarum",
+    "known": true,
+    "factions": [
+      "Tharsis"
+    ],
+    "imageUrl": ""
+  },
+  "The Barbarian Wilds": {
+    "name": "The Barbarian Wilds",
+    "basicInfo": "Far to the north beyond the Northern Frontier's limes, the untamed homeland sprawls in vast dark forests of ancient pine, their needles carpeting earth as black as pitch, cut through by rivers that freeze solid under unforgiving winters and littered with granite tors rising like teeth from the earth. The air is brutally cold and sharp with the scent of pine resin and wood-smoke; the sky hangs perpetually gray and heavy, and the light seems to drain away into the forest's depths. Here the Vallari and Morthane tribes breed warriors from birth and wield a wild, feral magic wholly unlike the disciplined furycraft of the south—a shamanic, untamed power that flows from the land itself, from blood-oath and ancestral fury.",
+    "x": 1,
+    "y": -1,
+    "realm": "Orbis Terrarum",
+    "known": true,
+    "imageUrl": ""
+  },
+  "The Twilight Kingdoms": {
+    "name": "The Twilight Kingdoms",
+    "basicInfo": "Far to the east beyond the Varran Highlands, a succession of ancient kingdoms flickers in perpetual twilight—crumbling philosopher-cities and scholar-temples of a fading elder age, their columned halls and grand archways slowly surrendering to ivy and shadow. The landscape is one of ruins upon ruins, of celestial observatories pointed at strange, dim suns that never quite brighten the sky and temples carved into mountainsides in worship of gods whose names have been forgotten even by their priests. The air is cool and thin, heavy with the weight of ages, and the very stone seems to exhale centuries of hoarded knowledge and mystery. These ancient realms remain proudly independent of both Aquila and Tharsis, though House Pontius courts them with subtle diplomacy and shadowed purpose.",
+    "x": 4,
+    "y": 1,
+    "realm": "Orbis Terrarum",
+    "known": true,
+    "imageUrl": ""
+  }
+}

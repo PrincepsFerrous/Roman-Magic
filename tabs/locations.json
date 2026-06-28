@@ -1,0 +1,530 @@
+{
+  "The Collegium Furiacae": {
+    "name": "The Collegium Furiacae",
+    "basicInfo": "At the heart of Aquila rises the Collegium Furiacae, the grand academy where the six numina are taught and the empire's most gifted—or most ambitious—young are forged into masters of furycraft. Towering marble columns frame its vast grounds; the air shimmers faintly with residual Vis from countless training sessions. The Collegium's reputation is one of excellence and treachery intertwined: here the Twelve Houses send their children to compete, to bond with the elements themselves, and to emerge either triumphant or ruined. Every corner echoes with whispered House loyalties, sabotage plots, and the fierce hunger of those who would command the very fury of the earth, wind, fire, water, iron, and wood. The Collegium is the crucible where the empire's destiny is truly forged.",
+    "x": 0,
+    "y": 0,
+    "radius": 12,
+    "region": "The Aquilan Imperium",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "known": true,
+    "factions": [
+      "House Corvus"
+    ],
+    "hiddenInfo": "Beneath the Collegium's pristine halls lies the Undercroft—a sealed vault where forbidden experiments have been conducted in shadow, including studies of wild-born commonborn who awakened Vis without bloodline gift. The Praeceptor of the Academy, wise old Cornelius, harbors a deadly secret: he was himself born wild-born decades ago and has shaped the Collegium's hidden policies to shield such gifted youth from discovery and death. A hidden ledger, locked in his tower study, records which Houses run systematic sabotage rings: House Aurelius sponsors three entire cohorts of saboteurs; House Varro sends cryptic agents to steal knowledge; House Crassus arranges 'accidents' in the Duelling Yard. Most explosive of all: a brilliant wild-born student from the Subura was quietly enrolled three years past, now ranking among the finest furycrafters in the Academy—if revealed, her presence would shatter the empire's rigid bloodline supremacy and spark succession chaos.",
+    "areas": {
+      "The Atrium of Aspirants": {
+        "description": "A cavernous entrance hall of white marble and soaring arches, its floor a vast mosaic depicting the six numina in their glory. Sunlight floods through high windows, casting long shadows across rows of statues honoring past Praeceptors. The air here smells of marble dust, incense, and anticipation. New students gather here for ceremony; plotters meet here in the crowds where watchers lose them.",
+        "paths": [
+          "The Hall of Six",
+          "The Numen Sanctum",
+          "The Duelling Yard",
+          "The Aspirants' Dormitories",
+          "The Refectory"
+        ]
+      },
+      "The Hall of Six": {
+        "description": "Six towering shrine-chambers radiate from a central rotunda, each dedicated to one of the numina: Terra, Ventus, Ignis, Aqua, Ferrum, Silva. Each shrine holds a binding stone where students first attempt bonding; the walls shimmer with residual elemental energy, and the very stone seems to hum with ancient power. The Terra shrine smells of rich soil and stone; the Ignis shrine radiates warmth even when unlit; the Aqua shrine echoes with the sound of distant waters. Here students learn to feel the numina's presence, to call forth the first sparks of Vis, and to discover which elements call to them.",
+        "paths": [
+          "The Atrium of Aspirants",
+          "The Scriptorium",
+          "The Praeceptor's Tower"
+        ]
+      },
+      "The Duelling Yard": {
+        "description": "A vast sand arena ringed with marble tiers where students test their furycraft against one another in sacred combat. The sand is raked smooth each morning, though scorch marks and deep gouges from Terravocations stain it permanently. Above, House banners hang from the tiers. The smell of ozone and heated sand fills the air. This is where reputations are forged—and where House saboteurs strike. Students have died here under suspicious circumstances, and more than one 'accident' bore the fingerprints of rival House plots.",
+        "paths": [
+          "The Atrium of Aspirants",
+          "The Aspirants' Dormitories",
+          "The Proving Halls"
+        ]
+      },
+      "The Scriptorium": {
+        "description": "A vast library of furycraft lore, its shelves reaching toward a vaulted ceiling painted with star-charts and elemental diagrams. Tens of thousands of tomes line the stone walls—treatises on Vocation, forbidden experiments with hybrid elementalism, historical accounts of wild-born risings and their suppressions, and closely guarded texts detailing the bloodline affinity patterns of each House. Students study in alcoves and carrels; the air smells of old parchment, leather bindings, and the faint ozone-scent of ancient Vis-work. The head librarian, Sextus, is known to be unswervingly loyal to knowledge itself—and rumors whisper that he has protected certain dangerous texts from censorship by the High Houses.",
+        "paths": [
+          "The Hall of Six",
+          "The Aspirants' Dormitories",
+          "The Praeceptor's Tower",
+          "The Hall of Trophies"
+        ]
+      },
+      "The Aspirants' Dormitories": {
+        "description": "Gilded quarters where the young of the Twelve Houses sleep, study, plot, and scheme. The dormitories are segregated by House—each occupying its own wing with guards, servants, and strict codes. The walls are adorned with fresco depictions of each House's glorious past; the air thrums with barely-contained rivalry, tension, and the hum of whispered alliances being forged in dimly lit common rooms. Espionage between Houses reaches fever pitch in these halls; servants are bribed, love affairs kindle between Houses as political currency, and more than one student has been found dosed with vis-suppressants in their wine.",
+        "paths": [
+          "The Atrium of Aspirants",
+          "The Duelling Yard",
+          "The Scriptorium",
+          "The Numen Sanctum",
+          "The Catacombs"
+        ]
+      },
+      "The Praeceptor's Tower": {
+        "description": "The tall, narrow tower where the Collegium's head, the venerable Praeceptor Cornelius, maintains his study and inner sanctum. The tower ascends seven stories, each lined with spiral stairs of polished stone. The uppermost chamber is his private study—a room said to contain secrets that could topple Houses. Access is guarded fiercely, and even senior students rarely venture above the third floor. The tower's windows overlook the entire Collegium and the city beyond, offering a vantage from which all power flows or is commanded.",
+        "paths": [
+          "The Hall of Six",
+          "The Scriptorium"
+        ]
+      },
+      "The Numen Sanctum": {
+        "description": "A smaller, more intimate chamber where students undertake the sacred ritual of first bonding with a numen. The air here is thick with reverent silence and residual Vis—the stone walls seem to breathe. The floor is inscribed with binding circles and protective wards; at the center lies an altar where offerings are made. Few non-bonded students are permitted here; the experience of first bonding is sacred, personal, and transformative. Some aspirants emerge radiant; others emerge traumatized, as if the numen itself rejected them.",
+        "paths": [
+          "The Atrium of Aspirants",
+          "The Aspirants' Dormitories",
+          "The Undercroft"
+        ]
+      },
+      "The Undercroft": {
+        "description": "Sealed lower vaults carved into bedrock beneath the Collegium, their existence known only to the Praeceptor, certain select faculty, and those students who have been brought here in shadow. The air is cold and still, lit only by crystal-bound Vis-lamps. The stone walls bear ancient inscriptions in tongues predating the empire; channels and basins suggest alchemical work. Most chilling: evidence of binding circles designed for unwilling subjects, and locked chambers with observation slits. This is where forbidden experiments occur—where wild-born are tested in secret, where Houses pressure faculty to test dangerous theories, and where the empire's true nature—one built on bloodline supremacy maintained through violence—is laid bare.",
+        "paths": [
+          "The Numen Sanctum",
+          "The Catacombs"
+        ]
+      },
+      "The Refectory": {
+        "description": "A cavernous dining hall where hundreds of students gather for meals three times daily, long wooden tables stretching toward a high vaulted ceiling. The air is thick with the scent of bread, roasted meat, and wine; the sound is a constant low roar of conversation, laughter, and occasional shouting matches. The Refectory is where the young of the Twelve Houses sit by House allegiance, where rivals size each other up over soup and bread, where alliances are forged, where love-affairs begin, where debts are collected, and where the subtle dance of House rivalry plays out under the watchful eyes of faculty monitors. The kitchen-servants whisper gossip from table to table; poison-tasters work in stealth checking certain dishes for ambitious students who employ darker methods; and the seating charts change constantly as students rise or fall in reputation.",
+        "paths": [
+          "The Atrium of Aspirants",
+          "The Infirmary"
+        ]
+      },
+      "The Infirmary": {
+        "description": "A series of stone chambers where healers—mostly Aqua-gifted, occasionally Terravocalists—tend to students injured in duels, training accidents, or darker misadventures. The Infirmary smells of herbs, mineral poultices, and the faint copper-scent of blood. Beds line the walls, separated by fabric screens for privacy; recovery draughts steep in clay vials. The Infirmary is ostensibly a place of healing—yet it is also a place where inconvenient incidents are quietly managed. Students poisoned by rivals are treated in shadow; duel injuries that should be reported as murder are recorded as 'accidents'; healers are bribed by Houses to accelerate recovery for their own and sabotage recovery for enemies. The Infirmary's head healer, Livia, walks a razor's edge between her oath to heal and her need to survive the House politics that swirl around her ward.",
+        "paths": [
+          "The Refectory",
+          "The Proving Halls"
+        ]
+      },
+      "The Proving Halls": {
+        "description": "A series of six interconnected indoor practice chambers, one consecrated to each of the numina—Terra, Ventus, Ignis, Aqua, Ferrum, Silva. Each hall is roughly circular, warded with protective magic to contain destructive Vis-work, the stone floors scarred and pitted by decades of elemental assault. The Terra-hall reeks of stone-dust; the Ignis-hall radiates residual heat; the Aqua-hall echoes with phantom water-sounds. Here, students drill their furycraft under faculty supervision—leveling walls of stone, summoning controlled whirlwinds, learning to channel fire without burning themselves to ash, coaxing water into shapes and shields. The Proving Halls are where raw talent is measured, where training accidents are slightly more survivable than in the Duelling Yard, and where the most careful saboteurs work their plots—a subtle weakening of a ward, a misguided instruction, a rival's Vis-work amplified into overwhelming force.",
+        "paths": [
+          "The Infirmary",
+          "The Duelling Yard",
+          "The Cloister Gardens"
+        ]
+      },
+      "The Cloister Gardens": {
+        "description": "A secluded quarter of the Collegium where colonnaded walkways frame geometric gardens of meditation and beauty. Stone benches sit in shadowed alcoves; fountains murmur; flowers bloom in carefully maintained beds. The air is cool and perfumed; the sound is one of peace and quiet contemplation. The Cloister Gardens are ostensibly a place for students to rest, reflect, and recover from the stress of Collegium life—yet they are also a place of shadows and secrets. Here, House agents strike forbidden pacts with rival-House students; lovers tryst in hidden grottos; blood-oaths are sworn before the numina; blackmail is bartered in whispered conversations; and students who have transgressed beyond the Collegium's official tolerance are quietly disappeared, their bodies found later in the gardens or simply never found at all.",
+        "paths": [
+          "The Proving Halls",
+          "The Hall of Trophies"
+        ]
+      },
+      "The Hall of Trophies": {
+        "description": "A grand gallery where relics, masks, and records of legendary furycasters from centuries past are housed behind glass and magical wards. Ancient tomes bound in leather and silver document the greatest achievements in the Collegium's history; masks carved from bone and wood depict the faces of furycasters who achieved apotheosis in their respective elements; trophies of silver and gold mark the champions of the annual duelling competitions. The Hall smells of old leather, metal-polish, and the faint ozone of ancient Vis-work. The Hall is a shrine to ambition—a constant reminder to students of what heights are possible through mastery of furycraft. Yet the trophies and relics are also targets: ambitious students have stolen legendary artifacts, sought to weaponize ancient masks, or attempted to decipher the secrets encoded in the oldest tomes. The Hall's keeper, an elderly scholar named Marcus, has lost more than one relic to theft and still bears the scars of the magical booby-traps he survived trying to stop the thieves.",
+        "paths": [
+          "The Cloister Gardens",
+          "The Scriptorium"
+        ]
+      },
+      "The Catacombs": {
+        "description": "Student-haunted tunnels that network beneath the Collegium's older sections, passages that once connected to older structures now lost to time. The Catacombs are a maze of cramped corridors, low-ceilinged passages, and chambers whose original purpose is now obscure. The air is cool and stale; water drips from ceiling cracks; the stone walls bear ancient inscriptions and newer graffiti from generations of students. The Catacombs are technically forbidden to students—yet they are used constantly for illicit meetings, hidden assignations, black-market trading of forbidden vis-components, and as a route to escape from the Undercroft without being observed. The boundaries between the Catacombs and the Undercroft proper are deliberately ambiguous—some say the oldest passages brush against the seals that cage forbidden things.",
+        "paths": [
+          "The Undercroft",
+          "The Aspirants' Dormitories"
+        ]
+      }
+    }
+  },
+  "The Forum": {
+    "name": "The Forum",
+    "basicInfo": "At the civic heart of Aquila rises the Forum, a sprawl of marble and imperial grandeur where the empire's political machinery grinds ceaselessly. The Curia's soaring dome frames the Senate house; the Basilica stretches in columned majesty where magistrates dispense law; the Rostra stands elevated, its stone worn smooth by the feet of a thousand orators who have swayed the mob with honeyed words and promises of bread and circuses. The Comitium gleams with the ritual geometry of the voting grounds. The air crackles with ceremony, negotiation, and the weight of decisions that ripple across the empire. Senators in crimson-bordered togas stride between monuments; clerks move with scrolls; and beneath the pageantry of imperial might, every debate echoes with House interests and predetermined outcomes.",
+    "x": 28,
+    "y": 4,
+    "radius": 6,
+    "region": "The Aquilan Imperium",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "known": true,
+    "hiddenInfo": "Beneath the Senate's solemn proceedings flows the true current of Aquila's power—rigged votes bought through House Crassus's debt-ledger, senators mortgaged to their creditors and forced to vote the Crassus line's interests, and succession plots whispered in the shadowed corners of the Basilica where observers cannot easily follow. The Rostra's most passionate speeches come from orators secretly funded by rival Houses, stirring mob sentiment toward House-favored ends. The Comitium's voting assemblies are choreographed performances; House agents seed the crowds with hired voices to roar approval or outrage as needed. Magistrates dispense justice unevenly—harsh to those who cross the High Houses, lenient to those who pay. Every marble stone has witnessed bargains that would shock the common citizen who believes the Forum represents true imperial governance.",
+    "areas": {
+      "The Curia": {
+        "description": "The Senate house rises at the Forum's heart, its vaulted dome of marble and gilt soaring overhead. Within, ranked tiers of seats face the speaker's platform where senators convene to debate and vote on matters of empire. The air is thick with incense meant to encourage wise deliberation, though the scent of bribery and backroom dealing penetrates even the sacred perfume. Statues of honored senators line the walls, their blank marble eyes seeming to witness the hypocrisy unfolding beneath them.",
+        "paths": [
+          "The Basilica",
+          "The Rostra",
+          "The Comitium"
+        ]
+      },
+      "The Basilica": {
+        "description": "A sprawling structure of vaulted stone and marble columns where law courts convene and magistrates dispense judgment. The Basilica is partitioned into multiple chambers, each presided over by a magistrate hearing cases brought before them. The sound of rhetoric fills the air—arguments both passionate and carefully constructed, designed to sway judges toward particular outcomes. The very architecture is designed to emphasize authority: high ceilings, imposing columns, dais-seats where magistrates sit elevated above the common folk seeking justice.",
+        "paths": [
+          "The Curia",
+          "The Rostra"
+        ]
+      },
+      "The Rostra": {
+        "description": "An elevated stone platform where orators stand to address crowds gathered in the Forum. The Rostra's surface is worn smooth by the feet of countless speakers; its railings bear carved reliefs of triumphs and victories past. From this stone, senators proclaim laws, demagogues stir the mob, and ambitious House representatives craft narratives that serve their interests. The air here thrums with the power of words spoken aloud to thousands—the swaying of minds, the stirring of passions, the shaping of empire through rhetoric rather than blade.",
+        "paths": [
+          "The Curia",
+          "The Basilica",
+          "The Comitium"
+        ]
+      },
+      "The Comitium": {
+        "description": "The voting assembly ground where the people (those few permitted to vote) gather to ratify or reject proposals brought before them. The Comitium is arranged in geometric precision, with clear spaces designating voting sections. Marble markers indicate where different citizens must stand; the entire space is designed to allow magistrates and House agents to count votes with meticulous accuracy—and to manipulate those votes when necessary. Here, the illusion of popular governance is maintained; here, the mob believes itself sovereign, unaware that the outcome was predetermined in shadowed rooms elsewhere.",
+        "paths": [
+          "The Curia",
+          "The Rostra"
+        ]
+      }
+    }
+  },
+  "The Sacred Way": {
+    "name": "The Sacred Way",
+    "basicInfo": "A grand processional avenue lined with temples devoted to the Twelve Thrones, the great powers that govern divine fate and earthly fortune, the Sacred Way pulses with ritual and reverent ceremony. Incense smoke drifts perpetually between marble columns; priests in white vestments move between shrines; augurs perform their grim duties, reading omens in the entrails of sacrificed beasts and interpreting the flight of birds. The Vestal Hearth burns eternal at the avenue's heart, tended by virgin priestesses who maintain the sacred flame upon which the empire's prosperity supposedly depends. Beyond the city's boundary lies the Necropolis Gate, opening onto the city of tombs where ancestors rest and the dead speak to those who know how to listen. The air here is thick with piety and power intertwined—the authority of the gods channeled through priests who command both spiritual reverence and political influence.",
+    "x": 18,
+    "y": 22,
+    "radius": 6,
+    "region": "The Aquilan Imperium",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "known": true,
+    "hiddenInfo": "The temples and priests of the Sacred Way are not the guardians of imperial piety they claim—instead, they are merchants of divine favor sold to the highest bidder. Augurs have been systematically bribed by rival Houses to read favorable omens for their causes and catastrophic portents for their enemies. A high priest serves House Crassus directly, twisting prophetic interpretations to justify Crassus interests and suppress interpretations that favor rivals. The Vestal Hearth, purportedly an eternal flame upon which the empire's fate depends, is in fact a carefully maintained metaphor—should it extinguish, the empire fears collapse, making the Vestals themselves targets for manipulation and coercion. The Necropolis beyond the gate has become a shadow marketplace for forbidden knowledge; tomb-priests perform midnight rituals that have nothing to do with honoring the dead, and mausoleums are used for clandestine meetings where the most dangerous pacts are sworn before witnesses who will never speak of what they saw.",
+    "areas": {
+      "The Temple of the Twelve Thrones": {
+        "description": "A grand pantheon of soaring height where the twelve major divinities are honored simultaneously, each with a shrine within a vast, unified structure. The Temple comprises twelve radial chambers arranged around a central sanctuary, each dedicated to one of the Thrones. The air is thick with incense smoke from perpetual offerings; sunlight streams through high windows, illuminating the shadows where supplicants kneel in prayer. Priests move between chambers tending to offerings and performing daily rituals meant to sustain the favor of the powers they serve—or pretend to serve.",
+        "paths": [
+          "The Augural College",
+          "The Vestal Hearth",
+          "The Necropolis Gate"
+        ]
+      },
+      "The Augural College": {
+        "description": "A stone building adjoining the main Temple where the priests who interpret divine will gather to study and work. Within, there are chambers for the examination of sacrificial entrails, roosts for the birds used in augury, libraries of interpretation texts spanning centuries, and private studies where senior augurs contemplate the mysteries of fate and divine intention. The air smells of blood and bronze, incense and old parchment. Here, the empire's most crucial decisions are supposedly informed by communication with the divine—though the reality is far more mercenary.",
+        "paths": [
+          "The Temple of the Twelve Thrones",
+          "The Vestal Hearth"
+        ]
+      },
+      "The Vestal Hearth": {
+        "description": "A secluded sanctuary at the heart of the Temple complex where the sacred flame burns perpetually in a marble hearth, tended by the Vestals—virgin priestesses sworn to eternal service and celibacy. The chamber is simple and austere, the better to focus attention on the flame itself. The air is warm from the perpetual fire; the sound is the gentle crackling of wood and the whispered prayers of the Vestals as they perform their eternal vigil. The Hearth is theoretically inviolable, yet in truth it has become the target of ambitious Houses seeking to leverage control over the priestesses to bend imperial fate itself.",
+        "paths": [
+          "The Temple of the Twelve Thrones",
+          "The Augural College",
+          "The Necropolis Gate"
+        ]
+      },
+      "The Necropolis Gate": {
+        "description": "A massive archway marking the boundary between the living city and the city of tombs beyond. The gate itself is carved with imagery of the afterlife and the passage between worlds; guards stand vigilant, though their duty is more ceremonial than practical—few seek to pass between the city of the living and the city of the dead after nightfall. Beyond the gate stretches the Necropolis proper, a sprawling landscape of tombs, mausoleums, and funeral monuments where the empire's great Houses maintain eternal resting places for their ancestors. The air here carries the scent of stone, incense, and the faint chill that seems to emanate from the boundary between life and death.",
+        "paths": [
+          "The Temple of the Twelve Thrones",
+          "The Vestal Hearth"
+        ]
+      }
+    }
+  },
+  "The Palatine": {
+    "name": "The Palatine",
+    "basicInfo": "Upon the highest hill of Aquila rises the Palatine, the gilded noble quarter where the Twelve Houses maintain their urban strongholds. The architecture here is a competition in stone and marble—each great House's townhouse designed to be grander, more intimidating, more magnificent than its rivals. The Corvine Townhouse dominates the height with its obsidian-dark walls and raven-wing towers; the Aurelius mansion sprawls in golden opulence; the Mansions of lesser Houses cluster nearby, each proclaiming its power and ancient pedigree through sheer architectural magnificence. Private guards patrol the quiet streets; liveried servants hurry between estates; and the air itself seems to shimmer with wealth and privilege. The Hanging Gardens terraces cascade down the hillside, a marvel of engineering where pleasure-gardens offer respite from the city's heat. Yet the true heart of the Palatine pulses in the Salon of Whispers, where the empire's most consequential deals are struck in near-total secrecy.",
+    "x": -4,
+    "y": 30,
+    "radius": 6,
+    "region": "The Aquilan Imperium",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "known": true,
+    "hiddenInfo": "The Palatine is where the empire's most dangerous secrets are guarded behind marble walls. House succession schemes festoon every estate—poison being tested in private gardens, assassins hired and hidden in servant quarters, heir-manipulations involving love affairs between Houses as political currency. The hidden scandal of House Aurelius roils quietly behind closed doors: the youngest daughter of the House was wild-born bonded, a catastrophe that threatens the bloodline supremacy the empire is founded upon. Should this knowledge escape, it would shatter Aurelius's standing and spark dangerous questions about how many other wild-born have infiltrated the great Houses. Networks of servant-spies have been established in every mansion—House Crassus maintains informants throughout the Palatine, gathering leverage and secrets; House Murena has woven dock-servants into domestic positions; House Serenus has agents whispering doubts about the Emperor's fitness to rule. The Salon of Whispers itself may be the most dangerous room in Aquila, where the empire's true decisions are made far beyond the reach of the Senate's impotent debates.",
+    "areas": {
+      "The Corvine Townhouse": {
+        "description": "House Corvus's urban seat dominates the Palatine's highest point, a fortress disguised as a palace. The structure is constructed from dark stone quarried far away, its towers shaped like raven wings spread in threat. Guards in Corvus crimson stand at every entrance and window; the architecture itself seems designed to intimidate—high walls, narrow windows, multiple defensible levels. The interior is reputed to be a labyrinth of chambers, many of them hidden, containing the archives of House Corvus's oldest secrets and the headquarters of the Corvid Guard's operations within the city.",
+        "paths": [
+          "The Mansions of the Houses",
+          "The Hanging Gardens",
+          "The Salon of Whispers"
+        ]
+      },
+      "The Mansions of the Houses": {
+        "description": "A cluster of grand estates, each belonging to one of the rival Houses of the empire—Aurelius with its golden facade, Varro with its columned grandeur, Crassus with its deceptive modesty concealing labyrinthine vaults, and the others, each a statement of power and prestige. The streets between these mansions are quiet, lined with private guards and servant patrols. Each House's residence is as much a fortress as a dwelling; the walls are high, the gates are heavy, and visitors are scrutinized with paranoid intensity. Behind closed doors, the true business of the Houses unfolds: plotting, scheming, alliance-building, and the careful cultivation of leverage.",
+        "paths": [
+          "The Corvine Townhouse",
+          "The Hanging Gardens"
+        ]
+      },
+      "The Hanging Gardens": {
+        "description": "Terraced pleasure-gardens that cascade down the Palatine's hillside, a marvel of engineering and horticultural artistry. Stone steps connect multiple levels, each planted with exotic flora; fountains murmur among rose arbors; statuary lines the walkways. The gardens appear to be purely aesthetic—places where the nobility come to escape the city's heat and tension. In truth, they are also pathways for illicit meetings, hidden grottos where lovers tryst and conspirators bargain, and passages between estates that allow movement without being observed from the streets below.",
+        "paths": [
+          "The Corvine Townhouse",
+          "The Mansions of the Houses",
+          "The Salon of Whispers"
+        ]
+      },
+      "The Salon of Whispers": {
+        "description": "A semi-legendary gathering place, supposedly neutral ground, where the most delicate negotiations between Houses are conducted far from the eyes and ears of commoners and spies. The Salon itself is a marvel of acoustic engineering—chambers designed such that conversations cannot be overheard from outside, yet senior House members can speak with confidence. The Salon is reputed to have existed for centuries, administered by a neutral staff who serve whoever controls the Palatine's politics. Here, marriages between Houses are arranged; here, the empire's true decisions are made; here, the line between alliance and betrayal is as thin as the marble walls that separate the chambers.",
+        "paths": [
+          "The Corvine Townhouse",
+          "The Hanging Gardens"
+        ]
+      }
+    }
+  },
+  "The Vis Market": {
+    "name": "The Vis Market",
+    "basicInfo": "In the shadow of the upper city, the Vis Market thrums with magical commerce and elemental power. Artificers and talisman-crafters ply their trades in open stalls and shuttered workshops; the air shimmers with residual Vis from a thousand enchantments. Copper and iron talismans hang in bundles; vials of elemental essence glow softly in their vessels; ancient texts on forbidden vocations are hawked by merchants whose voices carry the smooth confidence of those selling both salvation and damnation. The Enchanters' Guildhall rises at the market's heart, where imbued goods are certified and House agents quietly negotiate the purchase of specialized magical implements. Yet the Hollow Market—the black market that dwells beneath the visible bazaar—hums with transactions the empire would prefer to ignore: forbidden talismans that breach the bloodline monopoly, black-market Vis extracted from wild-born and sold in darkness, and contacts for those seeking magical services that no legitimate merchant would touch.",
+    "x": -24,
+    "y": 18,
+    "radius": 6,
+    "region": "The Aquilan Imperium",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "known": true,
+    "hiddenInfo": "The Vis Market operates under the empire's sufferance because the empire itself consumes its wares—yet the market has become a shadow hub for activities the empire officially condemns. Forbidden talismans are crafted in hidden workshops and sold to those with coin enough to risk their lives: talismans designed to mask bloodline affinity, allowing wild-born to hide their nature; talismans designed to suppress Vis, useful for sabotage or escape. Black-market Vis, extracted from wild-born captives or purchased from corrupt Collegium staff, flows through the Hollow Market to buyers who can afford the astronomical prices. Most dangerously: an Enchanter of considerable skill—a master artificer trusted by the Guildhall itself—is quietly selling imbued goods to Tharsi agents operating in the city, providing them with magical implements designed to neutralize or trap Roman furycasters. This betrayal could reshape the empire's military calculus if discovered, yet it remains hidden because the Enchanter's prices are astronomical and the Tharsi security is absolute.",
+    "areas": {
+      "The Artificers' Row": {
+        "description": "A street of open workshops where crafters of Vis-gear work visibly, their skills on display for all to observe. Artificers hammer bronze and iron into talismanic shapes; runework decorates talismans as they take form; the air smells of hot metal and the ozone-scent of worked Vis. These are legitimate craftspeople, licensed by the empire, working under the scrutiny of guild regulations. Yet even here, subtle rebellions occur—master artificers slipping forbidden patterns into seemingly legitimate work, creating talismans with hidden functions, or trading in components for items they ostensibly do not craft.",
+        "paths": [
+          "The Talisman Stalls",
+          "The Enchanters' Guildhall"
+        ]
+      },
+      "The Talisman Stalls": {
+        "description": "A sprawling bazaar of wares where talismans—simple protective charms, sophisticated elemental wards, decorative pendants bearing religious insignia—are displayed on platforms and hung from overhead racks. Merchants hawk their goods with practiced patter; customers examine talismans, testing them for Vis-resonance before purchase. The market is ostensibly regulated and transparent—prices are displayed, quality is theoretically guaranteed, and House agents move openly through the crowds, ensuring compliance. Yet many of the stalls shift their inventory after dark, replacing legitimate goods with forbidden alternatives for clients who know where to look.",
+        "paths": [
+          "The Artificers' Row",
+          "The Enchanters' Guildhall",
+          "The Hollow Market"
+        ]
+      },
+      "The Enchanters' Guildhall": {
+        "description": "A stone building of considerable grandeur where the Enchanters' Guild operates as both a regulatory body and a commercial entity. The Guildhall is responsible for certifying imbued goods, setting standards, and enforcing the empire's restrictions on magical crafting. Within are chambers where the most delicate work occurs: binding Vis into artifacts, layering enchantments upon enchantments, and performing the intricate workings that require years of training to master. The Guildhall's leadership answers nominally to the empire, yet in practice they answer to whoever controls the market—currently a careful balance maintained through bribery and mutual interest.",
+        "paths": [
+          "The Artificers' Row",
+          "The Talisman Stalls"
+        ]
+      },
+      "The Hollow Market": {
+        "description": "A hidden bazaar existing in the shadow of legitimate commerce, accessible through hidden passages known only to those integrated into the black market network. The Hollow Market operates in near-total darkness, lit only by dimly glowing Vis-lamps; transactions occur through whispered negotiations and careful exchanges of coin for goods conducted far from observation. Here, forbidden items circulate: talismans designed to hide wild-born nature, Vis-suppressants for prisoners, ancient texts detailing techniques officially sealed by the empire, and services ranging from assassination to slavery that law-abiding merchants would never openly trade.",
+        "paths": [
+          "The Talisman Stalls"
+        ]
+      }
+    }
+  },
+  "The Subura": {
+    "name": "The Subura",
+    "basicInfo": "In the shadow of the upper city lies the Subura, a sprawling warren of narrow alleys, cramped tenements, and barely-controlled chaos where the empire's commoner masses toil, struggle, and survive on the margins of a society that deems them expendable. The air here is thick with cooking smoke, refuse, and the mingled odors of human desperation. Insulae—six-story tenements of cheap construction where dozens of families crowd into tiny spaces—press against one another; the streets are so narrow that sunlight barely penetrates. The Cutpurse Warren's gang-controlled territories spread through certain blocks; the Brimming Cup, a notorious tavern, serves as a meeting-place for thieves, black-market dealers, and those seeking services best not advertised openly. And beneath it all runs House Crassus's shadow network—a labyrinth of debt-ledgers and blackmail-houses that have wound through the Subura so thoroughly that the district is effectively Crassus territory, governed by obligation rather than law.",
+    "x": -30,
+    "y": -4,
+    "radius": 6,
+    "region": "The Aquilan Imperium",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "known": true,
+    "factions": [
+      "House Crassus"
+    ],
+    "hiddenInfo": "The Subura is House Crassus's true power base—not the grand mansions of the Palatine, but this maze of debt and obligation that touches nearly every commoner's life. The Ledger-House, a building hidden within the Subura's heart, contains records of every denarius lent, every debt incurred, every blackmail-hold established against merchants, moneylenders, gang leaders, and corrupt officials. Debtors who cannot pay in coin pay in information or service; those who resist find themselves destroyed through carefully orchestrated financial collapse or worse. Wild-born who have escaped the death sentence roam the Subura's deepest warrens, hiding from both House hunters and exploitation. House Murena maintains informers throughout the slums, watching for wild-born escapees and gathering intelligence on Crassus's activities. House Murena's agents also recruit from the Subura—desperate youth offered coin and protection in exchange for service as spies and assassins. The Subura is where the empire's true heart beats—not in the Forum's marble grandeur, but in the struggle for survival that defines the lives of those who have no bloodline, no Vis, and no recourse but the mercy of the Houses that systematically exploit them.",
+    "areas": {
+      "The Insulae": {
+        "description": "Towering, cramped tenements of six stories or more, their construction shoddy and hastily repaired over decades of use. Each insula houses dozens of families—servants, dockworkers, artisans, thieves—crammed into tiny rooms that offer no privacy and barely adequate light. The air is thick with human odors; the sound is a constant cacophony of voices, crying children, and the shuffle of countless residents. Fires are common in the insulae, spreading rapidly through wooden structures; collapses occur periodically as buildings age. Yet the insulae are the only housing most commoners can afford, and rent is controlled by House Crassus's agents, who extract maximum payment from minimum space.",
+        "paths": [
+          "The Cutpurse Warren",
+          "The Brimming Cup",
+          "The Ledger-House"
+        ]
+      },
+      "The Cutpurse Warren": {
+        "description": "A gang-controlled territory of narrow alleys and hidden passages where thieves, pickpockets, and organized crime operate with ruthless efficiency. The Warren has its own hierarchy, its own codes, and its own violence—gang wars are frequent, and bodies are common in the darkest alleys. The Warren is also a place where certain services can be obtained: theft contracted, murders arranged, identities forged, and sanctuary provided to those fleeing the law or worse. Entry into the Warren is dangerous; outsiders are unwelcome and often meet unfortunate ends.",
+        "paths": [
+          "The Insulae",
+          "The Brimming Cup"
+        ]
+      },
+      "The Brimming Cup": {
+        "description": "A notorious tavern in the Subura's heart, a den of thieves, merchants of vice, and those seeking illicit services. The tavern serves cheap wine and cheaper food to crowds of rough clientele; the air is thick with smoke and the mingled smells of unwashed bodies and spilled alcohol. The Brimming Cup is known to be a place where one can find almost anything—information, weapons, poisons, contacts for assassination, or passage out of the city for those wealthy enough to afford it. The tavern's proprietor, an ancient woman called the Crone, seems to know everything that occurs in the Subura and has accumulated considerable power through the leverage her knowledge provides.",
+        "paths": [
+          "The Insulae",
+          "The Cutpurse Warren",
+          "The Ledger-House"
+        ]
+      },
+      "The Ledger-House": {
+        "description": "A nondescript stone building that serves as the headquarters for House Crassus's debt-and-blackmail network, the Ledger-House is where the empire's most intricate web of obligation and leverage is maintained. Behind its plain facade are chambers where the ledgers are kept—thick tomes recording every debt, every loan, every blackmail-hold, every contract entered into. Crassus agents work here, recording transactions, updating records, and dispatching enforcer-collectors to extract payment or service from debtors. Access to the Ledger-House is restricted to Crassus agents and trusted collaborators; the casual visitor would find themselves marked for death or enslavement.",
+        "paths": [
+          "The Insulae",
+          "The Brimming Cup"
+        ]
+      }
+    }
+  },
+  "The Castra": {
+    "name": "The Castra",
+    "basicInfo": "In the lower reaches of Aquila rises the Castra, the urban barracks of the Emperor's legion cohorts—a fortress within the city where soldiers train, arm themselves, and stand eternal vigilance against internal uprising or external threat. Stone walls, reinforced with magical wards, enclose a vast drill-ground where legionaries train in formations and individual combat. Armories gleam with bronze and iron; the air smells of leather, sweat, and military discipline. The Aquiline Gates—colossal ceremonial portals of bronze and iron—are guarded by the legion's most elite soldiers. The Castra is nominally loyal to the Emperor through House Corvus, yet the reality is far more complicated: individual cohorts have been systematically corrupted by rival Houses; ambitious commanders harbor their own agendas; and the true loyalty of the soldiery remains dangerously uncertain. Within these walls, the empire's military spine is tempered—and the question of whose interests the legion truly serves remains perilously unanswered.",
+    "x": -22,
+    "y": -22,
+    "radius": 6,
+    "region": "The Aquilan Imperium",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "known": true,
+    "hiddenInfo": "The Castra's loyalty to the Emperor is facade and theater—individual cohorts have been quietly bought by rival Houses willing to pay gold and offer promotion to ambitious commanders. House Aurelius commands the loyalty of two full cohorts through careful placement of their agents in positions of command; House Varro has secured the support of the third cohort through a combination of bribery and blackmail. The Armory itself has become a black market for weapons—shields, swords, and pila are smuggled out regularly to supply House militias in preparation for the succession conflict that grows more likely each season. The Parade Ground has hosted secret meetings between House representatives and legion commanders; beneath the drills and discipline lies the careful orchestration of betrayal. Weapons designed to specifically counter Vis-work have been manufactured in the Armory's hidden forges—anti-magic wards etched onto shields, nullification blades that suppress furycraft, and binding-chains designed to immobilize active furycasters. These weapons suggest that someone within the military hierarchy is preparing for a conflict in which Vis-gifted soldiers cannot be relied upon, hinting at plans for succession conflict involving non-Vis forces.",
+    "areas": {
+      "The Barracks": {
+        "description": "Multi-story stone buildings where legionaries are housed in spartan quarters, their beds arranged in long dormitories, their personal possessions strictly limited to uniform and basic necessities. The Barracks are organized by cohort, with each unit maintaining its own territory and hierarchy. The air here is austere and regimented; discipline is maintained through rank and the constant threat of punishment. Morning formations are conducted with military precision; drills are relentless; any sign of individual will beyond military duty is suppressed through immediate correction.",
+        "paths": [
+          "The Armory",
+          "The Parade Ground",
+          "The Aquiline Gates"
+        ]
+      },
+      "The Armory": {
+        "description": "A sprawling facility of stone and steel where weapons, armor, and military equipment are stored, maintained, and distributed. The Armory contains thousands of swords, shields, pila, and other implements of war; the air here smells of metal-polish and the faint ozone of magical wards meant to prevent theft. Smiths work constantly to maintain equipment, repair damage, and manufacture new arms. The Armory is theoretically secure and tightly regulated; in practice, a steady stream of weapons finds their way out through corrupt quartermasters and ambitious officers seeking to build their own power bases.",
+        "paths": [
+          "The Barracks",
+          "The Parade Ground"
+        ]
+      },
+      "The Parade Ground": {
+        "description": "A vast, open expanse of packed earth where thousands of legionaries can gather for formations, drills, and training. The Parade Ground is where the legion's discipline is demonstrated—hours of repetitive drilling designed to ensure that individual soldiers subordinate themselves entirely to unit discipline and command hierarchy. The sound here is regimented: the measured tramp of feet, the sharp barked commands of centurions, the crash of shields striking in formation. The Parade Ground is also where public executions of traitors and deserters occur, reinforcing the consequences of disobedience.",
+        "paths": [
+          "The Barracks",
+          "The Armory",
+          "The Aquiline Gates"
+        ]
+      },
+      "The Aquiline Gates": {
+        "description": "Four massive portals of bronze and iron that mark Aquila's ceremonial city boundaries, each tower fortified and manned by the legion's most trusted soldiers. The gates are carved with imagery of imperial triumph and the Old Raven's dominion; the guards who stand here are the empire's most elite, selected for loyalty and skill. Yet even these gates have been subject to corruption—certain guards look the other way for carefully timed bribes, allowing illicit passage for those with sufficient coin and the right contacts. The gates' primary true function is controlling trade and collecting customs duties that flow into the imperial treasury.",
+        "paths": [
+          "The Barracks",
+          "The Parade Ground"
+        ]
+      }
+    }
+  },
+  "The River Quarter": {
+    "name": "The River Quarter",
+    "basicInfo": "Along the broad river that feeds Aquila's water-systems and carries trade between the capital and the empire's far reaches, the River Quarter thrums with commerce and shadow dealing. The Wharves extend for miles, a sprawl of docks where grain-barges, merchant-vessels of every size, and sleek smuggler-sloops load and unload their cargo under constant sun and moonlight. The great Horrea—colossal public granaries spanning multiple city blocks—rise inland, their stone chambers holding the grain reserves that, in theory, protect the city from famine. Merchant Warehouses cluster nearby, privately owned storage facilities for trade goods awaiting sale or shipment. Yet the true power of the River Quarter flows through House Murena's smuggling and spy network, woven so thoroughly into the dock-workers' ranks that House Murena essentially controls what flows in and out of the city. Hidden landings and smuggler docks operate in the dark, moving contraband that the empire would prefer to ignore.",
+    "x": 0,
+    "y": -30,
+    "radius": 6,
+    "region": "The Aquilan Imperium",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "known": true,
+    "factions": [
+      "House Murena"
+    ],
+    "hiddenInfo": "House Murena's control over the River Quarter is absolute and deliberate—they have cultivated every dock-worker, harbor-master, and stevedore through decades of careful relationship-building, always ensuring that workers' loyalty flows to Murena's interests first and the empire second. Every ship's manifest is known; every smuggled crate is catalogued; every whispered secret of cargo is sold to the highest bidder or held as leverage against those foolish enough to smuggle without Murena's permission. House Crassus has begun hoarding grain in the Horrea, buying extra supplies from the harvest and storing them with careful security—creating artificial scarcity in the market and enabling Crassus to control the mob's hunger and desperation. If Murena discovers Crassus's scheme, conflict will erupt. Tharsi contraband—weapons, spies, and forbidden magical implements—moves through hidden landings in the River Quarter, carried in boats that have been carefully chosen to evade the watch. Some Murena dock-workers, unaware of the political implications, assist with this smuggling in exchange for coin; others know exactly what they do and have been flipped as Tharsi agents. The Smugglers' Steps—hidden landings accessible only by those with local knowledge—operate in near-total darkness, used for transactions too dangerous or illegal for the open docks.",
+    "areas": {
+      "The Wharves": {
+        "description": "Sprawling docks extending for miles along the river, where the constant work of trade never ceases. Stevedores swarm the quays, loading and unloading cargo with practiced efficiency; merchants haggle over manifests; captains oversee the operations of their vessels. The air is thick with brine, fish-rot, tar-smoke, and the mingled odors of a thousand traded goods. The Wharves are where the empire's blood flows most directly—grain and oil arriving from provinces; manufactured goods being exported; foreign traders bringing exotic wares and spies in equal measure.",
+        "paths": [
+          "The Horrea",
+          "The Warehouses",
+          "The Smugglers' Steps"
+        ]
+      },
+      "The Horrea": {
+        "description": "Colossal public granaries of multi-storied stone construction, vast chambers where Aquila's grain supplies are held in reserve against famine or siege. The Horrea stretch across several city blocks; their interior is a maze of chambers, each carefully sealed against spoilage. The air inside is cool and dry, heavy with the smell of grain and preservation-magic. The Horrea are theoretically controlled by imperial magistrates, yet in practice they are controlled by whoever can leverage the grain-wardens. Currently, House Crassus exercises effective control through systematic corruption.",
+        "paths": [
+          "The Wharves",
+          "The Warehouses"
+        ]
+      },
+      "The Warehouses": {
+        "description": "Privately owned storage facilities clustered throughout the River Quarter, where merchant houses store goods pending sale or shipment. Each warehouse is a fortress unto itself, secured against theft and carefully guarded by private soldiers. The Warehouses are where legitimate and illicit goods intermix—a merchant's legitimate cargo might occupy the same facility as smuggled items awaiting sale to black-market buyers. The Warehouses operate under loose imperial regulation, with House Murena's agents effectively determining whose goods are stored where and which shipments are subject to 'inspection' or 'loss'.",
+        "paths": [
+          "The Wharves",
+          "The Smugglers' Steps",
+          "The Horrea"
+        ]
+      },
+      "The Smugglers' Steps": {
+        "description": "Hidden landings carved into the river's edge, accessible only through passages known to the initiated, operating in near-total darkness lit only by dim Vis-lamps. The Smugglers' Steps are where the most dangerous contraband arrives—weapons, poisons, forbidden texts, and occasionally living cargo ranging from escaped wild-born to political refugees. These landings are ostensibly unknown to authorities; in reality, House Murena's leadership permits them in exchange for a share of the profits and the intelligence that knowing about them provides.",
+        "paths": [
+          "The Wharves",
+          "The Warehouses"
+        ]
+      }
+    }
+  },
+  "The Circus Aquilae": {
+    "name": "The Circus Aquilae",
+    "basicInfo": "In the district of games and spectacle, the Circus Aquilae dominates—a vast, egg-shaped arena carved into a natural amphitheater, its sandy floor capable of holding thousands of chariot-horses and ten thousand screaming spectators. This is the empire's foremost entertainment venue, where the chariot-racing factions—the Reds, the Blues, the Greens, the Whites—command fanatical loyalty and stage their violent competitions. Above the arena, the nobles sit in gilded boxes, safe from the press of the common mob below. The stables and beast-pens hold exotic animals brought from the empire's far reaches; the Racing Track itself is a marvel of engineering, its sand maintained to exacting standards. The Imperial Baths stand adjacent—grand thermae where deals are struck in the steam-haze, where senators negotiate away from observers, where the empire's true business is conducted in the humid darkness of the tepidarium. Here, the Houses court the mob's affection through careful manipulation of races and spectacles; vast fortunes are wagered; and the line between sport and assassination becomes dangerously blurred.",
+    "x": 16,
+    "y": -34,
+    "radius": 6,
+    "region": "The Aquilan Imperium",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "known": true,
+    "hiddenInfo": "The Circus Aquilae is a theater of carefully orchestrated violence where the Houses act out succession conflicts through proxy. Staged 'accidents' occur regularly—a rival faction's star chariot-racer is mysteriously thrown from his team, crushing him under flashing wheels; a team's horses are secretly poisoned or imbued with Vis-suppressants that prevent them from racing efficiently. The mob-factions are systematically manipulated by the Houses—each faction secretly funded and directed by a particular House, the crowd's roaring loyalty channeled toward House interests. The Racing Track itself is the venue for fixed races, where the outcome is predetermined through bribery of drivers or magical sabotage of equipment. Enormous gambling rackets feed money to both legitimate and shadow House treasuries, with fixed races providing reliable income streams for corruption and bribery. The beast-pens contain not merely exotic animals but occasionally prisoners considered subversive or dangerous—some have been imbued with Vis to create more dangerous combat, turning entertainment into state execution. The Imperial Baths adjacent to the Circus are where the empire's most delicate negotiations occur; conversations conducted in the steam-haze cannot be easily overheard, and the anonymity of the thermal waters provides cover for House agents to meet without surveillance.",
+    "areas": {
+      "The Racing Track": {
+        "description": "A massive, oval arena of packed sand where chariot-races occur throughout the racing season, the track marked with turning posts around which teams navigate at breakneck speed. The track's engineering is sophisticated—banking on the turns, drainage systems beneath the surface, and carefully managed sand maintenance. The air here, when the races occur, is thick with dust, the scent of horse-sweat, and the roaring cheers of ten thousand spectators. The track becomes a scene of carnage when accidents—deliberately orchestrated or otherwise—occur, with charioteers crushed beneath wheels and horses slain for the entertainment of the crowd.",
+        "paths": [
+          "The Faction Stands",
+          "The Stables and Beast-Pens",
+          "The Imperial Baths"
+        ]
+      },
+      "The Faction Stands": {
+        "description": "Terraced seating surrounding the Racing Track, organized by faction—separate sections for the Reds, Blues, Greens, and Whites. Each faction's stand is a universe unto itself, with its own colors, its own fanatics, and its own violence. The crowd here is packed, roaring, and capable of turning deadly when races provoke strong emotions. Riots have occurred in the Faction Stands when perceived unfairness is suspected; the guards struggle to contain the crowds' passion. The stands are also where the Houses' agents position themselves, fanning the crowds' emotions and manipulating the factions' loyalties for House benefit.",
+        "paths": [
+          "The Racing Track",
+          "The Stables and Beast-Pens"
+        ]
+      },
+      "The Stables and Beast-Pens": {
+        "description": "Massive facilities where the Circus's racing teams keep their horses and where exotic animals captured or purchased for combat events are held. The Stables are centers of expertise, where master trainers work with prized teams of chariot-horses, conditioning them for racing and ensuring their peak performance. The Beast-Pens are far darker—cages holding lions, bears, and other dangerous creatures, many imbued with magical enhancement or Vis to make them more lethal in combat. The air here is thick with animal odors and the smell of blood. Security is tight in both the Stables and Beast-Pens, as theft or sabotage of animals is a constant concern.",
+        "paths": [
+          "The Racing Track",
+          "The Faction Stands",
+          "The Imperial Baths"
+        ]
+      },
+      "The Imperial Baths": {
+        "description": "A sprawling complex of marble thermae with hypocaust heating beneath, where steam rises perpetually in billowing clouds. The baths comprise cold pools, warm pools, and scalding caldaria; the air is thick with humidity, perfumed oils, and the intimate murmur of whispered conversation. Here, senators and House agents strike deals in the steam-haze where conversations cannot be easily overheard; agents seduce information from careless nobles; blackmail is bartered in the darkness of the tepidarium. The baths are ostensibly neutral ground, yet the wealthiest houses maintain private suites and have woven House servants and spies throughout the slave-staff maintaining the heating systems.",
+        "paths": [
+          "The Racing Track",
+          "The Stables and Beast-Pens"
+        ]
+      }
+    }
+  },
+  "The Corvine Palace": {
+    "name": "The Corvine Palace",
+    "basicInfo": "Fortified upon a commanding height overlooking Aquila sits the Corvine Palace, the iron-willed seat of Emperor Tiberius Corvus and the nerve center of the empire. Carved from black stone and crowned with towers shaped like raven wings, the Palace is as much fortress as residence. The air here is thick with ceremony, ancient power, and the weight of absolute authority. This is where the Old Raven holds court, where the empire's true decisions are made in shadow, and where the Corvid Guard—the Emperor's secret assassin-spies—move like deadly phantoms ensuring that Corvus dominance remains eternal. Every corner whispers of blood-oath and murder, of magic wielded for power's sake, and of the terrible secrets that prop up the throne itself.",
+    "x": 30,
+    "y": -25,
+    "radius": 9,
+    "region": "The Aquilan Imperium",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "known": true,
+    "factions": [
+      "House Corvus"
+    ],
+    "hiddenInfo": "Behind the Palace's magnificent facade lies a dynasty in crisis—born wholly from the absolute precariousness of succession. Emperor Tiberius Corvus is ancient; his body approaches mortality with each passing season, and his heir is not secured. The Old Raven remains formidably cunning—his political instincts razor-sharp, his command of court mechanics absolute—yet his physical frailty has made him a target. Enemies circle: poisoners both House-hired and hired by rival powers have attempted to drug him; House Serenus openly whispers that he is being magically compelled through water-craft Vocations, a heresy that gains dangerous traction. Whether these plots are real or merely suspected, they consume the Emperor's attention and resources, forcing him to trust only the Corvid Guard. The Corvid Guard, ostensibly sworn to protect the Emperor, are in fact the iron guarantors of House Corvus's perpetual dominance; they eliminate threats to the bloodline, suppress knowledge of Corvus weakness, and dispose of inconvenient rivals with surgical precision—all in the name of stability and imperial security. Their barracks beneath the Palace contain records of executed enemies, assassination techniques refined over generations, and the names of every magistrate, senator, and House agent who works in Corvus's shadow service. The hidden succession scheme, known only to the oldest Corvus bloodline members and the Corvid Guard's commander, involves installing one of the Emperor's younger bastards upon the throne—a half-wild youth with raw, dangerous gift in fire-craft, whose power outweighs his pedigree. If the Emperor dies before this succession is locked down, civil war will consume the empire.",
+    "areas": {
+      "The Raven Throne": {
+        "description": "The audience hall where the Emperor holds court and the empire's fate is ceremonially decided. A vast, vaulted chamber of black marble and crimson silk, the Throne itself rises at the hall's end—carved from a single piece of obsidian and shaped like a raven with wings spread. The Emperor sits here to receive ambassadors, hear petitions, and pronounce judgments that bind the empire. The air is oppressively formal; guards stand at rigid attention; every whisper echoes as if the chamber itself listens. Those summoned here leave changed—either elevated or utterly ruined.",
+        "paths": [
+          "The Whispering Gardens",
+          "The Corvid Guard Barracks",
+          "The Imperial Apartments"
+        ]
+      },
+      "The Whispering Gardens": {
+        "description": "A small, secluded garden hidden behind the Throne Hall where the Emperor walks at twilight and private bargains are struck. Fountains murmur; black roses and nightshade blooms perfume the air; stone benches sit in shadowed alcoves. This is where the Emperor meets with the Corvid Guard's commander, where House representatives whisper deals too dangerous for the Forum, and where the real decisions of empire are made away from witnesses. Some say the fountains here run with something more than water—that the Emperor has bound a water-numen to these gardens, forcing it to record all conversations spoken within for his later review.",
+        "paths": [
+          "The Raven Throne",
+          "The Imperial Apartments"
+        ]
+      },
+      "The Corvid Guard Barracks": {
+        "description": "A fortress within the Palace, sealed from casual access, where the Emperor's secret assassin-spies train, arm themselves, and receive their orders. Spare, utilitarian, and utterly martial—stone floors worn smooth by endless drills, weapon-racks lining the walls, training yards where these elite killers hone their furycraft. The Corvid Guard members are individually the finest fighters in the empire; they move with predatory grace and answer only to the Emperor and their commander. Here, the tools of empire—poison, blade, magic, and psychological manipulation—are refined to lethal perfection.",
+        "paths": [
+          "The Raven Throne"
+        ]
+      },
+      "The Imperial Apartments": {
+        "description": "The private chambers of Emperor Tiberius Corvus, guarded with fanatical intensity and sealed from all but his most trusted servants and the Corvid Guard. Opulent and immaculately maintained, the Apartments are fortress and sanctuary both. Though the Emperor's body shows the weight of his many years—the frailty that makes the succession precarious—the chambers themselves reveal a mind as sharp as ever: walls lined with strategically-placed mirrors affording sightlines of every approach; locks and wards continuously adjusted to foil would-be assassins; correspondence and state documents organized with meticulous precision. The Imperial Bedchamber itself is warded so heavily with protective magic that even the Corvid Guard cannot enter without invitation. In recent months, the Emperor has grown vigilant against poison and compulsion—devices now test every meal for contamination, and trusted healers ward him against poison and creeping compulsion, threats he suspects but has not yet unmasked.",
+        "paths": [
+          "The Raven Throne",
+          "The Whispering Gardens"
+        ]
+      }
+    }
+  }
+}
