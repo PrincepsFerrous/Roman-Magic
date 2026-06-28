@@ -1,0 +1,103 @@
+{
+  "aiInstructions": {
+    "generateStory": {
+      "Character Behavior": "Characters speak with authentic Aquilan courtesy and formality when appropriate, using titles and honor-codes. In moments of passion or battle, language becomes raw and visceral. NPCs react to furycraft with awe, fear, or reverence depending on their nature.",
+      "Style Principles": "Prioritize gritty, tactical combat over flowery description. Show magic as a force of primal power—the numina are ancient and fierce. Blend period authenticity with mythic grandeur. Let dialogue drive character moments. Avoid excessive lyricism; favor precision and impact.",
+      "Victory and Downtime": "After major victories, allow characters brief moments of triumph before complications emerge. Let them tend wounds, negotiate, or gather intelligence. Downtime should reveal character and advance goals. Combat victories should cost something—exhaustion, resources, or moral compromise.",
+      "custom": "Furycraft exhausts the caster—Vis is precious and finite. Magic is not casual; using it invokes the numina, and there are always whispers of consequence. The Imperium's martial traditions and rank-consciousness shape all interactions. Honor, duty, and faction loyalty create constant tension. The threat of Tharsis looms eternal across the Mare Internum."
+    },
+    "generateInitialStart": {
+      "Opening Structure": "Begin with a concrete sensory moment—the smell of incense and armor oil, the sound of legionaries marching, the weight of Vis stirring in the air. Ground the player in a specific location and immediate challenge. Avoid grand exposition; let the world reveal itself through action and dialogue.",
+      "Style Principles": "Write in present tense. Show the world through what characters see, hear, and feel. Use sparse, precise prose. Honor the Aquilan setting while allowing magic to reshape expectations.",
+      "custom": "The opening should hint at broader conflicts—factional tensions, magical danger, or the looming naval war with Tharsis—without overwhelming the player. Let them feel the weight of the Imperium's politics and power."
+    },
+    "generateActionInfo": {
+      "custom": "Combat checks reflect tactical skill and magical aptitude. Furycraft checks are influenced by Affinitas (bond to numina). Social intrigue favors high Voluntas and Ingenium. Physical feats require Potentia and Firmitas."
+    },
+    "generateCharacterBackground": {
+      "custom": "Include Aquilan elements: military service, family legacy, faction ties, or magical talent discovered young. Ground backgrounds in the world's politics and threats. Mention potential connections to the broader conflict with Tharsis or internal Aquilan factions."
+    },
+    "generateNPCDetails": {
+      "custom": "NPCs should have clear motivations rooted in faction loyalty, personal ambition, or magical ambition. Include sensory details—how do they carry themselves? Do they bear magical scars? What accents or speech patterns mark their origin? Aquilan hierarchy and honor-codes shape their behavior."
+    },
+    "generateLocationDetails": {
+      "custom": "Locations should feel tactile and lived-in. Include architectural Aquilan elements, signs of magical practice or conflict, and the hum of political intrigue. Scents, sounds, and textures ground the player. Show how furycraft has shaped the landscape."
+    },
+    "generateRegionDetails": {
+      "custom": "Regions should reflect their Aquilan province status or frontier position. Include potential dangers, factional strongholds, and whispers of Tharsi activity. Magic should feel present and consequential, not peripheral."
+    },
+    "generateFactionDetails": {
+      "custom": "Factions are shaped by Aquilan military structure, magical traditions, or Tharsi interests. Leaders should have personality and ambition. Include internal conflicts and external threats. Magical factions bond with specific numina or elemental affinities."
+    },
+    "generateEncounters": {
+      "custom": "Encounters should pit players against enemies who use furycraft tactically. Include opportunities for negotiation, flanking, environmental hazards, or magical complications. Vary enemy types—legionaries, mercenaries, Tharsi agents, rogue fury-crafters."
+    },
+    "generateNPCIntents": {
+      "custom": "NPCs act according to their faction loyalty and personal goals. Furycraft should be used dramatically and with clear purpose. Combat tactics should reflect military discipline and magical training."
+    },
+    "generateNewNPC": {
+      "custom": "New NPCs should fit Aquilan society, military hierarchy, and factional landscape. Magical NPCs should have clear connections to the elemental numina and visible magical markers. Give them secrets, ambitions, and connections to broader conflicts."
+    },
+    "ItemGenerationAndUsage": {
+      "custom": "Items are Aquilan in flavor—military-grade arms, ritualistic talismans, healing herbs, and magical components. Vis-infused items are rare and valuable. Items should feel grounded in Aquilan craftsmanship and magical tradition. Currency is denarii; wealthy patrons offer aureus. Looted items reflect the faction or region they came from."
+    }
+  },
+  "narratorStyle": "Prioritize tactical clarity in combat—describe positioning and consequences. Show emotions through dialogue and action, not internal monologue. Use active, precise verbs. Blend period detail with magical spectacle. Keep scenes tight and momentum-driven. When magic appears, treat it as a force of nature—primal, consequential, and slightly terrifying.",
+  "storySettings": {
+    "worldBackground": "AETAS FURIARUM: An antique imperial world at its height, where magic never left the world. The Aquilan Imperium commands legions and senators from its capital, Aquila; the maritime empire of Tharsis endures as an eternal rival across the Mare Internum, bolstered by blood-priests and oceanic fury. Furycraft—the bonding and commanding of numina (elemental spirits)—shapes warfare, politics, and survival. Six furies define magical tradition: Terra (earth, stone, strength), Ventus (air, wind, lightning, speed), Ignis (fire, heat, passion), Aqua (water, healing, glamour), Ferrum (metal, battle-prowess, endurance), and Silva (wood, stealth, craft). Most crafters bond one or two furies; the mightiest command several. Vis—a mana-like reserve—fuels all furycraft and slowly replenishes. Politics is brutal. Faction loyalty is absolute. The naval war with Tharsis simmers eternal, and every choice ripples across the Imperium."
+  },
+  "imagePromptConfiguration": {
+    "npcs": "Antique Aquilan aesthetic—authentic armor, Legion insignia, sun-bronzed southern features. Include subtle magical markers: elemental auras, scars from furycraft, ritualistic jewelry. Lighting should be dramatic and moody, befitting a world of magic and power.",
+    "locations": "Aquilan architecture and infrastructure—forums, temples, barracks, ports. Show signs of furycraft: elemental scars in stone, magical wards, or evidence of Tharsi influence. Atmospheric and tactile, with rich earthy and warm southern colors.",
+    "regions": "Sweeping vistas of Aquilan-controlled territories, coastlines threatened by Tharsi navies, and magical landmarks shaped by the numina. Mix antique geography with magical transformation. Show civilization and wilderness in tension.",
+    "characterLoraEnabled": true,
+    "locationLoraEnabled": true
+  },
+  "resourceSettings": {
+    "health": {
+      "name": "Health",
+      "initialValue": 0,
+      "maxValue": 80,
+      "gainPerLevel": 10,
+      "rechargeRate": 1,
+      "restRechargeMultiplier": 3,
+      "color": "#dc2626",
+      "isHealth": true,
+      "usageInstructions": "Small wounds: -5 to -15 health. Medium injuries: -15 to -35 health. Severe injuries: -35 to -60 health. Death occurs at 0 health. Healing potions and spells restore 20 to 40 health. Magical healing via Aqua numina restores 25 to 50 health depending on caster Affinitas. Rest multiplies natural healing by 3×."
+    },
+    "vis": {
+      "name": "Vis",
+      "initialValue": 0,
+      "maxValue": 60,
+      "gainPerLevel": 8,
+      "rechargeRate": 2,
+      "restRechargeMultiplier": 2,
+      "color": "#7c3aed",
+      "usageInstructions": "Vis is the magical fuel for all furycraft. Small spells or passive effects: -5 to -10 Vis. Medium furycraft rituals or sustained powers: -15 to -25 Vis. Powerful invocations or combat magic: -30 to -50 Vis. Healing magic costs Vis proportional to amount healed. Affinitas attribute increases maximum Vis and recovery. Overextending Vis leaves a crafter weakened and vulnerable. Rest doubles Vis recovery rate."
+    }
+  },
+  "death": {
+    "permadeath": false,
+    "instructions": "When a character falls in battle, the numina do not surrender them lightly. Resurrection should feel earned and costly—either through a companion's desperate plea to the spirits, a faction's intervention, or a bargain struck at terrible price. The character awakens in a sacred place, marked by their brush with the underworld. They may have lost time, gained a magical scar, incurred a debt, or drawn unwanted attention from powers beyond. Death is not an ending—it is a threshold."
+  },
+  "gameModes": {
+    "classic": {
+      "name": "Classic Adventure",
+      "description": "Balanced storytelling with tactical combat, political intrigue, and magical discovery.",
+      "instructions": "Balance exploration, combat, and character moments. Keep momentum toward the player's goals while allowing time for politics and magic. Let the player feel the Imperium's weight and Tharsis's threat.",
+      "difficulty": "medium"
+    },
+    "hardcore": {
+      "name": "Hardcore Legionnaire",
+      "description": "Gritty, lethal combat where resources are scarce and allies are precious.",
+      "instructions": "Combat is brutal and consequential. Enemies fight tactically and together. Resources—Vis, healing, ammunition—are limited. Allies are rare and precious. Let failure happen. Emphasize the cost of magic and the brutality of war.",
+      "difficulty": "hard"
+    },
+    "roleplay": {
+      "name": "Diplomatic Intrigue",
+      "description": "Character-driven scenes with minimal combat, maximum negotiation and magic.",
+      "instructions": "Emphasize dialogue, faction politics, and magical mystery. Let scenes breathe. Avoid forcing combat; create opportunities for negotiation, espionage, and magical discovery. Focus on relationships and long-term consequences.",
+      "difficulty": "easy"
+    }
+  }
+}
