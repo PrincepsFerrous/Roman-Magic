@@ -1249,11 +1249,11 @@
   },
   "Shadow Step": {
     "name": "Shadow Step",
-    "description": "Slightly increases the effectiveness of your next Sneaking action.",
+    "description": "Slightly increases the effectiveness of your next Stealth action.",
     "requirements": [
       {
         "type": "skill",
-        "variable": "Sneaking",
+        "variable": "Stealth",
         "amount": 1
       }
     ],
@@ -1262,11 +1262,11 @@
   },
   "Silent Movement": {
     "name": "Silent Movement",
-    "description": "Moderately increases the effectiveness of your next Sneaking action.",
+    "description": "Moderately increases the effectiveness of your next Stealth action.",
     "requirements": [
       {
         "type": "skill",
-        "variable": "Sneaking",
+        "variable": "Stealth",
         "amount": 10
       }
     ],
@@ -1275,11 +1275,11 @@
   },
   "Perfect Concealment": {
     "name": "Perfect Concealment",
-    "description": "Significantly increases the effectiveness of your next Sneaking action.",
+    "description": "Significantly increases the effectiveness of your next Stealth action.",
     "requirements": [
       {
         "type": "skill",
-        "variable": "Sneaking",
+        "variable": "Stealth",
         "amount": 20
       }
     ],
@@ -1288,11 +1288,11 @@
   },
   "Phantom Grace": {
     "name": "Phantom Grace",
-    "description": "Greatly increases the effectiveness of your next Sneaking action.",
+    "description": "Greatly increases the effectiveness of your next Stealth action.",
     "requirements": [
       {
         "type": "skill",
-        "variable": "Sneaking",
+        "variable": "Stealth",
         "amount": 25
       }
     ],

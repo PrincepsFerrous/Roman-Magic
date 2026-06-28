@@ -239,7 +239,11 @@
           "The Vestal Hearth"
         ]
       }
-    }
+    },
+    "factions": [
+      "The Augural College",
+      "The Hollow Choir"
+    ]
   },
   "The Palatine": {
     "name": "The Palatine",
@@ -325,7 +329,10 @@
           "The Talisman Stalls"
         ]
       }
-    }
+    },
+    "factions": [
+      "The Artificers' Guild"
+    ]
   },
   "The Subura": {
     "name": "The Subura",
@@ -338,7 +345,8 @@
     "detailType": "detailed",
     "known": true,
     "factions": [
-      "House Crassus"
+      "House Crassus",
+      "The Subura Syndicate"
     ],
     "hiddenInfo": "The Subura is House Crassus's true power base—not the grand mansions of the Palatine, but this maze of debt and obligation that touches nearly every commoner's life. The Ledger-House, a building hidden within the Subura's heart, contains records of every denarius lent, every debt incurred, every blackmail-hold established against merchants, moneylenders, gang leaders, and corrupt officials. Debtors who cannot pay in coin pay in information or service; those who resist find themselves destroyed through carefully orchestrated financial collapse or worse. Wild-born who have escaped the death sentence roam the Subura's deepest warrens, hiding from both House hunters and exploitation. House Murena maintains informers throughout the slums, watching for wild-born escapees and gathering intelligence on Crassus's activities. House Murena's agents also recruit from the Subura—desperate youth offered coin and protection in exchange for service as spies and assassins. The Subura is where the empire's true heart beats—not in the Forum's marble grandeur, but in the struggle for survival that defines the lives of those who have no bloodline, no Vis, and no recourse but the mercy of the Houses that systematically exploit them.",
     "areas": {
@@ -520,7 +528,8 @@
     "detailType": "detailed",
     "known": true,
     "factions": [
-      "House Corvus"
+      "House Corvus",
+      "The Corvid Guard"
     ],
     "hiddenInfo": "Behind the Palace's magnificent facade lies a dynasty in crisis—born wholly from the absolute precariousness of succession. Emperor Tiberius Corvus is ancient; his body approaches mortality with each passing season, and his heir is not secured. The Old Raven remains formidably cunning—his political instincts razor-sharp, his command of court mechanics absolute—yet his physical frailty has made him a target. Enemies circle: poisoners both House-hired and hired by rival powers have attempted to drug him; House Serenus openly whispers that he is being magically compelled through water-craft Vocations, a heresy that gains dangerous traction. Whether these plots are real or merely suspected, they consume the Emperor's attention and resources, forcing him to trust only the Corvid Guard. The Corvid Guard, ostensibly sworn to protect the Emperor, are in fact the iron guarantors of House Corvus's perpetual dominance; they eliminate threats to the bloodline, suppress knowledge of Corvus weakness, and dispose of inconvenient rivals with surgical precision—all in the name of stability and imperial security. Their barracks beneath the Palace contain records of executed enemies, assassination techniques refined over generations, and the names of every magistrate, senator, and House agent who works in Corvus's shadow service. The hidden succession scheme, known only to the oldest Corvus bloodline members and the Corvid Guard's commander, involves installing one of the Emperor's younger bastards upon the throne—a half-wild youth with raw, dangerous gift in fire-craft, whose power outweighs his pedigree. If the Emperor dies before this succession is locked down, civil war will consume the empire.",
     "areas": {
@@ -2560,7 +2569,10 @@
           "Teaching Halls"
         ]
       }
-    }
+    },
+    "factions": [
+      "The Unbound"
+    ]
   },
   "Sentinel Fort Westmarch": {
     "name": "Sentinel Fort Westmarch",
@@ -4301,7 +4313,8 @@
     "imageUrl": "",
     "known": false,
     "factions": [
-      "House Fabius"
+      "House Fabius",
+      "The Hollow Choir"
     ],
     "areas": {
       "The Vault Chamber": {

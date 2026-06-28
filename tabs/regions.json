@@ -65,7 +65,8 @@
     "realm": "Orbis Terrarum",
     "known": false,
     "factions": [
-      "House Fabius"
+      "House Fabius",
+      "The Hollow Choir"
     ],
     "imageUrl": ""
   },
@@ -113,7 +114,8 @@
     "realm": "Orbis Terrarum",
     "known": true,
     "factions": [
-      "House Tullius"
+      "House Tullius",
+      "The Unbound"
     ],
     "imageUrl": ""
   },
@@ -202,7 +204,11 @@
       "House Ventidius",
       "House Murena",
       "House Varro",
-      "House Tullius"
+      "House Tullius",
+      "The Corvid Guard",
+      "The Augural College",
+      "The Subura Syndicate",
+      "The Artificers' Guild"
     ],
     "imageUrl": ""
   }

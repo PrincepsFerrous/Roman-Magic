@@ -130,11 +130,6 @@
         "quantity": 1
       },
       {
-        "slot": "shield",
-        "category": "Armor",
-        "quantity": 1
-      },
-      {
         "slot": "weapon",
         "category": "Weapon",
         "quantity": 3
@@ -169,8 +164,7 @@
       "Amulet",
       "Ring",
       "Readable",
-      "Miscellaneous",
-      "\n\n## ITEM DEFINITION OVERRIDE RULES\nFollow these rules exactly when assigning bonuses.\n\n### STEP 1: DETERMINE ITEM TIER\nIf the item name has a tier prefix (Common/Uncommon/Rare/Epic/Legendary), use it as the baseline. Story context may shift the tier one step: masterwork may raise it, crude work may lower it.\nIf no prefix, determine the tier from the story:\n- Common: shop and market buys, mundane finds, tavern and barracks gear\n- Uncommon: quest rewards, skilled crafts, minor Vis-work, patron gifts\n- Rare: dungeon loot, enchanted gear, items with a clear Vis-aura, major quest rewards\n- Epic: boss drops, sealed vaults, powerful enchantments, items of named history\n- Legendary: Vis-forged relics, artifacts of the Twelve Thrones or the elder age, items of continental significance\nDefault to Common when uncertain.\n\n### STEP 2: BONUSES BY SLOT AND TIER\nAll equippable items MUST have bonuses. Never return bonuses [] for an equippable item.\n\nWEAPONS - MUST include {type:stat, variable:damage} first:\nCommon: damage +1-2. 1 bonus.\nUncommon: damage +2-3, +1 extra. 2 total.\nRare: damage +4-5, +1-2 extra. 2-3 total.\nEpic: damage +6-8, +2-3 extra. 3-4 total.\nLegendary: damage +9-12, +3-4 extra. 4-5 total.\nHeavy/martial weapons add Potentia or health. Finesse/agile weapons add Celeritas or vigor. Bows and slings add Celeritas or Ingenium. Furycraft foci such as staves, rods, and war-talismans add Affinitas or vis.\n\nARMOR - MUST include {type:resource, variable:health} first.\nBody armor health by weight class per tier:\nLight body (cloth, padded, leather): Common +6-8, Uncommon +8-12, Rare +12-16, Epic +16-22, Legendary +22-28.\nMedium body (mail, lorica hamata, scale): Common +14-16, Uncommon +16-20, Rare +20-28, Epic +28-36, Legendary +36-48.\nHeavy body (lorica segmentata, plate): Common +24-28, Uncommon +28-36, Rare +36-44, Epic +44-52, Legendary +52-64.\nOther slots (head/arms/legs/hands/feet/cloak/shield): health +2-8 scaled to tier and weight.\nBonus count: Common 1, Uncommon 2, Rare 2-3, Epic 3-4, Legendary 4-5.\nHeavy/plate: MUST include negative Sneaking (-1 to -4); may include negative Acrobatics or vigor. Negatives do not count toward the bonus total.\nMedium: MAY include Sneaking -1 to -2.\nLight: no penalties; may add Celeritas, Sneaking, or Acrobatics. Fury-robes may add Affinitas or vis.\n\nJEWELRY (amulet/ring):\nCommon: 1. attribute +1 or resource +2-3.\nUncommon: 1-2. attribute +1-2 or resource +3-5.\nRare: 2-3. attribute +2-3 or resource +5-8.\nEpic: 3-4. attribute +3-5 or resource +8-12.\nLegendary: 4-5. attribute +5-8 or resource +12-20.\n(Resources: health, vis, or vigor.)\n\nACCESSORY (charms, talismans, insignia, and Vis-infused trinkets):\nCommon: 1. skill +1-2.\nUncommon: 1-2. skill +2-4 or attribute +1.\nRare: 2-3. skill +4-6 or attribute +2.\nEpic: 3-4. skill +6-10 or attribute +3.\nLegendary: 4-5. skill +10-15 or attribute +4-5.\n\nNON-EQUIPPABLE: ALL Consumable, Miscellaneous, and Currency items = bonuses [] always.\n\n### CRAFTING MATERIALS\nMaterials: category Miscellaneous, slot misc, bonuses []. Put the tier in the name per STEP 1.\n\n### ALCHEMY\nPotions, draughts, poisons, and elixirs: category Consumable, slot consumable, bonuses []. Put the tier in the name per STEP 1. Effects are applied by the narrator.\n\n### EXAMPLES\nCommon Iron Pugio: weapon, [{type:stat,variable:damage,value:1}]\nUncommon Steel Gladius: weapon, [{type:stat,variable:damage,value:3},{type:attribute,variable:Potentia,value:1}]\nRare Lorica Segmentata: heavy body, [{type:resource,variable:health,value:40},{type:attribute,variable:Firmitas,value:2},{type:skill,variable:Sneaking,value:-3}]\nUncommon Leather Cuirass: light body, [{type:resource,variable:health,value:10},{type:attribute,variable:Celeritas,value:1}]\nUncommon Vein of Ferrous Ore: misc, []\nCommon Health Draught: Consumable, []"
+      "Miscellaneous"
     ],
     "lootValueMultiplier": 1,
     "lootValueVariability": 0.2,

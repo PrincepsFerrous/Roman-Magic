@@ -111,8 +111,8 @@
     "description": "You follow clues with methodical precision, piecing together hidden truths to unmask conspiracies, identify culprits, and expose secrets. You spot the details that seem out of place and recognize patterns that casual observers miss entirely. You search a scene thoroughly, understand what traces reveal, and connect threads others have failed to see.",
     "startingItems": []
   },
-  "Sneaking": {
-    "name": "Sneaking",
+  "Stealth": {
+    "name": "Stealth",
     "attribute": "Celeritas",
     "type": "Intrigue",
     "description": "You have trained in the arts of stealth, learning to move unseen and unheard through even well-lit spaces. Your steps are light and deliberate, and you know how to read a room to find the shadows and blind spots. Mastery of this skill lets you slip past guards, spy on conversations from concealment, and strike from darkness.",
