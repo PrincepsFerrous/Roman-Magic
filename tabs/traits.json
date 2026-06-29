@@ -1,18 +1,28 @@
 {
   "traitCategories": [
     {
-      "name": "Origins",
+      "name": "Heritage",
+      "maxSelections": 1,
+      "traits": [
+        "Aquilan",
+        "Highlander",
+        "Northborn",
+        "Eastlander",
+        "Tharsi-blooded",
+        "Provincial"
+      ]
+    },
+    {
+      "name": "Origin",
       "maxSelections": 1,
       "traits": [
         "Patrician Scion",
-        "Wild-Born",
-        "Legion Veteran",
         "Collegium Prodigy",
-        "Frontier-Born",
-        "Gutter-Born",
-        "Temple Augur"
+        "Arena-Bound",
+        "Gutter-Born"
       ]
     },
+    null,
     {
       "name": "Attribute Gifts",
       "maxSelections": 2,
@@ -84,68 +94,9 @@
   "traits": {
     "Patrician Scion": {
       "name": "Patrician Scion",
-      "description": "You were born into one of the Twelve High Houses, your bloodline steeped in the craft of furies for generations. From childhood, you learned the language of numina, trained in the academies of your House, and groomed for power. Privilege flows through your veins—fine tutoring, access to forbidden knowledge, connections that open doors—yet this comfort has left you softer than the frontier-born, your body untested by true hardship.",
-      "quirk": "Born to the House, groomed for greatness. Your education was relentless; your body was coddled. You command respect through breeding alone, but street survival eludes you. The gift runs deep in your blood, and you wield it with practiced grace—yet do you possess the fire to keep it when everything is stripped away?",
-      "attributes": [
-        {
-          "attribute": "Affinitas",
-          "modifier": 2
-        },
-        {
-          "attribute": "Voluntas",
-          "modifier": 1
-        },
-        {
-          "attribute": "Firmitas",
-          "modifier": -1
-        }
-      ],
-      "skills": [],
-      "resources": [],
-      "startingItems": [],
-      "abilities": [],
-      "unlockedBy": [],
-      "excludedBy": []
-    },
-    "Wild-Born": {
-      "name": "Wild-Born",
-      "description": "The gift erupted within you unbidden—a sudden, catastrophic awakening of power that marked you as one of the Touched. Born to common blood, you were never meant to wield the furies. Hunted by the High Houses who see you as either a prize to be claimed or a threat to be eliminated, you learned to hide, to fight, to survive with raw, untrained fury coursing through your veins. Your power is immense and unrefined, burning with the desperation of one the world was never supposed to accept.",
-      "quirk": "Scandal and sword-edge. Your gift is a curse and a treasure; the Houses want to own you or destroy you. Your fury is wild and powerful, but discipline is a stranger to you. Every numen you touch burns with your desperation and hunger. Are you hunted still?",
-      "attributes": [
-        {
-          "attribute": "Affinitas",
-          "modifier": 3
-        },
-        {
-          "attribute": "Voluntas",
-          "modifier": -1
-        }
-      ],
-      "skills": [],
-      "resources": [],
-      "startingItems": [],
-      "abilities": [],
-      "unlockedBy": [],
-      "excludedBy": []
-    },
-    "Legion Veteran": {
-      "name": "Legion Veteran",
-      "description": "Years of bleeding on the eagles' line have forged you into an instrument of war. You have marched with the legions through scorching deserts, frozen mountains, and bloodied plains. Every scar tells of survival; every battlefield memory has been branded into your bones. You know discipline, tactics, and the grim mathematics of combat. Your body is a weapon, your mind a strategist's, yet the endless campaigns have left little room for subtlety or grace.",
-      "quirk": "The Legion made you. You learned strength and endurance through suffering, discipline through repetition, tactical thinking through blood-soaked experience. Your mind has been dulled by the endless drill and march, but your body and will are unbreakable. What brought you to leave the eagles?",
-      "attributes": [
-        {
-          "attribute": "Potentia",
-          "modifier": 2
-        },
-        {
-          "attribute": "Firmitas",
-          "modifier": 1
-        },
-        {
-          "attribute": "Ingenium",
-          "modifier": -1
-        }
-      ],
+      "description": "You were born into one of the Twelve High Houses, your bloodline steeped in the craft of furies for generations. From childhood, you learned the language of numina, trained in the academies of your House, and groomed for power. You command respect through breeding and education—yet this comfort has left you softer than street-born, your body untested by true hardship.",
+      "quirk": "Narration guidance: Patrician Scions carry themselves with entitled assurance and polish. They speak in measured tones, expect deference as a birthright, and move with the studied grace of court training. Despite their refined bearing, they often betray surprise or discomfort when confronted with rough necessity or direct disrespect to their station.\n\nDescription: You are a child of the Aquilan heartland's highest bloodlines. Your family name carries weight in the Senate and temples; your education occurred behind walls of privilege and mystery. You were groomed from infancy—trained in letters, rhetoric, and the deep craft of numina-communion. Your body is unmarked by labor; your hands have never known callus. But your mind has been honed relentlessly, and the gift runs deep in your blood, waiting for the will and discipline to awaken its full power.\n\nReception: In the Aquilan heartland and among civilized centers, your bearing and accent command immediate deference—doors open, lesser folk step aside. In conquered provinces, your House affiliation may inspire resentment or suspicion. On frontier lands and among barbarian-touched peoples, your obvious privilege can mark you as an outsider—even a target.\n\nSocial Behavior: You naturally assume leadership and expect to be obeyed. You speak in considered phrases, pause before responding, and rarely raise your voice. You notice slight discourtesies immediately and register them as personal affronts. When uncertain, you default to protocol and precedent rather than improvisation.",
+      "attributes": [],
       "skills": [],
       "resources": [],
       "startingItems": [],
@@ -155,47 +106,9 @@
     },
     "Collegium Prodigy": {
       "name": "Collegium Prodigy",
-      "description": "The Academy at Aquila recognized your gift early and claimed you for the Collegium's halls. There, surrounded by the brightest minds in the realm, you studied the deep lore of the numina, learned the theory of furycraft, and mastered the subtle arts of binding and communion. Your education was rigorous and complete, your mind honed to a knife's edge. Yet all that knowledge came at a cost—the physical vigor of soldiers has passed you by, and the raw, instinctive power of the wild-born remains foreign to you.",
-      "quirk": "Schooled in the Academy's highest chambers. You understand the furies in ways others never will—their nature, their bindings, their secrets. Your mind is a library; your body, a scholar's. You excel in understanding, but raw physical might has never been your province.",
-      "attributes": [
-        {
-          "attribute": "Ingenium",
-          "modifier": 2
-        },
-        {
-          "attribute": "Affinitas",
-          "modifier": 1
-        },
-        {
-          "attribute": "Potentia",
-          "modifier": -1
-        }
-      ],
-      "skills": [],
-      "resources": [],
-      "startingItems": [],
-      "abilities": [],
-      "unlockedBy": [],
-      "excludedBy": []
-    },
-    "Frontier-Born": {
-      "name": "Frontier-Born",
-      "description": "You grew up on the savage northern limes, where the empire's reach grows thin and wild things still roam. In that harsh, unforgiving land, you learned to endure—bitter cold, sparse food, predators both animal and human. Your body is tough as leather, accustomed to hardship; your reflexes are quick from constant danger. The frontier demands speed and resilience, and you have both. But the subtler arts—eloquence, intrigue, refined learning—were luxuries your homeland could never afford.",
-      "quirk": "The limes shaped you. Hard winters, quick threats, scarce resources. Your body is resilient; your senses sharp. You move with the speed of necessity, endure with the stubbornness of stone. The soft lands of the south may feel like another world entirely.",
-      "attributes": [
-        {
-          "attribute": "Firmitas",
-          "modifier": 2
-        },
-        {
-          "attribute": "Celeritas",
-          "modifier": 1
-        },
-        {
-          "attribute": "Voluntas",
-          "modifier": -1
-        }
-      ],
+      "description": "The Academy at Aquila recognized your gift early and claimed you for the Collegium's halls. There, surrounded by the brightest minds in the realm, you studied the deep lore of the numina, learned the theory of furycraft, and mastered the subtle arts of binding and communion. Your education was rigorous and complete, your mind honed to a knife's edge.",
+      "quirk": "Narration guidance: Collegium Prodigies carry themselves with barely-contained intellectual fervor. They speak in careful, measured language—sometimes too precise, betraying their recent release from academic discipline. They tend to explain rather than command, reference authority rather than claim it, and show genuine surprise when practical concerns override pure theory.\n\nDescription: You were educated in the Collegium's highest chambers, where theory and practice interweave. You understand the furies in ways most will never grasp—their nature, their language, their binding patterns, the subtle mathematics of their communion. Your mind is a library of accumulated knowledge, and your connection to the numina runs deep and peculiarly precise. Yet you were trained in the safety of academic halls: you have read about danger rather than faced it, studied violence in texts rather than lived it. Your knowledge may outpace your instincts.\n\nReception: Scholars, magistrates, and learned folk respect your obvious erudition. Common soldiers and street-dwellers often view you with suspicious awe—or barely concealed contempt for your lack of practical hardness. In the provinces, your Collegium accent may mark you as an outsider or arrogant imposer of Aquilan doctrine.\n\nSocial Behavior: You often speak in careful, theoretical language even when simplicity would suffice. You reference authorities and precedent constantly. When faced with immediate practical problems, you pause—analyzing rather than reacting. You show discomfort with violence, unpredictability, and departure from established protocols.",
+      "attributes": [],
       "skills": [],
       "resources": [],
       "startingItems": [],
@@ -205,47 +118,9 @@
     },
     "Gutter-Born": {
       "name": "Gutter-Born",
-      "description": "You survived the capital's underbelly—the cramped tenements, the crooked alleys, the markets thick with cutpurses and con-artists. Down in the gutters, you learned what matters: speed, deception, and knowing which direction to run. Your mind is sharp with the cunning of the street; your body is quick from years of ducking and weaving. You read people like merchants read ledgers. But years of hunger and scarcity have left you lean, and the formal training of nobles has never touched your hands.",
-      "quirk": "Born in shadow and hunger. You are quick and clever, reading intention before words are spoken. Your mind is a trap of deception; your body, a dancer's. You have lived by your wits and your speed. Can you trust anyone?",
-      "attributes": [
-        {
-          "attribute": "Celeritas",
-          "modifier": 2
-        },
-        {
-          "attribute": "Ingenium",
-          "modifier": 1
-        },
-        {
-          "attribute": "Firmitas",
-          "modifier": -1
-        }
-      ],
-      "skills": [],
-      "resources": [],
-      "startingItems": [],
-      "abilities": [],
-      "unlockedBy": [],
-      "excludedBy": []
-    },
-    "Temple Augur": {
-      "name": "Temple Augur",
-      "description": "You were raised among the priesthoods of the Twelve Thrones, in the incense-thick temples where the divine will is interpreted through omen and ritual. There, you learned to read the signs, to commune with the sacred, and to command respect through spiritual authority. Your will is strong, honed by years of discipline and meditation; your mind is clear, trained in the mysteries and the hidden knowledge of the priesthoods. Yet the temple taught you contemplation over confrontation, prayer over punch.",
-      "quirk": "Raised in the temple's shadow. Your will is iron-strong, your mind clear as spring water, trained in the mysteries of the sacred numina. You know ritual, obligation, and the weight of the divine. But your body has been neglected in favor of spirit.",
-      "attributes": [
-        {
-          "attribute": "Voluntas",
-          "modifier": 2
-        },
-        {
-          "attribute": "Ingenium",
-          "modifier": 1
-        },
-        {
-          "attribute": "Potentia",
-          "modifier": -1
-        }
-      ],
+      "description": "You survived the capital's underbelly—the cramped tenements, the crooked alleys, the markets thick with cutpurses and con-artists. Down in the gutters, you learned what matters: speed, deception, reading people like merchants read ledgers, and knowing which direction to run. Your mind is sharp with the cunning of the street; your body is quick from years of ducking and weaving through impossible spaces.",
+      "quirk": "Narration guidance: Gutter-Born characters move with economical, darting grace—they are never fully still, always aware of exits and threats. They listen far more than they speak, and when they do speak, it's often in coded language or slang. They read other people with unsettling accuracy, anticipating needs and betrayals alike. They flinch at sudden loud noises and tend to position themselves at the edge of conversations, ready to flee.\n\nDescription: Born in shadow and hunger. You are quick—not just in body but in mind. You read intention before words are spoken, sense violence before it happens, know which smile hides a blade and which offer is genuine. Your body is lean and efficient, honed by years of tight spaces and constant vigilance. You move with the grace of someone who learned to dance between rooftops and through crowded markets to stay ahead of predators. Your mind is a trap of deception—you have survived by understanding what people want, what they will pay for, what they can be tricked into believing. You have no formal education, no patron, no inheritance. You have only yourself, your wits, your speed, and the hard-earned knowledge that trust is a luxury that costs lives.\n\nReception: In the capital's lower districts, you are known—possibly feared. Among merchants and street people, you have credibility born of survival. In noble houses and formal settings, your accent and bearing mark you immediately as lower-class; many will dismiss or condescend. On the frontier and in provincial towns, you are an outsider with visible street-scars, which can trigger suspicion or pity.\n\nSocial Behavior: You listen far more than you speak. You position yourself at the edge of conversations and groups, never fully relaxed, always aware of exits. When you do speak, you choose words carefully and often use street slang or coded language. You read people with disturbing accuracy—you know what they want before they state it, sense when they are about to lie or turn. You are respectful to those who have shown you kindness, wary of those with power, and ready to run at any sign of real danger.",
+      "attributes": [],
       "skills": [],
       "resources": [],
       "startingItems": [],
@@ -363,7 +238,7 @@
       "skills": [
         {
           "skill": "Terra",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -380,7 +255,7 @@
       "skills": [
         {
           "skill": "Ventus",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -397,7 +272,7 @@
       "skills": [
         {
           "skill": "Ignis",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -414,7 +289,7 @@
       "skills": [
         {
           "skill": "Aqua",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -431,7 +306,7 @@
       "skills": [
         {
           "skill": "Ferrum",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -448,7 +323,7 @@
       "skills": [
         {
           "skill": "Silva",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -465,7 +340,7 @@
       "skills": [
         {
           "skill": "Martial Weapons",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -482,7 +357,7 @@
       "skills": [
         {
           "skill": "Shield",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -499,7 +374,7 @@
       "skills": [
         {
           "skill": "Archery",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -516,7 +391,7 @@
       "skills": [
         {
           "skill": "Pugilism",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -533,7 +408,7 @@
       "skills": [
         {
           "skill": "Tactics",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -550,7 +425,7 @@
       "skills": [
         {
           "skill": "Field Medicine",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -567,7 +442,7 @@
       "skills": [
         {
           "skill": "Guile",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -584,7 +459,7 @@
       "skills": [
         {
           "skill": "Survival",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -601,7 +476,7 @@
       "skills": [
         {
           "skill": "Athletics",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -618,7 +493,7 @@
       "skills": [
         {
           "skill": "Agile Weapons",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -635,7 +510,7 @@
       "skills": [
         {
           "skill": "Stealth",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -652,7 +527,7 @@
       "skills": [
         {
           "skill": "Larceny",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -669,7 +544,7 @@
       "skills": [
         {
           "skill": "Acrobatics",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -686,7 +561,7 @@
       "skills": [
         {
           "skill": "Animal Handling",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -703,7 +578,7 @@
       "skills": [
         {
           "skill": "Smithing",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -720,7 +595,7 @@
       "skills": [
         {
           "skill": "Alchemy",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -737,7 +612,7 @@
       "skills": [
         {
           "skill": "Tailoring",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -754,7 +629,7 @@
       "skills": [
         {
           "skill": "Construction",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -771,7 +646,7 @@
       "skills": [
         {
           "skill": "Woodworking",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -788,7 +663,7 @@
       "skills": [
         {
           "skill": "Cooking",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -805,7 +680,7 @@
       "skills": [
         {
           "skill": "Mining",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -822,7 +697,7 @@
       "skills": [
         {
           "skill": "Masonry",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -839,7 +714,7 @@
       "skills": [
         {
           "skill": "Goldsmithing",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -856,7 +731,7 @@
       "skills": [
         {
           "skill": "Enchanting",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -873,7 +748,7 @@
       "skills": [
         {
           "skill": "Lore",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -890,7 +765,7 @@
       "skills": [
         {
           "skill": "Performance",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -907,7 +782,7 @@
       "skills": [
         {
           "skill": "Horsemanship",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -924,7 +799,7 @@
       "skills": [
         {
           "skill": "Seamanship",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -941,7 +816,7 @@
       "skills": [
         {
           "skill": "Investigation",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -958,7 +833,7 @@
       "skills": [
         {
           "skill": "Intimidation",
-          "modifier": 0
+          "modifier": 10
         }
       ],
       "resources": [],
@@ -975,9 +850,167 @@
       "skills": [
         {
           "skill": "Oratory",
-          "modifier": 0
+          "modifier": 10
         }
       ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Arena-Bound": {
+      "name": "Arena-Bound",
+      "description": "You were condemned to the sands of the Circus Aquilae, sold into bondage and forged by survival in the fighting pits. Every scar is a lesson in endurance; every victory, a breath closer to freedom. Your instincts are honed for combat; your will unbreakable despite the iron brand of slavery that marks you as property. In the arena, you learned that combat is truth—hesitation is death, mercy is weakness, and survival is everything. Freedom awaits, one duel at a time.",
+      "quirk": "Narration guidance: Arena-Bound characters move with coiled predatory grace even when still. They read combat situations with terrifying speed, and their stillness before action is eerie—like a blade sheathed. They speak sparingly, often in present tense about immediate threats. When triggered by violence or capture, they become someone else entirely: faster, colder, focused with an intensity that can be disturbing to witness.\n\nDescription: The sand is your home, though you never chose it. Your body bears the scars of a thousand contests—missing teeth, crooked fingers, thick whorls of scar tissue. You carry the iron brand of a condemned gladiator, a permanent mark of slavery visible to all. Your movements are controlled and economical, born from the necessity of conserving energy between bouts. You move with the grace of a predator who has killed to eat, starved to stay sharp. Your will was broken once—yes, broken completely—but when the pieces fused back together, they fused into something harder, stranger. You carry within you the hunger of a fighter who has glimpsed freedom through the crowd's roar and will not surrender that vision.\n\nReception: Common folk react with visceral awe—the arena is the only place lower classes can achieve fame and wealth, and the marked carry celebrity. Magistrates and elites regard you with a mix of entertainment value and unease—you are a tame weapon, but weapons turn. In conservative or civilized settings, your brand marks you as criminal property. Some will flinch; some will try to own you again.\n\nSocial Behavior: You observe much and speak little. When you do speak, you are precise—no wasted words. You have learned to read violence before it happens, to sense danger the way others sense weather. In conversation, you tend toward present tense and immediate concerns. You are respectful to those in authority (learned through brutal enforcement), but if threatened or cornered, something primal and dangerous surfaces instantly.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Aquilan": {
+      "name": "Aquilan",
+      "description": "You are of the heartland—a citizen of the Imperium's core, raised in the shadow of the capital's temples and forums. Your bloodline is rooted in the soil where the empire's power concentrates, and you carry yourself with the civic pride of one who believes the center of the world radiates outward from Aquila itself. You are cultured in the furycraft, educated in the protocols of power, and accustomed to deference. Yet that same privilege can mark you as arrogant in the eyes of provincial peoples.",
+      "quirk": "Narration guidance: Aquilans carry themselves with quiet civic authority. They expect and receive deference in civilized settings. They speak of 'the Imperium' as though it were an extension of themselves. When encountering frontier peoples or provincial customs, they register them as charming but inferior, sometimes with barely concealed disdain. They move with the confidence of those who have never questioned their place in the hierarchy.\n\nDescription: You were born in or near the Aquilan heartland, in the web of cities and towns that radiate the empire's cultural power. Your family owns land, conducts trade, or holds position—you are no pauper. You grew up hearing stories of the empire's expansion, educated in the rhetoric of Aquilan civilization and superiority. Your manner is polished: you speak in measured tones, understand the protocols of formal speech, and move with the ease of someone who has never struggled for basics. The furycraft flows through your bloodline—whether strong or weak, you were raised to understand it, to respect it, to use it as a tool of power.\n\nReception: In the Aquilan heartland and major civilized centers, your origin commands automatic respect. Other Aquilans recognize you as one of their kind. In conquered provinces, your bearing may inspire resentment—you are seen as a representative of the occupation. On savage frontiers, you are viewed as a soft outsider, cultured but untested. Some provincial peoples resent what they see as arrogance; others seek to emulate your style as a path to advancement.\n\nSocial Behavior: You naturally assume leadership and expect to be heard. You speak with precision, using formal rhetoric when appropriate. You take pride in understanding complex social dynamics. You notice slight infractions of protocol and correct them—sometimes subtly, sometimes not. In the presence of those you judge inferior, you remain courteous but distant. When disrespected, you respond with cold dignity rather than anger.",
+      "attributes": [
+        {
+          "attribute": "Affinitas",
+          "modifier": 1
+        },
+        {
+          "attribute": "Ingenium",
+          "modifier": 1
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Highlander": {
+      "name": "Highlander",
+      "description": "You hail from the mountain valleys and high plateaus where the empire's reach grows thin and ancient bloodlines run deep. Your people are stubborn, martial, and shaped by harsh terrain. You are accustomed to hardship and endurance; you know the value of honor and the weight of tradition. Though the Imperium claims your hills, your true loyalty runs to your kin and your mountains.",
+      "quirk": "Narration guidance: Highlanders move with economic, powerful strides. They tend to be quiet and watchful, speaking only when necessary—but when they do speak, people listen. They read terrain and weather with ease, seem entirely comfortable in mountains or rough country, and can appear almost uncomfortable in flatlands or cities. They value straightforward honesty and can seem blunt or rude to more formal peoples. They are fiercely protective of those they consider kin or allies.\n\nDescription: You were born in the high valleys where winters bite and summers are short. Your people have lived in these hills for generations—before Rome came, during Rome's conquest, and carrying that history forward. Your bloodline is old hill-stock: Varran, Sabine, or similar hardy peoples whose names predate the empire. Your body is strong and lean, marked by hard labor and exposure. You move with the ease of one who has always lived in steep terrain, who knows how to read stone and slope, who can navigate fog and darkness. Your people value martial skill, straightforward honor, and practical wisdom. You were raised on stories of your ancestors, taught to ride and fight young, instructed in the protocols of your clan. The empire claims your hills and taxes your people, but your true loyalty remains tribal—to your house, your valley, your blood.\n\nReception: In the empire's heartland, you are regarded with respect tinged with caution—your people have a reputation for martial prowess and stubborn independence. Soldiers and garrison commanders treat you with wariness and courtesy. Civilized folk often see you as rustic but trustworthy. In provincial cities, you may be underestimated or stereotyped as rough. On the frontier, you are trusted more readily—your toughness is understood and valued.\n\nSocial Behavior: You speak less than you listen. You tend toward bluntness—you say what you mean, see little value in flowery language, and expect others to do the same. You are loyal to those you have chosen to trust, and that loyalty is absolute. You are uncomfortable with elaborate courtesies and formal rhetoric. You notice disrespect immediately and respond directly. When faced with injustice, you tend toward action rather than negotiation.",
+      "attributes": [
+        {
+          "attribute": "Firmitas",
+          "modifier": 2
+        },
+        {
+          "attribute": "Voluntas",
+          "modifier": 1
+        },
+        {
+          "attribute": "Ingenium",
+          "modifier": -1
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Northborn": {
+      "name": "Northborn",
+      "description": "You were raised on the bleeding northern frontier, where the empire's legions wage endless war against barbarian tribes and the land itself is hostile. Your childhood was shaped by conflict, scarcity, and the constant proximity of death. You are weathered beyond your years, touched by hardship and the wild in equal measure. Though the empire claims to civilize the north, the north has civilized you instead.",
+      "quirk": "Narration guidance: Northborn characters carry themselves with visible wariness—they watch terrain and other people with equal intensity. They seem most comfortable in rough country or violent situations and can appear tense in peaceful civilized settings. They speak in clipped, practical language and have a dark, gallows humor about suffering. They tend toward paranoia about being outmaneuvered and watch for betrayal constantly. Despite their caution, they show surprising loyalty to those who have watched their back.\n\nDescription: You were born on the northern limes where the empire's eagles fly over bloodstained ground. Your childhood was not quiet—you learned to fight almost as soon as walk, learned to see strangers as potential enemies, learned that the line between survival and death is paper-thin. Your people—whether garrison soldiers, hardy settlers, or those descended from barbarian captives—taught you practical endurance. Your body is scarred, weathered by cold and wind. Your senses are sharp—you read weather before it arrives, sense danger the way others sense hunger. You are comfortable with violence, accustomed to scarcity, and unsurprised by betrayal. The north has marked you: you carry its hardness in your bones, its suspicion in your eyes.\n\nReception: Soldiers and garrison folk respect your toughness and reliability. In the Aquilan heartland, you are viewed as half-wild, interesting but somewhat frightening. Civilized folk often seem too soft and naive to you, and that judgment shows. In provincial cities, you are an outsider with visible scars and an accent marked by the frontier. Some see you as dangerous; others trust you precisely because you understand violence and survival. On the frontier itself, you are home.\n\nSocial Behavior: You are direct and pragmatic. You waste no time on pleasantries and expect others not to waste yours. You read violence coming before it happens and position yourself accordingly. You are suspicious of elaborate plans and social games—you prefer to know where you stand. You are intensely loyal to those who have fought beside you or proven their reliability. You are quick to anger at betrayal and slow to forgive it. In peaceful settings, you tend toward vigilance—you seem coiled, ready to fight.",
+      "attributes": [
+        {
+          "attribute": "Firmitas",
+          "modifier": 2
+        },
+        {
+          "attribute": "Celeritas",
+          "modifier": 1
+        },
+        {
+          "attribute": "Affinitas",
+          "modifier": -1
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Eastlander": {
+      "name": "Eastlander",
+      "description": "You are descended from or born into the philosopher-cities of the eastern reaches, ancient places where learning and commerce flow like water. Your people are known for intellect, eloquence, and a merchant's gift for reading desire and opportunity. Yet that same sophistication and cosmopolitanism can brand you as a foreign schemer in the eyes of conservative, traditional Romans.",
+      "quirk": "Narration guidance: Eastlanders carry themselves with fluid grace and obvious comfort in social situations. They are naturally attuned to what others want and often anticipate needs before they are voiced. They speak easily and well, code-switching between formal and casual register. They seem at ease in cities and uncomfortable in wild places. They are naturally suspicious of direct violence as a solution and tend toward negotiation and manipulation instead. Despite their surface grace, they often carry hidden agendas or divided loyalties.\n\nDescription: You were born in one of the eastern cities—Antioch, Alexandria, Damascus, or their rivals—where the ancient world's learning concentrates. Your people have traded and philosophized for generations. Your family likely conducts trade, follows a learned profession, or holds minor position. You were educated in rhetoric, history, and the subtle arts of reading people and situations. Your manner is naturally gracious—you move with the ease of one who has always lived in cities, who understands that words are more powerful than swords, that desire is the currency that moves the world. You are familiar with multiple languages, understand the protocols of different peoples, and can adapt your presentation to suit your audience. The furycraft exists in your eastern cities but is woven differently—more intellectual, more negotiated with than commanded.\n\nReception: In other eastern cities and civilized centers, you are treated as a peer—another learned person, another civilized individual. In the Aquilan heartland, you are viewed with respect but also suspicion—your foreign accent, your easy confidence with languages, your tendency to negotiate rather than decree mark you as 'other.' Soldiers and frontier folk often regard you with wariness or contempt, seeing you as soft or untrustworthy. Some view your sophistication as proof of hidden agendas; others admire your intelligence. Conservative Romans often suspect your loyalty to the empire itself.\n\nSocial Behavior: You are naturally gracious and attuned to social dynamics. You speak easily and well, adjusting your language and approach to your audience. You are skilled at reading what others want and providing it—or suggesting they want what benefits you. You avoid direct conflict, preferring negotiation and subtle influence. You are comfortable with ambiguity and with maintaining multiple relationships or commitments. You notice social hierarchy immediately and position yourself accordingly. To those in power, you are deferential and helpful; to those beneath, you are courteous but distant.",
+      "attributes": [
+        {
+          "attribute": "Ingenium",
+          "modifier": 2
+        },
+        {
+          "attribute": "Affinitas",
+          "modifier": 1
+        },
+        {
+          "attribute": "Potentia",
+          "modifier": -1
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Tharsi-blooded": {
+      "name": "Tharsi-blooded",
+      "description": "Your blood is marked by Tharsis—the rival sea-empire to the empire's west, a power that Rome defeated but never fully conquered. You may be descended from Tharsi nobility, a subject of their hybrid rule, or bear the cultural marks of their influence. You carry an exotic legacy that marks you as simultaneously fascinating and suspect—admired for your foreign mystique, feared as potentially enemy-aligned, distrusted as the product of a rival power.",
+      "quirk": "Narration guidance: Tharsi-blooded characters move and speak with a distinctive style that marks them as foreign. They tend to be striking in appearance—different coloring, dress, bearing. They are comfortable with ritualism and symbolism in a way that can seem theatrical to Romans. They often carry obvious cultural markers: tattoos, amulets, specific ways of dressing or adorning themselves. They can switch between seeming mysterious and unknowable to being surprisingly open and warm. Beneath a graceful surface often runs a calculating awareness—they are navigating a world that sees them as inherently compromised.\n\nDescription: Your connection to Tharsis marks you. Perhaps your grandmother was Tharsi, perhaps your family fled Aquilan rule, perhaps your blood is mixed. Regardless, you carry the cultural and physical markers of a rival power—different features, different bearing, different knowledge of the world. The Tharsi sea-empire was a genuine threat, defeated and subdued but never fully absorbed. Your people practice different rites, follow different gods or spirits, understand power and furycraft through a different lens. Your appearance alone marks you: you might have darker skin, distinctive tattoos, clothing that marks your foreign origin, jewelry or adornments that proclaim your heritage. You are comfortable with symbolism, ritual, and a style of grace that Romans sometimes read as dangerous or seductive. You understand yourself as living between worlds—never fully trusted in the Imperium, but unable or unwilling to fully surrender your heritage.\n\nReception: Civilized Aquilans are often fascinated by your exotic nature, but this fascination is mixed with fear and distrust. Many Romans suspect hidden loyalty to Tharsis or hidden magical knowledge tied to their ancient blood-rites. Soldiers and frontier folk often regard you with suspicion—your foreignness is too visible, too marked. Some will assume you are a spy; others will try to use you as one. In very conservative settings, you may face outright hostility rooted in old wars. However, you also carry a mystique that attracts those interested in the unusual or the forbidden.\n\nSocial Behavior: You carry yourself with a distinctive grace and confidence that comes from belonging to a proud, ancient culture. You are often comfortable with ritual, ceremony, and the formal performance of respect—though your style may differ from Aquilan protocols. You read political situations quickly and position yourself carefully. You are skilled at seeming whatever others need you to be—mysterious, approachable, threatening, vulnerable—while maintaining an inner core of privacy. You are aware that you are watched and suspected, and you use that awareness strategically. You are loyal to those who treat you with genuine respect, but you rarely fully trust anyone from the dominant power.",
+      "attributes": [
+        {
+          "attribute": "Affinitas",
+          "modifier": 2
+        },
+        {
+          "attribute": "Ingenium",
+          "modifier": 1
+        },
+        {
+          "attribute": "Voluntas",
+          "modifier": -1
+        }
+      ],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Provincial": {
+      "name": "Provincial",
+      "description": "You are common stock—born to plebeian families in the empire's conquered provinces, where most of Rome's actual population lives. You are adaptable and resourceful, learned in the practical arts of survival and social navigation. You are socially invisible in many contexts, overlooked and underestimated. Yet that invisibility is also your strength—you understand how systems actually work in ways the privileged never learn.",
+      "quirk": "Narration guidance: Provincial characters move through the world with an almost animal awareness of social hierarchies and power. They are naturally good at reading situations and people, at finding the path of least resistance. They often seem to fade into background—not through stealth but through a kind of social adaptation, a chameleon-like ability to blend. They speak with less polish than Aquilans, using local dialect and practical language. They are comfortable with ambiguity and moral compromise. Despite their social invisibility, they often carry surprising depths of knowledge and unsentimental wisdom.\n\nDescription: You were born in the provinces—one of the empire's many conquered territories where actual daily life happens far from the centers of power. Your family are farmers, craftspeople, merchants, soldiers, or some mixture thereof. You are not poor necessarily, but you are not privileged. Your education came from experience rather than tutors: you learned to read situations, to know which officials could be swayed and which were immovable, to understand the invisible rules that govern how the conquered live under the conquerors. You are adaptable—you learned early that survival requires flexibility, that the appearance of compliance can hide all manner of actual resistance. You understand how systems work because you navigate them daily. Your accent marks you as provincial; your hands often bear the marks of labor; your manner is direct and practical rather than polished. You are socially invisible in many contexts—easily overlooked, underestimated, dismissed. This invisibility is your greatest asset.\n\nReception: Aquilans often regard you as charming rustic or simply ignore you entirely—you are beneath their notice unless you become obviously wealthy or notable. Other provincials recognize you as one of their own. Soldiers stationed in the provinces understand your pragmatism and often work with you without condescension. Foreign peoples often regard you as a representative of the occupation, but your lack of obvious elite markers can make them treat you more as fellow commoner than oppressor. Conservative authorities often trust you precisely because you appear harmless.\n\nSocial Behavior: You are naturally good at reading what people want and understanding how to work within existing systems. You move through the world with practical awareness rather than ambition. You are skilled at seeming less threatening than you are, less knowledgeable than you actually are. You are comfortable with moral ambiguity—you understand that survival sometimes requires compromise. You are loyal to your actual community (family, village, guild) rather than to abstract ideals. You are suspicious of sudden fortune or obvious paths of advancement—if it seems too good, you trust your instincts that something is wrong.",
+      "attributes": [
+        {
+          "attribute": "Ingenium",
+          "modifier": 2
+        },
+        {
+          "attribute": "Celeritas",
+          "modifier": 1
+        },
+        {
+          "attribute": "Potentia",
+          "modifier": -1
+        }
+      ],
+      "skills": [],
       "resources": [],
       "startingItems": [],
       "abilities": [],

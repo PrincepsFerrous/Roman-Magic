@@ -1,0 +1,62 @@
+{
+  "Swarm Drone": {
+    "name": "Swarm Drone",
+    "description": "A common form of the Buried Swarm—fast, numerous, and expendable. Swarm Drones are chitinous, insectile creatures barely larger than a man, moving with unnatural coordination and purpose. They possess no will of their own; each is a puppet-limb of the single, ancient, sleeping consciousness that dwells beneath the world. Their exoskeletons shimmer with an oily iridescence, and their movements are jerky and synchronized, as if controlled by invisible threads. They feel no fear, know no hesitation, and cannot be turned or intimidated—there is only the Swarm's hunger, only its alien imperative to devour the numina and drain the very fury-spirits from the world.",
+    "vulnerabilities": [
+      "piercing",
+      "slashing",
+      "bludgeoning"
+    ],
+    "resistances": [
+      "fire",
+      "lightning",
+      "wind",
+      "earth",
+      "water",
+      "ice",
+      "metal",
+      "wood",
+      "sanguine",
+      "profane",
+      "divine"
+    ],
+    "immunities": [
+      "poison",
+      "fear",
+      "charm",
+      "mind-control",
+      "domination",
+      "morale"
+    ]
+  },
+  "Swarm Ravager": {
+    "name": "Swarm Ravager",
+    "description": "A larger and deadlier elite form of the Buried Swarm, the Ravager is a monstrous predator of the insectile hive—larger than a horse, with powerful mandibles and a carapace thick as iron. Where Drones are expendable foot-soldiers, Ravagers are apex hunters, capable of tearing through fortifications and warriors alike with terrifying efficiency. Like all extensions of the Swarm, they are empty of individual consciousness; their movements are coordinated with the rest of their kind by the single ancient Will that sleeps beneath. They feel no pain, cannot be intimidated, and will pursue their objective—the consumption of numina and the draining of fury-spirits—with mechanical, implacable determination. Steel alone stands between the living and the Swarm's hunger.",
+    "vulnerabilities": [
+      "piercing",
+      "slashing",
+      "bludgeoning"
+    ],
+    "resistances": [
+      "fire",
+      "lightning",
+      "wind",
+      "earth",
+      "water",
+      "ice",
+      "metal",
+      "wood",
+      "sanguine",
+      "profane",
+      "divine"
+    ],
+    "immunities": [
+      "poison",
+      "fear",
+      "charm",
+      "mind-control",
+      "domination",
+      "morale"
+    ]
+  }
+}

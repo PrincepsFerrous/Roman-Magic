@@ -1,0 +1,288 @@
+{
+  "grant-origin-noble": {
+    "name": "grant-origin-noble",
+    "conditions": [
+      {
+        "type": "story",
+        "query": "player is a young scion of one of the Twelve High Houses during the Ludi Corvini, chosen to represent their family at the Grand Games and protect a family secret"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Palatine"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Patrician Scion"
+      }
+    ]
+  },
+  "grant-origin-collegium": {
+    "name": "grant-origin-collegium",
+    "conditions": [
+      {
+        "type": "story",
+        "query": "player is a wild-born initiate at the Collegium Furiacae selected for a dangerous furycraft demonstration before the Emperor at the Ludi Corvini"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Collegium Furiacae"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Collegium Prodigy"
+      }
+    ]
+  },
+  "grant-origin-gladiator": {
+    "name": "grant-origin-gladiator",
+    "conditions": [
+      {
+        "type": "story",
+        "query": "player is a condemned fighter in the Circus Aquilae's cells preparing for deadly arena duels during the Ludi Corvini games"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Circus Aquilae"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Arena-Bound"
+      }
+    ]
+  },
+  "grant-origin-shadow": {
+    "name": "grant-origin-shadow",
+    "conditions": [
+      {
+        "type": "story",
+        "query": "player is a Subura pickpocket and informant working for the Syndicate at the Ludi Corvini festival, tasked with retrieving a sealed letter for a dangerous handler named Kessa"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Subura"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Gutter-Born"
+      }
+    ]
+  },
+  "trigger-patrician-scion": {
+    "name": "trigger-patrician-scion",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Patrician Scion"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Rising I-A: The Noble's Secret"
+      }
+    ]
+  },
+  "trigger-collegium-prodigy": {
+    "name": "trigger-collegium-prodigy",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Collegium Prodigy"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Rising I-B: The Initiate's Trial"
+      }
+    ]
+  },
+  "trigger-arena-bound": {
+    "name": "trigger-arena-bound",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Arena-Bound"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Rising I-C: The Gladiator's Bargain"
+      }
+    ]
+  },
+  "trigger-gutter-born": {
+    "name": "trigger-gutter-born",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Gutter-Born"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Rising I-D: The Gutter Shadow's Hunt"
+      }
+    ]
+  },
+  "trigger-convergence-from-noble": {
+    "name": "trigger-convergence-from-noble",
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Rising I-A: The Noble's Secret"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Rising I: Four Convergences"
+      }
+    ]
+  },
+  "trigger-convergence-from-initiate": {
+    "name": "trigger-convergence-from-initiate",
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Rising I-B: The Initiate's Trial"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Rising I: Four Convergences"
+      }
+    ]
+  },
+  "trigger-convergence-from-gladiator": {
+    "name": "trigger-convergence-from-gladiator",
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Rising I-C: The Gladiator's Bargain"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Rising I: Four Convergences"
+      }
+    ]
+  },
+  "trigger-convergence-from-shadow": {
+    "name": "trigger-convergence-from-shadow",
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Rising I-D: The Gutter Shadow's Hunt"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Rising I: Four Convergences"
+      }
+    ]
+  },
+  "trigger-act-ii-unlock": {
+    "name": "trigger-act-ii-unlock",
+    "conditions": [
+      {
+        "type": "player-level",
+        "operator": "greaterThanOrEqual",
+        "value": 8
+      },
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Rising I: Four Convergences"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Rising II: The Succession Shadow"
+      }
+    ]
+  },
+  "trigger-act-iii-unlock": {
+    "name": "trigger-act-iii-unlock",
+    "conditions": [
+      {
+        "type": "player-level",
+        "operator": "greaterThanOrEqual",
+        "value": 18
+      },
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Rising II: The Succession Shadow"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Rising III: The War Far Away"
+      }
+    ]
+  },
+  "trigger-act-iv-unlock": {
+    "name": "trigger-act-iv-unlock",
+    "conditions": [
+      {
+        "type": "player-level",
+        "operator": "greaterThanOrEqual",
+        "value": 28
+      },
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Rising III: The War Far Away"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Rising IV: The Buried Swarm Wakes"
+      }
+    ]
+  }
+}
