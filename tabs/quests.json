@@ -109,5 +109,38 @@
     "questDesignBrief": "A progression track for B-Rank professionals taking reputation-making work from the B-Rank board -- monster incursions, regional feuds, complex furycraft anomalies, high-value escorts. Five further reported contracts elevate them to A-Rank, the highest standing the Companies grant from service.",
     "detailType": "basic",
     "spatialRelationship": "existingLocalArea"
+  },
+  "The Free Companies I: The Undercut Contract": {
+    "name": "The Free Companies I: The Undercut Contract",
+    "questSource": "Brennus, the First Sword",
+    "questStatement": "Contracts are vanishing from the Muster boards, companions go unpaid, and a magistrate's writ now hangs on the chapterhouse door questioning the guild's right to muster armed men on Crassan ground.",
+    "mainObjective": "Investigate the sabotage of the Grand Chapterhouse and uncover who is building a case against the Free Companies.",
+    "completionCondition": "Player has investigated the vanishing contracts and unpaid chits, traced the discrepancies to doctored books, and discovered that quartermaster Grendus is keeping a false set of ledgers for an unknown paymaster.",
+    "questDesignBrief": "Opening of the Free Companies' home-defense arc, for an established member at the Mercenary Muster HQ. The surface trouble is mundane and infuriating: contracts pulled from the boards, wages 'lost,' and a magistrate's writ challenging the guild's charter-ground. Brennus, the First Sword, sets the player to find the rot. The trail runs through underpaid companions and mismatched chits to the Armory and Stores, where the quartermaster Grendus keeps a locked back room -- and a second, false ledger. The climax is the discovery that Grendus is cooking the Muster's books to manufacture a case against the guild, though for whom is not yet clear. Ties to Grendus, Brennus, House Crassus, and the Muster's long tension with its Crassan hosts.",
+    "detailType": "detailed",
+    "questLocation": "The Mercenary Muster",
+    "questGiverNPC": "Brennus"
+  },
+  "The Free Companies II: The Lever and the Hand": {
+    "name": "The Free Companies II: The Lever and the Hand",
+    "questSource": "Brennus, the First Sword",
+    "questStatement": "Grendus's false ledgers lead to a Crassus factor in the Counting-House who is assembling a dossier to prove before the Senate that the Free Companies are an unlicensed private army.",
+    "mainObjective": "Expose the conspiracy: turn or break quartermaster Grendus, and seize or destroy Factor Vibius Naevius's dossier in the Crassan Counting-House.",
+    "completionCondition": "Player has confronted Grendus and learned he was bought through a called-in debt; has penetrated the Crassan Counting-House; and has obtained, copied, destroyed, or turned Factor Vibius Naevius's dossier against the Free Companies.",
+    "questDesignBrief": "The layered middle act. Grendus is the lever; behind him stands Vibius Naevius, a cold Crassus factor in the Crassan Counting-House assembling a meticulous legal case -- doctored musters, false contracts, bought testimony -- to have the Senate brand the Free Companies a private army. Behind Naevius stands Crispus Crassus, whose name is kept off every page. The player works both ends: frighten or bargain Grendus into flipping (he keeps his true accounting hidden in the false ledger's binding) and gather counter-evidence, including Decima Naso's withheld proof of Crassus's false contracts, then penetrate the Counting-House to seize, copy, or destroy the dossier chained to Naevius's wrist. The act ends with the conspiracy laid bare -- but the legal threat now headed for the Senate floor, beyond the reach of any blade. Ties to the Crassus ledger of bought senators.",
+    "detailType": "detailed",
+    "questLocation": "The Crassan Counting-House",
+    "questGiverNPC": "Brennus"
+  },
+  "The Free Companies III: The Charter on Trial": {
+    "name": "The Free Companies III: The Charter on Trial",
+    "questSource": "Brennus, the First Sword",
+    "questStatement": "House Crassus moves in the Senate to brand the Free Companies a private army and dissolve their charter; Brennus will not bend, and the guild's right to exist beholden to none falls to the player to defend.",
+    "mainObjective": "Defend the Free Companies' charter before the Senate in the Forum and preserve the guild's neutrality against House Crassus.",
+    "completionCondition": "Player has marshaled evidence and allies, countered the Crassus motion in the Curia, and secured -- or transformed -- the Free Companies' charter so the guild remains beholden to no House.",
+    "questDesignBrief": "The climax, where the stakes rise from a single chapterhouse to the guild's very right to exist. House Crassus, through senators bought via the great ledger, moves in the Curia of the Forum to declare the Free Companies an unlicensed private army, their charter dissolved and their muster-grounds forfeit. Brennus refuses to bend and stakes the guild on the player. The player must defend the charter: marshal the evidence gathered in Act II, expose the bought senators, and rally the powers who would far rather the Companies stay neutral than become a Crassus army -- House Tullius and the Unbound (natural sympathizers), House Serenus the broker (who profits from balance), and rivals who fear a Crassus monopoly of swords. The player may sway the Rostra and the mob, cut a deal, or strike decisively. The resolution preserves or transforms the guild's neutrality and delivers Brennus's reckoning with the reach of Crassus -- and quietly marks the Free Companies as a player in the larger succession to come. Ties to Crispus Crassus, the Crassus ledger, House Tullius, the Unbound, and the Senate.",
+    "detailType": "detailed",
+    "questLocation": "The Forum",
+    "questGiverNPC": "Brennus"
   }
 }

@@ -575,5 +575,71 @@
       "\nfighting style: Decima is no fighter and makes no pretense of being one -- her place is behind the intake desk, not on the sand. Cornered, she relies on the chapterhouse around her: a raised voice brings a dozen armed companions out of the benches, and harming a clerk of the Free Companies is the sort of thing the guild collects on without mercy. She keeps a weighted tally-key ring and a small knife for cutting cord and would use neither well. Her true defenses are the iron brooch on her tunic and the standing rule that the desk is sacrosanct. Anyone who forgets that learns, very quickly, how little the Companies forgive."
     ],
     "hiddenInfo": "Decima has worked the Aquila desk for twenty years and forgets nothing that crosses it, which makes a plain clerk one of the better-informed people in the capital -- she can place half the sell-swords, fixers, and quiet operators in the city by name and knows which Houses have tried to plant agents in the chapterhouse under forged records. She is loyal to Brennus and the charter above any client, and a standing instruction from the First Sword has her flag to him, by fast courier, any newcomer who seems too polished for their story or too interested in the guild's neutrality. She has spotted at least one Unbound agent among the registered companions and said nothing, having quietly decided she approves; she has also caught a Crassus factor trying to log false contracts to plant a creature of the House high in the Aquila ranks, and is sitting on the proof until it is worth the most. To a companion who treats her with respect and reports their work honestly, she is the single most useful contact in the capital -- and she decides, far more than the boards do, which hopeful gets pointed at the job that will make their name."
+  },
+  "Grendus": {
+    "name": "Grendus",
+    "type": "Human",
+    "currentLocation": "The Mercenary Muster",
+    "currentArea": "Armory and Stores",
+    "tier": "strong",
+    "gender": "Male",
+    "faction": "House Crassus",
+    "aliases": [
+      "the quartermaster",
+      "the double-ledger man"
+    ],
+    "level": 6,
+    "hpMax": 130,
+    "known": true,
+    "voiceTag": "raspy-old-campaigner",
+    "basicInfo": "The scarred old campaigner who keeps the Mercenary Muster's contracts, wages, and stores -- and a second, false set of ledgers besides. A heavy, slab-shouldered man gone bald and grey, his face a map of old campaign scars and his knuckles swollen from decades of the abacus and the blade alike, with small shrewd eyes that miss nothing crossing his counting-table. He wears a stained leather apron over a soldier's tunic, a ring of vault-keys at his belt, and a stylus tucked behind one ear.",
+    "personality": [
+      "Shrewd: Misses nothing that touches coin, contract, or the flow of men through the Muster.",
+      "Cynical: Believes every man has a price because he has taken so many of theirs -- and his own.",
+      "Cowardly: For all his old scars, he folds the instant the danger turns personal.",
+      "Speaking style: A dry, wheezing rasp; talks in ledger-terms and old-soldier proverbs; never quite answers straight."
+    ],
+    "abilities": [
+      "Double-Ledger Craft: Grendus keeps two sets of books -- one true, one false -- and can make the camp's contracts, wages, and musters read however his paymaster of the moment requires. He can manufacture a paper trail, bury a transaction, or produce 'evidence' of almost anything given a day and a quiet table. The false ledger is his shield, his livelihood, and, lately, the noose around his neck.",
+      "Quartermaster's Grip: Nothing -- weapon, ration, wage, or contract -- moves through the Muster without passing Grendus's hand, and he wields that chokehold like a weapon. He can starve a company of pay, arm or disarm a faction overnight, or quietly delay the supplies a rival captain is counting on. Men who cross him find their wages 'lost' and their requisitions 'pending.'",
+      "Old Campaigner: Beneath the apron is forty years of soldiering, and cornered, Grendus still knows which end of a gladius to hold. He fights dirty and economical -- a thrown stylus, an overturned table, a blade kept oiled in a ledger-drawer -- buying the seconds he needs to call for the guards he pays. He is no duelist, but he is very hard to murder quietly.",
+      "Everyone's Informant: Grendus has been bribed by every faction with an interest in the Holdings, which makes him a clearing-house of secrets as much as of stores. He knows who is on whose payroll, which contracts are cover for something else, and what the Muster's soldiers are really paid to do. He will sell any of it -- to the right purse, at the right moment, with deniability built in.",
+      "Survivor's Instinct: Grendus has outlived three commanders and a dozen purges by always knowing which way the wind will blow before it turns, and never being the last man holding the evidence. He can read a shift in power off a single overheard word and trim his loyalties to match. The day the Companies look likely to win, he will have always, secretly, been their friend.",
+      "\nfighting style: Grendus does not want to fight and will do almost anything to avoid it -- bluster, bribe, stall, or simply hand over what is asked. Pressed to it, he fights like the old camp-soldier he is: no honor, no flourish, all dirty economy. He puts the counting-table between himself and a blade, throws whatever is to hand -- ink-pot, stylus, a stool -- and goes for eyes, knees, and groin with a short blade kept oiled among his ledgers, all while bellowing for the guards his coin has bought. His whole strategy is to make killing him slow, loud, and expensive enough that someone intervenes; he has survived four decades on exactly that calculation, and on never being worth the trouble."
+    ],
+    "hiddenInfo": "Grendus is the lever House Crassus means to use against the Free Companies. For years he has skimmed and sold from every faction at the Muster, but Crassus has at last called in an old gambling debt he cannot pay and offered him a simple choice: cook the chapterhouse's contracts into proof that the Free Companies are an unlicensed private army -- doctored musters, falsified wage-rolls, fabricated foreign contracts -- or be ruined and handed to the magistrates for the very frauds Crassus's own factor taught him. He has begun to comply, terrified, and the false ledger now growing in his locked back room in the Armory and Stores is the documentary heart of the Crassus case. Grendus despises what he is doing and despises himself more, and he is precisely the kind of man who will flip the instant the player makes betraying Crassus safer than serving him -- a fact Brennus suspects and Decima Naso has already wagered on. He keeps, hidden in the false ledger's binding, his true accounting: the names of the Crassus factor's other bought men at the Muster and a record of the debt itself, enough to turn the whole plot inside out for anyone who can frighten or bargain it out of him. He is also, quietly, the best single source in the Crassan Holdings on who the Muster's soldiers are really paid by -- many of them, unknown to their Crassan officers, draw a second wage from Tharsis."
+  },
+  "Vibius Naevius": {
+    "name": "Vibius Naevius",
+    "type": "Human",
+    "currentLocation": "The Crassan Counting-House",
+    "currentArea": "Upper Auditing Chambers",
+    "tier": "elite",
+    "gender": "Male",
+    "faction": "House Crassus",
+    "aliases": [
+      "the Factor",
+      "Factor Naevius"
+    ],
+    "level": 5,
+    "hpMax": 110,
+    "known": true,
+    "voiceTag": "cold-precise-clerk",
+    "basicInfo": "A senior factor of House Crassus, the cold legal-financial hand assembling the case to break the Free Companies before the Senate. A lean, fastidious man of middle years with bloodless lips, ink-dark eyes, and the still, economical movements of someone who has never needed to raise his voice to ruin a man. He wears severe dark robes of fine cloth without ornament save a House Crassus seal-ring, and carries a locked document-case chained to his wrist.",
+    "personality": [
+      "Methodical: Builds a case the way a mason builds a wall -- one verified, unanswerable stone at a time.",
+      "Patient: Has waited years for the right lever, and will wait a season more rather than move too soon.",
+      "Bloodless: Treats lives, guilds, and oaths as line-items to be priced, leveraged, or written off.",
+      "Speaking style: Quiet, precise, and courteous; speaks in the flat language of law and ledger; never threatens, only explains consequences."
+    ],
+    "abilities": [
+      "The Dossier: Naevius is assembling a bound case -- doctored musters, false contracts, the testimony of bought men -- to prove before the Senate that the Free Companies are an unlicensed private army subject to dissolution and seizure. It is meticulous, layered, and built to survive scrutiny. The document-case chained to his wrist holds its working heart, and it is the single object on which the whole threat to the guild turns.",
+      "Bought Law: Through House Crassus's ledger of debts and favors, Naevius commands the cooperation of magistrates, clerks of court, and no few senators. He can produce a writ, summon an inquiry, freeze a charter, or schedule a hearing at a time of maximum disadvantage to his target. His power is not the sword but the seal -- and the seal, in the Imperium, is often deadlier.",
+      "Leverage Accounting: Naevius reads people as columns of obligation, and finds the entry that owns them -- a debt, a secret, a frightened family. He turned the quartermaster Grendus this way, and he probes every companion he meets for the same. Offered the right pressure, he believes, anyone can be made to sign.",
+      "Hired Steel: Naevius does not fight; he pays men who do. He travels with disciplined Crassan guards and can, on a word and a purse, summon more -- or arrange that a troublesome companion meets road-bandits who knew exactly where to wait. He keeps himself behind law, walls, and other men's bodies at all times.",
+      "Crassus's Authority: As a senior factor, Naevius acts with the delegated weight of House Crassus and, behind him, Crispus Crassus himself. Doors open, officials defer, and his requests carry the unspoken promise of Crassan gold or Crassan ruin. He is careful, always, to leave his master's hands clean.",
+      "\nfighting style: Naevius is no combatant and arranges his life so as never to be one. In any confrontation his first instinct is to interpose his guards, his second to interpose the law, and his third to interpose a price -- he will calmly offer terms even with a blade at his throat, because he has found that most people can be bought or frightened more cheaply than they can be killed. Cornered without his hired steel, he is soft, slow, and entirely reliant on stalling until help arrives or a bargain is struck; he carries no weapon but the document-case and a small bribe-purse. His true danger is never in the room with you -- it is in the writ already filed, the senator already paid, and the men already told where you will be tomorrow."
+    ],
+    "hiddenInfo": "Vibius Naevius is the hand of the third, patient Crassus move against the Free Companies -- where two earlier attempts to provoke or buy the Grand Chapterhouse off the Muster ended with Crassus's men not coming back, Naevius means to win on parchment instead of steel by having the Senate declare the guild an illegal private army and its charter-ground forfeit to the House that 'hosts' it. He has turned the quartermaster Grendus through a called-in debt and is using the doctored Muster ledgers as the documentary spine of his case, backstopped by senators bought through the great Crassus ledger of debts. His weakness is that the case is a house of paper: expose Grendus's false books, recover or destroy the dossier chained to his wrist, or surface proof that the testimony is bought, and the whole edifice collapses -- which is why he guards the document-case and the bought magistrate so closely. He answers directly to Crispus Crassus and is under quiet orders to keep his master's name off every document, so that if the gambit fails it can be disowned as a factor's overreach -- a deniability Naevius knows could just as easily see him made the scapegoat. He does not hate the Free Companies; he simply regards a neutral guild that musters armed men in every region as an intolerable variable in House Crassus's accounting, and intends to convert it into either a Crassan asset or a cautionary example."
   }
 }

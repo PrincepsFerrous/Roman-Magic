@@ -939,5 +939,74 @@
         "instruction": "The senior clerk reads down the tally twice, the way they do when a record is good enough to be worth a second look -- five B-Rank contracts closed clean across the realm. They retire the steel tag and set gold in its place, struck with the Companies' seal and the player's name. Gold carries weight in the world: it opens doors most courts keep shut, grants access to intelligence the lower ranks never see, and lets the player take charge of a crisis without waiting on a local authority's leave. A-Rank is the highest standing the Companies grant -- and from here the contracts only get graver."
       }
     ]
+  },
+  "company_questline_offer": {
+    "name": "company_questline_offer",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Mercenary Muster"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      },
+      {
+        "type": "read-boolean",
+        "key": "companyMember",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Free Companies I: The Undercut Contract"
+      },
+      {
+        "type": "story",
+        "instruction": "Brennus, the First Sword, draws the player aside in the Grand Chapterhouse. Something is wrong at the Muster: contracts are vanishing off the boards, companions are going unpaid, and this morning a magistrate's writ was nailed to the hall door, questioning the guild's right to muster armed men on Crassan ground. He has weathered two Crassus moves against this house before and smells a third. He asks the player -- a companion he can trust -- to find the rot before it spreads, and points them first at the wage-rolls and the quartermaster's stores. Deliver this as a quiet, grim request from a man who built this guild and will not lose its home."
+      }
+    ]
+  },
+  "company_questline_part_ii": {
+    "name": "company_questline_part_ii",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Free Companies I: The Undercut Contract"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Free Companies II: The Lever and the Hand"
+      }
+    ]
+  },
+  "company_questline_part_iii": {
+    "name": "company_questline_part_iii",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Free Companies II: The Lever and the Hand"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Free Companies III: The Charter on Trial"
+      }
+    ]
   }
 }

@@ -4,5 +4,85 @@
     "category": "Currency",
     "description": "The silver coin of the Aquilan Imperium, stamped with the Old Raven's profile. The common currency of trade, bribe, and tribute across the provinces.",
     "bonuses": []
+  },
+  "Bronze Charter-Tag": {
+    "name": "Bronze Charter-Tag",
+    "category": "Amulet",
+    "description": "A plain disc of stamped bronze on a leather cord, struck with the iron-grey sigil of the Free Companies and a registry number. Worn openly at the throat it marks its bearer a D-Rank companion of the guild; slipped out of sight it leaves them an ordinary traveler. The lowest rung of the one ladder birth cannot bar.",
+    "bonuses": [],
+    "slot": "amulet"
+  },
+  "Silver Charter-Tag": {
+    "name": "Silver Charter-Tag",
+    "category": "Amulet",
+    "description": "A silver disc on a worn cord, the Companies' sigil and a registry number struck clean across its face. Displayed at the throat it names a C-Rank companion, trusted to range and work alone anywhere the charter runs; pocketed, it draws none of that notice. Real standing, earned in the field.",
+    "bonuses": [],
+    "slot": "amulet"
+  },
+  "Steel Charter-Tag": {
+    "name": "Steel Charter-Tag",
+    "category": "Amulet",
+    "description": "A blackened steel disc on a braided cord, the guild seal struck deep enough to last a hard career. Worn plainly it marks a B-Rank companion, a proven professional whose name travels the contract boards ahead of them; concealed, it lets them pass unremarked. Few wear steel, and fewer still earn it from a desk.",
+    "bonuses": [],
+    "slot": "amulet"
+  },
+  "Gold Charter-Tag": {
+    "name": "Gold Charter-Tag",
+    "category": "Amulet",
+    "description": "A disc of struck gold bearing the Companies' seal and the bearer's name, hung on a fine cord. Displayed, it names an A-Rank companion whose arrival quietly rearranges a room and opens doors that rank alone cannot; out of sight, it leaves them anyone at all. The highest emblem the guild grants from service.",
+    "bonuses": [],
+    "slot": "amulet"
+  },
+  "Companion's Blade": {
+    "name": "Companion's Blade",
+    "category": "Weapon",
+    "description": "The Free Companies' standard-issue sword: a plain, well-balanced arming blade with an iron-grey cord wound at the grip and the guild's small sigil stamped at the ricasso. No flourish, no maker's vanity -- only reliable steel, drawn from the chapterhouse armory and meant to be used hard and kept sharp.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 4
+      }
+    ],
+    "slot": "weapon"
+  },
+  "Free Company Travelling Leathers": {
+    "name": "Free Company Travelling Leathers",
+    "category": "Armor",
+    "description": "A hard-wearing jerkin of boiled leather reinforced with riveted strips, cut for the long road and the longer contract. Guild-issue and unglamorous, dyed the Companies' iron-grey, it turns a glancing blow and shrugs off weather from the northern limes to the southern coast.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 120
+      }
+    ],
+    "slot": "body"
+  },
+  "Road-Warden's Cloak": {
+    "name": "Road-Warden's Cloak",
+    "category": "Armor",
+    "description": "A heavy travelling cloak of oiled wool in Company grey, weighted at the hem and clasped with a plain iron brooch. It sheds rain and road-dust, doubles as a bedroll on a cold night, and its weighted folds have turned more than one knife meant for a companion's back.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 70
+      }
+    ],
+    "slot": "cloak"
+  },
+  "Contract-Satchel": {
+    "name": "Contract-Satchel",
+    "category": "Accessory",
+    "description": "A road-worn satchel of stiff leather divided into waxed compartments, made to carry sealed contracts, a seal-matrix, a tally of denarii, and the chits that prove a job done and reported. Every working companion carries one; an empty satchel marks a companion between contracts, a fat one a good season.",
+    "bonuses": [],
+    "slot": "accessory"
+  },
+  "Muster Wine": {
+    "name": "Muster Wine",
+    "category": "Consumable",
+    "description": "A stone jug of the rough, strong barley-wine the Mercenary Muster is known for, traded by the cup across every chapterhouse. It warms the road out of a companion's bones and, two cups in, loosens the road-news out of their mouth.",
+    "bonuses": []
   }
 }
