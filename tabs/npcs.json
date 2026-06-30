@@ -507,5 +507,73 @@
     "voiceTag": "ecstatic-prophetic-whisper",
     "hiddenInfo": "The Choir-Prophet was not always devoted to the Buried Swarm—they were once a Collegium-trained furycrafter of considerable talent, taught the proper bonds of the Six Furies and the correct use of Vis. Then, years ago, they began to hear something in the deep places—whispers that grew louder, more coherent, more real with each passing season. The whispers resolved into a single VOICE, and that Voice spoke truths that no mortal sage had ever comprehended. That Voice was Vorax itself, reaching through the cracks in the ancient seals to touch the mind of someone pure and broken enough to receive its communion. In that moment of contact, the Prophet understood: the Imperium is built on a lie; the Six Furies were raised not to protect mortals but to cage something precious and true that the ancients feared. Vorax is not evil—it is hungry, yes, but it hungers for the only thing that matters, the only thing that brings meaning to the cold void of existence. Since that revelation, the Prophet has been the single mortal vessel through which Vorax speaks to the world of mortals. They command the Hollow Choir not through authority but through the sheer weight of communion—every follower knows that when the Prophet speaks, they speak with Vorax's voice. The Prophet is entirely sincere and entirely lucid; they are not mad, though others perceive them as insane. They understand perfectly that their mission will require the collapse of the Imperium, the weakening of the wards, and the eventual waking of the Hunger. They have accepted this with perfect clarity, and they work tirelessly to hasten the day. Most dangerously, the Prophet grows more powerful with each ritual they perform—they are becoming less human and more a vessel for Vorax's will, and no one can say at what point the conversion becomes complete.",
     "type": "Human"
+  },
+  "Brennus": {
+    "name": "Brennus",
+    "properName": "Brennus",
+    "type": "Human Ferrum Furycrafter",
+    "currentLocation": "The Mercenary Muster",
+    "currentArea": "Free Companies Hall",
+    "tier": "mythic",
+    "gender": "Male",
+    "faction": "The Free Companies",
+    "aliases": [
+      "the First Sword",
+      "Guildmaster Brennus",
+      "the First Sword of the Free Companies"
+    ],
+    "level": 12,
+    "hpMax": 240,
+    "known": true,
+    "voiceTag": "gruff-grizzled-veteran",
+    "basicInfo": "The First Sword of the Free Companies, a wild-born once sold into the Muster as a hired blade who fought, bargained, and bled the guild into a power that spans the world. A barrel-chested man gone grey at the temples, his weathered face seamed with old scars and his forearms corded from a lifetime of steel, with pale Ferrum-bright eyes that weigh a stranger like a smith weighs a billet. He wears plain travelling leathers over a shirt of his own folded mail and the gold tag of the guild he made, worn openly, on a cord at his throat.",
+    "personality": [
+      "Steadfast: Keeps his given word past the point where it costs him, which is why the charter holds.",
+      "Plain-spoken: Says exactly what a contract is and is not, and expects the same in return.",
+      "Unforgiving: Never forgets a betrayal of the Companies, and the debt is always collected.",
+      "Speaking style: Blunt, dry, and economical; a frontier rasp; more likely to grunt than flatter."
+    ],
+    "abilities": [
+      "Ferrum Communion: Metal answers your touch; blades sharpen, mail hardens, and the bones of a forge sing to you. Brennus can turn an enemy's sword brittle in their grip, weld a broken gate shut, or sense hidden steel through a wall. He reads the quality of a weapon -- or a liar's concealed knife -- at a glance.",
+      "Folded-Mail Skin: By drawing Ferrum into the iron-rich blood and the mail he wears, Brennus shrugs off blows that would fell lesser men. He can stiffen his guard against a charge, blunt an arrow mid-flight, or anchor himself immovable against a giant's swing. The cost is endurance, and he spends it like a man who has always had to.",
+      "The Muster's Measure: Decades of contracts have made Brennus a peerless judge of fighters -- their reach, their tells, their breaking point -- inside a few exchanged blows. He exploits a flaw the instant he finds it, talks a green opponent into a fatal overcommit, or calls a bluff no one else would dare. Off the sand, the same eye prices a job and weighs a client's honesty.",
+      "First Sword's Word: Brennus commands the loyalty of sworn companions in every region, and the charter behind him means his word moves hundreds of hard professionals. He can call in favors across the realm, muster a company on short notice, or vouch for a stranger in a way that opens doors a House name would not. His neutrality is itself a weapon -- he answers to no throne.",
+      "Veteran's Patience: Brennus has survived everything by refusing to be hurried -- he sets the tempo of a fight, wears an enemy out, and strikes only when the opening is certain. He can hold a line alone, cover a retreat, or stand a duel out until his opponent's arm tires. Pressure does not rattle him; he has already imagined every way the day can go wrong.",
+      "\nfighting style: Brennus fights like the campaigner he is -- economical, patient, and ruinously hard to finish. He opens defensively, mail and Ferrum-stiffened guard turning aside the first furious exchanges while he takes his opponent's measure, then closes only when he has found the flaw and the footing is his. He warps the enemy's own steel against them -- a sword gone brittle, a buckle sprung, a spearhead dragged off-line -- and answers with short, certain blows that do not miss twice. He never overcommits, never chases, and never tires before the other man does; against many foes he gives ground in good order and lets the terrain and their own haste do half his work. In him the Companies' creed is made flesh: no flourish, no mercy for those who break faith, and a settled, grinding refusal to lose."
+    ],
+    "hiddenInfo": "Brennus is wild-born -- gifted with Ferrum outside any bloodline -- which by imperial law makes the most respected free sword in the realm a standing crime, a fact he neither hides nor advertises and dares the Houses to act upon. He built the Free Companies precisely so that men and women like him would have one ladder to climb that birth could not bar, and his fiercest, most secret commitment is to keep the guild neutral at any cost, knowing that the day it tilts toward one faction it becomes a private army to be bought, broken, or hanged. He has quietly let the Unbound seed agents into his chapterhouses -- whether out of sympathy or to keep a closer eye on them, even he does not entirely admit -- and he trades information with House Tullius and the free port of Portus Aurorae through cut-outs. House Crassus wants the Grand Chapterhouse pulled off the Muster and has tried twice to provoke or buy it gone; both times the men they sent did not come back, and Crassus has learned to be patient. Brennus has begun to hear the same uneasy reports from too many regions -- tremors, things coming up out of old tunnels, companions vanishing on routine culls near sealed places -- and a soldier's instinct tells him something far worse than the succession is coming, and that the Companies, beholden to no House, may be the only force able to muster across a fracturing realm when it does."
+  },
+  "Decima Naso": {
+    "name": "Decima Naso",
+    "type": "Human",
+    "currentLocation": "The River Quarter",
+    "currentArea": "Free Companies Hall",
+    "tier": "average",
+    "gender": "Female",
+    "faction": "The Free Companies",
+    "aliases": [
+      "the intake clerk",
+      "the clerk"
+    ],
+    "level": 3,
+    "hpMax": 90,
+    "known": true,
+    "voiceTag": "brisk-friendly-clerk",
+    "basicInfo": "The senior intake clerk of the Free Companies' Aquila chapterhouse, the unhurried face every hopeful meets first. A trim woman of middle years with ink-stained fingers, reading-squinted eyes, and grey threading dark hair pinned back out of her way, her manner brisk and welcoming in equal measure. She wears a practical wool tunic, a guild brooch of plain iron, and a ring of tally-keys at her belt.",
+    "personality": [
+      "Perceptive: Reads a newcomer's real experience past whatever they claim, in a question or two.",
+      "Efficient: Runs the busiest desk in Aquila without ever seeming rushed.",
+      "Dryly skeptical: Has heard every inflated story twice and quietly discounts them.",
+      "Speaking style: Warm but clipped; plain procedural language; the faint amusement of someone who has seen it all."
+    ],
+    "abilities": [
+      "Ledger-Reading: Decima knows the chapterhouse register cold -- every active companion, their rank, their closed contracts, and who owes the guild what. She can confirm or quietly puncture a claimed record on the spot, settle a pay dispute, or tell at a glance whether a job has truly been reported and logged.",
+      "Take Their Measure: A lifetime at the intake desk has made Decima a shrewd judge of who can actually stand behind their words; two or three pointed questions are usually enough. She slots newcomers to the rank they can hold, spots a fraud, and knows which green hopeful is worth a senior clerk's attention.",
+      "Contract Lore: Decima knows the boards better than anyone -- which contracts are live, which are quietly cursed, which clients pay and which cheat. She can steer a companion to work that fits their rank, warn them off a job that has already swallowed two parties, or explain exactly what reporting a contract will and will not do for their standing.",
+      "Network of Companions: Through the chapterhouse pass hundreds of road-worn professionals, and Decima remembers them. She can put a player in touch with a guide, a specialist, or a witness; pass word to another chapterhouse; or quietly flag a name to Brennus if something about it does not sit right.",
+      "Unflappable: Decima has run the desk through brawls, drunk veterans, and House agents throwing their weight around, and none of it hurries her. She defuses a quarrel with a flat word, holds the line on procedure against intimidation, and keeps the queue moving while the world misbehaves around her.",
+      "\nfighting style: Decima is no fighter and makes no pretense of being one -- her place is behind the intake desk, not on the sand. Cornered, she relies on the chapterhouse around her: a raised voice brings a dozen armed companions out of the benches, and harming a clerk of the Free Companies is the sort of thing the guild collects on without mercy. She keeps a weighted tally-key ring and a small knife for cutting cord and would use neither well. Her true defenses are the iron brooch on her tunic and the standing rule that the desk is sacrosanct. Anyone who forgets that learns, very quickly, how little the Companies forgive."
+    ],
+    "hiddenInfo": "Decima has worked the Aquila desk for twenty years and forgets nothing that crosses it, which makes a plain clerk one of the better-informed people in the capital -- she can place half the sell-swords, fixers, and quiet operators in the city by name and knows which Houses have tried to plant agents in the chapterhouse under forged records. She is loyal to Brennus and the charter above any client, and a standing instruction from the First Sword has her flag to him, by fast courier, any newcomer who seems too polished for their story or too interested in the guild's neutrality. She has spotted at least one Unbound agent among the registered companions and said nothing, having quietly decided she approves; she has also caught a Crassus factor trying to log false contracts to plant a creature of the House high in the Aquila ranks, and is sitting on the proof until it is worth the most. To a companion who treats her with respect and reports their work honestly, she is the single most useful contact in the capital -- and she decides, far more than the boards do, which hopeful gets pointed at the job that will make their name."
   }
 }

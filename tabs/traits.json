@@ -89,6 +89,15 @@
         "Enforcer",
         "Orator"
       ]
+    },
+    {
+      "name": "Free Company",
+      "maxSelections": 1,
+      "traits": [
+        "Company Rank: D",
+        "Company Rank: C",
+        "Company Rank: B"
+      ]
     }
   ],
   "traits": {
@@ -1011,6 +1020,91 @@
         }
       ],
       "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Company Rank: D": {
+      "name": "Company Rank: D",
+      "description": "Oratory: +2\n\nD-Rank Free Companion. You begin registered with the Free Companies, a fresh bronze charter-tag at your throat. You are authorized for the lowest rung of the contract ladder -- escort runs, pest-culling, minor errands in settled country -- with a reputation to match: none yet earned.",
+      "quirk": "This character is a freshly enrolled D-Rank of the Free Companies, carrying a plain bronze charter-tag with no name yet behind it. Narrate seasoned companions sizing them up by the bronze and giving their words little weight, hall-clerks explaining procedure slowly, innkeepers steering them to the cheap cots, House guards waving them past without stepping aside, and local toughs not bothering to lower their voices. To most they are a hopeful with a contract-chit, not a name -- and the work the boards offer them should reflect that: strayed livestock, escort duty, rats in a granary. They are recognized this way only while openly displaying the bronze tag; kept out of sight, it leaves them to pass for an ordinary traveler, drawing none of these reactions.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Oratory",
+          "modifier": 2
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Company Rank: C": {
+      "name": "Company Rank: C",
+      "description": "Oratory: +4\n\nC-Rank Free Companion. You carry the silver tag, trusted by the Companies to break organized banditry, hunt dangerous beasts, and settle straightforward furycraft disturbances -- and to work alone, anywhere the charter runs, far from any home territory.",
+      "quirk": "This character is a C-Rank of the Free Companies with real work behind the title and a silver tag to show it, trusted to operate alone anywhere the charter runs. Narrate guards returning their nod and taking their reports at face value, innkeepers offering a decent room unasked, and veteran companions treating them as a peer on a job rather than ballast -- no one checks their gear before working alongside them. Merchants quote fair prices and minor officials answer their questions. Those who live outside the law notice them too, not with fear but with the wary arithmetic of whether they are worth the trouble of crossing. They are recognized this way only while openly displaying the silver tag; kept out of sight, it leaves them to pass for an ordinary traveler, drawing none of these reactions.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Oratory",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Company Rank: B": {
+      "name": "Company Rank: B",
+      "description": "Oratory: +6\n\nB-Rank Free Companion. The steel tag marks a proven professional, set to serious threats -- monster incursions, regional feuds, complex furycraft anomalies -- and eligible for the special charges the Chapterhouse hands out by name.",
+      "quirk": "This character is a B-Rank of the Free Companies, a proven professional whose name travels on the contract boards ahead of them; the Chapterhouse knows it. Narrate guards stepping aside unasked, officials granting meetings on short notice, younger companions recognizing the name from dispatches, and merchants setting fair prices without haggling. Regional authorities request them by name when something has gone badly wrong, and the dangerous element -- bandit captains, fences, the quiet operators in every city -- treats them as a factor to plan around rather than brush aside. Play them as someone past proving they belong, now choosing which demands on their attention deserve it. They are recognized this way only while openly displaying the steel tag; kept out of sight, it leaves them to pass for an ordinary traveler, drawing none of these reactions.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Oratory",
+          "modifier": 6
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Company Rank: A": {
+      "name": "Company Rank: A",
+      "description": "Oratory: +8\n\nA-Rank Free Companion. The gold tag is an elite charge, deployed to catastrophes, politically poisoned missions, and threats that could unmake a whole region. It carries something near diplomatic immunity across most borders -- earned in service, never handed across a desk.",
+      "quirk": "This character is an A-Rank of the Free Companies, and the gold tag opens doors rank alone cannot. Regional authorities seek their counsel before making decisions. Commanders share intelligence they should not. House officials extend courtesies normally reserved for state envoys. Their arrival in a city changes the political arithmetic, and powerful people adjust their plans around the simple fact of their presence. They are recognized this way only while openly displaying the gold tag; kept out of sight, it leaves them to pass for an ordinary traveler, drawing none of these reactions.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Oratory",
+          "modifier": 8
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Company Rank: S": {
+      "name": "Company Rank: S",
+      "description": "Oratory: +10\n\nS-Rank Free Companion. An unofficial mark reserved for the few whose deeds outrun all classification -- called upon for catastrophes that threaten the world itself, and granted an authority no charter dares put in writing.",
+      "quirk": "This character is an S-Rank of the Free Companies, their name known across the realm. Rulers request their presence by letter. Generals defer to their judgment in the field. The tag they carry is less identification than formality -- everyone already knows who they are. Whole regions remember what they did for them, and doors that have never opened for anyone open for them. Narrate the world rearranging itself, quietly, around the fact that they have arrived.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Oratory",
+          "modifier": 10
+        }
+      ],
       "resources": [],
       "startingItems": [],
       "abilities": [],

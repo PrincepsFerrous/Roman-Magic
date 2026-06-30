@@ -284,5 +284,660 @@
         "value": "The Rising IV: The Buried Swarm Wakes"
       }
     ]
+  },
+  "company_system_init": {
+    "name": "company_system_init",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "equals",
+        "value": 0
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "companyJoinInProgress",
+        "operator": "set",
+        "value": false
+      },
+      {
+        "type": "write-boolean",
+        "key": "companyMember",
+        "operator": "set",
+        "value": false
+      },
+      {
+        "type": "write-number",
+        "key": "companyContracts",
+        "operator": "set",
+        "value": 0
+      }
+    ]
+  },
+  "company_join_hint": {
+    "name": "company_join_hint",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      },
+      {
+        "type": "read-boolean",
+        "key": "companyMember",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "companyJoinInProgress",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "A hall-clerk works the intake desk beneath a great slate board reading THE FREE COMPANIES -- ALL COMERS WELCOME, INQUIRE WITHIN, processing a short line of hopefuls: a farmhand with a borrowed sword, two road-worn sell-swords, a wild-born youth barely old enough to hold a contract. The Companies take all comers and sort them after. If the player has any interest in signing on, the desk is right there and the clerk is unhurried. Let the opportunity sit in the scene as part of the surroundings -- do not push it on the player."
+      }
+    ],
+    "script": "var tick = check({ type: 'game-tick' })\nvar last = storage.companyJoinHintLastTick || -99\nif (tick - last < 3) { skip = true }\nelse { storage.companyJoinHintLastTick = tick }"
+  },
+  "company_join_request": {
+    "name": "company_join_request",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      },
+      {
+        "type": "read-boolean",
+        "key": "companyMember",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action",
+        "query": "The player asks to join the Free Companies, requests guild membership, or steps up to the intake desk to sign on"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "companyJoinInProgress",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "The player has asked to sign on with the Free Companies. The clerk sets the ledger aside, gives a practiced, welcoming nod, and draws out a fresh registration sheet -- routine work they handle a dozen times a week. They explain that the Companies do not start everyone at the bottom: a newcomer is placed at the rank their experience can support, and the clerk will need a moment to take the player's measure. Have the clerk begin the intake in an unhurried, professional manner. Do NOT assign a rank in this beat."
+      }
+    ]
+  },
+  "company_join_rank_query": {
+    "name": "company_join_rank_query",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      },
+      {
+        "type": "read-boolean",
+        "key": "companyMember",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "companyJoinInProgress",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "The clerk asks what level of work the player is seeking and lays out the three tiers a newcomer can be signed into. D-Rank: open enrollment, no record required -- a provisional bronze tag and the run of the local boards. C-Rank: for someone who can give a credible account of real, independent field work; the clerk will ask for specifics and weigh them. B-Rank: reserved for an established professional with a verifiable record or a reputation the clerk can place. A-Rank and S-Rank are earned in service, never handed out at a desk. Have the clerk put this as a genuine question and wait for the player's answer, using judgment -- a claim the player cannot support drops them to the rank they can actually stand behind."
+      }
+    ],
+    "script": "var tick = check({ type: 'game-tick' })\nvar last = storage.companyRankQueryLastTick || -99\nif (tick - last < 3) { skip = true }\nelse { storage.companyRankQueryLastTick = tick }"
+  },
+  "company_join_as_d": {
+    "name": "company_join_as_d",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "companyMember",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "companyJoinInProgress",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      },
+      {
+        "type": "story",
+        "query": "The player accepts entry at D-Rank, or asks simply to join without claiming a higher tier, or cannot credibly support a higher claim, and the clerk enrolls them as a D-Rank initiate"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Company Rank: D"
+      },
+      {
+        "type": "write-boolean",
+        "key": "companyMember",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "D-Rank Advancement"
+      },
+      {
+        "type": "story",
+        "instruction": "The clerk writes the player's name into the register, stamps a provisional chit, and presses a plain bronze tag into their palm -- D-Rank, the Companies' open door, where everyone without a record begins. The welcome is warm but brief and entirely routine. The clerk mentions plainly that reporting three completed contracts to any Free Companies chapterhouse is all it takes to make C-Rank, and that the boards in the hall are open to the player from this moment."
+      }
+    ]
+  },
+  "company_join_as_c": {
+    "name": "company_join_as_c",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "companyMember",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "companyJoinInProgress",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      },
+      {
+        "type": "story",
+        "query": "The clerk, satisfied by the player's credible account of prior independent field experience, agrees to enroll them at C-Rank"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Company Rank: C"
+      },
+      {
+        "type": "write-boolean",
+        "key": "companyMember",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "C-Rank Advancement"
+      },
+      {
+        "type": "write-number",
+        "key": "companyContracts",
+        "operator": "set",
+        "value": 3
+      },
+      {
+        "type": "story",
+        "instruction": "The clerk hears the player out, puts two or three pointed questions to test the account, and -- satisfied -- skips the probationary tier entirely. The register is signed and a silver tag set beside the player's name. C-Rank: trusted to work alone, anywhere the charter runs, no chaperone needed. With the faint approval of someone who turns away inflated claims daily, the clerk notes that five more completed contracts reported at any chapterhouse will earn B-Rank."
+      }
+    ]
+  },
+  "company_join_as_b": {
+    "name": "company_join_as_b",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "companyMember",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "companyJoinInProgress",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      },
+      {
+        "type": "story",
+        "query": "The clerk, convinced by the player's established and verifiable professional record or known reputation, agrees to enroll them at B-Rank"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Company Rank: B"
+      },
+      {
+        "type": "write-boolean",
+        "key": "companyMember",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "B-Rank Advancement"
+      },
+      {
+        "type": "write-number",
+        "key": "companyContracts",
+        "operator": "set",
+        "value": 8
+      },
+      {
+        "type": "story",
+        "instruction": "This the clerk does not handle alone. They call over a senior clerk, who weighs the player's record -- references, closed contracts, a name already known in the right circles -- and signs off. A steel tag is struck beside the player's name in the register. B-Rank straight from the desk is rare, and it means the Companies already count them a proven professional. The senior clerk remarks that five completed contracts reported at any chapterhouse stand between the player and A-Rank."
+      }
+    ]
+  },
+  "company_seed_d": {
+    "name": "company_seed_d",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Company Rank: D"
+      },
+      {
+        "type": "read-boolean",
+        "key": "companyMember",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "companyMember",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "D-Rank Advancement"
+      }
+    ]
+  },
+  "company_seed_c": {
+    "name": "company_seed_c",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Company Rank: C"
+      },
+      {
+        "type": "read-boolean",
+        "key": "companyMember",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "companyMember",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "write-number",
+        "key": "companyContracts",
+        "operator": "set",
+        "value": 3
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "C-Rank Advancement"
+      }
+    ]
+  },
+  "company_seed_b": {
+    "name": "company_seed_b",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Company Rank: B"
+      },
+      {
+        "type": "read-boolean",
+        "key": "companyMember",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "companyMember",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "write-number",
+        "key": "companyContracts",
+        "operator": "set",
+        "value": 8
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "B-Rank Advancement"
+      }
+    ]
+  },
+  "company_report_contract": {
+    "name": "company_report_contract",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "companyMember",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      },
+      {
+        "type": "action",
+        "query": "The player takes the specific action of reporting a completed adventuring contract or quest to Free Companies staff -- telling a clerk or guild officer that they have finished a job, handing in a signed contract, presenting proof of completion (such as a bounty token, recovered item, severed head, or sealed report), formally closing out an assignment for payment or record, or asking to have a completed job logged against their rank. The player must be actively turning the job in this turn, not merely mentioning past work. Does NOT include: accepting new contracts, browsing the board, asking about available work, chatting with other companions about past missions, or entering the hall without engaging staff about a completed job."
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "companyContracts",
+        "operator": "add",
+        "value": 1
+      }
+    ],
+    "script": "var tick = check({ type: 'game-tick' })\nvar last = storage.companyReportLastTick || -99\nif (tick - last < 3) { skip = true }\nelse { storage.companyReportLastTick = tick }"
+  },
+  "company_board_d_rank": {
+    "name": "company_board_d_rank",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Company Rank: D"
+      },
+      {
+        "type": "action",
+        "query": "The player examines, reads, or browses the Free Companies job/quest/contract board, OR asks a clerk or guild staff what jobs, contracts, quests, bounties, work, or tasks are currently available to take. The player must be actively looking for NEW work to take this turn. Does NOT include: reporting or turning in a completed job, asking about a specific contract they have already been shown, asking only about rank or promotion, or general conversation unrelated to finding available work."
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "The player is checking the D-Rank board or asking the clerk what work is available. Generate THREE distinct, varied D-Rank contracts suited to the local area -- genuinely different in type, employer, and place. Draw from honest, low-stakes work: pest control (rats in a granary, wolves harrying a flock), a short escort or delivery run, a minor investigation (a missing son, a run of petty thefts), guarding a caravan to the next town, an odd job from a local notable. For each give a concrete poster or employer, a location, the stakes, and a rough fee in denarii. Keep them grounded and achievable for a newcomer. Where it fits naturally, note that three completed contracts reported to any chapterhouse earns C-Rank. Do not offer contracts the player has already taken or finished."
+      }
+    ]
+  },
+  "company_board_c_rank": {
+    "name": "company_board_c_rank",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Company Rank: C"
+      },
+      {
+        "type": "action",
+        "query": "The player examines, reads, or browses the Free Companies job/quest/contract board, OR asks a clerk or guild staff what jobs, contracts, quests, bounties, work, or tasks are currently available to take. The player must be actively looking for NEW work to take this turn. Does NOT include: reporting or turning in a completed job, asking about a specific contract they have already been shown, asking only about rank or promotion, or general conversation unrelated to finding available work."
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "The player is checking the C-Rank board or asking what work is available. Generate THREE distinct, varied C-Rank contracts, clearly different in type, employer, and region. Draw from work that reaches past the city: breaking a bandit crew, hunting dangerous wildlife or a fury-touched beast, investigating a furycraft disturbance or a haunting, guarding a caravan through contested country, a bounty on a named criminal the local watch cannot reach. Several should require travel. For each give a concrete employer, a place, the stakes, and a rough fee in denarii. Where it fits, note that five more completed contracts reported at any chapterhouse earns B-Rank. Do not offer contracts already taken or finished."
+      }
+    ]
+  },
+  "company_board_b_rank": {
+    "name": "company_board_b_rank",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Company Rank: B"
+      },
+      {
+        "type": "action",
+        "query": "The player examines, reads, or browses the Free Companies job/quest/contract board, OR asks a clerk or guild staff what jobs, contracts, quests, bounties, work, or tasks are currently available to take. The player must be actively looking for NEW work to take this turn. Does NOT include: reporting or turning in a completed job, asking about a specific contract they have already been shown, asking only about rank or promotion, or general conversation unrelated to finding available work."
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "The player is checking the B-Rank board or asking what work is available. Generate THREE distinct, varied B-Rank contracts -- the work that makes or ends reputations -- each clearly different in type, employer, and scale. Draw from: a monster incursion threatening a settlement, a regional feud or conflict needing experienced hands, a complex furycraft anomaly no one else will touch, a high-value escort through hostile territory, unpicking an organized criminal or political threat. For each give a concrete employer, a place, the stakes, and a fee in denarii befitting serious work. Where it fits, note that five more completed contracts reported at any chapterhouse earns A-Rank. Do not offer contracts already taken or finished."
+      }
+    ]
+  },
+  "company_board_a_rank": {
+    "name": "company_board_a_rank",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Company Rank: A"
+      },
+      {
+        "type": "action",
+        "query": "The player examines, reads, or browses the Free Companies job/quest/contract board, OR asks a clerk or guild staff what jobs, contracts, quests, bounties, work, or tasks are currently available to take. The player must be actively looking for NEW work to take this turn. Does NOT include: reporting or turning in a completed job, asking about a specific contract they have already been shown, asking only about rank or promotion, or general conversation unrelated to finding available work."
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "The player is checking the A-Rank board or asking what work is available. Generate THREE distinct, varied A-Rank contracts -- grave, realm-scale work that outmatches an ordinary company -- each clearly different in nature. Draw from: a threat endangering a whole region, a crisis the authorities cannot be seen to handle, a hunt for something most companies do not survive, a delicate operation where failure carries political fallout. For each give a concrete employer or sponsoring power, a location, the high stakes, and a substantial fee in denarii. The clerk hands these over with plain respect and no ceremony. Do not offer contracts already taken or finished."
+      }
+    ]
+  },
+  "company_promote_to_c": {
+    "name": "company_promote_to_c",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Company Rank: D"
+      },
+      {
+        "type": "read-number",
+        "key": "companyContracts",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Company Rank: D"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Company Rank: C"
+      },
+      {
+        "type": "quest-progress",
+        "questId": "D-Rank Advancement"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "C-Rank Advancement"
+      },
+      {
+        "type": "story",
+        "instruction": "The clerk pulls the player's file, runs a finger down the column of closed contracts, and counts three against the register -- the threshold met. No ceremony to it: the bronze tag goes back in the drawer, a silver one is pressed into the player's hand, and the entry in the ledger is amended, C where it read D. The clerk explains the silver plainly -- the probation is finished, and the Companies will send the player out alone now, anywhere the charter runs, on its own authority. Five more contracts, logged at any chapterhouse, will earn B-Rank."
+      }
+    ]
+  },
+  "company_promote_to_b": {
+    "name": "company_promote_to_b",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Company Rank: C"
+      },
+      {
+        "type": "read-number",
+        "key": "companyContracts",
+        "operator": "greaterThanOrEqual",
+        "value": 8
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Company Rank: C"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Company Rank: B"
+      },
+      {
+        "type": "quest-progress",
+        "questId": "C-Rank Advancement"
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "B-Rank Advancement"
+      },
+      {
+        "type": "story",
+        "instruction": "This promotion the duty clerk passes to a senior colleague, who reviews the record properly: five contracts closed across as many regions, every one verified against the chapterhouses that filed them. Satisfied, the senior clerk lifts the silver tag free and sets steel in its place, the player's name struck into it beside the guild seal. Steel is professional standing -- the serious contracts open to the player now, their word carrying real weight in any Free Companies hall. Five more logged contracts, the clerk says, and A-Rank is theirs."
+      }
+    ]
+  },
+  "company_promote_to_a": {
+    "name": "company_promote_to_a",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Company Rank: B"
+      },
+      {
+        "type": "read-number",
+        "key": "companyContracts",
+        "operator": "greaterThanOrEqual",
+        "value": 13
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Free Companies Hall"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Company Rank: B"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Company Rank: A"
+      },
+      {
+        "type": "quest-progress",
+        "questId": "B-Rank Advancement"
+      },
+      {
+        "type": "story",
+        "instruction": "The senior clerk reads down the tally twice, the way they do when a record is good enough to be worth a second look -- five B-Rank contracts closed clean across the realm. They retire the steel tag and set gold in its place, struck with the Companies' seal and the player's name. Gold carries weight in the world: it opens doors most courts keep shut, grants access to intelligence the lower ranks never see, and lets the player take charge of a crisis without waiting on a local authority's leave. A-Rank is the highest standing the Companies grant -- and from here the contracts only get graver."
+      }
+    ]
   }
 }

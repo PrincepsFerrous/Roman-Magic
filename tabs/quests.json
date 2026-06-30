@@ -79,5 +79,35 @@
     "detailType": "basic",
     "spatialRelationship": "distantNewLocation",
     "questLocation": "The Sunless Throne"
+  },
+  "D-Rank Advancement": {
+    "name": "D-Rank Advancement",
+    "questSource": "The Free Companies",
+    "questStatement": "You have signed on with the Free Companies at the bronze rank, and the contract boards are open to you.",
+    "mainObjective": "Report three completed contracts at any Free Companies chapterhouse to earn the silver tag of C-Rank.",
+    "completionCondition": "",
+    "questDesignBrief": "A progression track for newly-enrolled D-Rank companions. The player takes low-stakes contracts from the D-Rank board -- pest-culling, escort runs, minor investigations -- and reports each at a chapterhouse. Three reported contracts promote them to C-Rank. Keep the work grounded and achievable; this is the bottom rung where a name is first earned.",
+    "detailType": "basic",
+    "spatialRelationship": "existingLocalArea"
+  },
+  "C-Rank Advancement": {
+    "name": "C-Rank Advancement",
+    "questSource": "The Free Companies",
+    "questStatement": "Silver hangs at your throat; the Companies trust you to range alone, and the road to steel is five contracts long.",
+    "mainObjective": "Report five more completed contracts at any Free Companies chapterhouse to earn the steel tag of B-Rank.",
+    "completionCondition": "",
+    "questDesignBrief": "A progression track for C-Rank companions ranging the realm alone. Work is drawn from the C-Rank board -- bandit crews, dangerous beasts, furycraft disturbances, escorts through contested country -- and often requires travel between regions. Five further reported contracts promote them to B-Rank.",
+    "detailType": "basic",
+    "spatialRelationship": "existingLocalArea"
+  },
+  "B-Rank Advancement": {
+    "name": "B-Rank Advancement",
+    "questSource": "The Free Companies",
+    "questStatement": "The steel tag marks you a proven professional; five hard contracts more, and the gold of A-Rank is yours.",
+    "mainObjective": "Report five more completed contracts at any Free Companies chapterhouse to earn the gold tag of A-Rank.",
+    "completionCondition": "",
+    "questDesignBrief": "A progression track for B-Rank professionals taking reputation-making work from the B-Rank board -- monster incursions, regional feuds, complex furycraft anomalies, high-value escorts. Five further reported contracts elevate them to A-Rank, the highest standing the Companies grant from service.",
+    "detailType": "basic",
+    "spatialRelationship": "existingLocalArea"
   }
 }

@@ -7,7 +7,8 @@
     "realm": "Orbis Terrarum",
     "factions": [
       "House Drusus",
-      "House Sabinus"
+      "House Sabinus",
+      "The Free Companies"
     ],
     "imageUrl": ""
   },
@@ -18,7 +19,8 @@
     "y": 1,
     "realm": "Orbis Terrarum",
     "factions": [
-      "House Pontius"
+      "House Pontius",
+      "The Free Companies"
     ],
     "imageUrl": ""
   },
@@ -42,7 +44,8 @@
     "realm": "Orbis Terrarum",
     "factions": [
       "House Ventidius",
-      "House Murena"
+      "House Murena",
+      "The Free Companies"
     ],
     "imageUrl": ""
   },
@@ -139,7 +142,8 @@
     "realm": "Orbis Terrarum",
     "known": true,
     "factions": [
-      "House Crassus"
+      "House Crassus",
+      "The Free Companies"
     ],
     "imageUrl": ""
   },
@@ -208,7 +212,8 @@
       "The Corvid Guard",
       "The Augural College",
       "The Subura Syndicate",
-      "The Artificers' Guild"
+      "The Artificers' Guild",
+      "The Free Companies"
     ],
     "imageUrl": ""
   }
