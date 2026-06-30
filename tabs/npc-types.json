@@ -58,5 +58,166 @@
       "domination",
       "morale"
     ]
+  },
+  "Human": {
+    "name": "Human",
+    "description": "An ordinary mortal of the Imperium, untouched by the gift of furycraft. They bleed and break as any person does, with no resistance to the elements or to fear, relying on wit, steel, station, or numbers rather than a bonded numen.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Human Terra Furycrafter": {
+    "name": "Human Terra Furycrafter",
+    "description": "A Furycaster bonded to Terra, the fury of earth and stone. Their flesh is lent the toughness of bedrock and the strength of the mountain; blunt force and the bite of the earth itself find little purchase.",
+    "vulnerabilities": [],
+    "resistances": [
+      "earth",
+      "bludgeoning"
+    ],
+    "immunities": []
+  },
+  "Human Ventus Furycrafter": {
+    "name": "Human Ventus Furycrafter",
+    "description": "A Furycaster bonded to Ventus, the fury of wind and lightning. The storm answers their blood; the lash of lightning and the buffet of the gale break against them harmlessly.",
+    "vulnerabilities": [],
+    "resistances": [
+      "lightning",
+      "wind"
+    ],
+    "immunities": []
+  },
+  "Human Ignis Furycrafter": {
+    "name": "Human Ignis Furycrafter",
+    "description": "A Furycaster bonded to Ignis, the fury of flame and passion. Fire neither chars nor pains them, though the quenching weight of water finds them ill-armored.",
+    "vulnerabilities": [
+      "water"
+    ],
+    "resistances": [
+      "fire"
+    ],
+    "immunities": []
+  },
+  "Human Aqua Furycrafter": {
+    "name": "Human Aqua Furycrafter",
+    "description": "A Furycaster bonded to Aqua, the fury of water, ice, and healing. The tide and the frost are theirs, and they shrug off drowning cold alike, though lightning runs cruelly through the water in their veins.",
+    "vulnerabilities": [
+      "lightning"
+    ],
+    "resistances": [
+      "water",
+      "ice"
+    ],
+    "immunities": []
+  },
+  "Human Ferrum Furycrafter": {
+    "name": "Human Ferrum Furycrafter",
+    "description": "A Furycaster bonded to Ferrum, the fury of metal and battle. Blade and bludgeon dull against their iron-warded flesh, pain is deadened, and the mind is fortified beyond the reach of fear, glamour, or domination.",
+    "vulnerabilities": [],
+    "resistances": [
+      "metal",
+      "slashing",
+      "piercing"
+    ],
+    "immunities": [
+      "fear",
+      "charm",
+      "mind-control",
+      "domination",
+      "morale"
+    ]
+  },
+  "Human Silva Furycrafter": {
+    "name": "Human Silva Furycrafter",
+    "description": "A Furycaster bonded to Silva, the fury of wood and the green-dark. The forest's poisons and the bite of timber do them no harm, though dry wood burns, and so do they fear the flame.",
+    "vulnerabilities": [
+      "fire"
+    ],
+    "resistances": [
+      "wood",
+      "poison"
+    ],
+    "immunities": []
+  },
+  "Human Ignis-Ferrum Furycrafter": {
+    "name": "Human Ignis-Ferrum Furycrafter",
+    "description": "A Furycaster bonded to both Ignis and Ferrum, fire and metal, the twin furies of the war-houses. They turn aside flame, blade, and bludgeon, and their warded mind cannot be cowed or commanded.",
+    "vulnerabilities": [],
+    "resistances": [
+      "fire",
+      "metal",
+      "slashing",
+      "piercing"
+    ],
+    "immunities": [
+      "fear",
+      "charm",
+      "mind-control",
+      "domination",
+      "morale"
+    ]
+  },
+  "Human Terra-Ferrum Furycrafter": {
+    "name": "Human Terra-Ferrum Furycrafter",
+    "description": "A Furycaster bonded to both Terra and Ferrum, earth and metal, the furies of wall and siege. Stone-tough and iron-warded, they shrug off crushing blows, edged steel, and the working of metal, and their mind stands proof against fear and domination.",
+    "vulnerabilities": [],
+    "resistances": [
+      "earth",
+      "metal",
+      "bludgeoning",
+      "slashing",
+      "piercing"
+    ],
+    "immunities": [
+      "fear",
+      "charm",
+      "mind-control",
+      "domination",
+      "morale"
+    ]
+  },
+  "Human Ventus-Aqua Furycrafter": {
+    "name": "Human Ventus-Aqua Furycrafter",
+    "description": "A Furycaster bonded to both Ventus and Aqua, wind and water, the furies of the admirals. Storm and sea are theirs; lightning, gale, drowning, and frost alike break upon them.",
+    "vulnerabilities": [],
+    "resistances": [
+      "lightning",
+      "wind",
+      "water",
+      "ice"
+    ],
+    "immunities": []
+  },
+  "Human Ignis-Aqua Furycrafter": {
+    "name": "Human Ignis-Aqua Furycrafter",
+    "description": "A Furycaster bonded to both Ignis and Aqua, the opposed furies of flame and tide, a rare and volatile pairing. Neither fire nor freezing water can master them.",
+    "vulnerabilities": [],
+    "resistances": [
+      "fire",
+      "water",
+      "ice"
+    ],
+    "immunities": []
+  },
+  "Human Furymaster": {
+    "name": "Human Furymaster",
+    "description": "A Furycaster of the mightiest blood, bonded to many numina at once: the rarest and most terrible of casters, commanding the full wheel of the elements. Fire, storm, stone, tide, metal, and wood all break against them, and no fear or glamour can touch a mind so guarded. Only naked steel and overwhelming force can bring such a one down.",
+    "vulnerabilities": [],
+    "resistances": [
+      "fire",
+      "lightning",
+      "wind",
+      "earth",
+      "water",
+      "ice",
+      "metal",
+      "wood"
+    ],
+    "immunities": [
+      "fear",
+      "charm",
+      "mind-control",
+      "domination",
+      "morale"
+    ]
   }
 }
