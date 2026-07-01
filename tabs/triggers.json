@@ -1008,5 +1008,93 @@
         "value": "The Free Companies III: The Charter on Trial"
       }
     ]
+  },
+  "offer_toward_the_sixth": {
+    "name": "offer_toward_the_sixth",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Collegium Furiacae"
+      },
+      {
+        "type": "story",
+        "query": "the player seeks to widen their furycraft bonds or to master more furies than their blood was born to, and looks to the Collegium's deepest binding-lore to do it"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Toward the Sixth"
+      }
+    ]
+  },
+  "learn_the_widening_bond": {
+    "name": "learn_the_widening_bond",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "Toward the Sixth"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "The Widening Bond"
+      },
+      {
+        "type": "story",
+        "instruction": "The rite of widening is survived. Narrate the moment the player's bonds broaden -- numina their blood never bonded stirring, faint but real, at the edge of their reach -- and the sober knowledge that they have stepped, alone, onto the road only the Emperor has ever walked to its end. The synthesis arts are open to them now, to be mastered as their fury-skills grow."
+      }
+    ]
+  },
+  "offer_the_forgefire_secret": {
+    "name": "offer_the_forgefire_secret",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Castellum Drusus"
+      },
+      {
+        "type": "story",
+        "query": "the player seeks the war-houses' guarded secret of forgefire, the fusion of fire and metal, and looks to Lucius Drusus or his war-smiths to win or learn it"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Forgefire Secret"
+      }
+    ]
+  },
+  "learn_forgefire": {
+    "name": "learn_forgefire",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Forgefire Secret"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Forgefire Adept"
+      },
+      {
+        "type": "story",
+        "instruction": "The forgefire secret is the player's at last. Narrate the first time fire and metal answer as one thing in their hands -- a blade sheathed in molten light, iron flowing like candle-wax at a word -- and the war-house wariness that follows a secret let out of the North. The forgefire arts are open to them now, to be mastered as their Ignis and Ferrum skills rise."
+      }
+    ]
   }
 }

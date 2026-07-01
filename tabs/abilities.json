@@ -2572,5 +2572,160 @@
     ],
     "bonus": 20,
     "cooldown": 5
+  },
+  "Forgefire Brand": {
+    "name": "Forgefire Brand",
+    "description": "You fuse Ignis and Ferrum to sheathe a weapon in molten fury, so your metalcraft burns as it bites. The brand can be laid on your own blade or a comrade's, flared to sear through armor, or raised to light and terror in a dark press. It is the first and most useful secret of the war-houses' forgefire.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Forgefire Adept"
+      },
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 10
+      },
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 10
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Molten Rebuke": {
+    "name": "Molten Rebuke",
+    "description": "You reach into an enemy's own steel -- sword, buckle, or mail -- and turn it to searing slag in their grip. A blade sags mid-swing, a helm becomes a brand, a lock runs like wax. Against an armed or armored foe it is devastating, though the unarmored and heat-warded give it little to seize.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Forgefire Adept"
+      },
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 15
+      },
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Self-Mending Steel": {
+    "name": "Self-Mending Steel",
+    "description": "Flame and metal answer together to reforge your gear mid-fight: a notched edge re-hones, a split shield knits, a rent in your mail closes glowing. You can mend your own arms and armor or a comrade's, keeping a war-band fighting past the point steel should fail. The cost is Vis and a moment's focus.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Forgefire Adept"
+      },
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 15
+      },
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 5
+  },
+  "The Forgefire Titan": {
+    "name": "The Forgefire Titan",
+    "description": "The capstone of the art: you manifest Ignis and Ferrum fused into a single colossus of white-hot living metal that fights at your command. It shrugs off blows that would fell a man, melts the weapons that strike it, and strides through a shield-wall like standing grain. To raise it is to spend Vis lavishly and to show the world a war-house secret few outside the North have survived.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Forgefire Adept"
+      },
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 25
+      },
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Vis Confluence": {
+    "name": "Vis Confluence",
+    "description": "Having widened your bonds, you treat their reserves as one well: you can feed a working of one fury from the Vis you hold for another, and overdraw across the whole wheel of your bonds. A crafter who would run dry in a single element fights on by drawing from the rest. It is the first gift of commanding many numina rather than one.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 12
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 3
+  },
+  "The Shifting Bond": {
+    "name": "The Shifting Bond",
+    "description": "You slip your active bond from one numen to another in an instant, mid-stride and mid-strike, never caught wielding the wrong element for the moment. Answer a fire-caster with your Aqua, meet a charging line with Terra, then take to the wind -- all in a breath. Single-fury crafters cannot follow where a Widening-Bond crafter leads.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 2
+  },
+  "Fury Weaving": {
+    "name": "Fury Weaving",
+    "description": "You braid two of your bonded furies into a single working, their powers married rather than merely traded -- wind that carries fire, stone that drinks water, metal that grows like wood. It is the general art from which the war-houses' named fusions descend, endlessly inventive in a broad crafter's hands. Each weave draws Vis from both furies at once.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 18
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
+  "Manifold Manifestation": {
+    "name": "Manifold Manifestation",
+    "description": "The near-summit of the widening road: you hold TWO of your furies in manifest form at once, as only the Emperor is widely known to do -- a stone hound and a storm-eagle, a flame-serpent and a leviathan, fighting together at your will. To sustain two furies made flesh is a staggering draw of Vis and will, and to be seen doing it is to be marked, forever, as something near the throne's own power.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "characterLevel",
+        "amount": 15
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 10
   }
 }
