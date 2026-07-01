@@ -669,5 +669,197 @@
       "\nfighting style: Naevius is no combatant and arranges his life so as never to be one. In any confrontation his first instinct is to interpose his guards, his second to interpose the law, and his third to interpose a price -- he will calmly offer terms even with a blade at his throat, because he has found that most people can be bought or frightened more cheaply than they can be killed. Cornered without his hired steel, he is soft, slow, and entirely reliant on stalling until help arrives or a bargain is struck; he carries no weapon but the document-case and a small bribe-purse. His true danger is never in the room with you -- it is in the writ already filed, the senator already paid, and the men already told where you will be tomorrow."
     ],
     "hiddenInfo": "Vibius Naevius is the hand of the third, patient Crassus move against the Free Companies -- where two earlier attempts to provoke or buy the Grand Chapterhouse off the Muster ended with Crassus's men not coming back, Naevius means to win on parchment instead of steel by having the Senate declare the guild an illegal private army and its charter-ground forfeit to the House that 'hosts' it. He has turned the quartermaster Grendus through a called-in debt and is using the doctored Muster ledgers as the documentary spine of his case, backstopped by senators bought through the great Crassus ledger of debts. His weakness is that the case is a house of paper: expose Grendus's false books, recover or destroy the dossier chained to his wrist, or surface proof that the testimony is bought, and the whole edifice collapses -- which is why he guards the document-case and the bought magistrate so closely. He answers directly to Crispus Crassus and is under quiet orders to keep his master's name off every document, so that if the gambit fails it can be disowned as a factor's overreach -- a deniability Naevius knows could just as easily see him made the scapegoat. He does not hate the Free Companies; he simply regards a neutral guild that musters armed men in every region as an intolerable variable in House Crassus's accounting, and intends to convert it into either a Crassan asset or a cautionary example."
+  },
+  "Petronia": {
+    "name": "Petronia",
+    "type": "Human Terra Furycrafter",
+    "currentLocation": "The Collegium Furiacae",
+    "currentArea": "The Hall of Six",
+    "tier": "mythic",
+    "gender": "Female",
+    "aliases": [
+      "the Unmoved",
+      "Praeceptor of Terra"
+    ],
+    "level": 16,
+    "hpMax": 285,
+    "known": true,
+    "voiceTag": "slow-deep-matron",
+    "basicInfo": "The Collegium's praeceptor of Terra, a broad, deliberate woman who has taught the earth-craft for thirty years and moved for almost nothing in all that time. Heavyset and grey-braided, with a stone-mason's weathered hands and calm, deep-set eyes the colour of river-clay, she stands as though rooted to whatever floor she occupies. She wears the grey Collegium robes over a practical leather apron, a pendant of raw granite at her throat.",
+    "personality": [
+      "Patient: Will wait out a mountain, let alone a student.",
+      "Grounded: Unshakeable in temper, judgment, and stance alike.",
+      "Stubborn: Once set on a course, as hard to turn as bedrock.",
+      "Speaking style: Slow, level, and sparing; long pauses; every word set down like a stone."
+    ],
+    "abilities": [
+      "Terra Communion: Stone and soil answer Petronia as an old friend; she senses the bones of the Collegium through her feet and shapes rock as easily as a potter shapes clay. She can raise walls, still tremors, and read the tread of anyone on the ground within her reach.",
+      "Stoneflesh: Petronia can turn her living flesh to granite, near-immune to blade, blow, and fire and immovable as a menhir. It is the master's ultimate defense, which she teaches to those who complete her Rite, and she has stood a duel out without deigning to dodge.",
+      "The Sundering: The deepest art of Terra, which she has mastered and rarely shows -- she splits the earth itself, opening chasms, dropping walls, and collapsing whole formations at a word. The Proving Halls still bear a sealed fissure from the last time she was truly angered.",
+      "Master's Instruction: Thirty years of teaching Terra let Petronia diagnose a student's bond at a glance and set exactly the trial that will deepen it. She guides the dedicated toward true single-fury mastery and judges who is ready for the Master's Rite.",
+      "Manifest Terra: Her Terra-fury takes visible form as a great hound of living stone that guards the shrine, hauls, or fights at her silent will. Through it she shapes earth at a scale no mere enhancement allows.",
+      "\nfighting style: Petronia does not hurry and does not retreat. She roots herself, turns her flesh to stone, and lets a foe exhaust themselves against a defense that will not yield, answering with slow, crushing blows and the occasional heave of the ground beneath their feet. She fights as she teaches -- economically, immovably, with the patience of geology -- and given time to prepare she turns the very terrain into a trap. She would rather end a fight by making it pointless than by killing, but the Sundering is always there if she must. Against her, haste and fury are wasted; the earth is more patient than the man standing on it."
+    ],
+    "hiddenInfo": "Petronia quietly despises the whole edifice of bred furystrength and the Lex Numinae, having watched strong-born students coast on blood while rare gifted commoners were crushed or turned away; more than once she has falsified a Censor's testing record to enroll a wild-born she judged worthy, a crime that would end her. The sealed fissure in the Proving Halls she keeps not from carelessness but as a private monument to a student the Houses had killed. She is one of the few Magister Aurelius trusts with his sympathies, and with him and Veranix the Silva-master she forms a quiet, unspoken circle within the Collegium that shields gifted wild-born from discovery."
+  },
+  "Aulus Volusenus": {
+    "name": "Aulus Volusenus",
+    "type": "Human Ventus Furycrafter",
+    "currentLocation": "The Collegium Furiacae",
+    "currentArea": "The Hall of Six",
+    "tier": "mythic",
+    "gender": "Male",
+    "aliases": [
+      "the Skyreader",
+      "Praeceptor of Ventus"
+    ],
+    "level": 16,
+    "hpMax": 285,
+    "known": true,
+    "voiceTag": "quick-restless-tenor",
+    "basicInfo": "The Collegium's praeceptor of Ventus, a lean, restless man who never seems entirely earthbound, forever half-listening to something on the wind. Wiry and quick, with wind-chapped features, pale grey eyes, and short hair that stirs when there is no breeze, he moves in small darting steps and rarely sits still. He wears grey Collegium robes cut short for movement, a pin of hammered silver feathers at the shoulder.",
+    "personality": [
+      "Perceptive: Misses nothing that crosses the air within a mile.",
+      "Restless: Mind and body forever in motion, chasing the next current.",
+      "Impatient: Little tolerance for the slow, the timid, or the earthbound.",
+      "Speaking style: Quick and clipped, leaping between thoughts like a bird between branches."
+    ],
+    "abilities": [
+      "Ventus Communion: The wind answers Volusenus as breath answers lungs; he reads the air's every stir and rides its currents as easily as walking. He senses distant weather, carries his voice on the breeze, and hears what the wind has heard.",
+      "Skyborne: Volusenus takes true, sustained flight, riding the high winds for leagues, and it is this he teaches those who finish his Rite. He scouts whole regions from above and goes where no road runs.",
+      "Thunderhead: The deepest art of Ventus, which he has mastered -- he calls down a storm of his own making, lightning leaping foe to foe, a gale that flattens a battle-line. He rarely looses it, for a Collegium roof is a poor place for weather.",
+      "Master's Instruction: A lifetime attuned to the air lets Volusenus feel the exact moment a student's Ventus-bond is ready to widen, and set the trial to match. He judges who has earned the Master's Rite.",
+      "Manifest Ventus: His Ventus-fury takes visible form as a racing eagle of shimmering air that bears him aloft and strikes from the sky at his will -- the manifest form through which he truly flies.",
+      "\nfighting style: Volusenus fights as the wind does -- everywhere and nowhere, never where the blow lands. He takes to the air at once, striking from angles no earthbound fighter can answer, harrying with gusts that spoil footing and aim, and calling lightning when the moment is worth the noise. He wears a foe down with speed and frustration rather than force, reading their intent off the air before they move, and vanishing upward the instant a fight turns against him. Patience is not his virtue; he ends things quickly or leaves, and few can make him stay who does not wish to."
+    ],
+    "hiddenInfo": "Volusenus uses his wind-craft to eavesdrop on the whole Collegium, and knows more of its secrets than anyone suspects -- the harmless ones he trades for favors, the dangerous ones he hoards against need. Years ago, flying far beyond the northern limes on a restless whim, he saw something moving in the deep forests that he has never reported to anyone, and it is the one memory that can still make him sit very still. He suspects at least one of his fellow praeceptors is not what they seem, but has not yet decided whether the knowledge is worth spending."
+  },
+  "Faustina": {
+    "name": "Faustina",
+    "type": "Human Ignis Furycrafter",
+    "currentLocation": "The Collegium Furiacae",
+    "currentArea": "The Hall of Six",
+    "tier": "mythic",
+    "gender": "Female",
+    "aliases": [
+      "the Kindler",
+      "Praeceptor of Ignis"
+    ],
+    "level": 16,
+    "hpMax": 285,
+    "known": true,
+    "voiceTag": "warm-fierce-alto",
+    "basicInfo": "The Collegium's praeceptor of Ignis, a fierce, vivid woman whose presence warms a room before she speaks and scorches it when she is crossed. Auburn-haired and bright-eyed, with sun-dark skin that is faintly warm to the touch and a restless, expressive face, she gestures as she talks and seems always half-alight. She wears red-trimmed Collegium robes and a pendant of a single caged coal that never goes out.",
+    "personality": [
+      "Passionate: Throws her whole heart into teaching, quarreling, and living.",
+      "Charismatic: Draws students and rivals alike into her orbit.",
+      "Volatile: Her temper flares as suddenly and hotly as her fury.",
+      "Speaking style: Warm and vivid, rising to real heat when roused; quick to laugh and quicker to burn."
+    ],
+    "abilities": [
+      "Ignis Communion: Fire is Faustina's native tongue; flame rises, bends, and dies at her word, and she feels heat as another feels light. She reads the burning of others' passions as clearly as their faces.",
+      "Heartkindler: Faustina has mastered Ignis's oldest craft, the working of passion itself -- stoking a wavering line to fearless fury or drowning a champion in sudden dread -- and it is this subtle art she teaches to those who complete her Rite.",
+      "The Unquenchable: The deepest art of Ignis, which she guards closely -- a fire that cannot be put out by water, smothering, wind, or ward until she herself wills it cold. She has shown it perhaps twice, and both times it was remembered.",
+      "Master's Instruction: Faustina reads the fire in a student -- its strength, its discipline, its danger -- and sets trials that temper without extinguishing. She decides who is ready to be trusted with the master arts of flame.",
+      "Manifest Ignis: Her Ignis-fury takes visible form as a serpent of living flame that burns without fuel, hunting and guarding at her command -- the manifest shape through which she works fire beyond any reach of her hand.",
+      "\nfighting style: Faustina fights the way she feels -- hot, fast, and overwhelming. She opens by working the enemy's heart, stoking their fear or their reckless anger until they beat themselves, then answers hesitation with a wall of flame and a manifest serpent of fire at their flank. She presses relentlessly, giving no space to recover, and against a truly dangerous foe she will loose the Unquenchable and simply outlast them as they burn. Her weakness is her temper: a foe who can keep their head and goad her may draw her into overreach, but few keep their head with the air itself catching fire around them."
+    ],
+    "hiddenInfo": "Faustina uses Heartkindler on her own students more than she admits, kindling loyalty and courage she tells herself they lacked -- a small manipulation she has never quite reconciled with her conscience. She is secretly and hopelessly in love with someone the Lex Numinae forbids her, and her volatility is in part the pressure of that unspent fire; a careful listener might guess it. Years ago, in a rage she will not describe, she burned someone she loved, and the caged coal at her throat is a penance she set herself never to be so unguarded again."
+  },
+  "Servius Menenius": {
+    "name": "Servius Menenius",
+    "type": "Human Aqua Furycrafter",
+    "currentLocation": "The Collegium Furiacae",
+    "currentArea": "The Hall of Six",
+    "tier": "mythic",
+    "gender": "Male",
+    "aliases": [
+      "the Mender",
+      "Praeceptor of Aqua"
+    ],
+    "level": 16,
+    "hpMax": 285,
+    "known": true,
+    "voiceTag": "soft-soothing-elder",
+    "basicInfo": "The Collegium's praeceptor of Aqua and its finest healer, a soft-spoken, watchful old man to whom the dying are carried from every quarter of Aquila. Silver-haired and slight, with cool, dry hands and calm sea-grey eyes that seem to see straight through to the grief beneath a face, he moves quietly and is easy to overlook until he is needed. He wears blue-grey Collegium robes and a pendant of a single frozen teardrop.",
+    "personality": [
+      "Compassionate: Turns no sufferer away, whatever their birth or House.",
+      "Observant: Reads the emotion under a face as plainly as printed script.",
+      "Weary: Has watched too many die to be surprised by anything.",
+      "Speaking style: Soft, measured, and soothing; the voice of a man calming a frightened animal."
+    ],
+    "abilities": [
+      "Aqua Communion: Water answers Menenius in all its forms -- tide, frost, rain, and the blood in living veins -- and he moves it as gently or as fiercely as need demands. He senses the currents of a body and a room alike.",
+      "The Lifemender: Menenius works healing beyond any battlefield-craft -- knitting shattered bone, drawing out poison and plague, closing mortal wounds, calling the near-dead back from the brink -- and it is this he teaches to those who complete his Rite. Only true death is past his reach.",
+      "Glamourweave: The deepest art of Aqua, which he wields with great reluctance -- clouding the senses of a crowd, wearing a false face, reading and reshaping the emotions of a room. He teaches it warily, for he knows its price.",
+      "Master's Instruction: A long life of healing has made Menenius a peerless judge of an Aqua-bond's depth and a student's heart, and he sets each trial to the person, not the rule. He decides who may be trusted with the mender's and the glamour's arts.",
+      "Manifest Aqua: His Aqua-fury takes visible form as a coursing serpent of living water through which he works his deepest healing and carries his senses along every current -- the manifest shape of true watercraft.",
+      "\nfighting style: Menenius does not want to fight and is formidably hard to make fight. He shields and heals first, wrapping himself and his charges in walls of water and mending faster than most foes can wound, and he reads an attacker's fear and fury and quietly unmakes their resolve before it hardens into a blow. Pressed, he can drown a lung from within or freeze the water in a limb, but he takes no joy in it and stops the instant he safely can. His true defense is that almost no one in Aquila can afford to kill the man who may one day be the only thing between them and death."
+    ],
+    "hiddenInfo": "Because Glamourweave lets him read and reshape emotion, Menenius knows the true feelings of half the Collegium and carries their secret griefs like stones in his robe. He has used glamour to ease a dying student's terror, which he does not regret, and once -- more darkly -- to make a powerful patron simply forget a slight that would have cost a wild-born girl her life, a line he swore never to cross again and fears he will. Of late his healings near those touched by the deep places fail in strange ways, the wounds refusing to knit, and he has begun to suspect what House Fabius and the Censorate hide: that something beneath the world is drinking the numina dry."
+  },
+  "Decimus Cato": {
+    "name": "Decimus Cato",
+    "type": "Human Ferrum Furycrafter",
+    "currentLocation": "The Collegium Furiacae",
+    "currentArea": "The Hall of Six",
+    "tier": "mythic",
+    "gender": "Male",
+    "aliases": [
+      "the Ironhand",
+      "Praeceptor of Ferrum"
+    ],
+    "level": 16,
+    "hpMax": 285,
+    "known": true,
+    "voiceTag": "blunt-martial-baritone",
+    "basicInfo": "The Collegium's praeceptor of Ferrum, a hard, disciplined former legionary who came to the craft late and teaches it like a drill-field. Scarred and close-cropped, with iron-grey hair, a soldier's squared bearing, and cold steady eyes that weigh a person like a smith weighs a blade, he never quite looks at home among the marble and the toga'd young. He wears plain robes over a mail shirt he is never seen without, and a pendant of a single folded blade.",
+    "personality": [
+      "Disciplined: Holds himself and everyone else to a legionary's standard.",
+      "Stoic: Pain, fear, and flattery move him not at all.",
+      "Unyielding: Sets his standards like a shield-wall and does not lower them.",
+      "Speaking style: Blunt, martial, and economical; commands where others converse."
+    ],
+    "abilities": [
+      "Ferrum Communion: Metal sings to Cato's hand -- blades sharpen, mail hardens, and the arsenal of a battlefield answers his will. His flesh is iron-warded and his mind a closed fortress against fear and domination.",
+      "The Unbreakable: Cato has perfected Ferrum's ward of body and mind -- deadening all pain, locking his wounds, shrugging off exhaustion, and setting his will beyond any craft's reach -- and it is this grim endurance he teaches to those who finish his Rite.",
+      "Bladelord: The deepest art of Ferrum, which he has mastered -- he commands every blade, buckle, and chain in reach, ripping weapons from hands, turning a foe's steel, and arming himself from the fallen without a step. In a place of metal he is never disarmed.",
+      "Master's Instruction: Cato drills a Ferrum-bond the way he once drilled recruits, by relentless repetition and unsparing judgment, and he knows to the day when a student has earned the master arts. He fails as many as he passes.",
+      "Manifest Ferrum: His Ferrum-fury takes visible form as a bristling sentinel of living steel that guards his back and fights tireless at his side -- the manifest shape of a true war-crafter's bond.",
+      "\nfighting style: Cato fights like the shield-wall he came from -- immovable, tireless, and utterly without flourish. He wards himself against pain and fear with the Unbreakable, lets a foe spend their fury on his guard, and strips them of their weapons with Bladelord until they stand disarmed before a man who cannot be tired or frightened. He does not chase and does not gloat; he holds the line and closes the distance a step at a time until the fight is simply over. Against him, a single mistake is usually the last, for he has spent a lifetime learning to make one blow enough."
+    ],
+    "hiddenInfo": "Cato is living heresy to the Houses' doctrine: he awakened a strong Ferrum bond only in middle age, after decades as an ordinary soldier of no gifted blood at all, a fact that quietly disproves the whole gospel of bred strength and that he refuses to discuss. He trains the House-less and the gutter-born exactly as hard as any patrician, and has failed strong-born heirs for cowardice, earning him powerful enemies among the Twelve. He knows the Corvid Guard quietly recruit assassins from among his finest pupils, and it sits ill with him -- he did not teach them the Unbreakable to make murderers, and one day he may do something about it."
+  },
+  "Veranix": {
+    "name": "Veranix",
+    "type": "Human Silva Furycrafter",
+    "currentLocation": "The Collegium Furiacae",
+    "currentArea": "The Hall of Six",
+    "tier": "mythic",
+    "gender": "Non-binary",
+    "aliases": [
+      "the Thornspeaker",
+      "Praeceptor of Silva"
+    ],
+    "level": 16,
+    "hpMax": 285,
+    "known": true,
+    "voiceTag": "sparse-earthy-androgynous",
+    "basicInfo": "The Collegium's praeceptor of Silva, a lean, weathered figure of indeterminate years who seems more at home among the Cloister Gardens than the marble halls. Tangled dark hair threaded with living green shoots, bark-brown skin, and eyes like deep forest shade give them a look that unsettles the polished young patricians they teach. They wear earth-toned robes sewn through with living vine, and a pendant of a single knotted root.",
+    "personality": [
+      "Watchful: Sees everything from the green shadows and says little of it.",
+      "Wild: Never fully tamed to the Collegium's marble ways.",
+      "Reticent: Guards their words as the forest guards its hidden paths.",
+      "Speaking style: Sparse and oblique, given to long silences and sudden green metaphors."
+    ],
+    "abilities": [
+      "Silva Communion: The green world knows Veranix as its own; plants wake, grow, and wither at their presence, and they read the life of a place as an open page. In any wild or grown thing they are never truly alone.",
+      "The Green Silence: Veranix has mastered Silva's stealth -- moving unseen, unheard, and unscented through any wild or wooded place, the growth itself hiding and carrying them -- and it is this vanishing art they teach to those who finish their Rite.",
+      "Wildwake: The deepest art of Silva, which they hold in reserve -- waking the whole living land at once, roots that seize, thickets that wall, branches that strike, and beasts roused to their side. In the Cloister Gardens, this makes Veranix quietly the most dangerous person in the Collegium.",
+      "Master's Instruction: Veranix teaches Silva the way the forest teaches -- by patience, silence, and letting a student find the path themselves -- and knows without asking when a bond has grown deep enough for the master arts.",
+      "Manifest Silva: Their Silva-fury takes visible form as a great stag of living wood and leaf that scouts, guards, and hunts at their will -- the manifest shape of a true woodcrafter's bond.",
+      "\nfighting style: Veranix does not fight so much as let the fight come apart around their enemy. They vanish into any green or shadowed place with the Green Silence, striking from where no one watched and gone before an answer forms, while roots seize feet, thickets close off retreat, and the ground itself becomes a snare. Cornered where the land is thick enough, they wake it with Wildwake and simply have more allies than the enemy has blades. In bare stone halls they are far weaker and know it, and will always maneuver a fight toward the gardens, the catacombs' fungal dark, or the open wild, where they cannot lose."
+    ],
+    "hiddenInfo": "Veranix is wild-born -- a commoner of great Silva strength -- and more: they are the Unbound agent that the Houses whisper has been placed within the Collegium, smuggled in years ago under a forged Censor's record and slowly gathering intelligence on the House breeding programs and Furycraft secrets while teaching in plain sight. They shield other hidden wild-born among the students, working in quiet concert with Petronia and Magister Aurelius, and they alone could, if the day of discovery ever came, turn the Collegium's own Cloister Gardens and Catacombs into a weapon with Wildwake and vanish into the green before the Corvid Guard reached them. Their loyalty is to the Unbound and to the gifted House-less, not to the Twelve, and every Rite they teach a worthy commoner is a small blow struck against the bloodline monopoly they were sent to undermine."
   }
 }

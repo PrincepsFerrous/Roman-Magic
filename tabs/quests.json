@@ -156,62 +156,68 @@
   },
   "The Terra Master's Rite": {
     "name": "The Terra Master's Rite",
-    "questSource": "The Collegium Furiacae",
+    "questSource": "Petronia, Praeceptor of Terra",
     "questStatement": "You would master Terra, the fury of earth and stone, to its deepest art -- the single-fury path, forgoing the furyweaver's breadth for unmatched depth in one numen.",
     "mainObjective": "Complete the Terra Master's Rite at the Collegium and learn the master's secret arts of Terra.",
     "completionCondition": "Player has undertaken the Terra Master's Rite, proven deep mastery of Terra alone, and been taught the single-fury master arts -- Stoneflesh and The Sundering -- that breadth-seeking furyweavers never learn.",
     "questDesignBrief": "The specialist path for a crafter who perfects the single numen of Terra (earth and stone) rather than combining many. At the Collegium's Terra shrine in the Hall of Six, a master praeceptor teaches the deepest single-fury arts -- Stoneflesh and The Sundering -- reached only by a dedicated specialist. Success grants the trait 'Terra Master', which unlocks those elite abilities as the player's Terra skill climbs (25 for Stoneflesh, 35 for The Sundering). The trade against the furyweaver's path: a specialist's ceiling is one element mastered utterly, with no fusion, but their signature single-fury arts are unmatched and reached without the punishing spread of skill the furyweaver needs. Ties to the Collegium and the single-fury tradition.",
     "detailType": "detailed",
-    "questLocation": "The Collegium Furiacae"
+    "questLocation": "The Collegium Furiacae",
+    "questGiverNPC": "Petronia"
   },
   "The Ventus Master's Rite": {
     "name": "The Ventus Master's Rite",
-    "questSource": "The Collegium Furiacae",
+    "questSource": "Aulus Volusenus, Praeceptor of Ventus",
     "questStatement": "You would master Ventus, the fury of wind and lightning, to its deepest art -- the single-fury path, forgoing the furyweaver's breadth for unmatched depth in one numen.",
     "mainObjective": "Complete the Ventus Master's Rite at the Collegium and learn the master's secret arts of Ventus.",
     "completionCondition": "Player has undertaken the Ventus Master's Rite, proven deep mastery of Ventus alone, and been taught the single-fury master arts -- Skyborne and Thunderhead -- that breadth-seeking furyweavers never learn.",
     "questDesignBrief": "The specialist path for a crafter who perfects the single numen of Ventus (wind and lightning) rather than combining many. At the Collegium's Ventus shrine in the Hall of Six, a master praeceptor teaches the deepest single-fury arts -- Skyborne and Thunderhead -- reached only by a dedicated specialist. Success grants the trait 'Ventus Master', which unlocks those elite abilities as the player's Ventus skill climbs (25 for Skyborne, 35 for Thunderhead). The trade against the furyweaver's path: a specialist's ceiling is one element mastered utterly, with no fusion, but their signature single-fury arts are unmatched and reached without the punishing spread of skill the furyweaver needs. Ties to the Collegium and the single-fury tradition.",
     "detailType": "detailed",
-    "questLocation": "The Collegium Furiacae"
+    "questLocation": "The Collegium Furiacae",
+    "questGiverNPC": "Aulus Volusenus"
   },
   "The Ignis Master's Rite": {
     "name": "The Ignis Master's Rite",
-    "questSource": "The Collegium Furiacae",
+    "questSource": "Faustina, Praeceptor of Ignis",
     "questStatement": "You would master Ignis, the fury of flame and passion, to its deepest art -- the single-fury path, forgoing the furyweaver's breadth for unmatched depth in one numen.",
     "mainObjective": "Complete the Ignis Master's Rite at the Collegium and learn the master's secret arts of Ignis.",
     "completionCondition": "Player has undertaken the Ignis Master's Rite, proven deep mastery of Ignis alone, and been taught the single-fury master arts -- Heartkindler and The Unquenchable -- that breadth-seeking furyweavers never learn.",
     "questDesignBrief": "The specialist path for a crafter who perfects the single numen of Ignis (flame and passion) rather than combining many. At the Collegium's Ignis shrine in the Hall of Six, a master praeceptor teaches the deepest single-fury arts -- Heartkindler and The Unquenchable -- reached only by a dedicated specialist. Success grants the trait 'Ignis Master', which unlocks those elite abilities as the player's Ignis skill climbs (25 for Heartkindler, 35 for The Unquenchable). The trade against the furyweaver's path: a specialist's ceiling is one element mastered utterly, with no fusion, but their signature single-fury arts are unmatched and reached without the punishing spread of skill the furyweaver needs. Ties to the Collegium and the single-fury tradition.",
     "detailType": "detailed",
-    "questLocation": "The Collegium Furiacae"
+    "questLocation": "The Collegium Furiacae",
+    "questGiverNPC": "Faustina"
   },
   "The Aqua Master's Rite": {
     "name": "The Aqua Master's Rite",
-    "questSource": "The Collegium Furiacae",
+    "questSource": "Servius Menenius, Praeceptor of Aqua",
     "questStatement": "You would master Aqua, the fury of water, ice, and healing, to its deepest art -- the single-fury path, forgoing the furyweaver's breadth for unmatched depth in one numen.",
     "mainObjective": "Complete the Aqua Master's Rite at the Collegium and learn the master's secret arts of Aqua.",
     "completionCondition": "Player has undertaken the Aqua Master's Rite, proven deep mastery of Aqua alone, and been taught the single-fury master arts -- The Lifemender and Glamourweave -- that breadth-seeking furyweavers never learn.",
     "questDesignBrief": "The specialist path for a crafter who perfects the single numen of Aqua (water, ice, and healing) rather than combining many. At the Collegium's Aqua shrine in the Hall of Six, a master praeceptor teaches the deepest single-fury arts -- The Lifemender and Glamourweave -- reached only by a dedicated specialist. Success grants the trait 'Aqua Master', which unlocks those elite abilities as the player's Aqua skill climbs (25 for The Lifemender, 35 for Glamourweave). The trade against the furyweaver's path: a specialist's ceiling is one element mastered utterly, with no fusion, but their signature single-fury arts are unmatched and reached without the punishing spread of skill the furyweaver needs. Ties to the Collegium and the single-fury tradition.",
     "detailType": "detailed",
-    "questLocation": "The Collegium Furiacae"
+    "questLocation": "The Collegium Furiacae",
+    "questGiverNPC": "Servius Menenius"
   },
   "The Ferrum Master's Rite": {
     "name": "The Ferrum Master's Rite",
-    "questSource": "The Collegium Furiacae",
+    "questSource": "Decimus Cato, Praeceptor of Ferrum",
     "questStatement": "You would master Ferrum, the fury of metal and battle, to its deepest art -- the single-fury path, forgoing the furyweaver's breadth for unmatched depth in one numen.",
     "mainObjective": "Complete the Ferrum Master's Rite at the Collegium and learn the master's secret arts of Ferrum.",
     "completionCondition": "Player has undertaken the Ferrum Master's Rite, proven deep mastery of Ferrum alone, and been taught the single-fury master arts -- The Unbreakable and Bladelord -- that breadth-seeking furyweavers never learn.",
     "questDesignBrief": "The specialist path for a crafter who perfects the single numen of Ferrum (metal and battle) rather than combining many. At the Collegium's Ferrum shrine in the Hall of Six, a master praeceptor teaches the deepest single-fury arts -- The Unbreakable and Bladelord -- reached only by a dedicated specialist. Success grants the trait 'Ferrum Master', which unlocks those elite abilities as the player's Ferrum skill climbs (25 for The Unbreakable, 35 for Bladelord). The trade against the furyweaver's path: a specialist's ceiling is one element mastered utterly, with no fusion, but their signature single-fury arts are unmatched and reached without the punishing spread of skill the furyweaver needs. Ties to the Collegium and the single-fury tradition.",
     "detailType": "detailed",
-    "questLocation": "The Collegium Furiacae"
+    "questLocation": "The Collegium Furiacae",
+    "questGiverNPC": "Decimus Cato"
   },
   "The Silva Master's Rite": {
     "name": "The Silva Master's Rite",
-    "questSource": "The Collegium Furiacae",
+    "questSource": "Veranix, Praeceptor of Silva",
     "questStatement": "You would master Silva, the fury of wood and the green-dark, to its deepest art -- the single-fury path, forgoing the furyweaver's breadth for unmatched depth in one numen.",
     "mainObjective": "Complete the Silva Master's Rite at the Collegium and learn the master's secret arts of Silva.",
     "completionCondition": "Player has undertaken the Silva Master's Rite, proven deep mastery of Silva alone, and been taught the single-fury master arts -- The Green Silence and Wildwake -- that breadth-seeking furyweavers never learn.",
     "questDesignBrief": "The specialist path for a crafter who perfects the single numen of Silva (wood and the green-dark) rather than combining many. At the Collegium's Silva shrine in the Hall of Six, a master praeceptor teaches the deepest single-fury arts -- The Green Silence and Wildwake -- reached only by a dedicated specialist. Success grants the trait 'Silva Master', which unlocks those elite abilities as the player's Silva skill climbs (25 for The Green Silence, 35 for Wildwake). The trade against the furyweaver's path: a specialist's ceiling is one element mastered utterly, with no fusion, but their signature single-fury arts are unmatched and reached without the punishing spread of skill the furyweaver needs. Ties to the Collegium and the single-fury tradition.",
     "detailType": "detailed",
-    "questLocation": "The Collegium Furiacae"
+    "questLocation": "The Collegium Furiacae",
+    "questGiverNPC": "Veranix"
   }
 }
