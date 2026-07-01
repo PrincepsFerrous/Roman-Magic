@@ -77,6 +77,19 @@
     "bonus": 16,
     "cooldown": 3
   },
+  "Manifest Terra": {
+    "name": "Manifest Terra",
+    "description": "Your bond with Terra takes visible shape—a hound or sentinel of living stone that moves at your will. Manifesting the fury lets you shape earth and stone at a scale no mere enhancement allows: raising walls, opening or sealing ground, and setting your stone-fury to haul, guard, or fight beside you. It is the threshold between coaxing the earth and commanding it.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
   "Tectonic Apotheosis": {
     "name": "Tectonic Apotheosis",
     "description": "Greatly increases the effectiveness of your next Terra action. The mountains stir at your command.",
@@ -92,7 +105,7 @@
   },
   "Titanic Upheaval": {
     "name": "Titanic Upheaval",
-    "description": "Your next Terra action costs double Vis but unleashes an effect of extreme power. The very bones of the world obey.",
+    "description": "Your Terra-fury manifests fully as a colossus of living stone, and at double Vis you unleash its uttermost power—mountains stir, the ground heaves, and the land itself becomes your body. It is the fullest and most expressive manifestation Terra can take.",
     "requirements": [
       {
         "type": "skill",
@@ -181,6 +194,19 @@
     "bonus": 16,
     "cooldown": 3
   },
+  "Manifest Ventus": {
+    "name": "Manifest Ventus",
+    "description": "Your bond with Ventus takes visible shape—an eagle or serpent of shimmering, racing air. Only through a manifested Ventus can you truly FLY, ride the high winds, and scout or strike across distances no earthbound crafter can reach; the wind-fury becomes courier, mount, and weapon at once. It is the threshold every Ventus-crafter dreams of crossing.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
   "Ventus Apotheosis": {
     "name": "Ventus Apotheosis",
     "description": "Greatly increases the effectiveness of your next Ventus action. The very air bends to your whim.",
@@ -196,7 +222,7 @@
   },
   "Maelstrom Ascension": {
     "name": "Maelstrom Ascension",
-    "description": "Your next Ventus action costs double Vis but unleashes an effect of extreme power. A hurricane tears reality asunder.",
+    "description": "Your Ventus-fury manifests fully as a living storm, and at double Vis you loose its uttermost power—a hurricane that is your very will made air, tearing the sky and bearing you above the world. It is the fullest and most expressive manifestation of the wind.",
     "requirements": [
       {
         "type": "skill",
@@ -285,6 +311,19 @@
     "bonus": 16,
     "cooldown": 3
   },
+  "Manifest Ignis": {
+    "name": "Manifest Ignis",
+    "description": "Your bond with Ignis takes visible shape—a serpent or hound of living flame that burns at your command without fuel. Manifesting the fury lets you send fire where your hand cannot reach, set it to hunt or guard, and shape living flame with a precision raw heat can never match. It is the threshold between wielding fire and becoming its master.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
   "Ignis Apotheosis": {
     "name": "Ignis Apotheosis",
     "description": "Greatly increases the effectiveness of your next Ignis action. Fire answers your every command.",
@@ -300,7 +339,7 @@
   },
   "Cataclysm Burning": {
     "name": "Cataclysm Burning",
-    "description": "Your next Ignis action costs double Vis but unleashes an effect of extreme power. The world itself ignites in holy wrath.",
+    "description": "Your Ignis-fury manifests fully as a titan of living flame, and at double Vis you unleash its uttermost power—a conflagration that is your fury made fire, consuming all before it. It is the fullest and most expressive manifestation of the flame.",
     "requirements": [
       {
         "type": "skill",
@@ -389,6 +428,19 @@
     "bonus": 16,
     "cooldown": 3
   },
+  "Manifest Aqua": {
+    "name": "Manifest Aqua",
+    "description": "Your bond with Aqua takes visible shape—water given living form, a serpent or coursing hound of the tides. Only through a manifested Aqua can you work TRUE HEALING, knitting deep wounds and drawing sickness from the body; the water-fury also carries your senses through every current and stills or drowns at your word. It is the threshold between soothing a hurt and mending it.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
   "Aqua Apotheosis": {
     "name": "Aqua Apotheosis",
     "description": "Greatly increases the effectiveness of your next Aqua action. Water itself becomes your loyal servant.",
@@ -404,7 +456,7 @@
   },
   "Oceanic Cataclysm": {
     "name": "Oceanic Cataclysm",
-    "description": "Your next Aqua action costs double Vis but unleashes an effect of extreme power. The very seas rise in obedience.",
+    "description": "Your Aqua-fury manifests fully as a leviathan of living water, and at double Vis you loose its uttermost power—a rising sea that is your will made tide, to drown all before it or, turned to mercy, to heal beyond any other art. It is the fullest and most expressive manifestation of the water.",
     "requirements": [
       {
         "type": "skill",
@@ -493,6 +545,19 @@
     "bonus": 16,
     "cooldown": 3
   },
+  "Manifest Ferrum": {
+    "name": "Manifest Ferrum",
+    "description": "Your bond with Ferrum takes visible shape—a sentinel or hound of living metal, its edges bright and moving. Manifesting the fury lets you command all the metal around you at once—arms, armor, gates, and chains—setting your iron-fury to guard your back, shatter a foe's steel, or fight as a tireless companion. It is the threshold between sharpening a blade and commanding the forge entire.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
   "Ferrum Apotheosis": {
     "name": "Ferrum Apotheosis",
     "description": "Greatly increases the effectiveness of your next Ferrum action. Metal answers your command with absolute loyalty.",
@@ -508,7 +573,7 @@
   },
   "Metallurgic Ascension": {
     "name": "Metallurgic Ascension",
-    "description": "Your next Ferrum action costs double Vis but unleashes an effect of extreme power. The world itself rusts and crumbles before you.",
+    "description": "Your Ferrum-fury manifests fully as a colossus of living metal, and at double Vis you unleash its uttermost power—every blade, gate, and chain within reach moving as your own body. It is the fullest and most expressive manifestation of iron.",
     "requirements": [
       {
         "type": "skill",
@@ -597,6 +662,19 @@
     "bonus": 16,
     "cooldown": 3
   },
+  "Manifest Silva": {
+    "name": "Manifest Silva",
+    "description": "Your bond with Silva takes visible shape—a stag, wolf, or serpent of living wood and leaf that answers your will. Manifesting the fury lets you wake the green world around you—roots that bind, thickets that rise, branches that strike—and set your wood-fury to scout the wild, guard your camp, or hunt beside you. It is the threshold between tending the forest and speaking for it.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 20
+      }
+    ],
+    "bonus": 16,
+    "cooldown": 3
+  },
   "Silva Apotheosis": {
     "name": "Silva Apotheosis",
     "description": "Greatly increases the effectiveness of your next Silva action. All growing things bend to your will.",
@@ -612,7 +690,7 @@
   },
   "Primal Upheaval": {
     "name": "Primal Upheaval",
-    "description": "Your next Silva action costs double Vis but unleashes an effect of extreme power. The ancient forest itself rises in judgment.",
+    "description": "Your Silva-fury manifests fully as a titan of living wood, and at double Vis you wake the ancient forest entire—root, thorn, and green wrath rising as your body. It is the fullest and most expressive manifestation of the wild.",
     "requirements": [
       {
         "type": "skill",
