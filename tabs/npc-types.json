@@ -61,14 +61,14 @@
   },
   "Human": {
     "name": "Human",
-    "description": "An ordinary mortal of the Imperium, untouched by the gift of furycraft. They bleed and break as any person does, with no resistance to the elements or to fear, relying on wit, steel, station, or numbers rather than a bonded numen.",
+    "description": "An ordinary person of the Imperium—a peregrine of only rudimentary furycraft, able to coax small hearth-and-field workings from the numina but never a fury of real power, and so left outside the Citizenry. In a fight they bleed and break as any mortal does, with no elemental resistance and no fury made flesh to shield them, relying on wit, steel, station, or numbers rather than a strong bond.",
     "vulnerabilities": [],
     "resistances": [],
     "immunities": []
   },
   "Human Terra Furycrafter": {
     "name": "Human Terra Furycrafter",
-    "description": "A Furycaster bonded to Terra, the fury of earth and stone. Their flesh is lent the toughness of bedrock and the strength of the mountain; blunt force and the bite of the earth itself find little purchase.",
+    "description": "A Citizen-grade crafter whose primary bond is Terra, the fury of earth and stone—strong enough to manifest it as a hound or sentinel of living rock, with only rudimentary command of the other numina. Their flesh is lent the toughness of bedrock and the strength of the mountain; blunt force and the bite of the earth itself find little purchase.",
     "vulnerabilities": [],
     "resistances": [
       "earth",
@@ -78,7 +78,7 @@
   },
   "Human Ventus Furycrafter": {
     "name": "Human Ventus Furycrafter",
-    "description": "A Furycaster bonded to Ventus, the fury of wind and lightning. The storm answers their blood; the lash of lightning and the buffet of the gale break against them harmlessly.",
+    "description": "A Citizen-grade crafter whose primary bond is Ventus, the fury of wind and lightning—strong enough to manifest it and, at the height, to take true flight, with only rudimentary command of the other numina. The storm answers their blood; the lash of lightning and the buffet of the gale break against them harmlessly.",
     "vulnerabilities": [],
     "resistances": [
       "lightning",
@@ -88,7 +88,7 @@
   },
   "Human Ignis Furycrafter": {
     "name": "Human Ignis Furycrafter",
-    "description": "A Furycaster bonded to Ignis, the fury of flame and passion. Fire neither chars nor pains them, though the quenching weight of water finds them ill-armored.",
+    "description": "A Citizen-grade crafter whose primary bond is Ignis, the fury of flame and passion—strong enough to manifest it as a serpent or hound of living fire, with only rudimentary command of the other numina. Fire neither chars nor pains them, though the quenching weight of water finds them ill-armored.",
     "vulnerabilities": [
       "water"
     ],
@@ -99,7 +99,7 @@
   },
   "Human Aqua Furycrafter": {
     "name": "Human Aqua Furycrafter",
-    "description": "A Furycaster bonded to Aqua, the fury of water, ice, and healing. The tide and the frost are theirs, and they shrug off drowning cold alike, though lightning runs cruelly through the water in their veins.",
+    "description": "A Citizen-grade crafter whose primary bond is Aqua, the fury of water, ice, and healing—strong enough to manifest it and work true healing, with only rudimentary command of the other numina. The tide and the frost are theirs, and they shrug off drowning cold alike, though lightning runs cruelly through the water in their veins.",
     "vulnerabilities": [
       "lightning"
     ],
@@ -111,7 +111,7 @@
   },
   "Human Ferrum Furycrafter": {
     "name": "Human Ferrum Furycrafter",
-    "description": "A Furycaster bonded to Ferrum, the fury of metal and battle. Blade and bludgeon dull against their iron-warded flesh, pain is deadened, and the mind is fortified beyond the reach of fear, glamour, or domination.",
+    "description": "A Citizen-grade crafter whose primary bond is Ferrum, the fury of metal and battle—strong enough to manifest it as a sentinel of living steel, with only rudimentary command of the other numina. Blade and bludgeon dull against their iron-warded flesh, pain is deadened, and the mind is fortified beyond the reach of fear, glamour, or domination.",
     "vulnerabilities": [],
     "resistances": [
       "metal",
@@ -128,7 +128,7 @@
   },
   "Human Silva Furycrafter": {
     "name": "Human Silva Furycrafter",
-    "description": "A Furycaster bonded to Silva, the fury of wood and the green-dark. The forest's poisons and the bite of timber do them no harm, though dry wood burns, and so do they fear the flame.",
+    "description": "A Citizen-grade crafter whose primary bond is Silva, the fury of wood and the green-dark—strong enough to manifest it as a beast of living wood and leaf, with only rudimentary command of the other numina. The forest's poisons and the bite of timber do them no harm, though dry wood burns, and so do they fear the flame.",
     "vulnerabilities": [
       "fire"
     ],
@@ -140,7 +140,7 @@
   },
   "Human Ignis-Ferrum Furycrafter": {
     "name": "Human Ignis-Ferrum Furycrafter",
-    "description": "A Furycaster bonded to both Ignis and Ferrum, fire and metal, the twin furies of the war-houses. They turn aside flame, blade, and bludgeon, and their warded mind cannot be cowed or commanded.",
+    "description": "A strong Citizen-grade crafter of two furies—Ignis and Ferrum, fire and metal, the twin bonds of the war-houses—one wielded as primary and the other as a powerful secondary, both strong enough to manifest. They turn aside flame, blade, and bludgeon, and their warded mind cannot be cowed or commanded.",
     "vulnerabilities": [],
     "resistances": [
       "fire",
@@ -158,7 +158,7 @@
   },
   "Human Terra-Ferrum Furycrafter": {
     "name": "Human Terra-Ferrum Furycrafter",
-    "description": "A Furycaster bonded to both Terra and Ferrum, earth and metal, the furies of wall and siege. Stone-tough and iron-warded, they shrug off crushing blows, edged steel, and the working of metal, and their mind stands proof against fear and domination.",
+    "description": "A strong Citizen-grade crafter of two furies—Terra and Ferrum, earth and metal, the bonds of wall and siege—a primary and a powerful secondary, both strong enough to manifest. Stone-tough and iron-warded, they shrug off crushing blows, edged steel, and the working of metal, and their mind stands proof against fear and domination.",
     "vulnerabilities": [],
     "resistances": [
       "earth",
@@ -177,7 +177,7 @@
   },
   "Human Ventus-Aqua Furycrafter": {
     "name": "Human Ventus-Aqua Furycrafter",
-    "description": "A Furycaster bonded to both Ventus and Aqua, wind and water, the furies of the admirals. Storm and sea are theirs; lightning, gale, drowning, and frost alike break upon them.",
+    "description": "A strong Citizen-grade crafter of two furies—Ventus and Aqua, wind and water, the bonds of the admirals—a primary and a powerful secondary, both strong enough to manifest (flight from the one, true healing from the other). Storm and sea are theirs; lightning, gale, drowning, and frost alike break upon them.",
     "vulnerabilities": [],
     "resistances": [
       "lightning",
@@ -189,7 +189,7 @@
   },
   "Human Ignis-Aqua Furycrafter": {
     "name": "Human Ignis-Aqua Furycrafter",
-    "description": "A Furycaster bonded to both Ignis and Aqua, the opposed furies of flame and tide, a rare and volatile pairing. Neither fire nor freezing water can master them.",
+    "description": "A strong Citizen-grade crafter of two opposed furies—Ignis and Aqua, flame and tide—a rare and volatile pairing held as primary and secondary, both strong enough to manifest. Neither fire nor freezing water can master them.",
     "vulnerabilities": [],
     "resistances": [
       "fire",
@@ -200,7 +200,7 @@
   },
   "Human Furymaster": {
     "name": "Human Furymaster",
-    "description": "A Furycaster of the mightiest blood, bonded to many numina at once: the rarest and most terrible of casters, commanding the full wheel of the elements. Fire, storm, stone, tide, metal, and wood all break against them, and no fear or glamour can touch a mind so guarded. Only naked steel and overwhelming force can bring such a one down.",
+    "description": "A crafter of the mightiest bred blood, bonded strongly to many numina at once—the rarest and most terrible of casters, commanding much or all of the wheel of the elements and manifesting them freely, several even at once. Fire, storm, stone, tide, metal, and wood all break against them, and no fear or glamour can touch a mind so guarded. Only naked steel and overwhelming force can bring such a one down.",
     "vulnerabilities": [],
     "resistances": [
       "fire",
