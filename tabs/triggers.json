@@ -1052,5 +1052,269 @@
         "instruction": "The rite of widening is survived. Narrate the moment the player's bonds broaden -- numina their blood never bonded stirring, faint but real, at the edge of their reach -- and the sober knowledge that they have stepped, alone, onto the road only the Emperor has ever walked to its end. The synthesis arts are open to them now, to be mastered as their Furyweaving skill grows."
       }
     ]
+  },
+  "offer_terra_masters_rite": {
+    "name": "offer_terra_masters_rite",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Collegium Furiacae"
+      },
+      {
+        "type": "story",
+        "query": "the player seeks to master the single fury of Terra (earth and stone) to its deepest art -- the specialist's path of depth over breadth"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Terra Master's Rite"
+      }
+    ]
+  },
+  "learn_terra_master": {
+    "name": "learn_terra_master",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Terra Master's Rite"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Terra Master"
+      },
+      {
+        "type": "story",
+        "instruction": "The Terra Master's Rite is complete. Narrate the moment the player's command of Terra deepens past any generalist's reach -- earth and stone answering them with a depth and ease that breadth-seekers never know -- and the master's secret arts of Terra opening to them as their skill climbs."
+      }
+    ]
+  },
+  "offer_ventus_masters_rite": {
+    "name": "offer_ventus_masters_rite",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Collegium Furiacae"
+      },
+      {
+        "type": "story",
+        "query": "the player seeks to master the single fury of Ventus (wind and lightning) to its deepest art -- the specialist's path of depth over breadth"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Ventus Master's Rite"
+      }
+    ]
+  },
+  "learn_ventus_master": {
+    "name": "learn_ventus_master",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Ventus Master's Rite"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Ventus Master"
+      },
+      {
+        "type": "story",
+        "instruction": "The Ventus Master's Rite is complete. Narrate the moment the player's command of Ventus deepens past any generalist's reach -- wind and lightning answering them with a depth and ease that breadth-seekers never know -- and the master's secret arts of Ventus opening to them as their skill climbs."
+      }
+    ]
+  },
+  "offer_ignis_masters_rite": {
+    "name": "offer_ignis_masters_rite",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Collegium Furiacae"
+      },
+      {
+        "type": "story",
+        "query": "the player seeks to master the single fury of Ignis (flame and passion) to its deepest art -- the specialist's path of depth over breadth"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Ignis Master's Rite"
+      }
+    ]
+  },
+  "learn_ignis_master": {
+    "name": "learn_ignis_master",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Ignis Master's Rite"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Ignis Master"
+      },
+      {
+        "type": "story",
+        "instruction": "The Ignis Master's Rite is complete. Narrate the moment the player's command of Ignis deepens past any generalist's reach -- flame and passion answering them with a depth and ease that breadth-seekers never know -- and the master's secret arts of Ignis opening to them as their skill climbs."
+      }
+    ]
+  },
+  "offer_aqua_masters_rite": {
+    "name": "offer_aqua_masters_rite",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Collegium Furiacae"
+      },
+      {
+        "type": "story",
+        "query": "the player seeks to master the single fury of Aqua (water, ice, and healing) to its deepest art -- the specialist's path of depth over breadth"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Aqua Master's Rite"
+      }
+    ]
+  },
+  "learn_aqua_master": {
+    "name": "learn_aqua_master",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Aqua Master's Rite"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Aqua Master"
+      },
+      {
+        "type": "story",
+        "instruction": "The Aqua Master's Rite is complete. Narrate the moment the player's command of Aqua deepens past any generalist's reach -- water, ice, and healing answering them with a depth and ease that breadth-seekers never know -- and the master's secret arts of Aqua opening to them as their skill climbs."
+      }
+    ]
+  },
+  "offer_ferrum_masters_rite": {
+    "name": "offer_ferrum_masters_rite",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Collegium Furiacae"
+      },
+      {
+        "type": "story",
+        "query": "the player seeks to master the single fury of Ferrum (metal and battle) to its deepest art -- the specialist's path of depth over breadth"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Ferrum Master's Rite"
+      }
+    ]
+  },
+  "learn_ferrum_master": {
+    "name": "learn_ferrum_master",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Ferrum Master's Rite"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Ferrum Master"
+      },
+      {
+        "type": "story",
+        "instruction": "The Ferrum Master's Rite is complete. Narrate the moment the player's command of Ferrum deepens past any generalist's reach -- metal and battle answering them with a depth and ease that breadth-seekers never know -- and the master's secret arts of Ferrum opening to them as their skill climbs."
+      }
+    ]
+  },
+  "offer_silva_masters_rite": {
+    "name": "offer_silva_masters_rite",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "The Collegium Furiacae"
+      },
+      {
+        "type": "story",
+        "query": "the player seeks to master the single fury of Silva (wood and the green-dark) to its deepest art -- the specialist's path of depth over breadth"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "The Silva Master's Rite"
+      }
+    ]
+  },
+  "learn_silva_master": {
+    "name": "learn_silva_master",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quests-completed",
+        "operator": "contains",
+        "value": "The Silva Master's Rite"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Silva Master"
+      },
+      {
+        "type": "story",
+        "instruction": "The Silva Master's Rite is complete. Narrate the moment the player's command of Silva deepens past any generalist's reach -- wood and the green-dark answering them with a depth and ease that breadth-seekers never know -- and the master's secret arts of Silva opening to them as their skill climbs."
+      }
+    ]
   }
 }

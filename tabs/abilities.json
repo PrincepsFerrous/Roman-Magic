@@ -2964,5 +2964,209 @@
     ],
     "bonus": 20,
     "cooldown": 5
+  },
+  "Stoneflesh": {
+    "name": "Stoneflesh",
+    "description": "You turn your living flesh to granite for a time, near-immune to blade, blow, and fire, and immovable as a menhir. You can weather a barrage that would kill a lesser crafter, hold a gate alone, or walk unharmed through a collapsing hall. It is slow going while it lasts, and a master's ultimate defense.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Terra Master"
+      },
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 8
+  },
+  "The Sundering": {
+    "name": "The Sundering",
+    "description": "The deepest art of Terra: you split the earth itself, opening a chasm, dropping a wall, or collapsing a tunnel, tower, or hillside at your word. Whole formations vanish into the ground and a fortress's foundations fail. It is the master earthcrafter's most terrible power, and the ground never quite forgets it.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Terra Master"
+      },
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 35
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "Skyborne": {
+    "name": "Skyborne",
+    "description": "You take true, sustained flight, riding the high winds for leagues rather than the brief leaps of a lesser crafter -- scouting a whole region, striking from above, or simply going where no road runs. Height and distance become nothing to you. It is the freedom every windcrafter dreams of and few master.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ventus Master"
+      },
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Thunderhead": {
+    "name": "Thunderhead",
+    "description": "The deepest art of Ventus: you call down a storm of your own making -- lightning that leaps from foe to foe, a gale that flattens a battle-line, hail and screaming wind on command. A master windcrafter can turn clear sky to tempest over a field. Few sights are more terrible than a sky that has taken sides.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ventus Master"
+      },
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 35
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "Heartkindler": {
+    "name": "Heartkindler",
+    "description": "You master Ignis's oldest craft, the working of passion itself: stoke a wavering line into fearless fury, or drown a champion in sudden, unmanning dread. You can steady the terrified, madden the calm, or break a foe's nerve before a blow is struck. It is the subtle art that wins battles before they begin.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ignis Master"
+      },
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "The Unquenchable": {
+    "name": "The Unquenchable",
+    "description": "The deepest art of Ignis: you kindle a fire that cannot be put out -- not by water, not by smothering, not by wind or ward -- until you yourself will it cold. It clings, spreads, and consumes at your direction, indifferent to every effort to douse it. A master's flame answers to no one else's mercy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ignis Master"
+      },
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 35
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "The Lifemender": {
+    "name": "The Lifemender",
+    "description": "You work healing beyond any battlefield-craft: knit shattered bone, draw poison and plague from the blood, close a mortal wound, and call the near-dead back from the brink. A master watercrafter is worth a legion's surgeons, and the dying are carried to them from every quarter. Only true death is past your reach.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Aqua Master"
+      },
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 8
+  },
+  "Glamourweave": {
+    "name": "Glamourweave",
+    "description": "The deepest art of Aqua: you master glamour, clouding the senses of a whole crowd, wearing a face not your own, and reading and reshaping the emotions of a room like a musician tuning strings. You can walk unseen through a feast, seem a stranger to your own kin, or turn a hostile hall warm toward you. What is real and what you have woven, few can tell.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Aqua Master"
+      },
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 35
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "The Unbreakable": {
+    "name": "The Unbreakable",
+    "description": "You perfect Ferrum's ward of body and mind: deaden all pain, lock your wounds against bleeding, shrug off exhaustion, and set your will as an unbreachable fortress against fear, glamour, and domination. You fight on past what should fell a man, and no craft can bend your thoughts. It is the master war-crafter's grim, tireless heart.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ferrum Master"
+      },
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 6
+  },
+  "Bladelord": {
+    "name": "Bladelord",
+    "description": "The deepest art of Ferrum: you command every blade, buckle, and chain within reach as extensions of your own hand -- ripping weapons from your foes' grips, turning their steel against them, and arming yourself from the battlefield's fallen without a step. In a place of metal, a master ferrumcrafter is never truly disarmed and never truly alone.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ferrum Master"
+      },
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 35
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
+  },
+  "The Green Silence": {
+    "name": "The Green Silence",
+    "description": "You master Silva's stealth: in any wild or wooded place you move unseen, unheard, and unscented, the forest itself hiding your passage and carrying you swift and silent. Trackers lose you, sentries never mark you, and you are gone before an alarm is raised. In the green, a master woodcrafter is a rumor, not a target.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Silva Master"
+      },
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 4
+  },
+  "Wildwake": {
+    "name": "Wildwake",
+    "description": "The deepest art of Silva: you wake the whole living land at once -- roots that seize, thickets that rise into walls, branches that strike, and the beasts of the place roused to your side. A master woodcrafter can turn a forest into an army and a meadow into a snare. Where the green world is thick, they do not fight alone; the land fights with them.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Silva Master"
+      },
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 35
+      }
+    ],
+    "bonus": 30,
+    "cooldown": 10
   }
 }

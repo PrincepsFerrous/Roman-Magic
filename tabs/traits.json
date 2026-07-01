@@ -1264,6 +1264,108 @@
       "abilities": [],
       "unlockedBy": [],
       "excludedBy": []
+    },
+    "Terra Master": {
+      "name": "Terra Master",
+      "description": "You have completed the Terra Master's Rite, perfecting the single numen of Terra, earth and stone, to a depth the breadth-seeking furyweavers never reach. The master's secret arts of Terra open to you as your skill in it climbs.",
+      "quirk": "You are a master of Terra alone, having chosen depth over breadth. Its element answers you as it answers few others -- but the fusions and syntheses of the furyweavers are closed to you, for you gave that road up to walk this one to its end.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Terra",
+          "modifier": 3
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Ventus Master": {
+      "name": "Ventus Master",
+      "description": "You have completed the Ventus Master's Rite, perfecting the single numen of Ventus, wind and lightning, to a depth the breadth-seeking furyweavers never reach. The master's secret arts of Ventus open to you as your skill in it climbs.",
+      "quirk": "You are a master of Ventus alone, having chosen depth over breadth. Its element answers you as it answers few others -- but the fusions and syntheses of the furyweavers are closed to you, for you gave that road up to walk this one to its end.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Ventus",
+          "modifier": 3
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Ignis Master": {
+      "name": "Ignis Master",
+      "description": "You have completed the Ignis Master's Rite, perfecting the single numen of Ignis, flame and passion, to a depth the breadth-seeking furyweavers never reach. The master's secret arts of Ignis open to you as your skill in it climbs.",
+      "quirk": "You are a master of Ignis alone, having chosen depth over breadth. Its element answers you as it answers few others -- but the fusions and syntheses of the furyweavers are closed to you, for you gave that road up to walk this one to its end.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Ignis",
+          "modifier": 3
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Aqua Master": {
+      "name": "Aqua Master",
+      "description": "You have completed the Aqua Master's Rite, perfecting the single numen of Aqua, water, ice, and healing, to a depth the breadth-seeking furyweavers never reach. The master's secret arts of Aqua open to you as your skill in it climbs.",
+      "quirk": "You are a master of Aqua alone, having chosen depth over breadth. Its element answers you as it answers few others -- but the fusions and syntheses of the furyweavers are closed to you, for you gave that road up to walk this one to its end.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Aqua",
+          "modifier": 3
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Ferrum Master": {
+      "name": "Ferrum Master",
+      "description": "You have completed the Ferrum Master's Rite, perfecting the single numen of Ferrum, metal and battle, to a depth the breadth-seeking furyweavers never reach. The master's secret arts of Ferrum open to you as your skill in it climbs.",
+      "quirk": "You are a master of Ferrum alone, having chosen depth over breadth. Its element answers you as it answers few others -- but the fusions and syntheses of the furyweavers are closed to you, for you gave that road up to walk this one to its end.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Ferrum",
+          "modifier": 3
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Silva Master": {
+      "name": "Silva Master",
+      "description": "You have completed the Silva Master's Rite, perfecting the single numen of Silva, wood and the green-dark, to a depth the breadth-seeking furyweavers never reach. The master's secret arts of Silva open to you as your skill in it climbs.",
+      "quirk": "You are a master of Silva alone, having chosen depth over breadth. Its element answers you as it answers few others -- but the fusions and syntheses of the furyweavers are closed to you, for you gave that road up to walk this one to its end.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Silva",
+          "modifier": 3
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
     }
   }
 }
