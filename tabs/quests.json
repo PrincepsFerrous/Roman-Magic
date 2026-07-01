@@ -164,5 +164,26 @@
     "detailType": "detailed",
     "questLocation": "Castellum Drusus",
     "questGiverNPC": "Lucius Drusus"
+  },
+  "The Stormtide Secret": {
+    "name": "The Stormtide Secret",
+    "questSource": "Admiral Octavius Ventidius",
+    "questStatement": "The naval Houses fuse Ventus and Aqua into stormtide -- wind that drives the wave, the sea and sky as one weapon -- and they guard the art as jealously as their fleets.",
+    "mainObjective": "Win, wrest, or learn the admirals' secret of stormtide and master the fusion of wind and water.",
+    "completionCondition": "Player has gained the stormtide technique -- through earning an admiral's trust, a defector's teaching, or seizing it by cunning or force -- and has fused Ventus and Aqua into a single storm-driven working.",
+    "questDesignBrief": "A fusion-art questline for a crafter with both wind and water. The Ventus-Aqua naval Houses (Ventidius, Murena) keep stormtide as a guarded weapon of the sea-war. The player must earn it from Admiral Octavius Ventidius by proving worth in the Tharsi naval war, win it from a defecting captain, or take it by cunning. The art fuses wind and water: driven surges, drowning gales, riding wind and wave, and at its height a leviathan of living storm-surge. Success grants the trait 'Stormtide Adept', which unlocks the stormtide abilities (Stormtide Surge, Drowning Gale, Tide-Rider, The Stormtide Leviathan) as the player's Furyweaving skill rises. Ties to the naval Houses, the Mare Internum, and the war with Tharsis.",
+    "detailType": "detailed",
+    "questLocation": "Portus Ventidii",
+    "questGiverNPC": "Admiral Octavius Ventidius"
+  },
+  "The Living Wall Secret": {
+    "name": "The Living Wall Secret",
+    "questSource": "The Wild-Born of the Sanctum",
+    "questStatement": "In hidden refuges beyond the Houses' reach, the wild-born fuse Terra and Silva into the living wall -- fortifications that grow from root and stone -- an unsanctioned art the Imperium has tried for generations to stamp out.",
+    "mainObjective": "Win the trust of the wild-born and learn the outlawed art of the living wall, the fusion of earth and wood.",
+    "completionCondition": "Player has earned the wild-born's trust at the Sanctum, learned the living-wall technique, and fused Terra and Silva into a single working of growing fortification.",
+    "questDesignBrief": "A fusion-art questline for a crafter with both earth and wood, and a willingness to consort with the outlawed. At the Sanctum of the Wild-Born in the Western Reaches, the House-less have grown an unconventional Terra-Silva fusion to raise and defend their hidden strongholds -- living fortifications of root and stone. The player must win the wary trust of the wild-born, who have every reason to fear a stranger asking after their secrets, prove they mean the refuge no harm, and be taught the art. The living wall grows ramparts, snares, self-mending bulwarks, and at its height a walking fortress-beast. Success grants the trait 'Living Wall Adept', which unlocks the living-wall abilities (Rootbound Rampart, Grasping Thicket, Verdant Bulwark, The Living Bastion) as the player's Furyweaving skill rises. Ties to the wild-born, the Unbound, House Tullius, and the Western Reaches. Learning it openly marks the player as a friend of the wild-born -- dangerous in the Houses' eyes.",
+    "detailType": "detailed",
+    "questLocation": "Sanctum of the Wild-Born"
   }
 }

@@ -2708,5 +2708,141 @@
     ],
     "bonus": 12,
     "cooldown": 3
+  },
+  "Stormtide Surge": {
+    "name": "Stormtide Surge",
+    "description": "You fuse Ventus and Aqua to hurl a churning surge of wind-driven water, a wave with the gale behind it. It can sweep a boarding party from a deck, break a shield-line, or drive a small boat clear of danger. It is the first and most useful secret of the admirals' stormtide.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Stormtide Adept"
+      },
+      {
+        "type": "skill",
+        "variable": "Furyweaving",
+        "amount": 5
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Drowning Gale": {
+    "name": "Drowning Gale",
+    "description": "A screaming squall of brine and wind that fills the lungs and steals the footing -- wind and water together to choke, blind, and stagger. Ranks break and gasp, archers cannot loose, a swimmer is dragged under. Those sealed against both storm and sea weather it, but few are.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Stormtide Adept"
+      },
+      {
+        "type": "skill",
+        "variable": "Furyweaving",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 3
+  },
+  "Tide-Rider": {
+    "name": "Tide-Rider",
+    "description": "You ride wind and wave as one, skimming across water at a gallop's speed, leaping a deck-gap, or carrying yourself and allies inland on a wind-driven swell. It turns any coast, river, or flooded field into open road. The admirals use it to board, to flank, and to vanish across the water.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Stormtide Adept"
+      },
+      {
+        "type": "skill",
+        "variable": "Furyweaving",
+        "amount": 12
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 5
+  },
+  "The Stormtide Leviathan": {
+    "name": "The Stormtide Leviathan",
+    "description": "The capstone of the art: you manifest Ventus and Aqua fused into a leviathan of living storm-surge, a waterspout given a beast's shape that fights at your command. It swamps galleys, tears men from the deck, and moves as fast as the wind that drives it. To raise it is to spend Vis lavishly and to show the world why the naval Houses are feared on every sea.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Stormtide Adept"
+      },
+      {
+        "type": "skill",
+        "variable": "Furyweaving",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
+  },
+  "Rootbound Rampart": {
+    "name": "Rootbound Rampart",
+    "description": "You fuse Terra and Silva to raise a wall of woven root and stone from the bare ground, instant living cover in the open field. It can block a charge, seal a breach, or shield your line from arrows. It is the first and most useful secret of the wild-born's living wall.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Wall Adept"
+      },
+      {
+        "type": "skill",
+        "variable": "Furyweaving",
+        "amount": 5
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 2
+  },
+  "Grasping Thicket": {
+    "name": "Grasping Thicket",
+    "description": "Earth and wood erupt together to seize and bind your foes -- roots that coil the legs, stone-teeth that clamp, a thicket that closes like a fist. It can hold a charging line, pin a single dangerous foe, or turn open ground into a snare. Fire and blade can cut free, given time you rarely grant.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Wall Adept"
+      },
+      {
+        "type": "skill",
+        "variable": "Furyweaving",
+        "amount": 10
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 3
+  },
+  "Verdant Bulwark": {
+    "name": "Verdant Bulwark",
+    "description": "You raise a growing, self-repairing fortification of living timber veined with bedrock -- a wall that mends its own breaches, spreads to enclose ground, and shelters those behind it. It can fort a camp in minutes or turn a ruin into a stronghold. The wild-born grow their hidden refuges this way, whole and unquarried.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Wall Adept"
+      },
+      {
+        "type": "skill",
+        "variable": "Furyweaving",
+        "amount": 12
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 5
+  },
+  "The Living Bastion": {
+    "name": "The Living Bastion",
+    "description": "The capstone of the art: you manifest Terra and Silva fused into a moving fortress-beast, a walking rampart of stone-veined timber that shields an army and crushes what it steps upon. It is siege-engine, wall, and war-beast at once, and it grows back what is hacked from it. To raise it is to spend Vis lavishly and to reveal an art the Houses have tried for generations to stamp out.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Wall Adept"
+      },
+      {
+        "type": "skill",
+        "variable": "Furyweaving",
+        "amount": 25
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 5
   }
 }

@@ -1289,6 +1289,56 @@
       "abilities": [],
       "unlockedBy": [],
       "excludedBy": []
+    },
+    "Stormtide Adept": {
+      "name": "Stormtide Adept",
+      "description": "You have learned stormtide, the admirals' guarded art of fusing Ventus and Aqua into one working -- wind that drives the wave, brine that rides the gale, sea and sky answering as one. Your bond with both furies has deepened in the learning, and the fused techniques open to you as your Furyweaving skill grows.",
+      "quirk": "You have learned stormtide, the admirals' fusion of wind and water. Storm and sea answer you together now; you feel a gust and a current as one motion. This art is the pride of the naval Houses and not lightly shared -- Ventidius and Murena guard it as they guard their fleets.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Furyweaving",
+          "modifier": 5
+        },
+        {
+          "skill": "Ventus",
+          "modifier": 2
+        },
+        {
+          "skill": "Aqua",
+          "modifier": 2
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Living Wall Adept": {
+      "name": "Living Wall Adept",
+      "description": "You have learned the living wall, the wild-born's outlawed art of fusing Terra and Silva into one working -- root and stone woven together, fortifications that grow, timber veined with bedrock. Your bond with both furies has deepened in the learning, and the fused techniques open to you as your Furyweaving skill grows.",
+      "quirk": "You have learned the living wall, the wild-born's fusion of earth and wood. Stone and root answer you together now; you feel the grain of timber and the grain of rock as one thing. It is an unsanctioned art grown in hidden refuges far from the Houses' academies, and to wield it openly is to name yourself a friend of the wild-born.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Furyweaving",
+          "modifier": 5
+        },
+        {
+          "skill": "Terra",
+          "modifier": 2
+        },
+        {
+          "skill": "Silva",
+          "modifier": 2
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
     }
   }
 }
