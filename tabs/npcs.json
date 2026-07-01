@@ -47,8 +47,8 @@
     "tier": "mythic",
     "gender": "Male",
     "faction": "House Aurelius",
-    "level": 6,
-    "hpMax": 140,
+    "level": 15,
+    "hpMax": 270,
     "known": true,
     "voiceTag": "austere-magister",
     "basicInfo": "A teaching magister of House Aurelius, Magister Aurelius orchestrates the Collegium's most dangerous furycraft demonstrations and serves as Silva-Master to gifted students. Lean and sharp-eyed with the bearing of a scholar, his weathered face shows decades of study and careful observation; his hands are stained with the soil of the Proving Halls' gardens. He dresses in the grey academic robes of the Collegium, adorned with Silva-worked insignias of wood and vine—practical, austere, and marked with the symbols of his House.",
@@ -130,8 +130,8 @@
     "voiceTag": "gravelly-weathered-arena-master",
     "faction": "House Corvus",
     "hiddenInfo": "Gavius harbors a secret that gnaws at his conscience: the Corvid Guard pressured him years ago to rig certain bouts—to ensure specific fighters win or die according to someone's hidden agenda. He complied because refusal meant death, but the compliance festers in him like a wound. Prominent fighters have mysteriously 'died' in matches that should have been survivable, outcomes orchestrated by Gavius subtly redirecting pairings, controlling sand conditions, positioning allies where they can interfere. He harbors secret guilt over the thousands of fighters he has trained and directed to their deaths, knowing that most died spectacularly for entertainment or profit while he held their fates in his hands. Gavius contemplates exposing the Guard's manipulation—the fixed outcomes, the orchestrated deaths, the corruption of his arena—but such betrayal of the Emperor himself would be a death sentence. He is trapped between complicity and conscience, caught in a cage of his own creation. Unknown to anyone but himself, Gavius maintains a detailed secret ledger documenting which bouts were rigged, which fighters were murdered disguised as accidents, and which Guard operatives oversaw the conspiracies. This evidence could expose assassination plots and systematic corruption to the Senate, but only if he grows bold enough to use it.",
-    "level": 7,
-    "hpMax": 155,
+    "level": 13,
+    "hpMax": 250,
     "gender": "Male"
   },
   "Kessa": {
@@ -272,7 +272,7 @@
     ],
     "currentLocation": "The Palatine",
     "name": "Crispus Crassus",
-    "type": "Human Ignis-Ferrum Furycrafter",
+    "type": "Human Furymaster",
     "currentArea": "",
     "personality": [
       "Ruthless: Will pursue ambition through any means necessary; sees obstacles as problems to be purchased, compromised, or eliminated.",
@@ -492,11 +492,17 @@
     "hpMax": 1200,
     "voiceTag": "deep-vast-inhuman-cold",
     "hiddenInfo": "Vorax is not a creature born of the Imperium—it existed before the world was settled, before the wards were raised, before even the Six Furies drew breath. It is a single, unified consciousness that has slept for epochs beneath the earth, dreaming in the deep places where no light reaches. The Six Furies themselves were raised by their numina not as individual heroes but as a war-host—a collective instrument designed specifically to cage Vorax and hold it in eternal sleep. The Buried Swarm's drones are not Vorax's army; they are Vorax—extensions of one singular will that has learned, over centuries of imprisonment, to wear many shapes. It does not hunger for flesh or gold or power as mortals understand power; it hungers for the numina themselves, the spirits from which all Fury-craft draws its strength. In Vorax's presence, magic falters because magic dies—it is consumed by a thing older than magic itself. The wards that bind it are weakening not because Vorax is actively breaking them but because the seals were never meant to hold forever. Eventually, inevitably, the wards will fail. And when they do, Vorax will wake fully, and the Imperium will end not in war but in silence—the silence of a world from which all magic, all hope, all resistance has been devoured. It can speak, bargain, and offer seeming compromise, but every word is a trap. Those who parley with Vorax without absolute clarity of will find themselves making pledges they do not remember, surrendering things they did not know they possessed, becoming unwitting servants of the Hunger. Tiberius Corvus suspects its existence and has begun building contingencies. Gracchus Fabius feels it stirring in dreams and tremors. Laelius Varro has found fragments of its name in ancient texts. But none of them truly comprehend what lies beneath the Imperium, waiting in cold darkness, patient as the earth itself.",
-    "type": "Swarm Ravager"
+    "type": "Swarm Ravager",
+    "name": "Vorax",
+    "personality": [
+      "Patient: Has waited eons, measuring time in the sleep and fall of empires.",
+      "Alien: Thinks in a hive-logic wholly unlike any single mortal mind.",
+      "Insatiable: Wants only to consume, replicate, and unmake all living things.",
+      "Speaking style: A chorus of countless voices speaking as one; honeyed, reasonable, and utterly false."
+    ]
   },
   "The Choir-Prophet": {
     "known": true,
-    "properName": "Unknown",
     "basicInfo": "A hooded hierophant and prophet of the Hollow Choir, their face and form concealed beneath robes of tattered grey and midnight blue, moving always in shadow and candlelight. Their voice carries the cadence of prophecy, each word heavy with meanings that shift and change with each hearing; their hands are thin, pale, and trembling with barely-contained fervor. They wear the vestments of the Choir—ragged cloth adorned with runes in languages few still speak—and always bear a walking staff carved from something that might be bone.",
     "tier": "mythic",
     "currentLocation": "The Hollow Sanctum",
@@ -520,7 +526,14 @@
     "hpMax": 350,
     "voiceTag": "ecstatic-prophetic-whisper",
     "hiddenInfo": "The Choir-Prophet was not always devoted to the Buried Swarm—they were once a Collegium-trained furycrafter of considerable talent, taught the proper bonds of the Six Furies and the correct use of Vis. Then, years ago, they began to hear something in the deep places—whispers that grew louder, more coherent, more real with each passing season. The whispers resolved into a single VOICE, and that Voice spoke truths that no mortal sage had ever comprehended. That Voice was Vorax itself, reaching through the cracks in the ancient seals to touch the mind of someone pure and broken enough to receive its communion. In that moment of contact, the Prophet understood: the Imperium is built on a lie; the Six Furies were raised not to protect mortals but to cage something precious and true that the ancients feared. Vorax is not evil—it is hungry, yes, but it hungers for the only thing that matters, the only thing that brings meaning to the cold void of existence. Since that revelation, the Prophet has been the single mortal vessel through which Vorax speaks to the world of mortals. They command the Hollow Choir not through authority but through the sheer weight of communion—every follower knows that when the Prophet speaks, they speak with Vorax's voice. The Prophet is entirely sincere and entirely lucid; they are not mad, though others perceive them as insane. They understand perfectly that their mission will require the collapse of the Imperium, the weakening of the wards, and the eventual waking of the Hunger. They have accepted this with perfect clarity, and they work tirelessly to hasten the day. Most dangerously, the Prophet grows more powerful with each ritual they perform—they are becoming less human and more a vessel for Vorax's will, and no one can say at what point the conversion becomes complete.",
-    "type": "Human"
+    "type": "Human",
+    "name": "The Choir-Prophet",
+    "personality": [
+      "Charismatic: Draws the desperate and the doubting with terrible, quiet conviction.",
+      "Fervent: Lives wholly for the waking of the sleeper below.",
+      "Fanatical: Would see the world devoured to hasten what they call salvation.",
+      "Speaking style: Rapturous and prophetic, quoting dead tongues and fever-dream visions."
+    ]
   },
   "Brennus": {
     "name": "Brennus",
@@ -536,8 +549,8 @@
       "Guildmaster Brennus",
       "the First Sword of the Free Companies"
     ],
-    "level": 12,
-    "hpMax": 240,
+    "level": 18,
+    "hpMax": 300,
     "known": true,
     "voiceTag": "gruff-grizzled-veteran",
     "basicInfo": "The First Sword of the Free Companies, a wild-born once sold into the Muster as a hired blade who fought, bargained, and bled the guild into a power that spans the world. A barrel-chested man gone grey at the temples, his weathered face seamed with old scars and his forearms corded from a lifetime of steel, with pale Ferrum-bright eyes that weigh a stranger like a smith weighs a billet. He wears plain travelling leathers over a shirt of his own folded mail and the gold tag of the guild he made, worn openly, on a cord at his throat.",
