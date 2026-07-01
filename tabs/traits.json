@@ -36,7 +36,7 @@
       ]
     },
     {
-      "name": "Bonded Fury",
+      "name": "Primary Fury",
       "maxSelections": 1,
       "traits": [
         "Bonded to Terra",
@@ -45,6 +45,18 @@
         "Bonded to Aqua",
         "Bonded to Ferrum",
         "Bonded to Silva"
+      ]
+    },
+    {
+      "name": "Secondary Fury",
+      "maxSelections": 1,
+      "traits": [
+        "Attuned to Terra",
+        "Attuned to Ventus",
+        "Attuned to Ignis",
+        "Attuned to Aqua",
+        "Attuned to Ferrum",
+        "Attuned to Silva"
       ]
     },
     {
@@ -1103,6 +1115,108 @@
         {
           "skill": "Oratory",
           "modifier": 10
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Attuned to Terra": {
+      "name": "Attuned to Terra",
+      "description": "Beyond your strongest bond you keep a working attunement to Terra, earth and stone—a second, lighter kinship. You can steady a footing, sense a tremor through the ground, or borrow a moment's bedrock strength, though never with the depth of one wholly bonded to Terra. It is the mark of a broad crafter, capable in more than one numen.",
+      "quirk": "Terra answers you as a second voice—quieter than your primary bond, but always there. Its element is never wholly strange under your hand, and in a pinch you can reach for it as readily as for your first fury.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Terra",
+          "modifier": 5
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Attuned to Ventus": {
+      "name": "Attuned to Ventus",
+      "description": "Beyond your strongest bond you keep a working attunement to Ventus, wind and sky—a second, lighter kinship. You can quicken a step, carry a word on the breeze, or read the mood of the weather, though never with the depth of one wholly bonded to Ventus. It is the mark of a broad crafter, capable in more than one numen.",
+      "quirk": "Ventus answers you as a second voice—quieter than your primary bond, but always there. Its element is never wholly strange under your hand, and in a pinch you can reach for it as readily as for your first fury.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Ventus",
+          "modifier": 5
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Attuned to Ignis": {
+      "name": "Attuned to Ignis",
+      "description": "Beyond your strongest bond you keep a working attunement to Ignis, flame and heat—a second, lighter kinship. You can bank a fire, warm cold hands, or lend a spark of heat to steel or blood, though never with the depth of one wholly bonded to Ignis. It is the mark of a broad crafter, capable in more than one numen.",
+      "quirk": "Ignis answers you as a second voice—quieter than your primary bond, but always there. Its element is never wholly strange under your hand, and in a pinch you can reach for it as readily as for your first fury.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Ignis",
+          "modifier": 5
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Attuned to Aqua": {
+      "name": "Attuned to Aqua",
+      "description": "Beyond your strongest bond you keep a working attunement to Aqua, water and tide—a second, lighter kinship. You can draw clean water, still a fever, or catch the truth of a face in an unguarded moment, though never with the depth of one wholly bonded to Aqua. It is the mark of a broad crafter, capable in more than one numen.",
+      "quirk": "Aqua answers you as a second voice—quieter than your primary bond, but always there. Its element is never wholly strange under your hand, and in a pinch you can reach for it as readily as for your first fury.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Aqua",
+          "modifier": 5
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Attuned to Ferrum": {
+      "name": "Attuned to Ferrum",
+      "description": "Beyond your strongest bond you keep a working attunement to Ferrum, iron and steel—a second, lighter kinship. You can keep an edge, steady a shield-arm, or blunt a little pain and fear, though never with the depth of one wholly bonded to Ferrum. It is the mark of a broad crafter, capable in more than one numen.",
+      "quirk": "Ferrum answers you as a second voice—quieter than your primary bond, but always there. Its element is never wholly strange under your hand, and in a pinch you can reach for it as readily as for your first fury.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Ferrum",
+          "modifier": 5
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": []
+    },
+    "Attuned to Silva": {
+      "name": "Attuned to Silva",
+      "description": "Beyond your strongest bond you keep a working attunement to Silva, wood and wild growth—a second, lighter kinship. You can coax a stubborn field, move quiet through green places, or sense the life of the land, though never with the depth of one wholly bonded to Silva. It is the mark of a broad crafter, capable in more than one numen.",
+      "quirk": "Silva answers you as a second voice—quieter than your primary bond, but always there. Its element is never wholly strange under your hand, and in a pinch you can reach for it as readily as for your first fury.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "Silva",
+          "modifier": 5
         }
       ],
       "resources": [],
