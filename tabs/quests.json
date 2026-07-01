@@ -149,41 +149,9 @@
     "questStatement": "You would command more than the one or two furies your blood was meant for -- but the road toward the Emperor's mastery of all Six is lonely, perilous, and jealously guarded.",
     "mainObjective": "Undertake the rite of the Widening Bond at the Collegium and awaken command of the numina beyond your natural gift.",
     "completionCondition": "Player has sought out the deep binding-lore, survived the rite of widening -- a trial of will and Vis that opens broader command of the numina -- and taken the first real step toward mastery of many furies.",
-    "questDesignBrief": "A furycraft-mastery questline for a crafter of real skill who hungers for breadth. Magister Aurelius, master of Binding Theory, reluctantly shares the near-forbidden art of widening one's bonds beyond the natural one or two -- the lonely road toward the all-six mastery only the Emperor holds. The rite is a trial of will and Vis: the player opens themselves to numina their blood never bonded, risking backlash and ruin. Success grants the trait 'The Widening Bond', which unlocks the synthesis arts (Vis Confluence, The Shifting Bond, Twinned Working, and ultimately Manifold Manifestation) as the player's Furyweaving skill rises. Weave in real danger: the Houses would kill to keep this art from spreading, for a wild-born or an outsider who can widen their own bonds threatens the whole bred monopoly on furystrength. Ties to the Collegium, the Citizenry and breeding lore, and the Emperor's unique mastery.",
+    "questDesignBrief": "The single furycraft-mastery questline of the generalist path, for a crafter who would command and combine many furies rather than perfect one. Magister Aurelius, master of Binding Theory, reluctantly shares the near-forbidden rite of widening one's bonds beyond the natural one or two -- the lonely road toward the all-six mastery only the Emperor holds, and the gateway to ALL furyweaving. The rite is a trial of will and Vis: the player opens themselves to numina their blood never bonded, risking backlash and ruin. Success grants the trait 'The Widening Bond' (a base in the Furyweaving skill and a deepening of every fury), which is the sole unlock for every weaving art. Thereafter the player learns them purely by skill: the general synthesis arts (Vis Confluence, The Shifting Bond, Twinned Working, Manifold Manifestation) as Furyweaving rises, and the great paired fusions -- forgefire (Ignis+Ferrum), stormtide (Ventus+Aqua), the living wall (Terra+Silva) -- for any two furies they have truly mastered plus Furyweaving. This is the high-ceiling, high-difficulty road: to wield many fusions one must spread skill across many furies AND climb the hard Furyweaving discipline. Weave in real danger: the Houses would kill to keep this art from spreading, for a wild-born or outsider who can widen and weave their own bonds threatens the whole bred monopoly on furystrength. Ties to the Collegium, the Citizenry and breeding lore, and the Emperor's unique mastery.",
     "detailType": "detailed",
     "questLocation": "The Collegium Furiacae",
     "questGiverNPC": "Magister Aurelius"
-  },
-  "The Forgefire Secret": {
-    "name": "The Forgefire Secret",
-    "questSource": "Lucius Drusus",
-    "questStatement": "The war-houses of the North fuse Ignis and Ferrum into forgefire -- molten blades, self-mending steel, fire that rides iron -- and they guard the art with their lives.",
-    "mainObjective": "Win, wrest, or learn the war-houses' secret of forgefire and master the fusion of flame and metal.",
-    "completionCondition": "Player has gained the forgefire technique -- by earning a war-lord's trust, a defector's teaching, or seizing it through cunning or force -- and has fused Ignis and Ferrum into a single molten working.",
-    "questDesignBrief": "A fusion-art questline for a crafter with both fire and metal. The Ignis-Ferrum war-houses (Drusus, Sabinus, Crassus) keep forgefire as a jealously-guarded military secret. The player must earn it from the war-lord Lucius Drusus by proving worth on the frontier, win it from a defecting or disgraced war-smith, or steal it outright -- each path with its own cost. The art fuses flame and metal: molten weapons, armor that reforges itself in battle, an enemy's steel turned to slag, and at its height a titan of living forgefire. Success grants the trait 'Forgefire Adept', which unlocks the forgefire abilities (Forgefire Brand, Molten Rebuke, Self-Mending Steel, and The Forgefire Titan) as the player's Furyweaving skill rises. Ties to the northern war-houses, House Crassus, and the Ignis-Ferrum crafters.",
-    "detailType": "detailed",
-    "questLocation": "Castellum Drusus",
-    "questGiverNPC": "Lucius Drusus"
-  },
-  "The Stormtide Secret": {
-    "name": "The Stormtide Secret",
-    "questSource": "Admiral Octavius Ventidius",
-    "questStatement": "The naval Houses fuse Ventus and Aqua into stormtide -- wind that drives the wave, the sea and sky as one weapon -- and they guard the art as jealously as their fleets.",
-    "mainObjective": "Win, wrest, or learn the admirals' secret of stormtide and master the fusion of wind and water.",
-    "completionCondition": "Player has gained the stormtide technique -- through earning an admiral's trust, a defector's teaching, or seizing it by cunning or force -- and has fused Ventus and Aqua into a single storm-driven working.",
-    "questDesignBrief": "A fusion-art questline for a crafter with both wind and water. The Ventus-Aqua naval Houses (Ventidius, Murena) keep stormtide as a guarded weapon of the sea-war. The player must earn it from Admiral Octavius Ventidius by proving worth in the Tharsi naval war, win it from a defecting captain, or take it by cunning. The art fuses wind and water: driven surges, drowning gales, riding wind and wave, and at its height a leviathan of living storm-surge. Success grants the trait 'Stormtide Adept', which unlocks the stormtide abilities (Stormtide Surge, Drowning Gale, Tide-Rider, The Stormtide Leviathan) as the player's Furyweaving skill rises. Ties to the naval Houses, the Mare Internum, and the war with Tharsis.",
-    "detailType": "detailed",
-    "questLocation": "Portus Ventidii",
-    "questGiverNPC": "Admiral Octavius Ventidius"
-  },
-  "The Living Wall Secret": {
-    "name": "The Living Wall Secret",
-    "questSource": "The Wild-Born of the Sanctum",
-    "questStatement": "In hidden refuges beyond the Houses' reach, the wild-born fuse Terra and Silva into the living wall -- fortifications that grow from root and stone -- an unsanctioned art the Imperium has tried for generations to stamp out.",
-    "mainObjective": "Win the trust of the wild-born and learn the outlawed art of the living wall, the fusion of earth and wood.",
-    "completionCondition": "Player has earned the wild-born's trust at the Sanctum, learned the living-wall technique, and fused Terra and Silva into a single working of growing fortification.",
-    "questDesignBrief": "A fusion-art questline for a crafter with both earth and wood, and a willingness to consort with the outlawed. At the Sanctum of the Wild-Born in the Western Reaches, the House-less have grown an unconventional Terra-Silva fusion to raise and defend their hidden strongholds -- living fortifications of root and stone. The player must win the wary trust of the wild-born, who have every reason to fear a stranger asking after their secrets, prove they mean the refuge no harm, and be taught the art. The living wall grows ramparts, snares, self-mending bulwarks, and at its height a walking fortress-beast. Success grants the trait 'Living Wall Adept', which unlocks the living-wall abilities (Rootbound Rampart, Grasping Thicket, Verdant Bulwark, The Living Bastion) as the player's Furyweaving skill rises. Ties to the wild-born, the Unbound, House Tullius, and the Western Reaches. Learning it openly marks the player as a friend of the wild-born -- dangerous in the Houses' eyes.",
-    "detailType": "detailed",
-    "questLocation": "Sanctum of the Wild-Born"
   }
 }

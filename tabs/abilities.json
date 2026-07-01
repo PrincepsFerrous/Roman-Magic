@@ -2579,7 +2579,17 @@
     "requirements": [
       {
         "type": "trait",
-        "variable": "Forgefire Adept"
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 10
+      },
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 10
       },
       {
         "type": "skill",
@@ -2596,7 +2606,17 @@
     "requirements": [
       {
         "type": "trait",
-        "variable": "Forgefire Adept"
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 15
+      },
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 15
       },
       {
         "type": "skill",
@@ -2613,7 +2633,17 @@
     "requirements": [
       {
         "type": "trait",
-        "variable": "Forgefire Adept"
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 15
+      },
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 15
       },
       {
         "type": "skill",
@@ -2630,7 +2660,17 @@
     "requirements": [
       {
         "type": "trait",
-        "variable": "Forgefire Adept"
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Ignis",
+        "amount": 25
+      },
+      {
+        "type": "skill",
+        "variable": "Ferrum",
+        "amount": 25
       },
       {
         "type": "skill",
@@ -2715,7 +2755,17 @@
     "requirements": [
       {
         "type": "trait",
-        "variable": "Stormtide Adept"
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 10
+      },
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 10
       },
       {
         "type": "skill",
@@ -2732,7 +2782,17 @@
     "requirements": [
       {
         "type": "trait",
-        "variable": "Stormtide Adept"
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 15
+      },
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 15
       },
       {
         "type": "skill",
@@ -2749,7 +2809,17 @@
     "requirements": [
       {
         "type": "trait",
-        "variable": "Stormtide Adept"
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 15
+      },
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 15
       },
       {
         "type": "skill",
@@ -2766,7 +2836,17 @@
     "requirements": [
       {
         "type": "trait",
-        "variable": "Stormtide Adept"
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Ventus",
+        "amount": 25
+      },
+      {
+        "type": "skill",
+        "variable": "Aqua",
+        "amount": 25
       },
       {
         "type": "skill",
@@ -2783,7 +2863,17 @@
     "requirements": [
       {
         "type": "trait",
-        "variable": "Living Wall Adept"
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 10
+      },
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 10
       },
       {
         "type": "skill",
@@ -2800,7 +2890,17 @@
     "requirements": [
       {
         "type": "trait",
-        "variable": "Living Wall Adept"
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 15
+      },
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 15
       },
       {
         "type": "skill",
@@ -2817,7 +2917,17 @@
     "requirements": [
       {
         "type": "trait",
-        "variable": "Living Wall Adept"
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 15
+      },
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 15
       },
       {
         "type": "skill",
@@ -2834,7 +2944,17 @@
     "requirements": [
       {
         "type": "trait",
-        "variable": "Living Wall Adept"
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Terra",
+        "amount": 25
+      },
+      {
+        "type": "skill",
+        "variable": "Silva",
+        "amount": 25
       },
       {
         "type": "skill",

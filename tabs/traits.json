@@ -1224,34 +1224,9 @@
       "unlockedBy": [],
       "excludedBy": []
     },
-    "Forgefire Adept": {
-      "name": "Forgefire Adept",
-      "description": "You have learned forgefire, the war-houses' guarded art of fusing Ignis and Ferrum into one working -- flame that rides iron, molten blades, steel that mends itself in fire. Your bond with both furies has deepened in the learning, and the fused techniques are open to you as your Furyweaving skill grows.",
-      "quirk": "You have learned forgefire, the war-houses' guarded fusion of fire and metal. Fire and iron answer you together now; you feel a blade's heat and a flame's edge as one thing. This art was pried from the North and is not freely shared -- war-houses have killed to keep it, and may not love that you hold it.",
-      "attributes": [],
-      "skills": [
-        {
-          "skill": "Furyweaving",
-          "modifier": 5
-        },
-        {
-          "skill": "Ignis",
-          "modifier": 2
-        },
-        {
-          "skill": "Ferrum",
-          "modifier": 2
-        }
-      ],
-      "resources": [],
-      "startingItems": [],
-      "abilities": [],
-      "unlockedBy": [],
-      "excludedBy": []
-    },
     "The Widening Bond": {
       "name": "The Widening Bond",
-      "description": "You have undergone the rite of widening, breaking past the natural limit of one or two bonds to command the numina broadly -- the first step on the lonely road toward the mastery of all Six that only the Emperor holds. Your command of every fury has deepened, and the arts of synthesis open to you as your Furyweaving skill rises.",
+      "description": "You have undergone the rite of widening, breaking past the natural limit of one or two bonds to command the numina broadly -- the first step on the lonely road toward the mastery of all Six that only the Emperor holds, and the gateway to all furyweaving. Your command of every fury has deepened, and the weaving arts open to you as your Furyweaving skill rises: the synthesis of many furies, and the great paired fusions (forgefire, stormtide, the living wall) for any two furies you have truly mastered.",
       "quirk": "You have widened your bonds beyond the one or two your blood was meant for, and reach now toward command of many furies. Every numen answers you a little; the more you master, the more the arts of synthesis open. The Houses would call this dangerous, even heretical -- for it threatens their bred monopoly on furystrength -- so guard how openly you show it.",
       "attributes": [],
       "skills": [
@@ -1282,56 +1257,6 @@
         {
           "skill": "Furyweaving",
           "modifier": 5
-        }
-      ],
-      "resources": [],
-      "startingItems": [],
-      "abilities": [],
-      "unlockedBy": [],
-      "excludedBy": []
-    },
-    "Stormtide Adept": {
-      "name": "Stormtide Adept",
-      "description": "You have learned stormtide, the admirals' guarded art of fusing Ventus and Aqua into one working -- wind that drives the wave, brine that rides the gale, sea and sky answering as one. Your bond with both furies has deepened in the learning, and the fused techniques open to you as your Furyweaving skill grows.",
-      "quirk": "You have learned stormtide, the admirals' fusion of wind and water. Storm and sea answer you together now; you feel a gust and a current as one motion. This art is the pride of the naval Houses and not lightly shared -- Ventidius and Murena guard it as they guard their fleets.",
-      "attributes": [],
-      "skills": [
-        {
-          "skill": "Furyweaving",
-          "modifier": 5
-        },
-        {
-          "skill": "Ventus",
-          "modifier": 2
-        },
-        {
-          "skill": "Aqua",
-          "modifier": 2
-        }
-      ],
-      "resources": [],
-      "startingItems": [],
-      "abilities": [],
-      "unlockedBy": [],
-      "excludedBy": []
-    },
-    "Living Wall Adept": {
-      "name": "Living Wall Adept",
-      "description": "You have learned the living wall, the wild-born's outlawed art of fusing Terra and Silva into one working -- root and stone woven together, fortifications that grow, timber veined with bedrock. Your bond with both furies has deepened in the learning, and the fused techniques open to you as your Furyweaving skill grows.",
-      "quirk": "You have learned the living wall, the wild-born's fusion of earth and wood. Stone and root answer you together now; you feel the grain of timber and the grain of rock as one thing. It is an unsanctioned art grown in hidden refuges far from the Houses' academies, and to wield it openly is to name yourself a friend of the wild-born.",
-      "attributes": [],
-      "skills": [
-        {
-          "skill": "Furyweaving",
-          "modifier": 5
-        },
-        {
-          "skill": "Terra",
-          "modifier": 2
-        },
-        {
-          "skill": "Silva",
-          "modifier": 2
         }
       ],
       "resources": [],
