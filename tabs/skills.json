@@ -257,5 +257,12 @@
     "type": "Survival",
     "description": "You have mastered sailing, rigging, and navigation across open water, reading wind and current and the language of stars. Your hands move with practiced precision across ropes and sail, and you know the moods of the Mare Internum as a shepherd knows his flock. Mastery of this skill lets you helm a vessel through storm and naval maneuver with preternatural grace.",
     "startingItems": []
+  },
+  "Furyweaving": {
+    "name": "Furyweaving",
+    "attribute": "Affinitas",
+    "type": "Furycraft",
+    "description": "This is the rare discipline of channeling more than one fury in a single working -- of fusing, braiding, and swapping the numina rather than wielding just one at a time. Where a common crafter commands a single element, a furyweaver marries fire to metal, drinks one fury's Vis to feed another, and at the height sustains two furies made flesh at once. It is the single skill that governs every fusion art and every synthesis of the widened bond, and it climbs only for those who have learned to reach past their one gift.",
+    "startingItems": []
   }
 }

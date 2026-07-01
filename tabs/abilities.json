@@ -2583,16 +2583,11 @@
       },
       {
         "type": "skill",
-        "variable": "Ignis",
-        "amount": 10
-      },
-      {
-        "type": "skill",
-        "variable": "Ferrum",
-        "amount": 10
+        "variable": "Furyweaving",
+        "amount": 5
       }
     ],
-    "bonus": 10,
+    "bonus": 5,
     "cooldown": 2
   },
   "Molten Rebuke": {
@@ -2605,16 +2600,11 @@
       },
       {
         "type": "skill",
-        "variable": "Ignis",
-        "amount": 15
-      },
-      {
-        "type": "skill",
-        "variable": "Ferrum",
-        "amount": 15
+        "variable": "Furyweaving",
+        "amount": 10
       }
     ],
-    "bonus": 12,
+    "bonus": 8,
     "cooldown": 3
   },
   "Self-Mending Steel": {
@@ -2627,16 +2617,11 @@
       },
       {
         "type": "skill",
-        "variable": "Ignis",
-        "amount": 15
-      },
-      {
-        "type": "skill",
-        "variable": "Ferrum",
-        "amount": 15
+        "variable": "Furyweaving",
+        "amount": 12
       }
     ],
-    "bonus": 12,
+    "bonus": 10,
     "cooldown": 5
   },
   "The Forgefire Titan": {
@@ -2649,12 +2634,7 @@
       },
       {
         "type": "skill",
-        "variable": "Ignis",
-        "amount": 25
-      },
-      {
-        "type": "skill",
-        "variable": "Ferrum",
+        "variable": "Furyweaving",
         "amount": 25
       }
     ],
@@ -2671,11 +2651,11 @@
       },
       {
         "type": "skill",
-        "variable": "Aqua",
-        "amount": 12
+        "variable": "Furyweaving",
+        "amount": 5
       }
     ],
-    "bonus": 10,
+    "bonus": 5,
     "cooldown": 3
   },
   "The Shifting Bond": {
@@ -2688,29 +2668,12 @@
       },
       {
         "type": "skill",
-        "variable": "Ventus",
-        "amount": 15
+        "variable": "Furyweaving",
+        "amount": 10
       }
     ],
-    "bonus": 12,
+    "bonus": 8,
     "cooldown": 2
-  },
-  "Fury Weaving": {
-    "name": "Fury Weaving",
-    "description": "You braid two of your bonded furies into a single working, their powers married rather than merely traded -- wind that carries fire, stone that drinks water, metal that grows like wood. It is the general art from which the war-houses' named fusions descend, endlessly inventive in a broad crafter's hands. Each weave draws Vis from both furies at once.",
-    "requirements": [
-      {
-        "type": "trait",
-        "variable": "The Widening Bond"
-      },
-      {
-        "type": "skill",
-        "variable": "Ferrum",
-        "amount": 18
-      }
-    ],
-    "bonus": 16,
-    "cooldown": 3
   },
   "Manifold Manifestation": {
     "name": "Manifold Manifestation",
@@ -2721,11 +2684,29 @@
         "variable": "The Widening Bond"
       },
       {
-        "type": "characterLevel",
-        "amount": 15
+        "type": "skill",
+        "variable": "Furyweaving",
+        "amount": 25
       }
     ],
     "bonus": 20,
     "cooldown": 10
+  },
+  "Twinned Working": {
+    "name": "Twinned Working",
+    "description": "You braid two of your bonded furies into a single working, their powers married rather than merely traded -- wind that carries fire, stone that drinks water, metal that grows like wood. It is the general art from which the war-houses' named fusions descend, endlessly inventive in a broad crafter's hands. Each weave draws Vis from both furies at once.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "The Widening Bond"
+      },
+      {
+        "type": "skill",
+        "variable": "Furyweaving",
+        "amount": 15
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
   }
 }
